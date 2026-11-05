@@ -1,0 +1,1598 @@
+{
+  "id": "MOCK-14",
+  "number": 14,
+  "title": "RRB PO Prelims Mock 14",
+  "totalQuestions": 80,
+  "durationSeconds": 2700,
+  "sectionOrder": [
+    "reasoning",
+    "quant"
+  ],
+  "sections": [
+    {
+      "id": "reasoning",
+      "name": "Reasoning Ability",
+      "start": 1,
+      "end": 40,
+      "durationSeconds": 1500
+    },
+    {
+      "id": "quant",
+      "name": "Quantitative Aptitude",
+      "start": 41,
+      "end": 80,
+      "durationSeconds": 1200
+    }
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.25,
+    "unattempted": 0
+  },
+  "stimuli": [
+    {
+      "id": "T14-P1",
+      "type": "logic_puzzle",
+      "variant": "floor",
+      "title": "Seven people live on different floors of a seven-storey building. Floor 1 is the bottom floor, and floor 7 is the top floor.",
+      "body": "Clues:\n1. Varun is exactly 3 positions above Geeta.\n2. Tanvi is at floor 5.\n3. Ira is exactly 3 positions above Isha.\n4. There are exactly 2 positions between Vikram and Geeta.",
+      "solution": "floor 1: Vikram; floor 2: Harish; floor 3: Isha; floor 4: Geeta; floor 5: Tanvi; floor 6: Ira; floor 7: Varun",
+      "uniquenessVerified": true
+    },
+    {
+      "id": "T14-P2",
+      "type": "logic_puzzle",
+      "variant": "boxes",
+      "title": "Seven labelled boxes are stacked vertically, with one box in each position.",
+      "body": "Clues:\n1. Bhavna is exactly 2 positions above Tanvi.\n2. Isha is at position 1 from the bottom.\n3. Geeta is exactly 3 positions above Charu.\n4. Charu is exactly 2 positions above Dev.",
+      "solution": "position 1 from the bottom: Isha; position 2 from the bottom: Dev; position 3 from the bottom: Tanvi; position 4 from the bottom: Charu; position 5 from the bottom: Bhavna; position 6 from the bottom: Zara; position 7 from the bottom: Geeta",
+      "uniquenessVerified": true
+    },
+    {
+      "id": "T14-P3",
+      "type": "logic_puzzle",
+      "variant": "months",
+      "title": "Seven people have interviews in seven consecutive months from January to July, one per month.",
+      "body": "Clues:\n1. Aarav is exactly 2 positions later than Om.\n2. Aarav is exactly 3 positions later than Chitra.\n3. Bhavna is at May.\n4. In the stated ordering, Aarav comes before Tarun, and Tarun comes before Ira.",
+      "solution": "January: Chitra; February: Om; March: Ravi; April: Aarav; May: Bhavna; June: Tarun; July: Ira",
+      "uniquenessVerified": true
+    },
+    {
+      "id": "T14-P4",
+      "type": "logic_puzzle",
+      "variant": "designation",
+      "title": "Seven employees hold seven distinct ranks (rank 1 is junior-most and rank 7 is senior-most).",
+      "body": "Clues:\n1. Lalit is at rank 2.\n2. Dev is immediately senior to Ravi.\n3. Yuvraj is exactly 3 positions senior to Zara.\n4. Kavya is exactly 3 positions senior to Yuvraj.",
+      "solution": "rank 1: Zara; rank 2: Lalit; rank 3: Priya; rank 4: Yuvraj; rank 5: Ravi; rank 6: Dev; rank 7: Kavya",
+      "uniquenessVerified": true
+    },
+    {
+      "id": "T14-CODE",
+      "type": "coding",
+      "title": "In a certain coded language, each word has one unique code.",
+      "body": "honest copper window = po xe li\nsaffron forest copper = li ve di\nhonest saffron summit = ve xe fi\nwindow summit forest = di fi po",
+      "solution": "copper=li, honest=xe, window=po, saffron=ve, forest=di, summit=fi"
+    },
+    {
+      "id": "T14-DI1",
+      "type": "data_interpretation",
+      "variant": "bar",
+      "title": "A regional survey records shirts and trousers across five locations.",
+      "body": "Location        shirts             trousers\nMysuru          120                360\nHassan          400                340\nKolar           360                120\nBallari         380                100\nChitradurga     140                100",
+      "columns": [
+        "Location",
+        "shirts",
+        "trousers"
+      ],
+      "rows": [
+        {
+          "label": "Mysuru",
+          "a": 120,
+          "b": 360
+        },
+        {
+          "label": "Hassan",
+          "a": 400,
+          "b": 340
+        },
+        {
+          "label": "Kolar",
+          "a": 360,
+          "b": 120
+        },
+        {
+          "label": "Ballari",
+          "a": 380,
+          "b": 100
+        },
+        {
+          "label": "Chitradurga",
+          "a": 140,
+          "b": 100
+        }
+      ],
+      "visualization": "bar"
+    },
+    {
+      "id": "T14-DI2",
+      "type": "data_interpretation",
+      "variant": "caselet",
+      "title": "A regional survey records tickets A and tickets B across five locations.",
+      "body": "The survey reported the following figures (tickets A, tickets B): Tumakuru (160, 240); Ballari (180, 300); Raichur (100, 400); Davangere (160, 100); Hassan (100, 380).",
+      "columns": [
+        "Location",
+        "tickets A",
+        "tickets B"
+      ],
+      "rows": [
+        {
+          "label": "Tumakuru",
+          "a": 160,
+          "b": 240
+        },
+        {
+          "label": "Ballari",
+          "a": 180,
+          "b": 300
+        },
+        {
+          "label": "Raichur",
+          "a": 100,
+          "b": 400
+        },
+        {
+          "label": "Davangere",
+          "a": 160,
+          "b": 100
+        },
+        {
+          "label": "Hassan",
+          "a": 100,
+          "b": 380
+        }
+      ],
+      "visualization": "table"
+    },
+    {
+      "id": "T14-DI3",
+      "type": "data_interpretation",
+      "variant": "table",
+      "title": "A regional survey records shirts and trousers across five locations.",
+      "body": "Location        shirts             trousers\nBallari         140                200\nBidar           180                120\nHubballi        220                400\nRaichur         300                140\nBelagavi        280                140",
+      "columns": [
+        "Location",
+        "shirts",
+        "trousers"
+      ],
+      "rows": [
+        {
+          "label": "Ballari",
+          "a": 140,
+          "b": 200
+        },
+        {
+          "label": "Bidar",
+          "a": 180,
+          "b": 120
+        },
+        {
+          "label": "Hubballi",
+          "a": 220,
+          "b": 400
+        },
+        {
+          "label": "Raichur",
+          "a": 300,
+          "b": 140
+        },
+        {
+          "label": "Belagavi",
+          "a": 280,
+          "b": 140
+        }
+      ],
+      "visualization": "table"
+    }
+  ],
+  "questions": [
+    {
+      "id": "M14-Q01",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P1, who occupies floor 2?",
+      "options": [
+        "Tanvi",
+        "Harish",
+        "Isha",
+        "Vikram",
+        "Ira"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unique arrangement: floor 1: Vikram; floor 2: Harish; floor 3: Isha; floor 4: Geeta; floor 5: Tanvi; floor 6: Ira; floor 7: Varun",
+      "stimulusId": "T14-P1",
+      "number": 1
+    },
+    {
+      "id": "M14-Q02",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P1, which position does Geeta occupy?",
+      "options": [
+        "floor 5",
+        "floor 7",
+        "floor 1",
+        "floor 2",
+        "floor 4"
+      ],
+      "answerIndex": 4,
+      "explanation": "Unique arrangement: floor 1: Vikram; floor 2: Harish; floor 3: Isha; floor 4: Geeta; floor 5: Tanvi; floor 6: Ira; floor 7: Varun",
+      "stimulusId": "T14-P1",
+      "number": 2
+    },
+    {
+      "id": "M14-Q03",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P1, who is immediately above Harish?",
+      "options": [
+        "Tanvi",
+        "Harish",
+        "Geeta",
+        "Ira",
+        "Isha"
+      ],
+      "answerIndex": 4,
+      "explanation": "Unique arrangement: floor 1: Vikram; floor 2: Harish; floor 3: Isha; floor 4: Geeta; floor 5: Tanvi; floor 6: Ira; floor 7: Varun",
+      "stimulusId": "T14-P1",
+      "number": 3
+    },
+    {
+      "id": "M14-Q04",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P1, how many positions are between Harish and Tanvi?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unique arrangement: floor 1: Vikram; floor 2: Harish; floor 3: Isha; floor 4: Geeta; floor 5: Tanvi; floor 6: Ira; floor 7: Varun",
+      "stimulusId": "T14-P1",
+      "number": 4
+    },
+    {
+      "id": "M14-Q05",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P1, who is immediately before Tanvi in the order defined in the passage?",
+      "options": [
+        "Isha",
+        "Varun",
+        "Geeta",
+        "Ira",
+        "Vikram"
+      ],
+      "answerIndex": 2,
+      "explanation": "Unique arrangement: floor 1: Vikram; floor 2: Harish; floor 3: Isha; floor 4: Geeta; floor 5: Tanvi; floor 6: Ira; floor 7: Varun",
+      "stimulusId": "T14-P1",
+      "number": 5
+    },
+    {
+      "id": "M14-Q06",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P2, who occupies position 4 from the bottom?",
+      "options": [
+        "Charu",
+        "Bhavna",
+        "Tanvi",
+        "Isha",
+        "Dev"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: position 1 from the bottom: Isha; position 2 from the bottom: Dev; position 3 from the bottom: Tanvi; position 4 from the bottom: Charu; position 5 from the bottom: Bhavna; position 6 from the bottom: Zara; position 7 from the bottom: Geeta",
+      "stimulusId": "T14-P2",
+      "number": 6
+    },
+    {
+      "id": "M14-Q07",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P2, which position does Geeta occupy?",
+      "options": [
+        "position 7 from the bottom",
+        "position 6 from the bottom",
+        "position 2 from the bottom",
+        "position 5 from the bottom",
+        "position 4 from the bottom"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: position 1 from the bottom: Isha; position 2 from the bottom: Dev; position 3 from the bottom: Tanvi; position 4 from the bottom: Charu; position 5 from the bottom: Bhavna; position 6 from the bottom: Zara; position 7 from the bottom: Geeta",
+      "stimulusId": "T14-P2",
+      "number": 7
+    },
+    {
+      "id": "M14-Q08",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P2, who is immediately above Tanvi?",
+      "options": [
+        "Zara",
+        "Charu",
+        "Isha",
+        "Dev",
+        "Geeta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unique arrangement: position 1 from the bottom: Isha; position 2 from the bottom: Dev; position 3 from the bottom: Tanvi; position 4 from the bottom: Charu; position 5 from the bottom: Bhavna; position 6 from the bottom: Zara; position 7 from the bottom: Geeta",
+      "stimulusId": "T14-P2",
+      "number": 8
+    },
+    {
+      "id": "M14-Q09",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P2, how many positions are between Tanvi and Dev?",
+      "options": [
+        "0",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: position 1 from the bottom: Isha; position 2 from the bottom: Dev; position 3 from the bottom: Tanvi; position 4 from the bottom: Charu; position 5 from the bottom: Bhavna; position 6 from the bottom: Zara; position 7 from the bottom: Geeta",
+      "stimulusId": "T14-P2",
+      "number": 9
+    },
+    {
+      "id": "M14-Q10",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P2, who is immediately before Charu in the order defined in the passage?",
+      "options": [
+        "Tanvi",
+        "Dev",
+        "Charu",
+        "Zara",
+        "Isha"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: position 1 from the bottom: Isha; position 2 from the bottom: Dev; position 3 from the bottom: Tanvi; position 4 from the bottom: Charu; position 5 from the bottom: Bhavna; position 6 from the bottom: Zara; position 7 from the bottom: Geeta",
+      "stimulusId": "T14-P2",
+      "number": 10
+    },
+    {
+      "id": "M14-Q11",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P3, who occupies February?",
+      "options": [
+        "Bhavna",
+        "Chitra",
+        "Tarun",
+        "Om",
+        "Aarav"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unique arrangement: January: Chitra; February: Om; March: Ravi; April: Aarav; May: Bhavna; June: Tarun; July: Ira",
+      "stimulusId": "T14-P3",
+      "number": 11
+    },
+    {
+      "id": "M14-Q12",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P3, which position does Aarav occupy?",
+      "options": [
+        "January",
+        "June",
+        "April",
+        "February",
+        "May"
+      ],
+      "answerIndex": 2,
+      "explanation": "Unique arrangement: January: Chitra; February: Om; March: Ravi; April: Aarav; May: Bhavna; June: Tarun; July: Ira",
+      "stimulusId": "T14-P3",
+      "number": 12
+    },
+    {
+      "id": "M14-Q13",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P3, who is immediately later than Ravi?",
+      "options": [
+        "Ira",
+        "Tarun",
+        "Aarav",
+        "Ravi",
+        "Chitra"
+      ],
+      "answerIndex": 2,
+      "explanation": "Unique arrangement: January: Chitra; February: Om; March: Ravi; April: Aarav; May: Bhavna; June: Tarun; July: Ira",
+      "stimulusId": "T14-P3",
+      "number": 13
+    },
+    {
+      "id": "M14-Q14",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P3, how many positions are between Ravi and Tarun?",
+      "options": [
+        "4",
+        "3",
+        "0",
+        "2",
+        "1"
+      ],
+      "answerIndex": 3,
+      "explanation": "Unique arrangement: January: Chitra; February: Om; March: Ravi; April: Aarav; May: Bhavna; June: Tarun; July: Ira",
+      "stimulusId": "T14-P3",
+      "number": 14
+    },
+    {
+      "id": "M14-Q15",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P3, who is immediately before Tarun in the order defined in the passage?",
+      "options": [
+        "Aarav",
+        "Om",
+        "Bhavna",
+        "Tarun",
+        "Ravi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Unique arrangement: January: Chitra; February: Om; March: Ravi; April: Aarav; May: Bhavna; June: Tarun; July: Ira",
+      "stimulusId": "T14-P3",
+      "number": 15
+    },
+    {
+      "id": "M14-Q16",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P4, who occupies rank 4?",
+      "options": [
+        "Yuvraj",
+        "Lalit",
+        "Ravi",
+        "Priya",
+        "Zara"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: rank 1: Zara; rank 2: Lalit; rank 3: Priya; rank 4: Yuvraj; rank 5: Ravi; rank 6: Dev; rank 7: Kavya",
+      "stimulusId": "T14-P4",
+      "number": 16
+    },
+    {
+      "id": "M14-Q17",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P4, which position does Zara occupy?",
+      "options": [
+        "rank 1",
+        "rank 4",
+        "rank 6",
+        "rank 2",
+        "rank 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: rank 1: Zara; rank 2: Lalit; rank 3: Priya; rank 4: Yuvraj; rank 5: Ravi; rank 6: Dev; rank 7: Kavya",
+      "stimulusId": "T14-P4",
+      "number": 17
+    },
+    {
+      "id": "M14-Q18",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P4, who is immediately senior to Zara?",
+      "options": [
+        "Lalit",
+        "Dev",
+        "Yuvraj",
+        "Zara",
+        "Kavya"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: rank 1: Zara; rank 2: Lalit; rank 3: Priya; rank 4: Yuvraj; rank 5: Ravi; rank 6: Dev; rank 7: Kavya",
+      "stimulusId": "T14-P4",
+      "number": 18
+    },
+    {
+      "id": "M14-Q19",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P4, how many positions are between Zara and Kavya?",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "0",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: rank 1: Zara; rank 2: Lalit; rank 3: Priya; rank 4: Yuvraj; rank 5: Ravi; rank 6: Dev; rank 7: Kavya",
+      "stimulusId": "T14-P4",
+      "number": 19
+    },
+    {
+      "id": "M14-Q20",
+      "section": "reasoning",
+      "topic": "Puzzle & Seating Arrangement",
+      "difficulty": "moderate",
+      "stem": "Based on arrangement T14-P4, who is immediately before Yuvraj in the order defined in the passage?",
+      "options": [
+        "Priya",
+        "Lalit",
+        "Yuvraj",
+        "Kavya",
+        "Dev"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unique arrangement: rank 1: Zara; rank 2: Lalit; rank 3: Priya; rank 4: Yuvraj; rank 5: Ravi; rank 6: Dev; rank 7: Kavya",
+      "stimulusId": "T14-P4",
+      "number": 20
+    },
+    {
+      "id": "M14-Q21",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "moderate",
+      "stem": "Given the inequality chain U = T ≥ P < X ≤ Q, decide which conclusions follow. I: U ≤ T. II: T ≥ X.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Exhaustive valid-order checking confirms: I is always true and II is not necessarily true.",
+      "number": 21
+    },
+    {
+      "id": "M14-Q22",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "moderate",
+      "stem": "Given the inequality chain V ≥ W ≥ S > P < Q, decide which conclusions follow. I: P ≥ Q. II: V > P.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exhaustive valid-order checking confirms: I is not necessarily true and II is always true.",
+      "number": 22
+    },
+    {
+      "id": "M14-Q23",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "moderate",
+      "stem": "Given the inequality chain U ≥ W < T ≤ R < Z, decide which conclusions follow. I: U = T. II: R ≥ Z.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Exhaustive valid-order checking confirms: I is not necessarily true and II is not necessarily true.",
+      "number": 23
+    },
+    {
+      "id": "M14-Q24",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "moderate",
+      "stem": "Given the inequality chain W < S ≥ X < Z ≥ R, decide which conclusions follow. I: S > R. II: W ≤ R.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Exhaustive valid-order checking confirms: I is not necessarily true and II is not necessarily true.",
+      "number": 24
+    },
+    {
+      "id": "M14-Q25",
+      "section": "reasoning",
+      "topic": "Inequality",
+      "difficulty": "moderate",
+      "stem": "Given the inequality chain U < V ≤ Q < R < Z, decide which conclusions follow. I: Q ≤ Z. II: U ≥ Z.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Exhaustive valid-order checking confirms: I is always true and II is not necessarily true.",
+      "number": 25
+    },
+    {
+      "id": "M14-Q26",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "moderate",
+      "stem": "Statements: No sailors are readers. All drivers are readers. Some drivers are readers. Conclusions: I. No sailors are drivers. II. Some drivers are not sailors. Which conclusion follows?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "All C members belong to B, disjoint from A; some C are explicitly given.",
+      "number": 26
+    },
+    {
+      "id": "M14-Q27",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "moderate",
+      "stem": "Statements: Some painters are workers. Some workers are coders. Conclusions: I. Some painters are coders. II. All coders are painters. Which conclusion follows?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "The specified intersections do not force A and C to overlap or include one another.",
+      "number": 27
+    },
+    {
+      "id": "M14-Q28",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "moderate",
+      "stem": "Statements: Some painters are poets. All poets are bakers. Conclusions: I. Some painters are bakers. II. All painters are bakers. Which conclusion follows?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Some A–B members must be C; not all A need be C.",
+      "number": 28
+    },
+    {
+      "id": "M14-Q29",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "moderate",
+      "stem": "Statements: No farmers are runners. Some runners are poets. Conclusions: I. Some poets are not farmers. II. No poets are farmers. Which conclusion follows?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "The B∩C members are outside A; other C members remain unrestricted.",
+      "number": 29
+    },
+    {
+      "id": "M14-Q30",
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "difficulty": "moderate",
+      "stem": "Statements: All singers are pilots. No pilots are coders. Conclusions: I. No singers are coders. II. Some singers are coders. Which conclusion follows?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "A is contained in B, while B and C are disjoint.",
+      "number": 30
+    },
+    {
+      "id": "M14-Q31",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "moderate",
+      "stem": "Based on coding set T14-CODE, what is the code for \"copper\"?",
+      "options": [
+        "li",
+        "di",
+        "po",
+        "fi",
+        "ve"
+      ],
+      "answerIndex": 0,
+      "explanation": "Common-word intersections identify copper as li.",
+      "stimulusId": "T14-CODE",
+      "number": 31
+    },
+    {
+      "id": "M14-Q32",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "moderate",
+      "stem": "Based on coding set T14-CODE, what is the code for \"honest\"?",
+      "options": [
+        "ve",
+        "li",
+        "fi",
+        "xe",
+        "di"
+      ],
+      "answerIndex": 3,
+      "explanation": "Common-word intersections identify honest as xe.",
+      "stimulusId": "T14-CODE",
+      "number": 32
+    },
+    {
+      "id": "M14-Q33",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "moderate",
+      "stem": "Based on coding set T14-CODE, what is the code for \"window\"?",
+      "options": [
+        "li",
+        "di",
+        "po",
+        "xe",
+        "ve"
+      ],
+      "answerIndex": 2,
+      "explanation": "Common-word intersections identify window as po.",
+      "stimulusId": "T14-CODE",
+      "number": 33
+    },
+    {
+      "id": "M14-Q34",
+      "section": "reasoning",
+      "topic": "Coding-Decoding",
+      "difficulty": "moderate",
+      "stem": "Based on coding set T14-CODE, what is the code for \"saffron\"?",
+      "options": [
+        "xe",
+        "li",
+        "ve",
+        "po",
+        "fi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Common-word intersections identify saffron as ve.",
+      "stimulusId": "T14-CODE",
+      "number": 34
+    },
+    {
+      "id": "M14-Q35",
+      "section": "reasoning",
+      "topic": "Direction & Distance",
+      "difficulty": "moderate",
+      "stem": "Ritu walks 75 km north, then 60 km east, then 15 km south and finally 15 km west. What is her shortest distance from the starting point?",
+      "options": [
+        "90 km",
+        "45 km",
+        "60 km",
+        "105 km",
+        "75 km"
+      ],
+      "answerIndex": 4,
+      "explanation": "Net north = 60 km and east = 45 km. Distance = √(60²+45²) = 75 km.",
+      "number": 35
+    },
+    {
+      "id": "M14-Q36",
+      "section": "reasoning",
+      "topic": "Direction & Distance",
+      "difficulty": "moderate",
+      "stem": "Kiran moves 15 km north, 90 km east, 45 km south and 15 km west. In which direction is Kiran from the start?",
+      "options": [
+        "North",
+        "North-East",
+        "South-West",
+        "South-East",
+        "North-West"
+      ],
+      "answerIndex": 3,
+      "explanation": "Net 30 km south and 75 km east: South-East.",
+      "number": 36
+    },
+    {
+      "id": "M14-Q37",
+      "section": "reasoning",
+      "topic": "Direction & Distance",
+      "difficulty": "moderate",
+      "stem": "A cyclist travels 135 km north, 60 km east, 75 km south and 15 km west. What total distance did the cyclist travel?",
+      "options": [
+        "270 km",
+        "90 km",
+        "75 km",
+        "195 km",
+        "285 km"
+      ],
+      "answerIndex": 4,
+      "explanation": "Total path length = 135+60+75+15=285 km (not displacement).",
+      "number": 37
+    },
+    {
+      "id": "M14-Q38",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "moderate",
+      "stem": "Farhan is the brother of Esha. Esha is the mother of Zara. How is Farhan related to Zara?",
+      "options": [
+        "Cousin",
+        "Maternal uncle",
+        "Maternal grandfather",
+        "Nephew",
+        "Sister"
+      ],
+      "answerIndex": 1,
+      "explanation": "A is the brother of C’s mother.",
+      "number": 38
+    },
+    {
+      "id": "M14-Q39",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "moderate",
+      "stem": "Kavya is the sister of Lalit. Lalit is the father of Firoz. How is Kavya related to Firoz?",
+      "options": [
+        "Paternal aunt",
+        "Nephew",
+        "Niece",
+        "Maternal grandfather",
+        "Mother"
+      ],
+      "answerIndex": 0,
+      "explanation": "A is the sister of C’s father.",
+      "number": 39
+    },
+    {
+      "id": "M14-Q40",
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "difficulty": "moderate",
+      "stem": "Deepa is the daughter of Om. Om is the brother of Kavya. Kavya is the mother of Aarav. How is Deepa related to Aarav?",
+      "options": [
+        "Maternal aunt",
+        "Niece",
+        "Cousin",
+        "Sister",
+        "Maternal uncle"
+      ],
+      "answerIndex": 2,
+      "explanation": "A and D are children of siblings B and C, so they are cousins.",
+      "number": 40
+    },
+    {
+      "id": "M14-Q41",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI1, what is the combined number of shirts in Chitradurga and Hassan?",
+      "options": [
+        "615",
+        "542",
+        "540",
+        "580",
+        "575"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working: 140 + 400 = 540.",
+      "stimulusId": "T14-DI1",
+      "number": 41
+    },
+    {
+      "id": "M14-Q42",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI1, what is the absolute difference between the total of both categories in Ballari and Kolar?",
+      "options": [
+        "5",
+        "75",
+        "0",
+        "50",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "Absolute difference between 480 and 480 = 0.",
+      "stimulusId": "T14-DI1",
+      "number": 42
+    },
+    {
+      "id": "M14-Q43",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI1, find the simplest ratio of shirts to trousers in Hassan.",
+      "options": [
+        "1:2",
+        "20:17",
+        "1:1",
+        "2:5",
+        "5:4"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ratio 400:340 reduces to 20:17.",
+      "stimulusId": "T14-DI1",
+      "number": 43
+    },
+    {
+      "id": "M14-Q44",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI1, what is the average number of trousers across all five locations?",
+      "options": [
+        "239",
+        "254",
+        "214",
+        "207",
+        "204"
+      ],
+      "answerIndex": 4,
+      "explanation": "(360 + 340 + 120 + 100 + 100) / 5 = 204.",
+      "stimulusId": "T14-DI1",
+      "number": 44
+    },
+    {
+      "id": "M14-Q45",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI1, what is 25% of the sum of shirts in Hassan and trousers in Mysuru?",
+      "options": [
+        "190",
+        "225",
+        "192",
+        "205",
+        "250"
+      ],
+      "answerIndex": 0,
+      "explanation": "(400 + 360) × 25/100 = 190.",
+      "stimulusId": "T14-DI1",
+      "number": 45
+    },
+    {
+      "id": "M14-Q46",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI2, what is the combined number of tickets A in Hassan and Tumakuru?",
+      "options": [
+        "260",
+        "285",
+        "275",
+        "268",
+        "295"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working: 100 + 160 = 260.",
+      "stimulusId": "T14-DI2",
+      "number": 46
+    },
+    {
+      "id": "M14-Q47",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI2, what is the absolute difference between the total of both categories in Raichur and Hassan?",
+      "options": [
+        "40",
+        "21",
+        "120",
+        "20",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "Absolute difference between 500 and 480 = 20.",
+      "stimulusId": "T14-DI2",
+      "number": 47
+    },
+    {
+      "id": "M14-Q48",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI2, find the simplest ratio of tickets A to tickets B in Davangere.",
+      "options": [
+        "5:4",
+        "8:5",
+        "1:1",
+        "4:3",
+        "3:2"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ratio 160:100 reduces to 8:5.",
+      "stimulusId": "T14-DI2",
+      "number": 48
+    },
+    {
+      "id": "M14-Q49",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI2, what is the average number of tickets B across all five locations?",
+      "options": [
+        "319",
+        "309",
+        "314",
+        "290",
+        "284"
+      ],
+      "answerIndex": 4,
+      "explanation": "(240 + 300 + 400 + 100 + 380) / 5 = 284.",
+      "stimulusId": "T14-DI2",
+      "number": 49
+    },
+    {
+      "id": "M14-Q50",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI2, what is 25% of the sum of tickets A in Davangere and tickets B in Ballari?",
+      "options": [
+        "120",
+        "121",
+        "115",
+        "150",
+        "127"
+      ],
+      "answerIndex": 2,
+      "explanation": "(160 + 300) × 25/100 = 115.",
+      "stimulusId": "T14-DI2",
+      "number": 50
+    },
+    {
+      "id": "M14-Q51",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI3, what is the combined number of shirts in Raichur and Belagavi?",
+      "options": [
+        "581",
+        "584",
+        "630",
+        "583",
+        "580"
+      ],
+      "answerIndex": 4,
+      "explanation": "Working: 300 + 280 = 580.",
+      "stimulusId": "T14-DI3",
+      "number": 51
+    },
+    {
+      "id": "M14-Q52",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI3, what is the absolute difference between the total of both categories in Ballari and Belagavi?",
+      "options": [
+        "92",
+        "110",
+        "88",
+        "130",
+        "80"
+      ],
+      "answerIndex": 4,
+      "explanation": "Absolute difference between 340 and 420 = 80.",
+      "stimulusId": "T14-DI3",
+      "number": 52
+    },
+    {
+      "id": "M14-Q53",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI3, find the simplest ratio of shirts to trousers in Belagavi.",
+      "options": [
+        "5:2",
+        "3:4",
+        "2:1",
+        "4:3",
+        "1:2"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ratio 280:140 reduces to 2:1.",
+      "stimulusId": "T14-DI3",
+      "number": 53
+    },
+    {
+      "id": "M14-Q54",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI3, what is the average number of trousers across all five locations?",
+      "options": [
+        "200",
+        "250",
+        "225",
+        "230",
+        "201"
+      ],
+      "answerIndex": 0,
+      "explanation": "(200 + 120 + 400 + 140 + 140) / 5 = 200.",
+      "stimulusId": "T14-DI3",
+      "number": 54
+    },
+    {
+      "id": "M14-Q55",
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "Using data set T14-DI3, what is 25% of the sum of shirts in Hubballi and trousers in Bidar?",
+      "options": [
+        "86",
+        "135",
+        "95",
+        "97",
+        "85"
+      ],
+      "answerIndex": 4,
+      "explanation": "(220 + 120) × 25/100 = 85.",
+      "stimulusId": "T14-DI3",
+      "number": 55
+    },
+    {
+      "id": "M14-Q56",
+      "section": "quant",
+      "topic": "Simplification",
+      "difficulty": "moderate",
+      "stem": "Evaluate 44² − 18².",
+      "options": [
+        "1672",
+        "1612",
+        "1622",
+        "1619",
+        "1615"
+      ],
+      "answerIndex": 1,
+      "explanation": "(44−18)(44+18) = 1612.",
+      "number": 56
+    },
+    {
+      "id": "M14-Q57",
+      "section": "quant",
+      "topic": "Simplification",
+      "difficulty": "moderate",
+      "stem": "What is the exact value of 25% of 760 + 100 ÷ 5?",
+      "options": [
+        "235",
+        "210",
+        "215",
+        "214",
+        "270"
+      ],
+      "answerIndex": 1,
+      "explanation": "760/4 + 100/5 = 210.",
+      "number": 57
+    },
+    {
+      "id": "M14-Q58",
+      "section": "quant",
+      "topic": "Simplification",
+      "difficulty": "moderate",
+      "stem": "Calculate √841 + 6³.",
+      "options": [
+        "249",
+        "305",
+        "275",
+        "245",
+        "251"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working: 29 + 216 = 245.",
+      "number": 58
+    },
+    {
+      "id": "M14-Q59",
+      "section": "quant",
+      "topic": "Simplification",
+      "difficulty": "moderate",
+      "stem": "Simplify (43 × 8) − 6².",
+      "options": [
+        "316",
+        "308",
+        "318",
+        "358",
+        "310"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working: 344 − 36 = 308.",
+      "number": 59
+    },
+    {
+      "id": "M14-Q60",
+      "section": "quant",
+      "topic": "Simplification",
+      "difficulty": "moderate",
+      "stem": "Find (3400 ÷ 10) + 25% of 220.",
+      "options": [
+        "435",
+        "407",
+        "410",
+        "425",
+        "395"
+      ],
+      "answerIndex": 4,
+      "explanation": "Working: 340 + 55 = 395.",
+      "number": 60
+    },
+    {
+      "id": "M14-Q61",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "moderate",
+      "stem": "Find the next term in the series: 364, 716, 1420, 2828, 5644, 11276, ?",
+      "options": [
+        "22640",
+        "22544",
+        "22540",
+        "22547",
+        "22555"
+      ],
+      "answerIndex": 2,
+      "explanation": "Subtract 12, double the result, add 12 back.",
+      "number": 61
+    },
+    {
+      "id": "M14-Q62",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "moderate",
+      "stem": "Find the next term in the series: 359, 362, 367, 374, 383, 394, ?",
+      "options": [
+        "507",
+        "447",
+        "407",
+        "427",
+        "411"
+      ],
+      "answerIndex": 2,
+      "explanation": "Terms are n²+358 for n=1,2,...",
+      "number": 62
+    },
+    {
+      "id": "M14-Q63",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "moderate",
+      "stem": "Find the next term in the series: 367, 370, 379, 394, 415, 442, ?",
+      "options": [
+        "515",
+        "535",
+        "475",
+        "500",
+        "550"
+      ],
+      "answerIndex": 2,
+      "explanation": "Terms are 367 + 3n² with n starting from zero.",
+      "number": 63
+    },
+    {
+      "id": "M14-Q64",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "moderate",
+      "stem": "Find the next term in the series: 364, 378, 392, 406, 420, 434, ?",
+      "options": [
+        "463",
+        "448",
+        "483",
+        "460",
+        "453"
+      ],
+      "answerIndex": 1,
+      "explanation": "Add 14 to each term.",
+      "number": 64
+    },
+    {
+      "id": "M14-Q65",
+      "section": "quant",
+      "topic": "Number Series",
+      "difficulty": "moderate",
+      "stem": "Find the next term in the series: 357, 716, 1434, 2870, 5742, 11486, ?",
+      "options": [
+        "23004",
+        "22986",
+        "22974",
+        "23034",
+        "22989"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each term is twice its predecessor plus 2.",
+      "number": 65
+    },
+    {
+      "id": "M14-Q66",
+      "section": "quant",
+      "topic": "Quadratic Comparison",
+      "difficulty": "moderate",
+      "stem": "Compare x and y. Equation I: x² − 13x + 30 = 0. Equation II: y² − 13y + 40 = 0. Which option is always correct?",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "Relationship cannot be established"
+      ],
+      "answerIndex": 4,
+      "explanation": "Roots of x are 3 and 10; roots of y are 5 and 8. Hence Relationship cannot be established.",
+      "number": 66
+    },
+    {
+      "id": "M14-Q67",
+      "section": "quant",
+      "topic": "Quadratic Comparison",
+      "difficulty": "moderate",
+      "stem": "Compare x and y. Equation I: x² − 19x + 90 = 0. Equation II: y² − 9y + 20 = 0. Which option is always correct?",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "Relationship cannot be established"
+      ],
+      "answerIndex": 0,
+      "explanation": "Roots of x are 9 and 10; roots of y are 4 and 5. Hence x > y.",
+      "number": 67
+    },
+    {
+      "id": "M14-Q68",
+      "section": "quant",
+      "topic": "Quadratic Comparison",
+      "difficulty": "moderate",
+      "stem": "Compare x and y. Equation I: x² − 17x + 70 = 0. Equation II: y² − 12y + 35 = 0. Which option is always correct?",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "Relationship cannot be established"
+      ],
+      "answerIndex": 1,
+      "explanation": "Roots of x are 7 and 10; roots of y are 5 and 7. Hence x ≥ y.",
+      "number": 68
+    },
+    {
+      "id": "M14-Q69",
+      "section": "quant",
+      "topic": "Quadratic Comparison",
+      "difficulty": "moderate",
+      "stem": "Compare x and y. Equation I: x² − 7x + 12 = 0. Equation II: y² − 15y + 56 = 0. Which option is always correct?",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "Relationship cannot be established"
+      ],
+      "answerIndex": 2,
+      "explanation": "Roots of x are 3 and 4; roots of y are 7 and 8. Hence x < y.",
+      "number": 69
+    },
+    {
+      "id": "M14-Q70",
+      "section": "quant",
+      "topic": "Quadratic Comparison",
+      "difficulty": "moderate",
+      "stem": "Compare x and y. Equation I: x² − 12x + 35 = 0. Equation II: y² − 17y + 70 = 0. Which option is always correct?",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "Relationship cannot be established"
+      ],
+      "answerIndex": 3,
+      "explanation": "Roots of x are 5 and 7; roots of y are 7 and 10. Hence x ≤ y.",
+      "number": 70
+    },
+    {
+      "id": "M14-Q71",
+      "section": "quant",
+      "topic": "Averages",
+      "difficulty": "moderate",
+      "stem": "The average of five test scores is 40. What sixth score raises the average of six scores to 44?",
+      "options": [
+        "66",
+        "65",
+        "68",
+        "64",
+        "99"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working: 6×44 − 5×40 = 64.",
+      "number": 71
+    },
+    {
+      "id": "M14-Q72",
+      "section": "quant",
+      "topic": "Simple Interest",
+      "difficulty": "moderate",
+      "stem": "Find simple interest on ₹12000 at 9% per annum for 2 years.",
+      "options": [
+        "2167",
+        "2260",
+        "2160",
+        "2210",
+        "2162"
+      ],
+      "answerIndex": 2,
+      "explanation": "SI = P×R×T/100 = 12000×9×2/100 = ₹2160.",
+      "number": 72
+    },
+    {
+      "id": "M14-Q73",
+      "section": "quant",
+      "topic": "Percentage",
+      "difficulty": "moderate",
+      "stem": "A village had 520 residents. Its population grew by 20%. What is the new population?",
+      "options": [
+        "626",
+        "628",
+        "624",
+        "654",
+        "724"
+      ],
+      "answerIndex": 2,
+      "explanation": "520 × (100+20)/100 = 624.",
+      "number": 73
+    },
+    {
+      "id": "M14-Q74",
+      "section": "quant",
+      "topic": "Partnership",
+      "difficulty": "moderate",
+      "stem": "A and B invest ₹13000 for 10 months and ₹9000 for 7 months. They earn ₹2123 profit. What is A’s share?",
+      "options": [
+        "1431",
+        "1480",
+        "1430",
+        "1438",
+        "1505"
+      ],
+      "answerIndex": 2,
+      "explanation": "Capital-time ratio 130:63; A gets 130/193 × 2123 = ₹1430.",
+      "number": 74
+    },
+    {
+      "id": "M14-Q75",
+      "section": "quant",
+      "topic": "Time, Speed & Distance",
+      "difficulty": "moderate",
+      "stem": "A bus covers 640 km in 8 hours at constant speed. What is its speed?",
+      "options": [
+        "95 km/h",
+        "87 km/h",
+        "86 km/h",
+        "80 km/h",
+        "88 km/h"
+      ],
+      "answerIndex": 3,
+      "explanation": "Speed = 640 ÷ 8 = 80 km/h.",
+      "number": 75
+    },
+    {
+      "id": "M14-Q76",
+      "section": "quant",
+      "topic": "Discount",
+      "difficulty": "moderate",
+      "stem": "An article marked ₹1100 has a discount of 25%. What is its selling price?",
+      "options": [
+        "833",
+        "865",
+        "829",
+        "825",
+        "840"
+      ],
+      "answerIndex": 3,
+      "explanation": "1100 × (100−25)/100 = ₹825.",
+      "number": 76
+    },
+    {
+      "id": "M14-Q77",
+      "section": "quant",
+      "topic": "Mensuration",
+      "difficulty": "moderate",
+      "stem": "Find the area of a rectangular field of length 29 m and breadth 16 m.",
+      "options": [
+        "464 m²",
+        "564 m²",
+        "479 m²",
+        "494 m²",
+        "470 m²"
+      ],
+      "answerIndex": 0,
+      "explanation": "Area = 29×16=464 m².",
+      "number": 77
+    },
+    {
+      "id": "M14-Q78",
+      "section": "quant",
+      "topic": "Mixture",
+      "difficulty": "moderate",
+      "stem": "100 litres of 20% juice is mixed with 30 litres of 40% juice. How many litres of pure juice does the mixture contain?",
+      "options": [
+        "92 L",
+        "40 L",
+        "82 L",
+        "36 L",
+        "32 L"
+      ],
+      "answerIndex": 4,
+      "explanation": "100×0.20 + 30×0.40 = 32 litres.",
+      "number": 78
+    },
+    {
+      "id": "M14-Q79",
+      "section": "quant",
+      "topic": "Time & Work",
+      "difficulty": "moderate",
+      "stem": "A can finish a task in 30 days and B in 45 days. In how many days can they finish it together?",
+      "options": [
+        "22",
+        "19",
+        "118",
+        "18",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "Combined time = (30×45)/(30+45) = 18 days.",
+      "number": 79
+    },
+    {
+      "id": "M14-Q80",
+      "section": "quant",
+      "topic": "Profit & Loss",
+      "difficulty": "moderate",
+      "stem": "A shop bought an item for ₹1100 and sold it at 25% profit. Find the selling price.",
+      "options": [
+        "1381",
+        "1387",
+        "1375",
+        "1378",
+        "1405"
+      ],
+      "answerIndex": 2,
+      "explanation": "1100 × (100+25)/100 = ₹1375.",
+      "number": 80
+    }
+  ]
+}

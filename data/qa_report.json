@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "mocks": 20,
+  "uniqueStems": 1600,
+  "questions": 1600,
+  "sectionsPerPaper": [
+    40,
+    40
+  ],
+  "durationSecondsPerPaper": 2700,
+  "stimuli": 160,
+  "topicCounts": {
+    "Puzzle & Seating Arrangement": 400,
+    "Inequality": 100,
+    "Syllogism": 100,
+    "Coding-Decoding": 80,
+    "Direction & Distance": 60,
+    "Blood Relations": 60,
+    "Data Interpretation": 300,
+    "Simplification": 100,
+    "Number Series": 100,
+    "Quadratic Comparison": 100,
+    "Time, Speed & Distance": 13,
+    "Discount": 12,
+    "Mensuration": 13,
+    "Mixture": 12,
+    "Time & Work": 13,
+    "Profit & Loss": 13,
+    "Boats & Streams": 14,
+    "Ages": 14,
+    "Compound Interest": 15,
+    "Ratio & Proportion": 15,
+    "Pipes & Cisterns": 14,
+    "Averages": 14,
+    "Simple Interest": 13,
+    "Percentage": 13,
+    "Partnership": 12
+  }
+}
