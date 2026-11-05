@@ -30,38 +30,38 @@
       "id": "T05-P1",
       "type": "logic_puzzle",
       "variant": "floor_flat",
-      "title": "Eight persons (Aarav, Bhavna, etc.) live in a four-storey building. The bottom floor is 1 and the top floor is 4. Each floor has two flats: Flat A and Flat B. Flat A is to the west of Flat B.",
-      "body": "Study the following information carefully:\n• Varun lives on an even numbered floor in Flat B.\n• Dev lives immediately above Bhavna in the same flat.\n• Nikhil lives to the west of Sana on floor 1.\n• There is exactly one floor between the floors on which Varun and Bharat live.\n• Dev lives on Floor 3 in Flat B.\n\n(Note: One flat on each floor is Flat A and the other is Flat B).",
-      "solution": "Floor 4: Flat A = Ananya, Flat B = Varun | Floor 3: Flat A = Vikas, Flat B = Dev | Floor 2: Flat A = Bharat, Flat B = Bhavna | Floor 1: Flat A = Nikhil, Flat B = Sana"
+      "title": "Eight persons — Deepak, Rahul, Yash, Harish, Wami, Varun, Neha, and Nikhil — live in an eight-flat four-storey building. The bottom floor is 1 and the top floor is 4. Each floor has two flats: Flat A and Flat B. Flat A is to the west of Flat B.",
+      "body": "Study the following information carefully and answer the questions that follow:\n• The number of floors above Neha is equal to the number of floors below Yash.\n• Harish lives on an even numbered floor in Flat A.\n• Neha lives on the topmost floor.\n• There is exactly one floor between the floors of Neha and Wami, and both live in Flat B.\n• Nikhil lives immediately to the west of Yash.\n• The number of floors above Deepak is equal to the number of floors below Wami.\n• Deepak lives immediately above Wami in the same flat.\n• Varun lives on an odd numbered floor in Flat A.\n• Rahul lives on Floor 4 in Flat A.\n\n(Note: Flat A is immediately to the west of Flat B on each floor).",
+      "solution": "Floor 4: Flat A = Rahul, Flat B = Neha | Floor 3: Flat A = Varun, Flat B = Deepak | Floor 2: Flat A = Harish, Flat B = Wami | Floor 1: Flat A = Nikhil, Flat B = Yash"
     },
     {
       "id": "T05-P2",
       "type": "logic_puzzle",
       "variant": "circular",
-      "title": "Eight persons sitting around a circular table facing inside and outside",
-      "body": "• Eight persons Bhavna, Charu, Harish, Varun and Geeta, Bharat, Sneha, Sana sit around a circular table.\n• Four of them face the center and four face away from the center (outside).\n• Harish faces the center and sits second to the left of Varun.\n• Bharat sits immediately to the right of Harish.\n• There are two persons sitting between Sneha and Bhavna.\n• Sana faces Center and sits opposite to Harish.\n• Geeta sits third to the right of Bharat.",
-      "solution": "Harish (Seat 1, facing Center), Bharat (Seat 2, facing Outside), Varun (Seat 3, facing Center), Sneha (Seat 4, facing Outside), Sana (Seat 5, facing Center), Geeta (Seat 6, facing Outside), Bhavna (Seat 7, facing Center), Charu (Seat 8, facing Outside)"
+      "title": "Eight persons — Charu, Isha, Ojas, Gauri, Yash, Himanshu, Bhavna, and Aarav — sit around a circular table. Four of them face the center and four face away from the center (outside).",
+      "body": "Study the following information carefully and answer the questions that follow:\n• Aarav sits third to the right of Bhavna.\n• Bhavna sits immediately to the right of Yash.\n• Ojas sits second to the left of Isha.\n• Isha sits second to the left of Bhavna.\n• Ojas faces the outside.\n• Aarav sits second to the right of Charu.\n• Yash sits second to the left of Gauri.\n• Himanshu sits at Seat 6 facing the outside.\n\n(Note: Positions are numbered 1 to 8 consecutively in a clockwise direction).",
+      "solution": "Seat 1: Charu (facing Center), Seat 2: Isha (facing Outside), Seat 3: Gauri (facing Center), Seat 4: Bhavna (facing Outside), Seat 5: Yash (facing Center), Seat 6: Himanshu (facing Outside), Seat 7: Aarav (facing Center), Seat 8: Ojas (facing Outside)"
     },
     {
       "id": "T05-P3",
       "type": "logic_puzzle",
       "variant": "month_date",
-      "title": "Eight persons attending exam on 7th and 21st of March, April, May, and June",
-      "body": "• Eight persons have their exams on two different dates (7th and 21st) across four consecutive months (March, April, May, June).\n• Farhan attends the exam on 21st of a month having 30 days.\n• Only two persons attend the exam between Farhan and Rahul.\n• Gauri attends the exam immediately before Pooja.\n• The number of persons attending before Bharat is the same as the number of persons attending after Priya.\n• Zara attends on an odd date in a month having 31 days.",
-      "solution": "March 7: Farhan; March 21: Rahul; April 7: Gauri; April 21: Pooja; May 7: Bharat; May 21: Priya; June 7: Zara; June 21: Vikas"
+      "title": "Eight persons — Sana, Vikas, Yogesh, Wami, Bhavna, Rohan, Neha, and Zara — have their preliminary examinations scheduled on two different dates (7th and 21st) across four months (March, April, May, and June).",
+      "body": "Study the following information carefully and answer the questions that follow:\n• Only one person attends the exam between Bhavna and Rohan.\n• Only two persons attends the exam between Neha and Sana.\n• Only three persons attends the exam between Sana and Vikas.\n• Only two persons attends the exam between Sana and Bhavna.\n• Only three persons attends the exam between Yogesh and Wami.\n• Wami attends the exam immediately after Bhavna.\n• The number of persons attending the exam before Vikas is equal to the number of persons attending after Bhavna.\n• Zara attends the exam on 7th May.\n\n(Note: The order of months is March, April, May, and June. Each month has exams on the 7th and 21st).",
+      "solution": "March 7th: Bhavna; March 21th: Wami; April 7th: Rohan; April 21th: Sana; May 7th: Zara; May 21th: Yogesh; June 7th: Neha; June 21th: Vikas"
     },
     {
       "id": "T05-P4",
       "type": "logic_puzzle",
       "variant": "parallel_row",
-      "title": "Ten persons in two parallel rows facing North and South",
-      "body": "• Ten persons sit in two parallel rows containing five persons each, such that there is equal distance between adjacent persons.\n• In Row 1: A, B, C, D, and E sit and all of them face South.\n• In Row 2: P, Q, R, S, and T sit and all of them face North.\n• R sits at one of the extreme ends of Row 2.\n• The one who faces R sits opposite to B.\n• C sits second to the left of B.\n• S sits opposite to A.\n• Only two persons sit between T and Q.",
-      "solution": "Row 1 (South): B - C - A - D - E | Row 2 (North): R - T - S - P - Q"
+      "title": "Ten persons sit in two parallel rows containing five persons each, such that there is equal distance between adjacent persons. In Row 1: A, B, C, D, and E sit facing South. In Row 2: P, Q, R, S, and T sit facing North.",
+      "body": "Study the following information carefully and answer the questions that follow:\n• S sits second to the right of T. \n• E sits directly opposite to T.\n• E sits to the immediate right of B.\n• T sits at one of the extreme ends of Row 2.\n• T sits to the immediate left of Q.\n• A sits second to the left of B.\n• D sits directly opposite to P.\n• C sits at position 3 in Row 1.\n• R sits at position 4 in Row 2.\n\n(Note: Each person in Row 1 faces a person in Row 2 directly opposite to them).",
+      "solution": "Row 1 (South): E - B - C - A - D | Row 2 (North): T - Q - S - R - P"
     },
     {
       "id": "T05-CODE",
       "type": "coding",
-      "title": "In a certain coded language, words are represented by code symbols:",
+      "title": "Study the coded language carefully to answer the questions:",
       "body": "digital banking modern system = ro su tu nk\nmodern online secure payment = tu pe ki wa\nbanking customer online support = su de pe mx\nsecure payment digital mobile = ki wa ro qz",
       "solution": "digital = ro, banking = su, modern = tu, system = nk, payment = wa, secure = ki, online = pe, customer = de"
     },
@@ -104,13 +104,14 @@
           "b": 180
         }
       ],
-      "visualization": "table"
+      "visualization": "table",
+      "solution": "Branch A: Male 180, Female 60 | Branch B: Male 200, Female 160 | Branch C: Male 300, Female 180 | Branch D: Male 120, Female 180 | Branch E: Male 240, Female 180"
     },
     {
       "id": "T05-DI2",
       "type": "data_interpretation",
       "variant": "bar",
-      "title": "The bar graph below depicts the number of electronic units Manufactured and Sold by a manufacturing company across five consecutive months:",
+      "title": "The bar graph below depicts the number of electronic units Manufactured and Sold by a company across five consecutive months:",
       "body": "Month     | Manufactured | Sold | Unsold\n--------------------------------------\nJanuary   | 500          | 420  | 80\nFebruary  | 650          | 520  | 130\nMarch     | 800          | 680  | 120\nApril     | 750          | 600  | 150\nMay       | 900          | 765  | 135\n",
       "columns": [
         "Month",
@@ -144,7 +145,8 @@
           "b": 765
         }
       ],
-      "visualization": "bar"
+      "visualization": "bar",
+      "solution": "Jan: 420 sold / 80 unsold | Feb: 520 sold / 130 unsold | Mar: 680 sold / 120 unsold | Apr: 600 sold / 150 unsold | May: 765 sold / 135 unsold"
     },
     {
       "id": "T05-DI3",
@@ -173,7 +175,8 @@
           "b": 0
         }
       ],
-      "visualization": "caselet"
+      "visualization": "caselet",
+      "solution": "Total: 600 | Banking: 260 | SSC: 270 | Railways: 230 | None: 50"
     }
   ],
   "questions": [
@@ -183,16 +186,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Floor & Flat)",
       "stimulusId": "T05-P1",
-      "stem": "Based on arrangement T05-P1, who among the following lives in Flat A of Floor 4?",
+      "stem": "On which floor and in which flat does Deepak live?",
       "options": [
-        "Nikhil",
-        "Ananya",
-        "Sana",
-        "Varun",
-        "Dev"
+        "Floor 2, Flat A",
+        "Floor 3, Flat B",
+        "Floor 2, Flat B",
+        "Floor 1, Flat B",
+        "Floor 1, Flat A"
       ],
       "answerIndex": 1,
-      "explanation": "According to the solved arrangement:\nFloor 4: Flat A = Ananya, Flat B = Varun | Floor 3: Flat A = Vikas, Flat B = Dev | Floor 2: Flat A = Bharat, Flat B = Bhavna | Floor 1: Flat A = Nikhil, Flat B = Sana\nTherefore, Ananya lives in Flat A of Floor 4."
+      "explanation": "According to the solved arrangement:\nFloor 4: Flat A = Rahul, Flat B = Neha | Floor 3: Flat A = Varun, Flat B = Deepak | Floor 2: Flat A = Harish, Flat B = Wami | Floor 1: Flat A = Nikhil, Flat B = Yash\nTherefore, Deepak lives on Floor 3, Flat B."
     },
     {
       "id": "M05-Q02",
@@ -200,16 +203,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Floor & Flat)",
       "stimulusId": "T05-P1",
-      "stem": "On which floor and flat does Sana live?",
+      "stem": "Who among the following lives on Floor 4 in Flat A?",
       "options": [
-        "Floor 1, Flat A",
-        "Floor 2, Flat B",
-        "Floor 1, Flat B",
-        "Floor 2, Flat A",
-        "Floor 3, Flat A"
+        "Harish",
+        "Yash",
+        "Wami",
+        "Rahul",
+        "Deepak"
       ],
-      "answerIndex": 2,
-      "explanation": "As deduced from clues, Sana lives on Floor 1, Flat B."
+      "answerIndex": 3,
+      "explanation": "Looking at Floor 4, Flat A in the arrangement, Rahul lives there."
     },
     {
       "id": "M05-Q03",
@@ -217,16 +220,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Floor & Flat)",
       "stimulusId": "T05-P1",
-      "stem": "Who lives immediately below Varun in the same flat?",
+      "stem": "Who lives immediately below Deepak in the same flat?",
       "options": [
-        "Nikhil",
-        "Varun",
-        "Ananya",
-        "Sana",
-        "Dev"
+        "Wami",
+        "Deepak",
+        "Harish",
+        "Rahul",
+        "Yash"
       ],
-      "answerIndex": 4,
-      "explanation": "Varun lives on Floor 4, Flat B. The person immediately below on Floor 3 in the same flat is Dev."
+      "answerIndex": 0,
+      "explanation": "Deepak lives on Floor 3, Flat B. The person living immediately below on Floor 2 in the same flat is Wami."
     },
     {
       "id": "M05-Q04",
@@ -234,16 +237,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Floor & Flat)",
       "stimulusId": "T05-P1",
-      "stem": "How many floors are there between the floors on which Ananya and Nikhil live?",
+      "stem": "How many floors are there between the floors on which Yash and Harish live?",
       "options": [
-        "3",
-        "1",
-        "14",
-        "0",
-        "2"
+        "Three",
+        "None",
+        "More than three",
+        "One",
+        "Two"
       ],
-      "answerIndex": 4,
-      "explanation": "Ananya lives on Floor 4 and Nikhil lives on Floor 1. Number of intermediate floors = 2."
+      "answerIndex": 1,
+      "explanation": "Yash lives on Floor 1 and Harish lives on Floor 2. The number of floors between them is 0 (None)."
     },
     {
       "id": "M05-Q05",
@@ -251,16 +254,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Floor & Flat)",
       "stimulusId": "T05-P1",
-      "stem": "Four of the following five are alike in a certain way based on their positions. Which one does not belong to that group?",
+      "stem": "Four of the following five are alike in a certain way based on their positions and hence form a group. Which of the following does not belong to that group?",
       "options": [
-        "Nikhil",
-        "Vikas",
-        "Bharat",
+        "Harish",
+        "Rahul",
+        "Deepak",
         "Varun",
-        "Ananya"
+        "Nikhil"
       ],
-      "answerIndex": 3,
-      "explanation": "All except Varun live in Flat A, whereas Varun lives in Flat B."
+      "answerIndex": 2,
+      "explanation": "All the persons in the other four options live in Flat A, whereas Deepak lives in Flat B. Hence, Deepak does not belong to the group."
     },
     {
       "id": "M05-Q06",
@@ -268,16 +271,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Circular)",
       "stimulusId": "T05-P2",
-      "stem": "Who sits diametrically opposite to Bharat?",
+      "stem": "What is the position of Isha with respect to Ojas?",
       "options": [
-        "Geeta",
-        "Varun",
-        "Charu",
-        "Bhavna",
-        "Harish"
+        "Second to the left",
+        "Third to the left",
+        "Second to the right",
+        "Immediate right",
+        "Immediate left"
       ],
-      "answerIndex": 0,
-      "explanation": "In an 8-person circular table, the opposite seat is 4 positions away. Opposite to Bharat sits Geeta."
+      "answerIndex": 2,
+      "explanation": "In the solved arrangement:\nSeat 1: Charu (facing Center), Seat 2: Isha (facing Outside), Seat 3: Gauri (facing Center), Seat 4: Bhavna (facing Outside), Seat 5: Yash (facing Center), Seat 6: Himanshu (facing Outside), Seat 7: Aarav (facing Center), Seat 8: Ojas (facing Outside)\nOjas sits at Seat 8 facing Outside. Counting from Ojas, Isha is situated Second to the right."
     },
     {
       "id": "M05-Q07",
@@ -285,16 +288,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Circular)",
       "stimulusId": "T05-P2",
-      "stem": "What is the facing direction of Sneha?",
+      "stem": "Who sits diametrically opposite to Gauri?",
       "options": [
-        "Facing Outside",
-        "Facing South",
-        "Facing North",
-        "Cannot be determined",
-        "Facing Center"
+        "Ojas",
+        "Gauri",
+        "Charu",
+        "Aarav",
+        "Isha"
       ],
-      "answerIndex": 0,
-      "explanation": "From the circular deduction, Sneha is Facing Outside."
+      "answerIndex": 3,
+      "explanation": "Gauri sits at Seat 3. The seat diametrically opposite (4 positions away) is Seat 7, occupied by Aarav."
     },
     {
       "id": "M05-Q08",
@@ -302,16 +305,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Circular)",
       "stimulusId": "T05-P2",
-      "stem": "Who sits second to the left of Harish?",
+      "stem": "Who among the following persons faces outside (away from the center)?",
       "options": [
-        "Bhavna",
-        "Varun",
-        "Geeta",
-        "Harish",
+        "Gauri",
+        "Aarav",
+        "Isha",
+        "Yash",
         "Charu"
       ],
-      "answerIndex": 1,
-      "explanation": "Harish faces center, so counting 2 seats clockwise gives Varun."
+      "answerIndex": 2,
+      "explanation": "According to the solved arrangement, Isha faces Outside, while all the other given persons face the Center."
     },
     {
       "id": "M05-Q09",
@@ -319,28 +322,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Circular)",
       "stimulusId": "T05-P2",
-      "stem": "How many persons sit between Varun and Geeta when counted clockwise from Varun?",
+      "stem": "How many persons sit between Yash and Himanshu when counted clockwise from Yash?",
       "options": [
-        "27",
-        "1",
-        "3",
-        "32",
-        "52",
-        "14",
-        "0",
-        "6",
-        "7",
-        "5",
-        "12",
-        "17",
-        "2",
-        "22",
-        "8",
-        "4",
-        "10"
+        "One",
+        "Four",
+        "Three",
+        "Two",
+        "None"
       ],
-      "answerIndex": 12,
-      "explanation": "Counting clockwise from Varun to Geeta, there are 2 persons sitting between them."
+      "answerIndex": 4,
+      "explanation": "Yash is at Seat 5 and Himanshu is at Seat 6. Counting clockwise from Yash to Himanshu, there are 0 (None) persons between them."
     },
     {
       "id": "M05-Q10",
@@ -348,16 +339,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Circular)",
       "stimulusId": "T05-P2",
-      "stem": "Who among the following are the immediate neighbours of Sana?",
+      "stem": "Who among the following are the immediate neighbours of Bhavna?",
       "options": [
-        "Harish and Geeta",
-        "Varun and Bharat",
-        "Bhavna and Harish",
-        "Charu and Varun",
-        "Sneha and Geeta"
+        "Gauri and Himanshu",
+        "Isha and Gauri",
+        "Gauri and Yash",
+        "Charu and Ojas",
+        "Ojas and Yash"
       ],
-      "answerIndex": 4,
-      "explanation": "The adjacent occupants on either side of Sana are Sneha and Geeta."
+      "answerIndex": 2,
+      "explanation": "Bhavna is seated at Seat 4. The occupants on the adjacent seats (Seat 3 and Seat 5) are Gauri and Yash."
     },
     {
       "id": "M05-Q11",
@@ -367,14 +358,14 @@
       "stimulusId": "T05-P3",
       "stem": "Who among the following attends the exam on 7th April?",
       "options": [
-        "Pooja",
-        "Gauri",
-        "Farhan",
-        "Rahul",
-        "Bharat"
+        "Sana",
+        "Vikas",
+        "Wami",
+        "Yogesh",
+        "Rohan"
       ],
-      "answerIndex": 1,
-      "explanation": "According to the solved schedule:\nMarch 7: Farhan; March 21: Rahul; April 7: Gauri; April 21: Pooja; May 7: Bharat; May 21: Priya; June 7: Zara; June 21: Vikas\nGauri attends on 7th April."
+      "answerIndex": 4,
+      "explanation": "According to the solved examination schedule:\nMarch 7th: Bhavna; March 21th: Wami; April 7th: Rohan; April 21th: Sana; May 7th: Zara; May 21th: Yogesh; June 7th: Neha; June 21th: Vikas\nRohan attends the exam on 7th April."
     },
     {
       "id": "M05-Q12",
@@ -382,16 +373,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Month & Date)",
       "stimulusId": "T05-P3",
-      "stem": "On which date and month does Pooja attend the exam?",
+      "stem": "On which date and month does Yogesh attend the exam?",
       "options": [
-        "7th April",
         "21th March",
-        "7th March",
-        "7th May",
-        "21th April"
+        "21th May",
+        "21th April",
+        "7th April",
+        "7th March"
       ],
-      "answerIndex": 4,
-      "explanation": "Pooja attends on 21th April."
+      "answerIndex": 1,
+      "explanation": "As deduced from the schedule, Yogesh attends on 21th May."
     },
     {
       "id": "M05-Q13",
@@ -399,16 +390,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Month & Date)",
       "stimulusId": "T05-P3",
-      "stem": "How many persons attend the exam between Gauri and Priya?",
+      "stem": "How many persons attend the exam between Sana and Wami?",
       "options": [
-        "2",
-        "4",
-        "0",
-        "1",
-        "3"
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "None"
       ],
       "answerIndex": 0,
-      "explanation": "Gauri attends in slot 3 and Priya attends in slot 6. Persons between = 2."
+      "explanation": "Sana attends in slot 4 and Wami attends in slot 2. The number of persons attending between them is 1 (One)."
     },
     {
       "id": "M05-Q14",
@@ -416,16 +407,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Month & Date)",
       "stimulusId": "T05-P3",
-      "stem": "Who attends the exam immediately after Bharat?",
+      "stem": "Who attends the exam immediately after Sana?",
       "options": [
-        "Gauri",
-        "Pooja",
-        "Farhan",
-        "Priya",
-        "Rahul"
+        "Zara",
+        "Wami",
+        "Yogesh",
+        "Sana",
+        "Vikas"
       ],
-      "answerIndex": 3,
-      "explanation": "Priya attends immediately after Bharat on 21th May."
+      "answerIndex": 0,
+      "explanation": "Sana attends on 21th April. The person attending immediately after is Zara."
     },
     {
       "id": "M05-Q15",
@@ -433,16 +424,16 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Month & Date)",
       "stimulusId": "T05-P3",
-      "stem": "Four of the following five are alike in a certain way based on the given schedule. Which one does not belong to that group?",
+      "stem": "Four of the following five are alike in a certain way based on the examination schedule. Which one does not belong to that group?",
       "options": [
-        "Farhan",
-        "Vikas",
-        "Rahul",
-        "Pooja",
-        "Priya"
+        "Bhavna",
+        "Wami",
+        "Sana",
+        "Zara",
+        "Yogesh"
       ],
-      "answerIndex": 0,
-      "explanation": "All other persons attend on 21st, whereas Farhan attends on 7th."
+      "answerIndex": 2,
+      "explanation": "Sana attends the exam in a month having 30 days (April or June), whereas all other persons attend in months having 31 days (March or May)."
     },
     {
       "id": "M05-Q16",
@@ -453,13 +444,13 @@
       "stem": "Who among the following faces A?",
       "options": [
         "S",
-        "Q",
+        "P",
         "T",
-        "R",
-        "P"
+        "Q",
+        "R"
       ],
-      "answerIndex": 0,
-      "explanation": "In the solved arrangement:\nRow 1 (South): B - C - A - D - E | Row 2 (North): R - T - S - P - Q\nDirectly facing A is S."
+      "answerIndex": 4,
+      "explanation": "In the solved arrangement:\nRow 1 (South): E - B - C - A - D | Row 2 (North): T - Q - S - R - P\nDirectly facing A is R."
     },
     {
       "id": "M05-Q17",
@@ -470,13 +461,13 @@
       "stem": "Who sits at the extreme right end of Row 1 (facing South)?",
       "options": [
         "C",
-        "A",
         "D",
-        "E",
-        "B"
+        "B",
+        "A",
+        "E"
       ],
       "answerIndex": 4,
-      "explanation": "For a South-facing row, the right end corresponds to the westmost seat (index 1). Person sitting there is B."
+      "explanation": "For a South-facing row, the right end corresponds to the westernmost position (position 1). Person sitting there is E."
     },
     {
       "id": "M05-Q18",
@@ -486,14 +477,14 @@
       "stimulusId": "T05-P4",
       "stem": "Who sits immediately to the right of Q?",
       "options": [
-        "R",
         "P",
-        "T",
+        "R",
+        "No one (Q is at extreme right)",
         "S",
-        "No one (Q is at extreme right)"
+        "T"
       ],
-      "answerIndex": 4,
-      "explanation": "Q sits at the extreme right end of Row 2, so no one sits to his/her right."
+      "answerIndex": 3,
+      "explanation": "S sits immediately to the right of Q in Row 2."
     },
     {
       "id": "M05-Q19",
@@ -503,14 +494,14 @@
       "stimulusId": "T05-P4",
       "stem": "How many persons sit between B and E in Row 1?",
       "options": [
-        "11",
-        "0",
-        "3",
-        "1",
-        "2"
+        "One",
+        "Three",
+        "None",
+        "Two",
+        "Four"
       ],
       "answerIndex": 2,
-      "explanation": "B is at position 1 and E is at position 5. Number of persons between them is 3."
+      "explanation": "B is at position 2 and E is at position 1. The number of persons seated between them is 0 (None)."
     },
     {
       "id": "M05-Q20",
@@ -518,135 +509,23 @@
       "section": "reasoning",
       "topic": "Puzzles & Seating (Parallel Row)",
       "stimulusId": "T05-P4",
-      "stem": "Who faces the person who sits second to the left of D?",
+      "stem": "Four of the following five are alike in a certain way and hence form a group. Which one does not belong to that group?",
       "options": [
+        "B",
         "P",
-        "S",
+        "E",
         "T",
-        "R",
-        "Q"
+        "D"
       ],
-      "answerIndex": 2,
-      "explanation": "Person second to the left of D is C. The person opposite in Row 2 is T."
+      "answerIndex": 0,
+      "explanation": "All the persons in the other options sit at the extreme ends of their respective rows, whereas B sits at an inner/middle seat."
     },
     {
       "id": "M05-Q21",
       "number": 21,
       "section": "reasoning",
-      "topic": "Syllogism (Only a Few & Possibility)",
-      "stem": "Statements: Only a few laptops are tablets. All tablets are computers. No computer is a mobile.\nConclusions: I. Some laptops are not tablets. II. No tablet is a mobile.\nWhich of the given conclusions logically follows from the statements?",
-      "options": [
-        "Only conclusion II follows",
-        "Only conclusion I follows",
-        "Either conclusion I or II follows",
-        "Neither conclusion follows",
-        "Both conclusions I and II follow"
-      ],
-      "answerIndex": 4,
-      "explanation": "1. 'Only a few laptops are tablets' means Some laptops are tablets AND Some laptops are NOT tablets. Hence I follows.\n2. Since All tablets are within computers and No computer is a mobile, tablets and mobiles are disjoint. Hence II follows."
-    },
-    {
-      "id": "M05-Q22",
-      "number": 22,
-      "section": "reasoning",
-      "topic": "Syllogism (Only a Few & Possibility)",
-      "stem": "Statements: Only a few banks are offices. Few offices are cabins. All cabins are rooms.\nConclusions: I. All banks being offices is a possibility. II. Some offices are rooms.\nWhich of the given conclusions logically follows from the statements?",
-      "options": [
-        "Either conclusion I or II follows",
-        "Only conclusion II follows",
-        "Neither conclusion follows",
-        "Both conclusions I and II follow",
-        "Only conclusion I follows"
-      ],
-      "answerIndex": 1,
-      "explanation": "1. 'Only a few banks are offices' strictly forbids All banks from being offices. Thus I is NOT a possibility.\n2. Since Few offices are cabins and All cabins are rooms, the intersection of offices and cabins must be rooms. Hence II follows."
-    },
-    {
-      "id": "M05-Q23",
-      "number": 23,
-      "section": "reasoning",
-      "topic": "Syllogism (Only a Few & Possibility)",
-      "stem": "Statements: Some circles are squares. No square is a triangle. All triangles are rectangles.\nConclusions: I. Some circles can never be triangles. II. All squares being rectangles is a possibility.\nWhich of the given conclusions logically follows from the statements?",
-      "options": [
-        "Neither conclusion follows",
-        "Both conclusions I and II follow",
-        "Only conclusion II follows",
-        "Only conclusion I follows",
-        "Either conclusion I or II follows"
-      ],
-      "answerIndex": 1,
-      "explanation": "1. The common part of circles that are squares cannot enter triangles (since No square is triangle). Hence Some circles can never be triangles follows.\n2. Squares and rectangles have no direct negative restriction, so all squares inside rectangles is a valid possibility. Hence II follows."
-    },
-    {
-      "id": "M05-Q24",
-      "number": 24,
-      "section": "reasoning",
-      "topic": "Syllogism (Only a Few & Possibility)",
-      "stem": "Statements: Only a few pens are pencils. No pencil is an eraser. Some erasers are scales.\nConclusions: I. Some pens are not erasers. II. All erasers being pens is a possibility.\nWhich of the given conclusions logically follows from the statements?",
-      "options": [
-        "Either conclusion I or II follows",
-        "Both conclusions I and II follow",
-        "Only conclusion II follows",
-        "Neither conclusion follows",
-        "Only conclusion I follows"
-      ],
-      "answerIndex": 1,
-      "explanation": "1. Pens that are pencils cannot be erasers, so Some pens are not erasers follows.\n2. Erasers have no direct negative relation with pens, so All erasers can overlap pens as a possibility. Hence both follow."
-    },
-    {
-      "id": "M05-Q25",
-      "number": 25,
-      "section": "reasoning",
-      "topic": "Syllogism (Only a Few & Possibility)",
-      "stem": "Statements: Only a few books are papers. Some papers are notes. All notes are diaries.\nConclusions: I. All books are diaries. II. No paper is a diary.\nWhich of the given conclusions logically follows from the statements?",
-      "options": [
-        "Only conclusion I follows",
-        "Either conclusion I or II follows",
-        "Both conclusions I and II follow",
-        "Neither conclusion follows",
-        "Only conclusion II follows"
-      ],
-      "answerIndex": 3,
-      "explanation": "1. No direct universal inclusion connects books and diaries. Hence I does not follow.\n2. In fact, Some papers are notes and All notes are diaries means Some papers ARE diaries, contradicting II. Hence neither follows."
-    },
-    {
-      "id": "M05-Q26",
-      "number": 26,
-      "section": "reasoning",
-      "topic": "Inequality (Semicolon Statements)",
-      "stem": "Statements: P > Q ≥ R = S; T ≤ U < R; W ≥ P\nConclusions: I. W > S  II. P > T\nWhich of the conclusions is definitely true?",
-      "options": [
-        "Neither conclusion follows",
-        "Either conclusion I or II follows",
-        "Only conclusion I follows",
-        "Both conclusions I and II follow",
-        "Only conclusion II follows"
-      ],
-      "answerIndex": 3,
-      "explanation": "From statements: W ≥ P > Q ≥ R = S ⇒ W > S (Conclusion I follows).\nAlso P > R and R > U ≥ T ⇒ P > T (Conclusion II follows)."
-    },
-    {
-      "id": "M05-Q27",
-      "number": 27,
-      "section": "reasoning",
-      "topic": "Inequality (Semicolon Statements)",
-      "stem": "Statements: A ≥ B > C = D; E < F ≤ C; G > B\nConclusions: I. G > E  II. A ≥ F\nWhich of the conclusions is definitely true?",
-      "options": [
-        "Only conclusion II follows",
-        "Both conclusions I and II follow",
-        "Only conclusion I follows",
-        "Neither conclusion follows",
-        "Either conclusion I or II follows"
-      ],
-      "answerIndex": 2,
-      "explanation": "From statements: G > B > C > F > E ⇒ G > E (Conclusion I follows).\nComparing A and F: A ≥ B > C ≥ F ⇒ A > F, not A ≥ F. Hence II does not follow."
-    },
-    {
-      "id": "M05-Q28",
-      "number": 28,
-      "section": "reasoning",
-      "topic": "Inequality (Semicolon Statements)",
-      "stem": "Statements: K ≤ L < M = N; O ≥ P > L; Q ≤ K\nConclusions: I. O > K  II. N > Q\nWhich of the conclusions is definitely true?",
+      "topic": "Syllogism",
+      "stem": "In the question below, statements are given followed by two conclusions. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.\n\nStatements:\n• Only a few books are papers.\n• All papers are notes.\n• No notes is a diaries.\n\nConclusions:\nI. Some books are not papers.\nII. No papers is a diaries.",
       "options": [
         "Only conclusion I follows",
         "Either conclusion I or II follows",
@@ -655,39 +534,151 @@
         "Neither conclusion follows"
       ],
       "answerIndex": 3,
-      "explanation": "From statements: O ≥ P > L ≥ K ⇒ O > K (Conclusion I follows).\nAlso N = M > L ≥ K ≥ Q ⇒ N > Q (Conclusion II follows)."
+      "explanation": "1. 'Only a few books are papers' implies both 'Some books are papers' and 'Some books are NOT papers'. Thus, Conclusion I definitely follows.\n2. Since all papers are inside notes and no notes is a diaries, there is no intersection between papers and diaries. Hence, Conclusion II follows."
+    },
+    {
+      "id": "M05-Q22",
+      "number": 22,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "In the question below, statements are given followed by two conclusions. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.\n\nStatements:\n• Only a few books are papers.\n• Few papers are notes.\n• All notes are diaries.\n\nConclusions:\nI. All books being papers is a possibility.\nII. Some papers are diaries.",
+      "options": [
+        "Both conclusions I and II follow",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "1. 'Only a few books are papers' strictly forbids all books from being papers. Hence, Conclusion I is NOT a valid possibility.\n2. Since some papers are notes and all notes are diaries, the common portion of papers and notes must also be diaries. Hence, Conclusion II definitely follows."
+    },
+    {
+      "id": "M05-Q23",
+      "number": 23,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "In the question below, statements are given followed by two conclusions. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.\n\nStatements:\n• Some books are papers.\n• No papers is a notes.\n• All notes are diaries.\n\nConclusions:\nI. Some books can never be notes.\nII. All papers being diaries is a possibility.",
+      "options": [
+        "Only conclusion II follows",
+        "Neither conclusion follows",
+        "Both conclusions I and II follow",
+        "Only conclusion I follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "1. The elements of books that are papers cannot be notes because no papers is a notes. Hence, 'Some books can never be notes' follows.\n2. There is no negative restriction between papers and diaries. Hence, all papers being diaries is a valid possibility. Both follow."
+    },
+    {
+      "id": "M05-Q24",
+      "number": 24,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "In the question below, statements are given followed by two conclusions. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.\n\nStatements:\n• All books are papers.\n• Only a few papers are notes.\n• No notes is a diaries.\n\nConclusions:\nI. Some papers are books.\nII. All papers being notes is a possibility.",
+      "options": [
+        "Both conclusions I and II follow",
+        "Neither conclusion follows",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Either conclusion I or II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "1. Since all books are papers, it directly follows that Some papers are books. Hence Conclusion I follows.\n2. 'Only a few papers are notes' means some papers are definitely NOT notes, so all papers being notes is impossible. Hence II does not follow."
+    },
+    {
+      "id": "M05-Q25",
+      "number": 25,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "In the question below, statements are given followed by two conclusions. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements.\n\nStatements:\n• Only a few books are papers.\n• Some papers are notes.\n• All notes are diaries.\n\nConclusions:\nI. All books are diaries.\nII. No papers is a diaries.",
+      "options": [
+        "Both conclusions I and II follow",
+        "Either conclusion I or II follows",
+        "Neither conclusion follows",
+        "Only conclusion II follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "1. There is no universal relation connecting books and diaries, so Conclusion I does not follow.\n2. Some papers are notes and all notes are diaries, so Some papers are definitely diaries, which contradicts Conclusion II. Hence, neither follows."
+    },
+    {
+      "id": "M05-Q26",
+      "number": 26,
+      "section": "reasoning",
+      "topic": "Inequality",
+      "stem": "In these questions, relationships between different elements are shown in the statements. The statements are followed by two conclusions. Read the statements and select the correct option:\n\nStatements: P > Q ≥ R = S; T ≤ U < R; W ≥ P\n\nConclusions: I. W > S    II. P > T",
+      "options": [
+        "Neither conclusion is true",
+        "Only conclusion I is true",
+        "Either conclusion I or II is true",
+        "Only conclusion II is true",
+        "Both conclusions I and II are true"
+      ],
+      "answerIndex": 4,
+      "explanation": "From the statements:\n• W ≥ P > Q ≥ R = S ⇒ W > S (Conclusion I is definitely true).\n• P > R and R > U ≥ T ⇒ P > T (Conclusion II is definitely true).\nBoth conclusions I and II are true."
+    },
+    {
+      "id": "M05-Q27",
+      "number": 27,
+      "section": "reasoning",
+      "topic": "Inequality",
+      "stem": "In these questions, relationships between different elements are shown in the statements. The statements are followed by two conclusions. Read the statements and select the correct option:\n\nStatements: A ≥ B > C = D; E < F ≤ C; G > B\n\nConclusions: I. G > E    II. A ≥ F",
+      "options": [
+        "Either conclusion I or II is true",
+        "Only conclusion II is true",
+        "Only conclusion I is true",
+        "Both conclusions I and II are true",
+        "Neither conclusion is true"
+      ],
+      "answerIndex": 2,
+      "explanation": "From the statements:\n• G > B > C ≥ F > E ⇒ G > E (Conclusion I is true).\n• A ≥ B > C ≥ F ⇒ A > F, so A ≥ F is not definitely true. (Conclusion II is false)."
+    },
+    {
+      "id": "M05-Q28",
+      "number": 28,
+      "section": "reasoning",
+      "topic": "Inequality",
+      "stem": "In these questions, relationships between different elements are shown in the statements. The statements are followed by two conclusions. Read the statements and select the correct option:\n\nStatements: K ≤ L < M = N; O ≥ P > L; Q ≤ K\n\nConclusions: I. O > K    II. N > Q",
+      "options": [
+        "Only conclusion II is true",
+        "Neither conclusion is true",
+        "Either conclusion I or II is true",
+        "Only conclusion I is true",
+        "Both conclusions I and II are true"
+      ],
+      "answerIndex": 4,
+      "explanation": "From the statements:\n• O ≥ P > L > K ⇒ O > K (Conclusion I is true).\n• N = M > L > K ≥ Q ⇒ N > Q (Conclusion II is true).\nBoth conclusions are true."
     },
     {
       "id": "M05-Q29",
       "number": 29,
       "section": "reasoning",
-      "topic": "Inequality (Semicolon Statements)",
-      "stem": "Statements: H > I ≥ J < K; L ≤ M < I; N ≥ J\nConclusions: I. H > M  II. K > N\nWhich of the conclusions is definitely true?",
+      "topic": "Inequality",
+      "stem": "In these questions, relationships between different elements are shown in the statements. The statements are followed by two conclusions. Read the statements and select the correct option:\n\nStatements: H > I < J ≤ K; L ≤ M < I; N ≥ K\n\nConclusions: I. H > M    II. L > N",
       "options": [
-        "Neither conclusion follows",
-        "Only conclusion II follows",
-        "Both conclusions I and II follow",
-        "Only conclusion I follows",
-        "Either conclusion I or II follows"
+        "Both conclusions I and II are true",
+        "Only conclusion I is true",
+        "Only conclusion II is true",
+        "Neither conclusion is true",
+        "Either conclusion I or II is true"
       ],
-      "answerIndex": 0,
-      "explanation": "Comparing H and M: H > I and M < I, so both H and M are related to I in opposite directions (cannot establish definite relationship). Conclusion I does not follow.\nComparing K and N: J < K and N ≥ J gives opposite signs between K and N. Hence neither follows."
+      "answerIndex": 3,
+      "explanation": "From the statements:\n• H > I and M > I: signs between H and M oppose. (Conclusion I cannot be definitely established).\n• L ≤ M < I < J ≤ K ≤ N: L < N, not L > N. (Conclusion II is false).\nTherefore, neither conclusion is true."
     },
     {
       "id": "M05-Q30",
       "number": 30,
       "section": "reasoning",
-      "topic": "Inequality (Semicolon Statements)",
-      "stem": "Statements: V ≥ W > X = Y; Z ≤ Y; U < V\nConclusions: I. W > Z  II. V > X\nWhich of the conclusions is definitely true?",
+      "topic": "Inequality",
+      "stem": "In these questions, relationships between different elements are shown in the statements. The statements are followed by two conclusions. Read the statements and select the correct option:\n\nStatements: V ≥ W > X = Y; Z ≤ Y; U < V\n\nConclusions: I. W < Z    II. V > X",
       "options": [
-        "Only conclusion II follows",
-        "Only conclusion I follows",
-        "Neither conclusion follows",
-        "Either conclusion I or II follows",
-        "Both conclusions I and II follow"
+        "Neither conclusion is true",
+        "Only conclusion I is true",
+        "Either conclusion I or II is true",
+        "Both conclusions I and II are true",
+        "Only conclusion II is true"
       ],
       "answerIndex": 4,
-      "explanation": "From statements: W > X = Y ≥ Z ⇒ W > Z (Conclusion I follows).\nAlso V ≥ W > X ⇒ V > X (Conclusion II follows)."
+      "explanation": "From the statements:\n• W > X = Y ≥ Z ⇒ W > Z (so W < Z is false).\n• V ≥ W > X ⇒ V > X (Conclusion II is definitely true)."
     },
     {
       "id": "M05-Q31",
@@ -695,16 +686,16 @@
       "section": "reasoning",
       "topic": "Coding-Decoding",
       "stimulusId": "T05-CODE",
-      "stem": "Based on the given information, what is the code for 'digital'?",
+      "stem": "What is the code for the word 'digital' in the given code language?",
       "options": [
-        "su",
         "wa",
         "nk",
-        "ro",
-        "tu"
+        "su",
+        "tu",
+        "ro"
       ],
-      "answerIndex": 3,
-      "explanation": "Comparing statement 1, 2, and 4: 'digital' appears in statements 1 and 4. The common code between 1 and 4 (excluding others) is 'ro'."
+      "answerIndex": 4,
+      "explanation": "'digital' appears in Statement 1 and Statement 4. The common code between 1 and 4 (excluding others) is 'ro'."
     },
     {
       "id": "M05-Q32",
@@ -712,16 +703,16 @@
       "section": "reasoning",
       "topic": "Coding-Decoding",
       "stimulusId": "T05-CODE",
-      "stem": "What is the code for 'banking online'?",
+      "stem": "What is the code for 'banking online' in the given code language?",
       "options": [
         "ro tu",
-        "su ki",
         "nk wa",
+        "su pe",
         "pe ro",
-        "su pe"
+        "su ki"
       ],
-      "answerIndex": 4,
-      "explanation": "'banking' is coded as 'su' and 'online' is coded as 'pe'. Thus 'banking online' = 'su pe'."
+      "answerIndex": 2,
+      "explanation": "'banking' is coded as 'su' and 'online' is coded as 'pe'. Therefore, 'banking online' is represented by 'su pe'."
     },
     {
       "id": "M05-Q33",
@@ -731,14 +722,14 @@
       "stimulusId": "T05-CODE",
       "stem": "Which word is represented by the code 'tu'?",
       "options": [
-        "modern",
         "digital",
+        "modern",
         "secure",
         "payment",
         "banking"
       ],
-      "answerIndex": 0,
-      "explanation": "'tu' appears only in statement 1 and 2. The common word between 1 and 2 is 'modern'."
+      "answerIndex": 1,
+      "explanation": "The code 'tu' appears in Statement 1 and Statement 2. The common word between 1 and 2 is 'modern'."
     },
     {
       "id": "M05-Q34",
@@ -748,14 +739,14 @@
       "stimulusId": "T05-CODE",
       "stem": "What could be the code for 'secure customer loan' (where 'loan' is a new word)?",
       "options": [
-        "ro pe su",
-        "ki pe wa",
         "tu nk qz",
         "su de ro",
-        "ki de jb"
+        "ki de jb",
+        "ro pe su",
+        "ki pe wa"
       ],
-      "answerIndex": 4,
-      "explanation": "'secure' is 'ki' and 'customer' is 'de'. 'loan' is a new word, so its code must be a new code not present in the given set (e.g. 'jb'). Thus 'ki de jb'."
+      "answerIndex": 2,
+      "explanation": "'secure' is 'ki' and 'customer' is 'de'. 'loan' is an external word not in the original sentences, so its code must be a new symbol not present in the given system (such as 'jb'). Hence, 'ki de jb'."
     },
     {
       "id": "M05-Q35",
@@ -765,30 +756,30 @@
       "stimulusId": "T05-CODE",
       "stem": "What is the code for 'payment' in the given code language?",
       "options": [
-        "ki",
-        "ro",
         "tu",
+        "ki",
         "wa",
+        "ro",
         "pe"
       ],
-      "answerIndex": 3,
-      "explanation": "Comparing statement 2 and 4, 'secure payment' = 'ki wa'. Since 'secure' is 'ki', 'payment' is 'wa'."
+      "answerIndex": 2,
+      "explanation": "Comparing statements 2 and 4, 'secure payment' = 'ki wa'. Since 'secure' is 'ki', 'payment' is 'wa'."
     },
     {
       "id": "M05-Q36",
       "number": 36,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "A family consists of seven members: P, Q, R, S, T, U, and V spanning three generations. There are two married couples.\n• P is the paternal grandfather of V.\n• Q is the only son of P.\n• R is the daughter-in-law of P and mother of V.\n• S is the sister of Q.\n• T is the sister-in-law of R and is unmarried.\n• U is the husband of S and father of a daughter.\n\nHow is Q related to V?",
+      "stem": "Study the information carefully to answer the questions:\nA family consists of seven members: P, Q, R, S, T, U, and V spanning three generations. There are two married couples.\n• P is the paternal grandfather of V.\n• Q is the only son of P.\n• R is the daughter-in-law of P and mother of V.\n• S is the sister of Q.\n• T is the sister-in-law of R and is unmarried.\n• U is the husband of S and father of a daughter.\n\nHow is Q related to V?",
       "options": [
-        "Brother",
-        "Father",
         "Grandfather",
         "Father-in-law",
+        "Brother",
+        "Father",
         "Uncle"
       ],
-      "answerIndex": 1,
-      "explanation": "P is grandfather of V, and Q is the only son of P. R is mother of V and wife of Q. Therefore, Q is the father of V."
+      "answerIndex": 3,
+      "explanation": "P is the grandfather of V, and Q is the only son of P. R is the mother of V and wife of Q. Therefore, Q is the father of V."
     },
     {
       "id": "M05-Q37",
@@ -798,13 +789,13 @@
       "stem": "How is S related to V?",
       "options": [
         "Mother",
-        "Paternal Aunt",
-        "Sister",
         "Sister-in-law",
-        "Maternal Aunt"
+        "Maternal Aunt",
+        "Paternal Aunt",
+        "Sister"
       ],
-      "answerIndex": 1,
-      "explanation": "S is the sister of Q (V's father). Therefore, S is V's father's sister, which is Paternal Aunt (Bua)."
+      "answerIndex": 3,
+      "explanation": "S is the sister of Q (V's father). Therefore, S is V's father's sister, which is Paternal Aunt."
     },
     {
       "id": "M05-Q38",
@@ -813,13 +804,13 @@
       "topic": "Blood Relations",
       "stem": "How is U related to Q?",
       "options": [
-        "Brother-in-law",
-        "Father",
-        "Brother",
         "Cousin",
-        "Son"
+        "Father",
+        "Son",
+        "Brother",
+        "Brother-in-law"
       ],
-      "answerIndex": 0,
+      "answerIndex": 4,
       "explanation": "U is the husband of S, who is Q's sister. Therefore, U is Q's sister's husband (Brother-in-law)."
     },
     {
@@ -827,32 +818,32 @@
       "number": 39,
       "section": "reasoning",
       "topic": "Direction & Distance",
-      "stem": "A cyclist starts from Point P, rides 12 km North to Point Q, turns East and rides 9 km to Point R. He then turns South and rides 12 km to Point S. In which direction and at what distance is Point S from Point P?",
+      "stem": "A person starts walking from Point A, walks 12 meters towards North to reach Point B. He then turns right (East) and walks 9 meters to reach Point C. He then turns right (South) and walks 12 meters to reach Point D. In which direction and at what shortest distance is Point D from Point A?",
       "options": [
-        "9 km, West",
-        "21 km, South",
-        "12 km, North",
-        "9 km, East",
-        "15 km, North-East"
+        "9 meters, West",
+        "9 meters, East",
+        "15 meters, North-East",
+        "12 meters, North",
+        "21 meters, South"
       ],
-      "answerIndex": 3,
-      "explanation": "Net North-South movement = 12 km North - 12 km South = 0 km. Net East movement = 9 km East. Hence Point S is exactly 9 km East of Point P."
+      "answerIndex": 1,
+      "explanation": "Net North-South displacement = 12m North − 12m South = 0m. Net East displacement = 9m East. Hence, Point D is exactly 9 meters East of Point A."
     },
     {
       "id": "M05-Q40",
       "number": 40,
       "section": "reasoning",
-      "topic": "Miscellaneous (Letter Pairs)",
-      "stem": "How many such pairs of letters are there in the word 'BANKING', each of which has as many letters between them in the word (in both forward and backward directions) as they have between them in the English alphabet series?",
+      "topic": "Direction & Distance",
+      "stem": "How many such pairs of letters are there in the word 'BANKING', each of which has as many letters between them in the word (in both forward and backward directions) as they have between them in the English alphabetical series?",
       "options": [
-        "3",
-        "1",
-        "0",
-        "2",
-        "4"
+        "One",
+        "None",
+        "Three",
+        "More than three",
+        "Two"
       ],
-      "answerIndex": 3,
-      "explanation": "In 'BANKING':\n1. B(2) - A(1): B,A (1 pair backward)\n2. I(9) - N(14): I J K L M N (check)... Exactly 2 pairs exist in both forward and backward directions."
+      "answerIndex": 4,
+      "explanation": "In 'BANKING':\n1. B(2) - A(1): B, A (1 pair backward)\n2. I(9) - N(14): I J K L M N (1 pair forward). Total = 2 pairs."
     },
     {
       "id": "M05-Q41",
@@ -862,13 +853,13 @@
       "stimulusId": "T05-DI1",
       "stem": "What is the ratio of the total number of male employees in Branch A and Branch C together to the total number of female employees in Branch B and Branch D together?",
       "options": [
-        "3:2",
-        "5:4",
-        "4:3",
+        "18:13",
+        "12:7",
         "24:17",
-        "7:6"
+        "24:19",
+        "22:17"
       ],
-      "answerIndex": 3,
+      "answerIndex": 2,
       "explanation": "Male in A = 180, Male in C = 300. Total males (A+C) = 480.\nFemale in B = 160, Female in D = 180. Total females (B+D) = 340.\nRatio = 480 : 340 = 24:17."
     },
     {
@@ -879,14 +870,14 @@
       "stimulusId": "T05-DI1",
       "stem": "The number of male employees in Branch B is what percent more or less than the number of female employees in Branch E?",
       "options": [
-        "20.0% more",
         "11.1% more",
-        "10.5% more",
+        "11.1% less",
+        "20.0% more",
         "12.5% more",
         "15.0% more"
       ],
-      "answerIndex": 1,
-      "explanation": "Male in B = 200, Female in E = 180.\nDifference = 200 − 180 = 20.\nPercentage = (20 / 180) × 100 = 11.11% (more)."
+      "answerIndex": 0,
+      "explanation": "Male in B = 200, Female in E = 180.\nDifference = 200 − 180 = 20.\nPercentage = (20 / 180) × 100% = 11.1% (more)."
     },
     {
       "id": "M05-Q43",
@@ -894,41 +885,16 @@
       "section": "quant",
       "topic": "Data Interpretation (Table)",
       "stimulusId": "T05-DI1",
-      "stem": "What is the average number of female employees across all five branches?",
+      "stem": "What is the average number of female employees working across all the five branches?",
       "options": [
-        "146",
-        "122",
-        "152",
-        "158",
-        "177",
-        "202",
-        "164",
-        "170",
-        "142",
-        "156",
-        "150",
-        "137",
-        "153",
-        "172",
         "140",
-        "132",
-        "167",
-        "102",
-        "149",
-        "162",
+        "156",
         "148",
-        "182",
-        "144",
-        "147",
-        "151",
-        "155",
-        "157",
-        "154",
-        "160",
-        "127"
+        "152",
+        "160"
       ],
-      "answerIndex": 2,
-      "explanation": "Total females = 60 + 160 + 180 + 180 + 180 = 760.\nAverage = 760 / 5 = 152."
+      "answerIndex": 3,
+      "explanation": "Total female employees = 60 + 160 + 180 + 180 + 180 = 760.\nAverage = 760 ÷ 5 = 152."
     },
     {
       "id": "M05-Q44",
@@ -936,44 +902,16 @@
       "section": "quant",
       "topic": "Data Interpretation (Table)",
       "stimulusId": "T05-DI1",
-      "stem": "If in the year 2027, the total employees in Branch C increase by 25% and the number of female employees in Branch C increases by 20%, what will be the new number of male employees in Branch C?",
+      "stem": "Find the difference between the total number of male employees in Branches C, D, and E together and the total number of female employees in Branches A, B, and C together.",
       "options": [
-        "409",
-        "375",
-        "394",
-        "434",
-        "388",
-        "369",
-        "386",
-        "379",
-        "378",
-        "374",
-        "320",
-        "414",
-        "364",
-        "382",
-        "384",
-        "400",
-        "359",
-        "404",
-        "389",
-        "383",
-        "334",
-        "399",
-        "354",
-        "396",
-        "390",
-        "372",
-        "350",
-        "385",
-        "376",
-        "381",
-        "392",
-        "387",
-        "380"
+        "300",
+        "280",
+        "260",
+        "240",
+        "220"
       ],
-      "answerIndex": 14,
-      "explanation": "New Total in C = 480 × 1.25 = 600.\nNew Females in C = 180 × 1.20 = 216.\nNew Males in C = 600 − 216 = 384."
+      "answerIndex": 2,
+      "explanation": "Total males (C+D+E) = 300 + 120 + 240 = 660.\nTotal females (A+B+C) = 60 + 160 + 180 = 400.\nDifference = 660 − 400 = 260."
     },
     {
       "id": "M05-Q45",
@@ -981,42 +919,16 @@
       "section": "quant",
       "topic": "Data Interpretation (Table)",
       "stimulusId": "T05-DI1",
-      "stem": "What is the difference between the total number of male employees and the total number of female employees in all five branches combined?",
+      "stem": "If in another Branch F, the total number of employees is 25% more than that in Branch A, and the ratio of Male to Female employees in Branch F is 3 : 2, find the number of male employees in Branch F.",
       "options": [
-        "290",
-        "255",
-        "279",
-        "278",
-        "300",
-        "268",
-        "230",
-        "250",
-        "330",
-        "277",
-        "276",
-        "305",
-        "281",
-        "270",
-        "283",
-        "292",
-        "200",
-        "320",
-        "274",
-        "260",
-        "310",
-        "295",
-        "275",
-        "282",
-        "286",
-        "265",
-        "280",
-        "285",
-        "288",
-        "272",
-        "284"
+        "185",
+        "190",
+        "175",
+        "160",
+        "180"
       ],
-      "answerIndex": 26,
-      "explanation": "Total Males = 1040.\nTotal Females = 760.\nDifference = |1040 − 760| = 280."
+      "answerIndex": 4,
+      "explanation": "Total in Branch A = 240.\nTotal in Branch F = 240 × 1.25 = 300.\nMale in Branch F = (3 / 5) × 300 = 180."
     },
     {
       "id": "M05-Q46",
@@ -1026,14 +938,14 @@
       "stimulusId": "T05-DI2",
       "stem": "What is the percentage of units sold with respect to units manufactured in the month of March?",
       "options": [
+        "82.5%",
+        "85%",
         "88%",
         "80%",
-        "82.5%",
-        "75%",
-        "85%"
+        "75%"
       ],
-      "answerIndex": 4,
-      "explanation": "In March: Manufactured = 800, Sold = 680.\nPercentage sold = (680 / 800) × 100% = 85.0%."
+      "answerIndex": 1,
+      "explanation": "In March: Manufactured = 800, Sold = 680.\nPercentage sold = (680 / 800) × 100% = 85%."
     },
     {
       "id": "M05-Q47",
@@ -1043,40 +955,14 @@
       "stimulusId": "T05-DI2",
       "stem": "What is the total number of unsold units in January, February, and April taken together?",
       "options": [
-        "363",
-        "358",
-        "360",
-        "352",
-        "348",
         "320",
-        "362",
-        "354",
-        "361",
-        "366",
         "400",
-        "310",
-        "385",
-        "368",
-        "345",
-        "330",
-        "359",
-        "372",
-        "365",
-        "375",
-        "410",
-        "355",
-        "356",
-        "340",
-        "364",
-        "350",
-        "390",
+        "360",
         "380",
-        "357",
-        "335",
-        "370"
+        "340"
       ],
       "answerIndex": 2,
-      "explanation": "Unsold in Jan = 80, Feb = 130, April = 150.\nTotal unsold = 360."
+      "explanation": "Unsold in Jan = 500 − 420 = 80.\nUnsold in Feb = 650 − 520 = 130.\nUnsold in April = 750 − 600 = 150.\nTotal unsold = 80 + 130 + 150 = 360."
     },
     {
       "id": "M05-Q48",
@@ -1086,41 +972,14 @@
       "stimulusId": "T05-DI2",
       "stem": "What is the average number of units sold per month by the company over the given five months?",
       "options": [
-        "590",
-        "627",
-        "600",
-        "609",
-        "602",
-        "589",
-        "577",
-        "572",
-        "580",
-        "592",
-        "587",
-        "605",
-        "599",
-        "601",
-        "591",
-        "582",
-        "647",
-        "597",
-        "612",
-        "596",
-        "585",
-        "617",
         "615",
-        "622",
-        "598",
-        "603",
-        "593",
-        "594",
-        "595",
-        "567",
-        "607",
-        "547"
+        "605",
+        "580",
+        "590",
+        "597"
       ],
-      "answerIndex": 17,
-      "explanation": "Total units sold = 420 + 520 + 680 + 600 + 765 = 2985.\nAverage = 2985 / 5 = 597."
+      "answerIndex": 4,
+      "explanation": "Total sold = 420 + 520 + 680 + 600 + 765 = 2,985.\nAverage = 2,985 ÷ 5 = 597."
     },
     {
       "id": "M05-Q49",
@@ -1130,14 +989,14 @@
       "stimulusId": "T05-DI2",
       "stem": "Find the simplest ratio of the unsold units in May to the sold units in February.",
       "options": [
-        "29:104",
         "13:52",
-        "25:104",
         "27:104",
+        "25:104",
+        "29:104",
         "27:100"
       ],
-      "answerIndex": 3,
-      "explanation": "Unsold in May = 900 − 765 = 135.\nSold in February = 520.\nRatio = 135 : 520 = 27:104."
+      "answerIndex": 1,
+      "explanation": "Unsold in May = 900 − 765 = 135.\nSold in February = 520.\nRatio = 135 : 520 = 27 : 104."
     },
     {
       "id": "M05-Q50",
@@ -1147,14 +1006,14 @@
       "stimulusId": "T05-DI2",
       "stem": "If each sold unit earns ₹1,500 and each unsold unit incurs a storage penalty of ₹200, what is the net earnings of the company in January?",
       "options": [
-        "₹620,000",
-        "₹595,000",
+        "₹5,95,000",
         "₹614,000",
-        "₹600,000",
-        "₹630,000"
+        "₹6,00,000",
+        "₹6,20,000",
+        "₹6,14,000"
       ],
-      "answerIndex": 2,
-      "explanation": "Sold revenue = 420 × 1500 = ₹6,30,000.\nUnsold penalty = 80 × 200 = ₹16,000.\nNet earnings = ₹6,30,000 − ₹16,000 = ₹614,000."
+      "answerIndex": 1,
+      "explanation": "Revenue from sold units = 420 × ₹1,500 = ₹6,30,000.\nStorage penalty for unsold units = 80 × ₹200 = ₹16,000.\nNet earnings = ₹6,30,000 − ₹16,000 = ₹614,000."
     },
     {
       "id": "M05-Q51",
@@ -1164,38 +1023,14 @@
       "stimulusId": "T05-DI3",
       "stem": "How many students opted for Banking in total (including overlaps with other streams)?",
       "options": [
-        "258",
-        "264",
-        "256",
-        "268",
-        "260",
-        "285",
-        "254",
-        "259",
-        "257",
-        "280",
-        "230",
-        "263",
-        "255",
-        "245",
-        "210",
-        "261",
-        "275",
-        "272",
-        "270",
-        "262",
-        "310",
-        "235",
-        "266",
         "250",
-        "265",
-        "248",
-        "290",
+        "275",
         "240",
-        "252"
+        "290",
+        "260"
       ],
       "answerIndex": 4,
-      "explanation": "Total Banking = Banking only (120) + Banking & SSC (50) + Banking & Railways (60) + All three (30) = 260."
+      "explanation": "Total Banking = Banking Only (120) + (Banking & SSC) (50) + (Banking & Railways) (60) + All Three (30) = 260."
     },
     {
       "id": "M05-Q52",
@@ -1205,37 +1040,14 @@
       "stimulusId": "T05-DI3",
       "stem": "How many students did not opt for any of the three exam streams?",
       "options": [
-        "51",
-        "54",
-        "45",
-        "46",
-        "49",
-        "42",
-        "56",
-        "65",
-        "75",
-        "70",
-        "55",
-        "48",
-        "38",
-        "20",
-        "52",
-        "62",
-        "80",
-        "50",
-        "60",
-        "47",
-        "58",
-        "25",
-        "53",
-        "40",
-        "100",
-        "35",
         "30",
-        "44"
+        "60",
+        "75",
+        "40",
+        "50"
       ],
-      "answerIndex": 17,
-      "explanation": "Total opting for at least one stream = 120 + 150 + 100 + 50 + 40 + 60 + 30 = 550.\nStudents not opting for any = 600 − 550 = 50."
+      "answerIndex": 4,
+      "explanation": "Total students enrolled in at least one stream = 120 + 150 + 100 + 50 + 40 + 60 + 30 = 550.\nStudents not opting for any stream = 600 − 550 = 50."
     },
     {
       "id": "M05-Q53",
@@ -1245,14 +1057,14 @@
       "stimulusId": "T05-DI3",
       "stem": "What is the ratio of students who opted for ONLY ONE exam stream to those who opted for EXACTLY TWO exam streams?",
       "options": [
-        "39:15",
         "37:16",
-        "37:15",
         "35:14",
-        "18:7"
+        "18:7",
+        "39:15",
+        "37:15"
       ],
-      "answerIndex": 2,
-      "explanation": "Exactly one stream = 120 + 150 + 100 = 370.\nExactly two streams = 50 + 40 + 60 = 150.\nRatio = 370 : 150 = 37:15."
+      "answerIndex": 4,
+      "explanation": "Students opting for exactly one stream = 120 + 150 + 100 = 370.\nStudents opting for exactly two streams = 50 + 40 + 60 = 150.\nRatio = 370 : 150 = 37 : 15."
     },
     {
       "id": "M05-Q54",
@@ -1262,38 +1074,14 @@
       "stimulusId": "T05-DI3",
       "stem": "What is the total number of students who opted for SSC?",
       "options": [
-        "276",
-        "272",
-        "285",
-        "265",
-        "262",
-        "278",
-        "250",
-        "220",
-        "240",
-        "320",
-        "266",
-        "271",
-        "260",
         "270",
-        "282",
-        "264",
+        "250",
         "280",
-        "255",
-        "300",
-        "267",
-        "295",
-        "268",
-        "275",
-        "274",
-        "273",
-        "269",
-        "245",
-        "290",
-        "258"
+        "260",
+        "290"
       ],
-      "answerIndex": 13,
-      "explanation": "Total SSC = SSC only (150) + Banking & SSC (50) + SSC & Railways (40) + All three (30) = 270."
+      "answerIndex": 0,
+      "explanation": "Total SSC = SSC Only (150) + (Banking & SSC) (50) + (SSC & Railways) (40) + All Three (30) = 270."
     },
     {
       "id": "M05-Q55",
@@ -1303,308 +1091,190 @@
       "stimulusId": "T05-DI3",
       "stem": "The total number of students opting for both Banking and Railways (including those taking all three) forms what percentage of the total student strength?",
       "options": [
-        "15%",
-        "12.5%",
-        "17.5%",
         "20%",
+        "17.5%",
+        "12.5%",
+        "15%",
         "10%"
       ],
-      "answerIndex": 0,
-      "explanation": "Students taking both Banking & Railways = 60 + 30 = 90.\nPercentage of 600 = (90 / 600) × 100% = 15%."
+      "answerIndex": 3,
+      "explanation": "Students taking both Banking and Railways = 60 + 30 = 90.\nPercentage of 600 = (90 / 600) × 100% = 15%."
     },
     {
       "id": "M05-Q56",
       "number": 56,
       "section": "quant",
-      "topic": "Approximation",
-      "stem": "What approximate value should come in place of the question mark (?) in:\n24.99% of 799.85 + √256.12 × 11.98 − 15.02² = ?",
+      "topic": "Simplification",
+      "stem": "What approximate value should come in place of the question mark (?) in the following question?\n24.99% of 799.85 + √256.12 × 11.98 − 15.02² = ?",
       "options": [
-        "187",
-        "165",
-        "137",
-        "142",
         "172",
-        "175",
-        "117",
-        "152",
-        "170",
-        "171",
-        "173",
-        "159",
-        "155",
-        "182",
-        "168",
-        "161",
-        "197",
-        "169",
-        "163",
-        "192",
-        "164",
-        "179",
-        "217",
         "157",
-        "166",
-        "167",
-        "147",
         "162",
-        "177"
+        "177",
+        "167"
       ],
-      "answerIndex": 25,
-      "explanation": "Approximating values:\n• 24.99% ≈ 25% of 800 = 200\n• √256.12 ≈ 16\n• 11.98 ≈ 12 → 16 × 12 = 192\n• 15.02² ≈ 225\nTotal = 200 + 192 − 225 = 167."
+      "answerIndex": 4,
+      "explanation": "Applying BODMAS and rounding values:\n• 24.99% of 799.85 ≈ 25% of 800 = 200\n• √256.12 ≈ 16; 11.98 ≈ 12 → 16 × 12 = 192\n• 15.02² ≈ 225\nTotal = 200 + 192 − 225 = 167."
     },
     {
       "id": "M05-Q57",
       "number": 57,
       "section": "quant",
-      "topic": "Approximation",
-      "stem": "What approximate value will come in place of (?):\n35.04% of 599.91 + 45.02% of 799.88 − 12.04² = ?",
+      "topic": "Simplification",
+      "stem": "What approximate value will come in place of (?) in the following expression?\n35.04% of 599.91 + 45.02% of 799.88 − 12.04² = ?",
       "options": [
-        "424",
-        "441",
-        "423",
-        "416",
-        "429",
-        "421",
-        "420",
-        "406",
-        "426",
-        "476",
-        "456",
-        "425",
-        "376",
-        "438",
-        "432",
-        "401",
-        "446",
         "436",
-        "434",
-        "428",
-        "431",
-        "414",
-        "396",
-        "451",
-        "411",
-        "430",
-        "422",
-        "427",
-        "418"
+        "416",
+        "421",
+        "426",
+        "431"
       ],
-      "answerIndex": 8,
-      "explanation": "Approximating values:\n• 35% of 600 = 210\n• 45% of 800 = 360\n• 12² = 144\nTotal = 210 + 360 − 144 = 426."
+      "answerIndex": 3,
+      "explanation": "Rounding values to nearest integers:\n• 35% of 600 = 210\n• 45% of 800 = 360\n• 12² = 144\nTotal = 210 + 360 − 144 = 426."
     },
     {
       "id": "M05-Q58",
       "number": 58,
       "section": "quant",
-      "topic": "Approximation",
+      "topic": "Simplification",
       "stem": "Find the approximate value of (?):\n√1024.15 ÷ 3.99 + 499.89 ÷ 24.95 = ?",
       "options": [
-        "58",
-        "33",
-        "26",
-        "18",
-        "20",
-        "53",
-        "32",
-        "43",
-        "31",
-        "22",
-        "29",
-        "48",
-        "40",
-        "27",
-        "38",
-        "8",
-        "34",
-        "25",
         "23",
-        "30",
-        "24",
+        "38",
         "28",
-        "78",
-        "16",
-        "13",
-        "3",
-        "36"
+        "18",
+        "33"
       ],
-      "answerIndex": 21,
-      "explanation": "Approximating values:\n• √1024 ≈ 32\n• 32 ÷ 4 = 8\n• 500 ÷ 25 = 20\nTotal = 8 + 20 = 28."
+      "answerIndex": 2,
+      "explanation": "Rounding:\n• √1024 ≈ 32\n• 32 ÷ 4 = 8\n• 500 ÷ 25 = 20\nTotal = 8 + 20 = 28."
     },
     {
       "id": "M05-Q59",
       "number": 59,
       "section": "quant",
-      "topic": "Approximation",
-      "stem": "What approximate value will come in place of (?):\n(23.98)² − (17.96)² + ∛1331.05 = ?",
+      "topic": "Simplification",
+      "stem": "What approximate value should come in place of (?):\n(23.98)² − (17.96)² + ∛1331.05 = ?",
       "options": [
-        "269",
-        "243",
-        "261",
-        "257",
-        "267",
-        "288",
-        "313",
-        "264",
-        "275",
-        "213",
-        "263",
-        "238",
-        "255",
-        "258",
-        "251",
-        "260",
-        "265",
-        "266",
-        "253",
-        "233",
-        "248",
-        "283",
-        "271",
         "273",
-        "262",
+        "253",
         "268",
-        "293",
-        "259",
-        "278"
+        "263",
+        "258"
       ],
-      "answerIndex": 10,
-      "explanation": "Approximating values:\n• 24² = 576\n• 18² = 324\n• ∛1331 = 11\nTotal = 576 − 324 + 11 = 263."
+      "answerIndex": 3,
+      "explanation": "Approximating:\n• 24² = 576\n• 18² = 324\n• ∛1331 = 11\nTotal = 576 − 324 + 11 = 263."
     },
     {
       "id": "M05-Q60",
       "number": 60,
       "section": "quant",
-      "topic": "Approximation",
-      "stem": "What approximate value should come in place of (?):\n124.95% of 320.08 + 15.99 × 8.04 = ?",
+      "topic": "Simplification",
+      "stem": "What approximate value will come in place of (?):\n124.95% of 320.08 + 15.99 × 8.04 = ?",
       "options": [
-        "532",
-        "530",
-        "536",
-        "558",
-        "543",
-        "534",
-        "531",
-        "538",
-        "548",
-        "508",
-        "524",
-        "513",
-        "529",
-        "516",
-        "525",
-        "527",
-        "553",
-        "578",
         "523",
-        "520",
-        "503",
-        "528",
-        "478",
+        "538",
         "518",
-        "540",
-        "526",
-        "498",
-        "522",
-        "533"
+        "533",
+        "528"
       ],
-      "answerIndex": 21,
-      "explanation": "Approximating values:\n• 125% of 320 = (5/4) × 320 = 400\n• 16 × 8 = 128\nTotal = 400 + 128 = 528."
+      "answerIndex": 4,
+      "explanation": "Approximating:\n• 125% of 320 = (5/4) × 320 = 400\n• 16 × 8 = 128\nTotal = 400 + 128 = 528."
     },
     {
       "id": "M05-Q61",
       "number": 61,
       "section": "quant",
       "topic": "Quadratic Comparison",
-      "stem": "In the following questions, two equations I and II are given. You have to solve both the equations and mark the correct option:\nEquation I: x² − 14x + 48 = 0\nEquation II: y² − 9y + 20 = 0",
+      "stem": "In the following question, two equations I and II are given. You have to solve both equations and select the appropriate relation:\n\nEquation I: x² − 15x + 56 = 0\nEquation II: y² − 9y + 20 = 0",
       "options": [
-        "Relationship cannot be established",
-        "x ≤ y",
-        "x > y",
         "x ≥ y",
-        "x < y"
+        "x < y",
+        "x = y or the relationship cannot be established",
+        "x ≤ y",
+        "x > y"
       ],
-      "answerIndex": 2,
-      "explanation": "For Eq I: x² − 14x + 48 = 0 ⇒ (x − 6)(x − 8) = 0 ⇒ x = 6, 8.\nFor Eq II: y² − 9y + 20 = 0 ⇒ (y − 4)(y − 5) = 0 ⇒ y = 4, 5.\nComparing: 6 > 4, 6 > 5, 8 > 4, 8 > 5. Thus, x > y."
+      "answerIndex": 4,
+      "explanation": "For Eq I: x² − 15x + 56 = 0 ⇒ (x − 7)(x − 8) = 0 ⇒ x = 7, 8.\nFor Eq II: y² − 9y + 20 = 0 ⇒ (y − 4)(y − 5) = 0 ⇒ y = 4, 5.\nComparing roots:\n• 7 > 4 and 7 > 5\n• 8 > 4 and 8 > 5\nHence, x > y."
     },
     {
       "id": "M05-Q62",
       "number": 62,
       "section": "quant",
       "topic": "Quadratic Comparison",
-      "stem": "In the following questions, two equations I and II are given. You have to solve both the equations and mark the correct option:\nEquation I: x² − 7x + 12 = 0\nEquation II: y² − 13y + 40 = 0",
+      "stem": "In the following question, two equations I and II are given. You have to solve both equations and select the appropriate relation:\n\nEquation I: x² − 5x + 6 = 0\nEquation II: y² − 13y + 42 = 0",
       "options": [
-        "x ≥ y",
         "x ≤ y",
-        "Relationship cannot be established",
         "x > y",
-        "x < y"
+        "x = y or the relationship cannot be established",
+        "x < y",
+        "x ≥ y"
       ],
-      "answerIndex": 4,
-      "explanation": "For Eq I: (x − 3)(x − 4) = 0 ⇒ x = 3, 4.\nFor Eq II: (y − 5)(y − 8) = 0 ⇒ y = 5, 8.\nSince all values of x (3, 4) are strictly less than all values of y (5, 8), x < y."
+      "answerIndex": 3,
+      "explanation": "For Eq I: x² − 5x + 6 = 0 ⇒ (x − 2)(x − 3) = 0 ⇒ x = 2, 3.\nFor Eq II: y² − 13y + 42 = 0 ⇒ (y − 6)(y − 7) = 0 ⇒ y = 6, 7.\nComparing roots:\n• 2 < 6 and 2 < 7\n• 3 < 6 and 3 < 7\nHence, x < y."
     },
     {
       "id": "M05-Q63",
       "number": 63,
       "section": "quant",
       "topic": "Quadratic Comparison",
-      "stem": "In the following questions, two equations I and II are given. You have to solve both the equations and mark the correct option:\nEquation I: x² − 15x + 56 = 0\nEquation II: y² − 13y + 42 = 0",
+      "stem": "In the following question, two equations I and II are given. You have to solve both equations and select the appropriate relation:\n\nEquation I: x² − 15x + 56 = 0\nEquation II: y² − 13y + 42 = 0",
       "options": [
-        "x < y",
+        "x ≤ y",
+        "x = y or the relationship cannot be established",
         "x ≥ y",
         "x > y",
-        "Relationship cannot be established",
-        "x ≤ y"
+        "x < y"
       ],
-      "answerIndex": 1,
-      "explanation": "For Eq I: x² − 15x + 56 = 0 ⇒ (x − 7)(x − 8) = 0 ⇒ x = 7, 8.\nFor Eq II: y² − 13y + 42 = 0 ⇒ (y − 6)(y − 7) = 0 ⇒ y = 6, 7.\nComparing roots:\n• When x = 8: 8 > 6 and 8 > 7\n• When x = 7: 7 > 6 and 7 = 7\nHence x ≥ y."
+      "answerIndex": 2,
+      "explanation": "For Eq I: x² − 15x + 56 = 0 ⇒ (x − 7)(x − 8) = 0 ⇒ x = 7, 8.\nFor Eq II: y² − 13y + 42 = 0 ⇒ (y − 6)(y − 7) = 0 ⇒ y = 6, 7.\nComparing roots:\n• For x = 8: 8 > 6 and 8 > 7\n• For x = 7: 7 > 6 and 7 = 7\nHence, x ≥ y."
     },
     {
       "id": "M05-Q64",
       "number": 64,
       "section": "quant",
       "topic": "Quadratic Comparison",
-      "stem": "In the following questions, two equations I and II are given. You have to solve both the equations and mark the correct option:\nEquation I: x² − 10x + 24 = 0\nEquation II: y² − 14y + 48 = 0",
+      "stem": "In the following question, two equations I and II are given. You have to solve both equations and select the appropriate relation:\n\nEquation I: x² − 10x + 24 = 0\nEquation II: y² − 14y + 48 = 0",
       "options": [
-        "x ≥ y",
-        "x ≤ y",
-        "Relationship cannot be established",
+        "x = y or the relationship cannot be established",
+        "x > y",
         "x < y",
-        "x > y"
+        "x ≥ y",
+        "x ≤ y"
       ],
-      "answerIndex": 1,
-      "explanation": "For Eq I: x² − 10x + 24 = 0 ⇒ (x − 4)(x − 6) = 0 ⇒ x = 4, 6.\nFor Eq II: y² − 14y + 48 = 0 ⇒ (y − 6)(y − 8) = 0 ⇒ y = 6, 8.\nComparing roots:\n• When x = 4: 4 < 6 and 4 < 8\n• When x = 6: 6 = 6 and 6 < 8\nHence x ≤ y."
+      "answerIndex": 4,
+      "explanation": "For Eq I: x² − 10x + 24 = 0 ⇒ (x − 4)(x − 6) = 0 ⇒ x = 4, 6.\nFor Eq II: y² − 14y + 48 = 0 ⇒ (y − 6)(y − 8) = 0 ⇒ y = 6, 8.\nComparing roots:\n• For x = 4: 4 < 6 and 4 < 8\n• For x = 6: 6 = 6 and 6 < 8\nHence, x ≤ y."
     },
     {
       "id": "M05-Q65",
       "number": 65,
       "section": "quant",
       "topic": "Quadratic Comparison",
-      "stem": "In the following questions, two equations I and II are given. You have to solve both the equations and mark the correct option:\nEquation I: x² − 3x − 10 = 0\nEquation II: y² − 7y + 12 = 0",
+      "stem": "In the following question, two equations I and II are given. You have to solve both equations and select the appropriate relation:\n\nEquation I: x² − 3x − 10 = 0\nEquation II: y² − 7y + 12 = 0",
       "options": [
-        "x ≥ y",
         "x ≤ y",
-        "Relationship cannot be established",
         "x < y",
-        "x > y"
+        "x > y",
+        "x = y or the relationship cannot be established",
+        "x ≥ y"
       ],
-      "answerIndex": 2,
-      "explanation": "For Eq I: x² − 3x − 10 = 0 ⇒ (x − 5)(x + 2) = 0 ⇒ x = 5, −2.\nFor Eq II: y² − 7y + 12 = 0 ⇒ (y − 3)(y − 4) = 0 ⇒ y = 3, 4.\nComparing: 5 > 4 (x > y) but −2 < 3 (x < y). Conflicting relations mean Relationship cannot be established."
+      "answerIndex": 3,
+      "explanation": "For Eq I: x² − 3x − 10 = 0 ⇒ (x − 5)(x + 2) = 0 ⇒ x = 5, −2.\nFor Eq II: y² − 7y + 12 = 0 ⇒ (y − 3)(y − 4) = 0 ⇒ y = 3, 4.\nComparing roots:\n• When x = 5: 5 > 3 and 5 > 4 (x > y)\n• When x = −2: −2 < 3 and −2 < 4 (x < y)\nSince opposite relationships hold, relationship cannot be established."
     },
     {
       "id": "M05-Q66",
       "number": 66,
       "section": "quant",
       "topic": "Number Series",
-      "stem": "Find the missing number (?) in the given series:\n12, 7, 9, 16.5, 37, ?",
+      "stem": "What will come in place of the question mark (?) in the following number series?\n12, 7, 9, 16.5, 37, ?",
       "options": [
-        "107.5",
         "92.5",
         "102.5",
-        "97.5",
-        "87.5"
+        "87.5",
+        "107.5",
+        "97.5"
       ],
-      "answerIndex": 3,
-      "explanation": "The pattern is:\n• 12 × 0.5 + 1 = 7\n• 7 × 1.0 + 2 = 9\n• 9 × 1.5 + 3 = 16.5\n• 16.5 × 2.0 + 4 = 37\n• 37 × 2.5 + 5 = 97.5."
+      "answerIndex": 4,
+      "explanation": "The series follows the multiplication pattern:\n• 12 × 0.5 + 1 = 7\n• 7 × 1.0 + 2 = 9\n• 9 × 1.5 + 3 = 16.5\n• 16.5 × 2.0 + 4 = 37\n• 37 × 2.5 + 5 = 92.5 + 5 = 97.5."
     },
     {
       "id": "M05-Q67",
@@ -1613,38 +1283,14 @@
       "topic": "Number Series",
       "stem": "What will come in place of (?) in the following number series?\n15, 16, 24, 51, 115, ?",
       "options": [
-        "215",
-        "234",
-        "252",
-        "228",
-        "230",
-        "220",
-        "190",
-        "232",
-        "236",
-        "240",
-        "225",
-        "210",
-        "270",
-        "235",
         "250",
-        "241",
-        "238",
-        "255",
-        "243",
-        "248",
-        "260",
-        "265",
-        "244",
-        "246",
-        "239",
-        "290",
-        "242",
-        "237",
-        "245"
+        "245",
+        "235",
+        "240",
+        "230"
       ],
-      "answerIndex": 9,
-      "explanation": "The difference pattern is cubes of consecutive natural numbers:\n• 16 − 15 = 1 (1³)\n• 24 − 16 = 8 (2³)\n• 51 − 24 = 27 (3³)\n• 115 − 51 = 64 (4³)\n• Next term = 115 + 5³ = 115 + 125 = 240."
+      "answerIndex": 3,
+      "explanation": "The difference between consecutive terms is cubes of consecutive integers:\n• 16 − 15 = 1 (1³)\n• 24 − 16 = 8 (2³)\n• 51 − 24 = 27 (3³)\n• 115 − 51 = 64 (4³)\n• Next term = 115 + 5³ = 115 + 125 = 240."
     },
     {
       "id": "M05-Q68",
@@ -1653,37 +1299,13 @@
       "topic": "Number Series",
       "stem": "Find the next term in the series:\n8, 14, 26, 44, 68, ?",
       "options": [
-        "128",
-        "78",
-        "93",
-        "100",
-        "103",
-        "92",
-        "123",
-        "88",
-        "95",
-        "73",
-        "94",
-        "83",
-        "68",
-        "48",
-        "96",
-        "98",
-        "99",
         "108",
-        "113",
-        "148",
-        "106",
-        "90",
-        "101",
-        "86",
-        "97",
-        "102",
-        "118",
-        "110",
-        "104"
+        "93",
+        "88",
+        "103",
+        "98"
       ],
-      "answerIndex": 15,
+      "answerIndex": 4,
       "explanation": "Double difference series:\n• 14 − 8 = 6\n• 26 − 14 = 12 (+6)\n• 44 − 26 = 18 (+6)\n• 68 − 44 = 24 (+6)\n• Next difference = 24 + 6 = 30\n• Next term = 68 + 30 = 98."
     },
     {
@@ -1693,37 +1315,13 @@
       "topic": "Number Series",
       "stem": "Identify the missing term in the sequence:\n5, 9, 16, 29, 54, ?",
       "options": [
-        "103",
-        "100",
-        "93",
-        "111",
-        "91",
-        "128",
-        "104",
-        "99",
-        "106",
-        "98",
-        "109",
         "113",
-        "102",
-        "88",
-        "83",
-        "115",
+        "93",
+        "103",
         "108",
-        "118",
-        "78",
-        "97",
-        "101",
-        "153",
-        "95",
-        "53",
-        "133",
-        "107",
-        "123",
-        "105",
-        "73"
+        "98"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "The pattern is:\n• 5 × 2 − 1 = 9\n• 9 × 2 − 2 = 16\n• 16 × 2 − 3 = 29\n• 29 × 2 − 4 = 54\n• 54 × 2 − 5 = 108 − 5 = 103."
     },
     {
@@ -1733,338 +1331,174 @@
       "topic": "Number Series",
       "stem": "Find the WRONG number in the given series:\n4, 11, 25, 53, 108, 221",
       "options": [
-        "78",
-        "96",
-        "110",
-        "103",
-        "116",
-        "100",
-        "58",
-        "120",
-        "138",
-        "114",
         "113",
-        "98",
-        "158",
-        "109",
-        "106",
-        "133",
-        "104",
-        "105",
-        "123",
-        "88",
-        "111",
-        "102",
-        "128",
         "108",
-        "112",
-        "83",
-        "118",
-        "107",
-        "93"
+        "98",
+        "103",
+        "118"
       ],
-      "answerIndex": 23,
-      "explanation": "The correct pattern is (n × 2 + 3):\n• 4 × 2 + 3 = 11\n• 11 × 2 + 3 = 25\n• 25 × 2 + 3 = 53\n• 53 × 2 + 3 = 109 (Instead of 108)\n• 109 × 2 + 3 = 221\nTherefore, 108 is the wrong number."
+      "answerIndex": 1,
+      "explanation": "The pattern is (term × 2 + 3):\n• 4 × 2 + 3 = 11\n• 11 × 2 + 3 = 25\n• 25 × 2 + 3 = 53\n• 53 × 2 + 3 = 109 (Instead of 108)\n• 109 × 2 + 3 = 221\nTherefore, 108 is the wrong number in the series."
     },
     {
       "id": "M05-Q71",
       "number": 71,
       "section": "quant",
-      "topic": "Arithmetic (Profit & Loss)",
+      "topic": "Profit & Loss",
       "stem": "A shopkeeper marks an article 40% above its cost price and sells it after allowing a discount of 15% on the marked price. If he earns a profit of ₹380, what was the cost price of the article?",
       "options": [
-        "2050",
-        "1999",
-        "2002",
-        "2003",
-        "2030",
-        "1800",
-        "2010",
-        "2006",
-        "2012",
-        "1997",
-        "1996",
-        "1900",
-        "1975",
-        "1980",
-        "2100",
-        "2000",
-        "1994",
-        "1995",
-        "2020",
-        "2008",
-        "2004",
-        "1985",
-        "1970",
         "2200",
-        "2005",
-        "1950",
-        "1988",
-        "1990",
-        "2001",
-        "1998",
-        "2025",
-        "1992",
-        "2015"
+        "1800",
+        "2000",
+        "2100",
+        "1900"
       ],
-      "answerIndex": 15,
-      "explanation": "Let Cost Price (CP) = 100x.\nMarked Price (MP) = 100x × 1.40 = 140x.\nSelling Price (SP) = 140x × (1 − 0.15) = 140x × 0.85 = 119x.\nProfit = SP − CP = 119x − 100x = 19x.\nGiven 19x = 380 ⇒ x = 20.\nCost Price = 100x = ₹2,000."
+      "answerIndex": 2,
+      "explanation": "Let Cost Price (CP) = 100x.\nMarked Price (MP) = 100x × 1.40 = 140x.\nSelling Price (SP) = 140x × (1 − 0.15) = 140x × 0.85 = 119x.\nProfit = SP − CP = 119x − 100x = 19x.\nGiven: 19x = 380 ⇒ x = 20.\nCost Price = 100x = ₹2,000."
     },
     {
       "id": "M05-Q72",
       "number": 72,
       "section": "quant",
-      "topic": "Arithmetic (Simple & Compound Interest)",
+      "topic": "Simple Interest",
       "stem": "The difference between compound interest (compounded annually) and simple interest on a certain principal sum at 10% per annum for 2 years is ₹180. Find the principal sum.",
       "options": [
-        "18008",
-        "18030",
-        "18001",
-        "18005",
-        "18025",
-        "17950",
-        "17980",
-        "17900",
-        "18012",
-        "17800",
-        "17975",
-        "18050",
-        "17999",
-        "17992",
-        "18010",
-        "17970",
-        "17988",
-        "18020",
-        "17998",
-        "17994",
-        "17985",
-        "17997",
-        "18004",
-        "18200",
-        "17990",
-        "18006",
-        "17996",
-        "17995",
-        "18000",
-        "18015",
         "18100",
-        "18003",
-        "18002"
+        "17800",
+        "17900",
+        "18000",
+        "18200"
       ],
-      "answerIndex": 28,
+      "answerIndex": 3,
       "explanation": "For 2 years, the difference between CI and SI is given by:\nDifference = P × (R / 100)²\n180 = P × (10 / 100)² = P × (1 / 100)\nP = 180 × 100 = ₹18,000."
     },
     {
       "id": "M05-Q73",
       "number": 73,
       "section": "quant",
-      "topic": "Arithmetic (Time & Work)",
-      "stem": "A is 25% more efficient than B. B alone can complete a piece of work in 30 days. Both work together for 6 days, and then B leaves. In how many more days will A alone complete the remaining work?",
+      "topic": "Time & Work",
+      "stem": "A is 20% more efficient than B. B alone can complete a piece of work in 30 days. Both work together for 6 days, and then B leaves. In how many more days will A alone complete the remaining work?",
       "options": [
         "14",
-        "214",
-        "114",
         "514",
-        "44"
+        "214",
+        "15",
+        "114"
       ],
       "answerIndex": 0,
-      "explanation": "Efficiency ratio of A : B = 125 : 100 = 5 : 4.\nTotal work = Efficiency of B × Days = 4 × 30 = 120 units.\nCombined work done in 6 days = (5 + 4) × 6 = 54 units.\nRemaining work = 120 − 54 = 66 units.\nTime taken by A alone = 66 ÷ 5 = 13.2 days (say 14 approx or let's use exact numbers: B=30, efficiency A:B=5:4, work=120. If they work for 6 days, 54 units. Rem=66/5=13.2. Let's make efficiency 20% more: A:B=6:5, B takes 30 days -> Work = 150. Both 6 days = 11*6=66. Rem = 84/6 = 14 days!).\nExact days = 14 days."
+      "explanation": "Efficiency ratio of A : B = 120 : 100 = 6 : 5.\nTotal work = Efficiency of B × Days = 5 × 30 = 150 units.\nCombined work done in 6 days = (6 + 5) × 6 = 66 units.\nRemaining work = 150 − 66 = 84 units.\nTime taken by A alone = 84 ÷ 6 = 14 days."
     },
     {
       "id": "M05-Q74",
       "number": 74,
       "section": "quant",
-      "topic": "Arithmetic (Mixture & Alligation)",
+      "topic": "Mixture",
       "stem": "A vessel contains 80 litres of a mixture of milk and water in the ratio 3 : 1. If 16 litres of this mixture is taken out and replaced with 16 litres of pure water, what is the new ratio of milk to water in the vessel?",
       "options": [
-        "3:1",
         "2:1",
-        "1:2",
         "4:3",
-        "3:2"
+        "3:2",
+        "1:2",
+        "3:1"
       ],
-      "answerIndex": 4,
-      "explanation": "Initial volume = 80 L (Ratio 3:1):\n• Milk = (3/4) × 80 = 60 L\n• Water = (1/4) × 80 = 20 L\n16 L removed:\n• Milk removed = (3/4) × 16 = 12 L → Remaining Milk = 60 − 12 = 48 L\n• Water removed = (1/4) × 16 = 4 L → Remaining Water = 20 − 4 = 16 L\n16 L pure water added:\n• New Water = 16 + 16 = 32 L\nNew Ratio of Milk : Water = 48 : 32 = 3 : 2."
+      "answerIndex": 2,
+      "explanation": "Initial volume = 80 L (Ratio 3 : 1):\n• Milk = (3/4) × 80 = 60 L\n• Water = (1/4) × 80 = 20 L\n16 L removed:\n• Milk removed = (3/4) × 16 = 12 L ⇒ Remaining Milk = 60 − 12 = 48 L\n• Water removed = (1/4) × 16 = 4 L ⇒ Remaining Water = 20 − 4 = 16 L\n16 L pure water added:\n• New Water = 16 + 16 = 32 L\nNew Ratio of Milk : Water = 48 : 32 = 3 : 2."
     },
     {
       "id": "M05-Q75",
       "number": 75,
       "section": "quant",
-      "topic": "Arithmetic (Pipes & Cisterns)",
+      "topic": "Pipes & Cisterns",
       "stem": "Pipe A can fill a tank in 12 hours and Pipe B can fill it in 15 hours. A third pipe C can empty the full tank in 20 hours. If all three pipes are opened simultaneously, in how many hours will the empty tank be completely filled?",
       "options": [
-        "110",
-        "20",
-        "10",
         "510",
-        "210"
+        "11",
+        "210",
+        "10",
+        "110"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "LCM of 12, 15, and 20 = 60 units (Total tank capacity).\n• Efficiency of A = +60/12 = +5 units/h\n• Efficiency of B = +60/15 = +4 units/h\n• Efficiency of C = −60/20 = −3 units/h\nCombined efficiency = 5 + 4 − 3 = 6 units/h.\nTime to fill = 60 ÷ 6 = 10 hours."
     },
     {
       "id": "M05-Q76",
       "number": 76,
       "section": "quant",
-      "topic": "Arithmetic (Boats & Streams)",
+      "topic": "Boats & Streams",
       "stem": "The speed of a boat in still water is 18 km/h and the speed of the stream is 6 km/h. If the boat takes 4 hours more to travel a certain distance upstream than downstream, find the distance.",
       "options": [
-        "99",
-        "596",
+        "106",
         "196",
-        "296",
-        "96"
+        "596",
+        "96",
+        "296"
       ],
-      "answerIndex": 4,
+      "answerIndex": 3,
       "explanation": "Downstream speed = 18 + 6 = 24 km/h.\nUpstream speed = 18 − 6 = 12 km/h.\nLet distance be D km.\nTime upstream − Time downstream = 4 hours\n(D / 12) − (D / 24) = 4 ⇒ D / 24 = 4 ⇒ D = 96 km."
     },
     {
       "id": "M05-Q77",
       "number": 77,
       "section": "quant",
-      "topic": "Arithmetic (Ages)",
+      "topic": "Ages",
       "stem": "Six years ago, the ratio of the ages of Kunal and Sagar was 6 : 5. Four years hence, the ratio of their ages will be 11 : 10. What is Sagar's present age?",
       "options": [
         "216",
-        "21",
+        "116",
         "516",
-        "16",
-        "116"
+        "18",
+        "16"
       ],
-      "answerIndex": 3,
+      "answerIndex": 4,
       "explanation": "Let ages 6 years ago be 6x and 5x.\nPresent ages = (6x + 6) and (5x + 6).\n4 years hence, their ages will be (6x + 10) and (5x + 10).\nGiven: (6x + 10) / (5x + 10) = 11 / 10\n60x + 100 = 55x + 110 ⇒ 5x = 10 ⇒ x = 2.\nSagar's present age = 5x + 6 = 5(2) + 6 = 16 years."
     },
     {
       "id": "M05-Q78",
       "number": 78,
       "section": "quant",
-      "topic": "Arithmetic (Partnership)",
+      "topic": "Partnership",
       "stem": "A and B entered into a partnership with initial investments of ₹15,000 and ₹20,000 respectively. After 4 months, A invested an additional ₹5,000, while B withdrew ₹5,000. If the total annual profit was ₹21,000, find A's share of the profit.",
       "options": [
-        "11008",
-        "11012",
-        "10975",
-        "11030",
-        "11010",
-        "10994",
-        "10998",
-        "11015",
-        "10996",
-        "10985",
-        "11003",
-        "10800",
-        "11200",
-        "10992",
-        "10997",
-        "11006",
-        "10970",
-        "11005",
-        "10990",
-        "11100",
         "11000",
-        "10950",
-        "11025",
-        "10999",
-        "10995",
+        "11100",
         "10900",
-        "11020",
-        "11004",
-        "10988",
-        "11001",
-        "11002",
-        "11050",
-        "10980"
+        "11200",
+        "10800"
       ],
-      "answerIndex": 20,
-      "explanation": "A's equivalent capital = (15,000 × 4) + (20,000 × 8) = 2,20,000\nB's equivalent capital = (20,000 × 4) + (15,000 × 8) = 2,00,000\nRatio A : B = 22 : 20 = 11 : 10\nA's share = (11 / 21) × 21,000 = ₹11,000."
+      "answerIndex": 0,
+      "explanation": "A's equivalent capital for 12 months = (15,000 × 4) + (20,000 × 8) = 60,000 + 1,60,000 = 2,20,000.\nB's equivalent capital for 12 months = (20,000 × 4) + (15,000 × 8) = 80,000 + 1,20,000 = 2,00,000.\nProfit sharing ratio A : B = 22 : 20 = 11 : 10.\nTotal parts = 11 + 10 = 21.\nA's share = (11 / 21) × ₹21,000 = ₹11,000."
     },
     {
       "id": "M05-Q79",
       "number": 79,
       "section": "quant",
-      "topic": "Arithmetic (Time, Speed & Distance)",
-      "stem": "A train 240 meters long moving at a speed of 72 km/h crosses a platform in 25 seconds. What is the length of the platform?",
+      "topic": "Time, Speed & Distance",
+      "stem": "A train 240 meters long moving at a speed of 72 km/h crosses a railway platform in 25 seconds. What is the length of the platform?",
       "options": [
-        "250",
-        "255",
-        "245",
-        "230",
-        "275",
-        "254",
-        "240",
-        "257",
-        "210",
-        "265",
-        "259",
-        "235",
-        "310",
-        "248",
-        "266",
-        "360",
-        "258",
-        "280",
-        "290",
-        "261",
         "60",
-        "262",
-        "160",
-        "272",
-        "256",
         "460",
-        "268",
-        "252",
+        "160",
         "260",
-        "285",
-        "270",
-        "263",
-        "264"
+        "360"
       ],
-      "answerIndex": 28,
+      "answerIndex": 3,
       "explanation": "Speed of train in m/s = 72 × (5/18) = 20 m/s.\nTotal distance covered in 25 seconds = Speed × Time = 20 × 25 = 500 meters.\nTotal distance = Length of train + Length of platform\n500 = 240 + Platform Length\nPlatform Length = 500 − 240 = 260 meters."
     },
     {
       "id": "M05-Q80",
       "number": 80,
       "section": "quant",
-      "topic": "Arithmetic (Mensuration)",
-      "stem": "The length and breadth of a rectangular field are in the ratio 4 : 3, and its perimeter is 112 meters. A circular garden has a radius equal to the breadth of this rectangular field. Find the area of the circular garden (taking π = 22/7).",
+      "topic": "Mensuration",
+      "stem": "The length and breadth of a rectangular field are in the ratio 5 : 2, and its perimeter is 98 meters. A circular lawn has a radius equal to the breadth of this rectangular field. Find the area of the circular lawn (taking π = 22/7).",
       "options": [
-        "604",
-        "618",
-        "586",
-        "624",
-        "601",
-        "616",
-        "646",
-        "622",
-        "596",
-        "619",
-        "610",
         "816",
-        "613",
-        "416",
-        "631",
-        "666",
-        "612",
-        "617",
-        "621",
-        "620",
-        "614",
         "716",
-        "641",
-        "566",
-        "626",
-        "591",
-        "636",
-        "516",
-        "608",
-        "611",
-        "628",
-        "615",
-        "606"
+        "416",
+        "616",
+        "516"
       ],
-      "answerIndex": 5,
-      "explanation": "Perimeter = 2(l + b) = 112 ⇒ l + b = 56 m.\nRatio 4 : 3 ⇒ 7x = 56 ⇒ x = 8.\nLength = 4 × 8 = 32 m, Breadth = 3 × 8 = 24 m (If r=14m: 2(14+b)).\nLet l : b = 5 : 2, perimeter = 98 ⇒ 2(7x) = 98 ⇒ x = 7 ⇒ b = 14 m.\nArea of circular garden = πr² = (22/7) × 14 × 14 = 616 m²."
+      "answerIndex": 3,
+      "explanation": "Perimeter of rectangle = 2(l + b) = 98 ⇒ l + b = 49 m.\nRatio 5 : 2 ⇒ 7x = 49 ⇒ x = 7.\nLength = 5 × 7 = 35 m, Breadth = 2 × 7 = 14 m.\nRadius of circular lawn r = Breadth = 14 m.\nArea of circular lawn = π × r² = (22/7) × 14 × 14 = 616 m²."
     }
   ]
 }

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-portal_dir = Path(r"C:\Users\amogh\Desktop\IBPS_RRB_PO_Portal")
+portal_dir = Path(__file__).resolve().parents[1]
 css = (portal_dir / "styles.css").read_text(encoding="utf-8")
 js = (portal_dir / "app.js").read_text(encoding="utf-8")
 data_json = (portal_dir / "data" / "tests.json").read_text(encoding="utf-8")
@@ -54,6 +54,6 @@ REPLACE_JS
 
 html = html.replace("REPLACE_CSS", css).replace("REPLACE_DATA", data_json).replace("REPLACE_JS", js)
 
-dest = Path(r"C:\Users\amogh\Desktop\IBPS_RRB_PO_20_Mock_Tests.html")
+dest = portal_dir / "standalone.html"
 dest.write_text(html, encoding="utf-8")
 print(f"Successfully compiled standalone HTML to {dest} ({dest.stat().st_size} bytes)")
