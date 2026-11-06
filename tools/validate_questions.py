@@ -22,10 +22,9 @@ for tno, t in enumerate(data['tests'], 1):
     assert [q['section'] for q in t['questions']] == ['reasoning'] * 40 + ['quant'] * 40
 
     stimuli = {s['id']: s for s in t['stimuli']}
-    assert len(stimuli) == len(t['stimuli']) == 8
+    assert len(stimuli) == len(t['stimuli']) == 7
     assert len([s for s in stimuli.values() if s['type'] == 'logic_puzzle']) == 4
     assert len([s for s in stimuli.values() if s['type'] == 'data_interpretation']) == 3
-    assert len([s for s in stimuli.values() if s['type'] == 'coding']) == 1
     sids.update(stimuli)
 
     # Check question counts
@@ -42,8 +41,9 @@ for tno, t in enumerate(data['tests'], 1):
         assert len(set(q['options'])) == 5, f"Question {q['id']} has duplicate options: {q['options']}"
         assert isinstance(q['answerIndex'], int) and 0 <= q['answerIndex'] < 5
         assert isinstance(q['explanation'], str) and len(q['explanation'].strip()) >= 15
-        assert q['stem'] not in test_stems, f"Duplicate stem within mock {tno}: {q['stem'][:60]}"
-        test_stems.add(q['stem'])
+        contextual_stem = (q.get('stimulusId'), q['stem'])
+        assert contextual_stem not in test_stems, f"Duplicate question within mock {tno}: {q['stem'][:60]}"
+        test_stems.add(contextual_stem)
 
         if q.get('stimulusId'):
             assert q['stimulusId'] in stimuli
@@ -65,14 +65,14 @@ for tno, t in enumerate(data['tests'], 1):
         assert len(s['solution'].strip()) > 5
 
 assert len(ids) == 1600
-assert len(sids) == 160
+assert len(sids) == 140
 
 # Write individual mock JSONs and answer-key CSV
 for t in data['tests']:
     (root / 'data' / f'mock_{t["number"]:02d}.json').write_text(json.dumps(t, ensure_ascii=False, indent=2), encoding='utf-8')
 
 with (root / 'data/answer_keys.csv').open('w', encoding='utf-8-sig', newline='') as fh:
-    w = csv.DictWriter(fh, fieldnames=list(all_answers[0]))
+    w = csv.DictWriter(fh, fieldnames=list(all_answers[0]), lineterminator='\n')
     w.writeheader()
     w.writerows(all_answers)
 
@@ -87,4 +87,4 @@ with (root / 'data/answer_keys.csv').open('w', encoding='utf-8-sig', newline='')
     'topicCounts': dict(breakdown)
 }, indent=2), encoding='utf-8')
 
-print('PASS: 20 mocks; 1,600 authentic, clear questions; 160 passages; exactly 5 options per question; 100% verified solutions.')
+print('PASS: 20 mocks; 1,600 questions; 140 passages; five distinct options and valid references. Structural checks do not establish official difficulty parity.')

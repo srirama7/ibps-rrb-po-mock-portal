@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const ACTIVE_KEY = 'rrbpo_active_v2', HISTORY_KEY = 'rrbpo_history_v2';
+  const ACTIVE_KEY = 'rrbpo_active_v3', HISTORY_KEY = 'rrbpo_history_v3';
   const $ = (sel) => document.querySelector(sel);
   const esc = (str) => String(str ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
@@ -100,8 +100,8 @@
     page = 'instructions';
     const t = getTest(id);
     $('#app').innerHTML = `
-      <div style="max-width: 840px; margin: 30px auto; background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 36px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-        <span class="badge-official">Official Pattern Prelims Simulation</span>
+      <div class="instructions-card" style="max-width: 840px; margin: 30px auto; background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 36px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
+        <span class="badge-official">Before you begin</span>
         <h1 style="font-size: 26px; font-weight: 800; color: var(--primary); margin: 8px 0 16px;">${esc(t.title)}</h1>
         <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 24px;">Please read the examination instructions carefully before starting the test.</p>
 
@@ -117,12 +117,12 @@
               </ul>
             </li>
             <li><strong>Section Lock:</strong> When the 25-minute timer for Reasoning expires, the section is locked automatically and Quantitative Aptitude starts immediately. You cannot return to Reasoning.</li>
-            <li><strong>Evaluation of Marked Questions:</strong> Questions that are <em>Answered and Marked for Review</em> WILL be considered for evaluation in accordance with TCS iON / IBPS rules.</li>
+            <li><strong>Evaluation of Marked Questions:</strong> Questions that are <em>Answered and Marked for Review</em> WILL be considered for evaluation under this mock’s scoring rules.</li>
             <li><strong>Question-by-Question Solutions:</strong> Full step-by-step mathematical and logical solutions will be revealed immediately upon submission.</li>
           </ul>
         </div>
 
-        <div style="display: flex; gap: 14px; justify-content: flex-end;">
+        <div style="display: flex; gap: 14px; justify-content: flex-end; flex-wrap:wrap;">
           <button id="backHome" class="btn btn-secondary" style="padding: 10px 20px;">Back to All Mocks</button>
           <button id="beginMock" class="btn btn-primary" style="padding: 10px 24px; font-size: 14px;">I am Ready to Begin</button>
         </div>
@@ -137,7 +137,7 @@
     const attempts = history();
     const bestScores = {};
     for (const a of attempts) {
-      if (!bestScores[a.testId] || a.score > bestScores[a.testId]) {
+      if (bestScores[a.testId] === undefined || a.score > bestScores[a.testId]) {
         bestScores[a.testId] = a.score;
       }
     }
@@ -145,44 +145,19 @@
     $('#app').innerHTML = `
       <section class="hero-banner">
         <div class="hero-content">
-          <span class="badge-official">2026 IBPS RRB Officer Scale I (PO) Prelims</span>
-          <h1>20 Authentic Full-Length Mock Tests</h1>
-          <p>Engineered strictly in accordance with 2021–2025 previous year trends. Features authentic floor/flat puzzles, circular in-out seating, "only a few" syllogisms, approximation decimals, and multi-step DI with real TCS iON CBT navigation.</p>
+          <span class="eyebrow"><span class="live-dot"></span> YOUR NEXT CHAPTER STARTS HERE</span>
+          <h1>Practice with purpose.<br><em>Walk in prepared.</em></h1>
+          <p>A focused practice space for IBPS RRB Officer Scale I. Take a full mock, find your weak spots, and make your next attempt count.</p>
+          <div class="hero-actions"><a href="#mockCards" class="btn btn-primary">Find your next mock <span>↗</span></a><a href="#practiceNotes" class="text-link">Explore the exam format ↓</a></div>
+          <div class="hero-proof"><span>✓ No login needed</span><span>✓ Full explanations</span><span>✓ Progress on this device</span></div>
         </div>
-        <div>
-          <a href="#mockCards" class="btn" style="background:#ffffff; color:var(--primary); font-size:14px; padding:12px 24px;">Explore 20 Papers ↓</a>
-        </div>
+        <div class="hero-aside"><span class="eyebrow">THE PRELIMS, AT A GLANCE</span><div class="time-ring"><strong>45<span>MINUTES</span></strong></div><div class="time-split"><span><i></i> Reasoning <b>25 min</b></span><span><i></i> Quantitative <b>20 min</b></span></div><small>One question at a time. One step closer.</small></div>
       </section>
-
       <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-icon">📑</div>
-          <div>
-            <strong>20</strong>
-            <span>Full-Length Mocks</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">❓</div>
-          <div>
-            <strong>1,600</strong>
-            <span>Authentic MCQs</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">⏱️</div>
-          <div>
-            <strong>45 Min</strong>
-            <span>Strict Sectional Timers</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">🏆</div>
-          <div>
-            <strong>${attempts.length}</strong>
-            <span>Attempts Completed</span>
-          </div>
-        </div>
+        <div class="stat-card"><span class="stat-number">01 /</span><div><strong>20</strong><span>Full-length papers</span></div></div>
+        <div class="stat-card"><span class="stat-number">02 /</span><div><strong>1,600</strong><span>Original practice MCQs</span></div></div>
+        <div class="stat-card"><span class="stat-number">03 /</span><div><strong>+1 / −0.25</strong><span>Exam-style scoring</span></div></div>
+        <div class="stat-card"><span class="stat-number">04 /</span><div><strong>${attempts.length}</strong><span>Your completed attempts</span></div></div>
       </div>
 
       ${active ? `
@@ -196,7 +171,7 @@
       ` : ''}
 
       <div class="section-title" id="mockCards">
-        <span>Choose a Mock Paper to Practice</span>
+        <div><span class="eyebrow">THE PRACTICE LIBRARY</span><h2>Make today a little better.</h2><p class="library-caption">Choose a paper. Stay focused. Review what matters.</p></div>
         <small style="font-size: 13px; font-weight: normal; color: var(--text-muted);">80 Questions • 80 Marks • 45 Minutes</small>
       </div>
 
@@ -204,9 +179,9 @@
         ${tests().map(t => {
           const best = bestScores[t.id];
           return `
-            <div class="mock-card">
-              <span class="mock-badge">OFFICER SCALE I • PAPER ${String(t.number).padStart(2, '0')}</span>
-              <h3>${esc(t.title)}</h3>
+            <div class="mock-card"><div class="paper-number">${String(t.number).padStart(2, '0')}<span>FULL MOCK</span></div>
+              <span class="mock-badge">OFFICER SCALE I · PAPER ${String(t.number).padStart(2, '0')}</span>
+              <h3>Mock test ${String(t.number).padStart(2, '0')}</h3><p class="paper-subtitle">${t.number % 2 ? 'Linear seating & indirect DI' : 'Parallel rows & arithmetic'}${t.number % 3 === 0 ? ' · Circular seating' : ' · Box puzzle'}</p>
               <div class="mock-details">
                 <span>• 40 Reasoning Ability (25 Min)</span>
                 <span>• 40 Quantitative Aptitude (20 Min)</span>
@@ -221,20 +196,23 @@
                   `}
                 </div>
                 <button class="btn btn-primary" data-start="${t.id}">
-                  ${active && active.testId === t.id ? 'Continue' : 'Start Mock'}
+                  ${active && active.testId === t.id ? 'Continue' : 'Start practice ↗'}
                 </button>
               </div>
             </div>
-          `;
+
+    `;
         }).join('')}
       </div>
+
+            <section id="practiceNotes" class="practice-notes"><div><span class="eyebrow">BUILT FOR FOCUSED PREPARATION</span><h2>Know the format.<br>Build your own strategy.</h2><p>Each paper includes 40 reasoning and 40 quantitative aptitude questions. Sections run on separate timers. Answered questions marked for review are scored.</p></div><div><h3>Variety that makes you think</h3><p>Seating and floor puzzles, coding, inequalities, syllogisms, indirect tables, bar charts, caselets and multi-step arithmetic. Review every solution after submitting.</p><h3>About these questions</h3><p>Original practice informed by published exam structure and candidate-reported topic trends. These are independent mocks; difficulty has not been officially calibrated. Scores are practice feedback, not a predicted cutoff.</p><p><a href="https://www.ibps.in/index.php/rural-bank-xv/" target="_blank" rel="noopener">IBPS notification hub ↗</a> · <a href="https://www.practicemock.com/blog/ibps-rrb-po-exam-analysis-2025/" target="_blank" rel="noopener">2025 topic analysis ↗</a> · <a href="data/answer_keys.csv" download>Download answer keys ↓</a></p></div></section>
 
       ${attempts.length ? `
         <div style="background:#ffffff; border:1px solid var(--border); border-radius:10px; padding:24px; margin-top:20px;">
           <h3 style="font-size: 17px; font-weight: 800; color: var(--primary); margin-bottom: 16px;">Your Previous Mock Attempts</h3>
           <div style="display:flex; flex-direction:column; gap:10px;">
             ${attempts.slice(0, 10).map(att => `
-              <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; font-size:13px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding:12px 16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; font-size:13px;">
                 <div>
                   <strong>${esc(att.title)}</strong>
                   <span style="color:var(--text-muted); margin-left:12px;">${esc(new Date(att.completedAt).toLocaleString())}</span>
@@ -294,7 +272,7 @@
         lastRenderedSecond = secs;
         const timer = $('#examTimer');
         if (timer) {
-          timer.innerHTML = `⏱️ ${timeText(secs)}`;
+          timer.innerHTML = `${timeText(secs)}`;
           timer.className = secs <= 60 ? 'timer-box' : 'timer-box normal';
         }
       }
@@ -325,8 +303,8 @@
             <div style="display:grid; grid-template-columns: 80px 1fr; gap:10px; margin: 6px 0; align-items:center; font-size:12px;">
               <b>${esc(r.label)}</b>
               <div style="display:flex; flex-direction:column; gap:3px;">
-                <div style="height:12px; width:${(r.a * 100 / maxVal).toFixed(1)}%; background:#1976d2; border-radius:3px;" title="${r.a}"></div>
-                <div style="height:12px; width:${(r.b * 100 / maxVal).toFixed(1)}%; background:#f59e0b; border-radius:3px;" title="${r.b}"></div>
+                <div style="height:12px; width:${(r.a * 100 / maxVal).toFixed(1)}%; background:#1976d2; border-radius:3px;" title="${r.a}"><span class="bar-value">${r.a}</span></div>
+                <div style="height:12px; width:${(r.b * 100 / maxVal).toFixed(1)}%; background:#f59e0b; border-radius:3px;" title="${r.b}"><span class="bar-value">${r.b}</span></div>
               </div>
             </div>
           `).join('')}
@@ -335,23 +313,9 @@
     }
 
     let tableHtml = '';
-    if (st.rows && st.columns) {
-      tableHtml = `
-        <table class="cbt-table">
-          <thead>
-            <tr>${st.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr>
-          </thead>
-          <tbody>
-            ${st.rows.map(r => `
-              <tr>
-                <td><strong>${esc(r.label)}</strong></td>
-                <td>${esc(r.a)}</td>
-                <td>${esc(r.b)}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      `;
+    const cells = st.cells || (st.rows ? st.rows.map(r => [r.label, r.a, r.b]) : null);
+    if (cells && st.columns) {
+      tableHtml = `<div class="table-scroll"><table class="cbt-table"><thead><tr>${st.columns.map(c => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${cells.map(row => `<tr>${row.map(value => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     }
 
     return `
@@ -359,7 +323,7 @@
         <h4>${esc(st.title)}</h4>
         ${st.variant === 'caselet' ? `<p style="margin-bottom:12px;">${esc(st.body)}</p>` : ''}
         ${chartHtml}
-        ${st.variant !== 'caselet' && tableHtml ? tableHtml : ''}
+        ${st.variant !== 'caselet' && st.visualization !== 'bar' && tableHtml ? tableHtml : ''}
       </div>
     `;
   }
@@ -405,7 +369,7 @@
           </div>
           <div style="display:flex; align-items:center; gap:16px;">
             <div id="examTimer" class="${secs <= 60 ? 'timer-box' : 'timer-box normal'}">
-              ⏱️ ${timeText(secs)}
+              ${timeText(secs)}
             </div>
             <button class="btn btn-submit" id="submitExamBtn" style="padding: 8px 18px;">
               Submit Exam
@@ -422,18 +386,18 @@
               <span class="q-marks">Marks: <b>+1.00</b> | Negative: <span>−0.25</span></span>
             </div>
 
-            <div class="question-body">
+            <div class="question-body ${stim ? 'has-stimulus' : ''}">
               ${renderStimulus(stim)}
-              <div class="q-stem">${esc(q.stem)}</div>
+              <div class="answer-pane"><div class="q-topic">${esc(q.topic)}</div><div class="q-stem">${esc(q.stem)}</div>
               <div class="options-list">
                 ${q.options.map((opt, i) => `
-                  <div class="option-item ${active.answers[q.id] === i ? 'selected' : ''}" data-ans="${i}">
+                  <button type="button" class="option-item ${active.answers[q.id] === i ? 'selected' : ''}" data-ans="${i}" aria-pressed="${active.answers[q.id] === i}">
                     <div class="opt-radio"></div>
                     <span class="opt-letter">(${'ABCDE'[i]})</span>
                     <span class="opt-text">${esc(opt)}</span>
-                  </div>
+                  </button>
                 `).join('')}
-              </div>
+              </div></div>
             </div>
 
             <!-- ACTION TOOLBAR -->
@@ -630,10 +594,6 @@
     }
     const sortedTopics = Object.entries(byTopic).sort((a, b) => a[0].localeCompare(b[0]));
 
-    // Estimated Cutoff Benchmarks
-    const cutoffGen = 56.50, cutoffObc = 54.00, cutoffSc = 49.50;
-    const isQual = overall.score >= cutoffGen;
-
     $('#app').innerHTML = `
       <div class="results-container">
         <!-- SCORE HERO CARD -->
@@ -646,26 +606,7 @@
             </p>
           </div>
 
-          <div class="cutoff-box">
-            <h4>Expected Cutoff Benchmark</h4>
-            <div class="cutoff-item">
-              <span>General / UR</span>
-              <b>${cutoffGen.toFixed(2)}</b>
-            </div>
-            <div class="cutoff-item">
-              <span>OBC / EWS</span>
-              <b>${cutoffObc.toFixed(2)}</b>
-            </div>
-            <div class="cutoff-item">
-              <span>SC / ST</span>
-              <b>${cutoffSc.toFixed(2)}</b>
-            </div>
-            <div style="margin-top: 10px; text-align: center;">
-              <span style="display:inline-block; padding: 4px 12px; border-radius: 4px; font-size: 11px; font-weight: 800; background: ${isQual ? '#22c55e' : '#f59e0b'}; color: #ffffff;">
-                ${isQual ? '✓ QUALIFYING SCORE RANGE' : '⚠️ TARGET 60+ FOR HIGH COMPETITION STATES'}
-              </span>
-            </div>
-          </div>
+          <div class="cutoff-box"><h4>Your practice checkpoint</h4><p>Use topic accuracy and missed questions to plan your next session.</p><p style="margin-top:12px;font-size:12px;opacity:.8">Official cutoffs vary by state, category and year. This score does not predict qualification.</p></div>
         </div>
 
         <!-- SUMMARY STATS -->
@@ -794,7 +735,7 @@
             </details>
           ` : ''}
 
-          <div style="font-size: 15px; font-weight: 600; line-height: 1.6; margin-bottom: 14px;">
+          <div style="font-size: 15px; font-weight: 600; line-height: 1.6; margin-bottom: 14px; white-space:pre-wrap;">
             ${esc(q.stem)}
           </div>
 

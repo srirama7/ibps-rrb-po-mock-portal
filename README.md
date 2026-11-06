@@ -1,55 +1,54 @@
-# RRB PO Mock Lab — 20 full prelims papers
+﻿# RRB Practice Room
 
-A **free, independent, no-login, browser-based mock-test suite** for IBPS RRB Officer Scale I prelims practice.
+20 independent full-length IBPS RRB Officer Scale I prelims practice papers: 1,600 original questions, five choices each, answer keys and explanations.
 
-## What's included
+Live: https://srirama7.github.io/ibps-rrb-po-mock-portal/
 
-- `SPEC_RRB_PO_20_MOCKS.md` — comprehensive build specification for an AI coding agent or developer.
-- `data/tests.json` — all **20 × 80 = 1,600** original multiple-choice questions, answers, explanations and shared puzzle/DI passages.
-- `data/mock_01.json` … `data/mock_20.json` — the same mocks in separate importable files.
-- `data/answer_keys.csv` — 1,600 answer keys and explanations for review/import.
-- `data/qa_report.json` — automated structural validation summary.
-- `tools/generate_questions.py` — deterministic generator with internally solved reasoning arrangements.
-- `tools/validate_questions.py` — content-structure validator and file splitter.
-- `index.html`, `styles.css`, `app.js` — working responsive, timed mock-test website prototype.
-- `START_WEBSITE_WINDOWS.bat` — local launch helper for Windows with Python installed.
+## Practice format
 
-## Run on Windows
+- Reasoning: 40 questions in 25 minutes; Quantitative Aptitude: 40 questions in 20 minutes.
+- +1 correct, -0.25 wrong, zero unanswered. Answered and marked questions are scored.
+- Automatic section locking and final submission, browser-local resume and attempt history.
+- Desktop passage/answer split, responsive mobile layout, keyboard answer controls, accessible focus indicators.
+- Puzzle families: linear, parallel rows, circular, box, floor-flat, month-date.
+- Quant: indirect table DI, labelled bar charts, prose caselets, ten DI question formats, five series rules, approximation, quadratic comparisons, and alternate arithmetic families.
 
-Unzip the package, double-click `START_WEBSITE_WINDOWS.bat`, then open <http://localhost:8000>. If the Python launcher `py` isn't installed, open a terminal in this directory and run:
+## Sources and limits
+
+The exam structure was researched against [IBPS notification material](https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD-27.09.25.pdf). Check the [current IBPS notification hub](https://www.ibps.in/index.php/rural-bank-xv/) for changes. Topic selection was informed by [2025 shift analysis](https://www.bankersadda.com/ibps-rrb-po-exam-analysis-2025-shift-1-22-november/) and [cross-shift trends](https://www.practicemock.com/blog/ibps-rrb-po-exam-analysis-2025/). Candidate-reported analyses are indicative, not an official syllabus or a guarantee of future questions.
+
+Questions are original practice material, not copied exam papers. Topic/structure alignment is not official difficulty calibration. This independent resource is not affiliated with IBPS. Results deliberately do not invent state/category cutoffs or predict qualification.
+
+## Generate and validate
+
+Run from the repository root with Python 3 and Node.js:
+
+```sh
+python tools/build_exam_bank.py
+python tools/validate_questions.py
+python tools/check_answers.py
+python tools/check_reasoning.py
+node --check app.js
+```
+
+The generator exhaustively checks arrangement uniqueness and removes redundant clues. `data/solver_audit.json` records 80 uniquely solved sets. Independent checkers recompute all 800 quantitative keys and 400 standalone reasoning keys from displayed inputs, and verify 1,600 distinct question contexts. Structural validation refreshes all per-paper JSON files and the CSV answer key. These checks do not substitute for human exam-difficulty calibration.
+
+For UI regression checks (requires Playwright and its Chromium browser):
+
+```sh
+python tools/browser_smoke_test.py
+```
+
+This covers desktop/mobile overflow, keyboard selection, clearing, review marking, refresh/resume, timer transitions, DI layout, all 20 result reports, scoring/penalties and automatic submission. Screenshots are written to ignored `artifacts/`.
+
+Older generator scripts and the original specification are retained as project history. `build_exam_bank.py` is the current bank generator; use the commands above for the published version.
+
+## Run and deploy
 
 ```sh
 python -m http.server 8000
 ```
 
-Then visit <http://localhost:8000>. **Opening `index.html` directly with `file://` will not work** because browsers block local JSON fetching.
+Open http://localhost:8000. The app also bundles its bank in `data/tests_data.js` for offline loading. GitHub Pages publishes the repository root from `main`.
 
-You can deploy these static files directly on Vercel, Netlify, Firebase Hosting or another static host. There is no registration form, login, payment provider or server required for personal practice.
-
-## Test parameters
-
-| Item | Setting |
-|---|---|
-| Questions per mock | 80 |
-| Reasoning | 40 questions / 25 minutes |
-| Quantitative Aptitude | 40 questions / 20 minutes |
-| Total | 45 minutes / 80 marks |
-| Marking | +1 correct, −0.25 incorrect, 0 unanswered |
-| Question choices | 5 per question |
-| Result explanations | Accessible after final submission |
-| Account requirement | None |
-
-These mocks are **independently generated training material**, not official IBPS papers. They intentionally reuse broad reasoning and arithmetic *skills* while keeping the question stems unique. Question quality, difficulty calibration and linguistic phrasing need editorial review before using them for a paid/public exam product; uniqueness does **not** imply official difficulty parity.
-
-The browser app stores incomplete and completed attempts in localStorage, which is local to that browser/device. Clearing site data deletes that progress. For a public platform with cheating resistance, do **not** deliver `answerIndex` and `explanation` in client-facing JSON before submission; move the answer keys to a protected server API.
-
-## Verification
-
-```sh
-python tools/validate_questions.py
-node --check app.js
-```
-
-## Disclaimer
-
-Independent practice resource. Not affiliated with or endorsed by the Institute of Banking Personnel Selection. Official structure may change; verify the latest information at <https://www.ibps.in>.
+Progress is stored only in this browser. The new bank uses versioned storage so old responses are not graded against changed questions; prior storage is preserved. This is a personal practice app: answers ship with the static site and it is not a secure proctored assessment system.
