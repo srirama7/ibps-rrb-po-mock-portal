@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const ACTIVE_KEY = 'rrbpo_active_v3', HISTORY_KEY = 'rrbpo_history_v3';
+  const ACTIVE_KEY = 'rrbpo_active_v4', HISTORY_KEY = 'rrbpo_history_v4';
   const $ = (sel) => document.querySelector(sel);
   const esc = (str) => String(str ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
@@ -205,7 +205,7 @@
         }).join('')}
       </div>
 
-            <section id="practiceNotes" class="practice-notes"><div><span class="eyebrow">BUILT FOR FOCUSED PREPARATION</span><h2>Know the format.<br>Build your own strategy.</h2><p>Each paper includes 40 reasoning and 40 quantitative aptitude questions. Sections run on separate timers. Answered questions marked for review are scored.</p></div><div><h3>Variety that makes you think</h3><p>Seating and floor puzzles, coding, inequalities, syllogisms, indirect tables, bar charts, caselets and multi-step arithmetic. Review every solution after submitting.</p><h3>About these questions</h3><p>Original practice informed by published exam structure and candidate-reported topic trends. These are independent mocks; difficulty has not been officially calibrated. Scores are practice feedback, not a predicted cutoff.</p><p><a href="https://www.ibps.in/index.php/rural-bank-xv/" target="_blank" rel="noopener">IBPS notification hub ↗</a> · <a href="https://www.practicemock.com/blog/ibps-rrb-po-exam-analysis-2025/" target="_blank" rel="noopener">2025 topic analysis ↗</a> · <a href="data/answer_keys.csv" download>Download answer keys ↓</a></p></div></section>
+            <section id="practiceNotes" class="practice-notes"><div><span class="eyebrow">BUILT FOR FOCUSED PREPARATION</span><h2>Know the format.<br>Build your own strategy.</h2><p>Each paper includes 40 reasoning and 40 quantitative aptitude questions. Sections run on separate timers. Answered questions marked for review are scored.</p></div><div><h3>Variety that makes you think</h3><p>Seating and floor puzzles, coding, inequalities, syllogisms, indirect tables, bar charts, caselets and multi-step arithmetic. Review every solution after submitting.</p><h3>About these questions</h3><p>Prelims topic review: 8 November 2026. This bank covers Reasoning Ability and Quantitative Aptitude. English/Hindi, General Awareness and Computer Knowledge belong to the mains stage. Original practice questions follow the published topic guidance. These are independent mocks; difficulty has not been officially calibrated. Scores are practice feedback, not a predicted cutoff.</p><p><a href="https://www.ibps.in/index.php/rural-bank-xv/" target="_blank" rel="noopener">IBPS notification hub ↗</a> · <a href="https://www.bankersadda.com/ibps-rrb-po-syllabus/" target="_blank" rel="noopener">Prelims topic guide ↗</a> · <a href="data/syllabus_review.json" target="_blank" rel="noopener">Question bank review</a> &middot; <a href="data/answer_keys.csv" download>Download answer keys ↓</a></p></div></section>
 
       ${attempts.length ? `
         <div style="background:#ffffff; border:1px solid var(--border); border-radius:10px; padding:24px; margin-top:20px;">

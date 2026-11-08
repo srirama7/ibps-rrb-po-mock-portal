@@ -15,9 +15,13 @@ Live: https://srirama7.github.io/ibps-rrb-po-mock-portal/
 
 ## Sources and limits
 
-The exam structure was researched against [IBPS notification material](https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD-27.09.25.pdf). Check the [current IBPS notification hub](https://www.ibps.in/index.php/rural-bank-xv/) for changes. Topic selection was informed by [2025 shift analysis](https://www.bankersadda.com/ibps-rrb-po-exam-analysis-2025-shift-1-22-november/) and [cross-shift trends](https://www.practicemock.com/blog/ibps-rrb-po-exam-analysis-2025/). Candidate-reported analyses are indicative, not an official syllabus or a guarantee of future questions.
+Topics reviewed on 8 November 2026 against the [current BankersAdda topic guide](https://www.bankersadda.com/ibps-rrb-po-syllabus/) and the publisher's [RRB prelims topic and past-paper guide, pages 5–6](https://www.adda247.com/jobs/wp-content/uploads/sites/8/2024/06/10162029/Copy-of-Decoding-IBPS-RRB-Prelims-2024-Final.pdf). The existing topics already fell within that guidance. Version 4 revises 400 puzzle tasks, 60 direction tasks and 10 pipes/cisterns tasks to address unclear clues, repetitive tasks and trivial rate cancellation; the complete bank was regenerated with updated explanations and keys. See [the review record](data/syllabus_review.json) for topic counts and sources.
+
+This is a prelims bank: Reasoning and Quantitative Aptitude. General Awareness, Computer Knowledge and English/Hindi belong to mains. Preparation-provider topic lists are guidance, not an official topic-by-topic syllabus. The [current IBPS notification page](https://www.ibps.in/index.php/notification-for-common-recruitment-process-for-crp-rrb-xv/) is the authority for exam rules; its current PDF could not be retrieved during this review, so this update does not claim a new verification of the official 2026 rules. Timers retain the previously implemented 25/20-minute structure, also described by the current preparation guide; historical guide timings are not used.
 
 Questions are original practice material, not copied exam papers. Topic/structure alignment is not official difficulty calibration. This independent resource is not affiliated with IBPS. Results deliberately do not invent state/category cutoffs or predict qualification.
+
+Approximation choices also received a correctness fix: three regenerated items had a distractor closer to the exact value than the rounded key. All 100 approximation option sets now use wider spacing, and validation requires the keyed answer to be the uniquely closest choice.
 
 ## Generate and validate
 
@@ -26,12 +30,14 @@ Run from the repository root with Python 3 and Node.js:
 ```sh
 python tools/build_exam_bank.py
 python tools/validate_questions.py
+python tools/review_syllabus.py
 python tools/check_answers.py
 python tools/check_reasoning.py
+python tools/check_puzzle_questions.py
 node --check app.js
 ```
 
-The generator exhaustively checks arrangement uniqueness and removes redundant clues. `data/solver_audit.json` records 80 uniquely solved sets. Independent checkers recompute all 800 quantitative keys and 400 standalone reasoning keys from displayed inputs, and verify 1,600 distinct question contexts. Structural validation refreshes all per-paper JSON files and the CSV answer key. These checks do not substitute for human exam-difficulty calibration.
+The generator exhaustively checks arrangement uniqueness and removes redundant clues. `data/solver_audit.json` records 80 uniquely solved sets. Independent checkers recompute all 800 quantitative keys and 400 standalone reasoning keys from displayed inputs, check 400 puzzle keys against solved layouts, and verify 1,600 distinct question contexts. Structural validation refreshes all per-paper JSON files and the CSV answer key. The syllabus check rejects topic labels outside the researched prelims scope. These checks do not substitute for human exam-difficulty calibration.
 
 For UI regression checks (requires Playwright and its Chromium browser):
 

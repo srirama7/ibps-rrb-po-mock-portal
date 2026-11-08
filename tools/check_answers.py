@@ -51,6 +51,9 @@ for t in data['tests']:
         elif topic=='Approximation':
             p,base,term,v=map(F,re.findall(r'(\d+\.\d+)',s))
             ans=F(round(p)*round(base),100)+round(term)-round(v)**2
+            exact=p*base/100+term-v*v
+            errors=[abs(F(option)-exact) for option in q['options']]
+            assert errors[q['answerIndex']] < min(error for i,error in enumerate(errors) if i!=q['answerIndex']), ('Ambiguous approximation choices',q['id'])
         elif topic=='Number series':
             seq=list(map(int,re.findall(r'\d+',s)))
             dif=[y-x for x,y in zip(seq,seq[1:])]

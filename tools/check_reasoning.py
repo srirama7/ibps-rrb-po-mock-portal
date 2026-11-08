@@ -50,8 +50,9 @@ for t in data['tests']:
             assert len(mappings)==1,(q['id'],len(mappings))
             word=re.search(r'code for “(\w+)”',s)[1];answer=mappings[0][word]
         elif topic=='Direction sense':
-            east,north,west=map(int,re.findall(r'(\d+) km',s))
-            dist=math.isqrt((east-west)**2+north**2);assert dist*dist==(east-west)**2+north**2
+            first,perpendicular,last=map(int,re.findall(r'(\d+) km',s))
+            assert len(set(re.findall(r'turns (left|right)',s)))==1
+            dist=math.isqrt((first-last)**2+perpendicular**2);assert dist*dist==(first-last)**2+perpendicular**2
             answer=str(dist)
         elif topic=='Ranking':
             total,front,move=map(int,re.findall(r'\d+',s));answer=str(total-front-move+1)

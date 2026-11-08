@@ -71,14 +71,24 @@ def arrangement(t, kind):
     for a,b in itertools.combinations(range(8),2):
         d=target[b]-target[a]
         gap=abs(d)-1
-        candidates.append((lambda p,a=a,b=b,gap=gap: abs(p[a]-p[b])==gap+1,
-            f'Exactly {gap} occupied positions separate {names[a]} and {names[b]} in the stated order.'))
+        gap_text = (f'Exactly {gap} {"person sits" if gap==1 else "people sit"} between {names[a]} and {names[b]}.' if kind == 'linear' else
+                    f'Exactly {gap} {"box is" if gap==1 else "boxes are"} between {names[a]} and {names[b]}.' if kind == 'box' else
+                    f'Exactly {gap} interview {"slot falls" if gap==1 else "slots fall"} between the interviews of {names[a]} and {names[b]}.')
+        if gap == 0:
+            gap_text = (f'{names[a]} and {names[b]} sit next to each other.' if kind == 'linear' else
+                        f'{names[a]} and {names[b]} are adjacent boxes.' if kind == 'box' else
+                        f'{names[a]} and {names[b]} attend in consecutive interview slots.')
+        candidates.append((lambda p,a=a,b=b,gap=gap: abs(p[a]-p[b])==gap+1, gap_text))
         if abs(d)>1:
             candidates.append((lambda p,a=a,b=b,d=d: (p[b]>p[a])==(d>0),
-                f'{names[a]} comes {"before" if d>0 else "after"} {names[b]} in the stated order.'))
+                (f'{names[a]} sits to the {"left" if d>0 else "right"} of {names[b]}.' if kind == 'linear' else
+                 f'{names[a]} is {"below" if d>0 else "above"} {names[b]}.' if kind == 'box' else
+                 f'{names[a]} attends before {names[b]}.' if d>0 else f'{names[a]} attends after {names[b]}.')))
     for a in range(8):
         candidates.append((lambda p,a=a,v=target[a]%2: p[a]%2==v,
-            f'{names[a]} occupies an {"odd" if target[a]%2==0 else "even"}-numbered position in the stated order.'))
+            (f'{names[a]} sits in an {"odd" if target[a]%2==0 else "even"}-numbered position from the left.' if kind == 'linear' else
+             f'{names[a]} is in an {"odd" if target[a]%2==0 else "even"}-numbered position from the bottom.' if kind == 'box' else
+             f'{names[a]} attends on day {7 if target[a]%2==0 else 21} of a month.')))
     if kind == 'circular':
         candidates=[]
         for a,b in itertools.combinations(range(8),2):
@@ -113,7 +123,7 @@ def arrangement(t, kind):
                 candidates.append((lambda p,a=a,b=b: p[a]//2==p[b]//2,
                     f'{names[a]} and {names[b]} live on the same floor.'))
             candidates.append((lambda p,a=a,b=b,v=sameflat: (p[a]%2==p[b]%2)==v,
-                f'{names[a]} and {names[b]} live in {"the same" if sameflat else "different"} flat letters.'))
+                f'{names[a]} and {names[b]} occupy flats with {"the same letter on different floors" if sameflat else "different letters"}.'))
         for a in range(8):
             candidates.append((lambda p,a=a,v=target[a]%2:p[a]%2==v,
                 f'{names[a]} lives in Flat {"A" if target[a]%2==0 else "B"}.'))
@@ -144,8 +154,34 @@ def arrangement(t, kind):
     solution='; '.join(f'{labels[i]}: {names[target.index(i)]}' for i in range(8))
     st=dict(id=sid,type='logic_puzzle',variant=kind,title=title,body='Use all the following clues:\n'+'\n'.join('• '+c for c in clues),solution=solution)
     qs=[]
-    for i in R.sample([x for x in range(8) if x!=target[anchor]],3):
-        qs.append(question(topic,f'Who occupies {labels[i]}?',names[target.index(i)],f'The unique arrangement is: {solution}. Therefore {names[target.index(i)]} occupies {labels[i]}.',names, sid))
+    # Ask relative questions that require solving the set, rather than reading its anchor.
+    for offset in [1, 2, 3]:
+        if kind == 'circular':
+            ref = R.choice([x for x in range(8) if (target[x]+offset)%8 != target[anchor]])
+            dest = (target[ref]+offset)%8
+            stem = f'Who sits {offset} place(s) to the left of {names[ref]}?'
+        elif kind == 'floor':
+            ref = R.choice([x for x in range(8) if (target[x]^1) != target[anchor]])
+            dest = target[ref]^1
+            if offset == 1:
+                stem = f'Who lives on the same floor as {names[ref]} in the other flat?'
+            else:
+                ref = R.choice([x for x in range(8) if 0 <= target[x]+(2 if offset==2 else -2) < 8 and target[x]+(2 if offset==2 else -2) != target[anchor]])
+                dest = target[ref]+(2 if offset==2 else -2)
+                stem = f'Who lives one floor {"above" if offset==2 else "below"} {names[ref]} in the same flat letter?'
+        elif kind == 'parallel':
+            ref = R.choice([x for x in range(8) if target[x]%4+offset < 4 and target[x]+offset != target[anchor]])
+            dest = target[ref]+offset
+            side = 'left' if target[ref]<4 else 'right'
+            stem = f'Who sits {offset} place(s) to the {side} of {names[ref]} in the same row?'
+        else:
+            ref = R.choice([x for x in range(8) if target[x]+offset < 8 and target[x]+offset != target[anchor]])
+            dest = target[ref]+offset
+            stem = (f'Who sits {offset} place(s) to the right of {names[ref]}?' if kind == 'linear' else
+                    f'Which box is {offset} position(s) above {names[ref]}?' if kind == 'box' else
+                    f'Whose interview is {offset} slot(s) after the interview of {names[ref]}?')
+        answer = names[target.index(dest)]
+        qs.append(question(topic,stem,answer,f'The unique arrangement is: {solution}. Following the stated relative position gives {answer}.',names,sid))
     a,b=R.sample(range(8),2)
     if kind == 'circular':
         count=min(abs(target[a]-target[b]),8-abs(target[a]-target[b]))-1
@@ -153,10 +189,24 @@ def arrangement(t, kind):
     elif kind == 'parallel':
         who=target.index((target[a]+4)%8)
         qs.append(question(topic,f'Who faces {names[a]}?',names[who],f'The person at the same diagram position in the opposite row is {names[who]}. Arrangement: {solution}.',names,sid))
+    elif kind == 'floor':
+        count = max(0, abs(target[a]//2-target[b]//2)-1)
+        qs.append(question(topic,f'How many floors lie strictly between the floors on which {names[a]} and {names[b]} live?',count,f'Their floors are {target[a]//2+1} and {target[b]//2+1}. Count only intervening floors: {count}. Arrangement: {solution}.',range(5),sid))
     else:
-        qs.append(question(topic,f'How many occupied positions lie between {names[a]} and {names[b]} in the stated order?',abs(target[a]-target[b])-1,f'Positions are {target[a]+1} and {target[b]+1}; the count between them is |{target[a]+1} − {target[b]+1}| − 1. Arrangement: {solution}.',range(7),sid))
-    a=R.choice([x for x in range(8) if x!=anchor])
-    qs.append(question(topic,f'Which position is occupied by {names[a]}?',labels[target[a]],f'The unique arrangement is: {solution}.',R.sample(labels,8),sid))
+        stem = (f'How many people sit between {names[a]} and {names[b]}?' if kind == 'linear' else
+                f'How many boxes are between {names[a]} and {names[b]}?' if kind == 'box' else
+                f'How many interview slots fall between the interviews of {names[a]} and {names[b]}?')
+        qs.append(question(topic,stem,abs(target[a]-target[b])-1,f'Positions are {target[a]+1} and {target[b]+1}; the count between them is |{target[a]+1} − {target[b]+1}| − 1. Arrangement: {solution}.',range(7),sid))
+    # Odd-one-out groups offer a different task within every five-question set.
+    groups = [list(range(4)), list(range(4,8))] if kind != 'floor' else [[0,2,4,6],[1,3,5,7]]
+    group = R.choice(groups)
+    people = [names[target.index(i)] for i in group]
+    outsider = names[target.index(R.choice([i for i in range(8) if i not in group]))]
+    rule = ('occupy Flat '+('A' if group[0]==0 else 'B') if kind == 'floor' else
+            'sit in the same row' if kind == 'parallel' else
+            ('occupy seats 1–4' if group[0]==0 else 'occupy seats 5–8') if kind == 'circular' else
+            ('occupy positions 1–4' if group[0]==0 else 'occupy positions 5–8'))
+    qs.append(question(topic,f'Which of the following does not {rule}?',outsider,f'The four people {", ".join(people)} {rule}. {outsider} does not. Arrangement: {solution}.',people,sid))
     return st,qs
 
 def miscellaneous(t):
@@ -201,8 +251,11 @@ def miscellaneous(t):
     for i in R.sample(range(6),4):
         qs.append(question('Coding and decoding',codebody+f'\nWhat is the code for “{vocabulary[i]}”?',codes[i],'Compare the intersections of the coded lines. The complete consistent mapping is: '+', '.join(f'{w} = {c}' for w,c in zip(vocabulary,codes))+'.',codes))
     for k in range(3):
-        scale=R.randrange(2,20);w=R.randrange(2,25);e=w+3*scale;n=4*scale
-        qs.append(question('Direction sense',f'A surveyor walks {e} km east, turns left and walks {n} km, then turns left and walks {w} km. What is the shortest distance (km) from the starting point?',5*scale,f'Net displacement is {e-w} km east and {n} km north. By Pythagoras, √({e-w}² + {n}²) = {5*scale} km.'))
+        scale=R.randrange(2,20);w=R.randrange(2,25)
+        dx,dy,hyp=R.choice([(3,4,5),(5,12,13),(8,15,17)])
+        initial=R.choice(['east','west','north','south'])
+        turn=R.choice(['left','right']);e=w+dx*scale;n=dy*scale
+        qs.append(question('Direction sense',f'A surveyor walks {e} km {initial}, turns {turn} and walks {n} km, then turns {turn} and walks {w} km. What is the shortest distance (km) from the starting point?',hyp*scale,f'The first and third legs oppose each other. Net components are {e-w} km along the initial direction and {n} km perpendicular to it. Distance = √({e-w}² + {n}²) = {hyp*scale} km.'))
     rels=[('daughter','sister','female'),('son','brother','male')]
     for k in range(3):
         a,b,c,d=R.sample(['A','B','C','D','E','F','G','H'],4)
@@ -268,7 +321,7 @@ def quantitative(t):
     for k in range(5):
         p=R.choice([15,25,35,45,65,75]);base=R.randrange(12,40)*20;n=R.randrange(13,32);v=R.randrange(12,24)
         answer=F(p*base,100)+n*n-v*v
-        qs.append(question('Approximation',f'Find the approximate value of ?:\n{p}.02% of {base-0.18:.2f} + {n*n+0.12:.2f} − ({v-0.02:.2f})² = ?',answer,f'Round to {p}% of {base} + {n*n} − {v}² = {fmt(answer)}. All alternatives are separated by several units.'))
+        qs.append(question('Approximation',f'Find the approximate value of ?:\n{p}.02% of {base-0.18:.2f} + {n*n+0.12:.2f} − ({v-0.02:.2f})² = ?',answer,f'Round to {p}% of {base} + {n*n} − {v}² = {fmt(answer)}. The choices are sufficiently separated for this rounding.',[answer+10,answer-10,answer+20,answer-20]))
     quadopts=['x > y','x ≥ y','x < y','x ≤ y','x = y or relationship cannot be determined']
     for k in range(5):
         x=sorted(R.sample(range(1,16),2));y=sorted(R.sample(range(1,16),2))
@@ -313,8 +366,9 @@ def quantitative(t):
         alt=[]
         cost=R.randrange(15,35)*100;loss=R.choice([10,20,25]);gain=R.choice([10,20,25])
         alt.append(question('Profit and loss',f'Two articles are sold for ₹{cost} each. One earns {gain}% profit and the other incurs {loss}% loss. Find the combined cost price (₹, to two decimals).',F(cost*100,100+gain)+F(cost*100,100-loss),f'Recover each cost separately: {cost}×100/{100+gain} + {cost}×100/{100-loss}. Equal selling prices do not imply equal costs.'))
-        fill=R.randrange(8,35);drain=fill*3
-        alt.append(question('Pipes and cisterns',f'Two inlet pipes can fill a tank in {fill*2} and {fill*3} hours. An outlet empties it in {drain} hours. All three open together. Find the time (hours) to fill the empty tank.',fill*2,f'Net rate = 1/{fill*2} + 1/{fill*3} − 1/{drain} = 1/{fill*2}. Take the reciprocal.'))
+        fill=R.randrange(8,35);drain=fill*R.choice([4,5,6])
+        net=F(1,fill*2)+F(1,fill*3)-F(1,drain)
+        alt.append(question('Pipes and cisterns',f'Two inlet pipes can fill a tank in {fill*2} and {fill*3} hours. An outlet empties it in {drain} hours. All three open together. Find the time (hours) to fill the empty tank.',1/net,f'Net rate = 1/{fill*2} + 1/{fill*3} − 1/{drain} = {net} tank/hour. Required time = {fmt(1/net)} hours.'))
         speed=R.randrange(12,24);stream=R.randrange(2,6);hours=R.randrange(2,6)
         alt.append(question('Boats and streams',f'A boat covers {2*speed*hours} km in still water in {hours*2} hours. If the stream flows at {stream} km/h, how far (km) can it travel upstream in {hours} hours?',(speed-stream)*hours,f'Still-water speed = {speed} km/h. Upstream speed = {speed} − {stream}. Distance = speed × {hours}.'))
         a=R.randrange(3,10);b=R.randrange(3,10);months=R.randrange(3,10);unit=R.randrange(10,30)*100
@@ -363,7 +417,7 @@ def build():
             q.update(id=f'M{t:02d}-Q{n:02d}',number=n,section='reasoning' if n<=40 else 'quant')
             q['explanation']='Answer: '+q['options'][q['answerIndex']]+'. '+q['explanation']
         tests.append(dict(id=f'MOCK-{t:02d}',number=t,title=f'RRB Officer Scale I · Mock {t:02d}',totalQuestions=80,durationSeconds=2700,sections=[dict(id='reasoning',name='Reasoning Ability',start=1,end=40,durationSeconds=1500),dict(id='quant',name='Quantitative Aptitude',start=41,end=80,durationSeconds=1200)],marking=dict(correct=1,incorrect=-0.25,unattempted=0),stimuli=stimuli,questions=questions))
-    payload=dict(format='rrb-practice-v3',exam='IBPS RRB Officer Scale I Prelims',version='3.0.0',totalMocks=20,totalQuestions=1600,blueprint='Original practice informed by IBPS structure and 2025 candidate-reported topic trends; difficulty is not officially calibrated.',tests=tests)
+    payload=dict(format='rrb-practice-v4',exam='IBPS RRB Officer Scale I Prelims',version='4.0.0',totalMocks=20,totalQuestions=1600,blueprint='Prelims topics reviewed against IBPS exam structure and published RRB PO topic guidance. Original questions; difficulty is not officially calibrated.',tests=tests)
     raw=json.dumps(payload,ensure_ascii=False,indent=2)
     (ROOT/'data/tests.json').write_text(raw,encoding='utf-8')
     (ROOT/'data/tests_data.js').write_text('window.__IBPS_MOCK_DATA__ = '+raw+';',encoding='utf-8')

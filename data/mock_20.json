@@ -27,36 +27,36 @@
   },
   "stimuli": [
     {
-      "id": "T20-parallel",
+      "id": "T20-floor",
       "type": "logic_puzzle",
-      "variant": "parallel",
-      "title": "Nisha, Bina, Meera, Jaya, Charu, Sana, Lata, Isha sit in two rows of four. Row 1 faces south, Row 2 faces north. The first four people listed sit in Row 1 and the remaining four in Row 2. Positions 1–4 in each row run from left to right of the diagram. People at the same position in different rows face each other.",
-      "body": "Use all the following clues:\n• Nisha occupies Row 1, position 3 from the left of the diagram.\n• Nisha does not face Charu.\n• Isha sits 1 place(s) to the right of Charu.\n• Jaya sits 2 place(s) to the left of Bina.\n• Meera faces Lata.",
-      "solution": "Row 1, position 1 from the left of the diagram: Meera; Row 1, position 2 from the left of the diagram: Bina; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Jaya; Row 2, position 1 from the left of the diagram: Lata; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Isha; Row 2, position 4 from the left of the diagram: Sana"
-    },
-    {
-      "id": "T20-schedule",
-      "type": "logic_puzzle",
-      "variant": "schedule",
-      "title": "Deepa, Esha, Hema, Nisha, Pia, Meera, Kiran, Jaya attend interviews, one per slot, on 7 and 21 March, April, May and June. Slots run in chronological order.",
-      "body": "Use all the following clues:\n• Pia occupies April 7.\n• Exactly 0 occupied positions separate Meera and Kiran in the stated order.\n• Exactly 4 occupied positions separate Hema and Jaya in the stated order.\n• Esha attends in April.\n• Exactly 3 occupied positions separate Hema and Pia in the stated order.\n• Exactly 2 occupied positions separate Nisha and Meera in the stated order.",
-      "solution": "March 7: Deepa; March 21: Jaya; April 7: Pia; April 21: Esha; May 7: Meera; May 21: Kiran; June 7: Hema; June 21: Nisha"
+      "variant": "floor",
+      "title": "Esha, Pia, Lata, Hema, Bina, Isha, Riya, Kiran occupy eight flats on floors 1 (bottom) to 4 (top). Each floor has Flat A to the west of Flat B. Each flat has one resident. For ordering only, count Floor 1 A, Floor 1 B, Floor 2 A, Floor 2 B, and so on.",
+      "body": "Use all the following clues:\n• Esha occupies floor 3, flat B.\n• The floor numbers of Pia and Riya differ by 2.\n• Hema and Isha occupy flats with the same letter on different floors.\n• Bina lives below Riya.\n• The floor numbers of Hema and Bina differ by 3.\n• Bina lives in Flat A.\n• Lata and Riya occupy flats with the same letter on different floors.\n• The floor numbers of Bina and Kiran differ by 3.",
+      "solution": "floor 1, flat A: Bina; floor 1, flat B: Pia; floor 2, flat A: Lata; floor 2, flat B: Isha; floor 3, flat A: Riya; floor 3, flat B: Esha; floor 4, flat A: Kiran; floor 4, flat B: Hema"
     },
     {
       "id": "T20-box",
       "type": "logic_puzzle",
       "variant": "box",
-      "title": "Eight boxes labelled Jaya, Riya, Tara, Sana, Aditi, Ovi, Hema, Meera are stacked one above another. Position 1 is at the bottom and position 8 at the top.",
-      "body": "Use all the following clues:\n• Meera occupies position 3 from the bottom.\n• Exactly 3 occupied positions separate Aditi and Hema in the stated order.\n• Exactly 1 occupied positions separate Sana and Hema in the stated order.\n• Exactly 2 occupied positions separate Riya and Tara in the stated order.\n• Exactly 4 occupied positions separate Aditi and Ovi in the stated order.\n• Exactly 0 occupied positions separate Riya and Ovi in the stated order.",
-      "solution": "position 1 from the bottom: Jaya; position 2 from the bottom: Aditi; position 3 from the bottom: Meera; position 4 from the bottom: Sana; position 5 from the bottom: Tara; position 6 from the bottom: Hema; position 7 from the bottom: Ovi; position 8 from the bottom: Riya"
+      "title": "Eight boxes labelled Esha, Aditi, Hema, Meera, Bina, Sana, Nisha, Isha are stacked one above another. Position 1 is at the bottom and position 8 at the top.",
+      "body": "Use all the following clues:\n• Meera occupies position 8 from the bottom.\n• Exactly 4 boxes are between Meera and Bina.\n• Esha is above Bina.\n• Exactly 1 box is between Hema and Sana.\n• Bina is below Isha.\n• Exactly 1 box is between Aditi and Sana.\n• Exactly 4 boxes are between Esha and Aditi.",
+      "solution": "position 1 from the bottom: Nisha; position 2 from the bottom: Aditi; position 3 from the bottom: Bina; position 4 from the bottom: Sana; position 5 from the bottom: Isha; position 6 from the bottom: Hema; position 7 from the bottom: Esha; position 8 from the bottom: Meera"
     },
     {
-      "id": "T20-floor",
+      "id": "T20-schedule",
       "type": "logic_puzzle",
-      "variant": "floor",
-      "title": "Gita, Lata, Meera, Tara, Bina, Jaya, Charu, Esha occupy eight flats on floors 1 (bottom) to 4 (top). Each floor has Flat A to the west of Flat B. Each flat has one resident. For ordering only, count Floor 1 A, Floor 1 B, Floor 2 A, Floor 2 B, and so on.",
-      "body": "Use all the following clues:\n• Gita occupies floor 3, flat A.\n• Meera and Jaya live in different flat letters.\n• Esha lives in Flat A.\n• Bina and Jaya live on the same floor.\n• Gita lives below Meera.\n• Gita lives above Charu.\n• Lata and Charu live in the same flat letters.\n• The floor numbers of Tara and Charu differ by 1.",
-      "solution": "floor 1, flat A: Bina; floor 1, flat B: Jaya; floor 2, flat A: Esha; floor 2, flat B: Charu; floor 3, flat A: Gita; floor 3, flat B: Tara; floor 4, flat A: Meera; floor 4, flat B: Lata"
+      "variant": "schedule",
+      "title": "Tara, Pia, Hema, Uma, Meera, Isha, Bina, Ovi attend interviews, one per slot, on 7 and 21 March, April, May and June. Slots run in chronological order.",
+      "body": "Use all the following clues:\n• Isha occupies May 7.\n• Hema attends in June.\n• Tara attends after Uma.\n• Isha and Bina attend in consecutive interview slots.\n• Exactly 4 interview slots fall between the interviews of Hema and Uma.\n• Meera and Ovi attend in consecutive interview slots.\n• Exactly 1 interview slot falls between the interviews of Meera and Isha.",
+      "solution": "March 7: Pia; March 21: Uma; April 7: Meera; April 21: Ovi; May 7: Isha; May 21: Bina; June 7: Hema; June 21: Tara"
+    },
+    {
+      "id": "T20-parallel",
+      "type": "logic_puzzle",
+      "variant": "parallel",
+      "title": "Lata, Nisha, Deepa, Sana, Charu, Hema, Pia, Gita sit in two rows of four. Row 1 faces south, Row 2 faces north. The first four people listed sit in Row 1 and the remaining four in Row 2. Positions 1–4 in each row run from left to right of the diagram. People at the same position in different rows face each other.",
+      "body": "Use all the following clues:\n• Deepa occupies Row 1, position 4 from the left of the diagram.\n• Nisha does not face Charu.\n• Gita sits 3 place(s) to the left of Pia.\n• Pia sits 1 place(s) to the right of Hema.\n• Sana faces Gita.",
+      "solution": "Row 1, position 1 from the left of the diagram: Sana; Row 1, position 2 from the left of the diagram: Lata; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Deepa; Row 2, position 1 from the left of the diagram: Gita; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Hema; Row 2, position 4 from the left of the diagram: Pia"
     },
     {
       "columns": [
@@ -67,7 +67,7 @@
       "cells": [
         [
           "A",
-          2720,
+          1440,
           "5 : 3"
         ],
         [
@@ -77,17 +77,17 @@
         ],
         [
           "C",
-          1000,
-          "2 : 3"
+          1280,
+          "5 : 3"
         ],
         [
           "D",
-          980,
-          "3 : 4"
+          1600,
+          "2 : 3"
         ],
         [
           "E",
-          1100,
+          900,
           "3 : 2"
         ]
       ],
@@ -97,7 +97,7 @@
       "variant": "table",
       "title": "Applications at five bank branches. Each application is either approved or rejected. Use the total and ratio to derive each category.",
       "body": "Read the data and answer the following questions.",
-      "solution": "A: first category 1700, second category 1020; B: first category 360, second category 480; C: first category 400, second category 600; D: first category 420, second category 560; E: first category 660, second category 440"
+      "solution": "A: first category 900, second category 540; B: first category 360, second category 480; C: first category 800, second category 480; D: first category 640, second category 960; E: first category 540, second category 360"
     },
     {
       "columns": [
@@ -108,28 +108,28 @@
       "rows": [
         {
           "label": "A",
-          "a": 560,
-          "b": 420
+          "a": 900,
+          "b": 600
         },
         {
           "label": "B",
-          "a": 1080,
-          "b": 1440
+          "a": 780,
+          "b": 520
         },
         {
           "label": "C",
-          "a": 420,
-          "b": 560
+          "a": 480,
+          "b": 720
         },
         {
           "label": "D",
-          "a": 320,
-          "b": 480
+          "a": 1080,
+          "b": 720
         },
         {
           "label": "E",
-          "a": 400,
-          "b": 600
+          "a": 1500,
+          "b": 900
         }
       ],
       "visualization": "bar",
@@ -138,7 +138,7 @@
       "variant": "bar",
       "title": "The chart gives agricultural and business loans sanctioned at five branches. Values are numbers of loans.",
       "body": "Read the data and answer the following questions.",
-      "solution": "A: first category 560, second category 420; B: first category 1080, second category 1440; C: first category 420, second category 560; D: first category 320, second category 480; E: first category 400, second category 600"
+      "solution": "A: first category 900, second category 600; B: first category 780, second category 520; C: first category 480, second category 720; D: first category 1080, second category 720; E: first category 1500, second category 900"
     },
     {
       "visualization": "none",
@@ -146,458 +146,458 @@
       "type": "data_interpretation",
       "variant": "caselet",
       "title": "Five training centres A–E have male and female trainees only.",
-      "body": "Centre A has 2400 trainees. The male : female ratio is 5 : 3.\nCentre B has 840 trainees. The male : female ratio is 4 : 3.\nCentre C has 2660 trainees. The male : female ratio is 3 : 4.\nCentre D has 980 trainees. The male : female ratio is 4 : 3.\nCentre E has 840 trainees. The male : female ratio is 4 : 3.",
-      "solution": "A: first category 1500, second category 900; B: first category 480, second category 360; C: first category 1140, second category 1520; D: first category 560, second category 420; E: first category 480, second category 360"
+      "body": "Centre A has 1120 trainees. The male : female ratio is 4 : 3.\nCentre B has 1800 trainees. The male : female ratio is 3 : 2.\nCentre C has 1000 trainees. The male : female ratio is 2 : 3.\nCentre D has 2100 trainees. The male : female ratio is 4 : 3.\nCentre E has 1760 trainees. The male : female ratio is 5 : 3.",
+      "solution": "A: first category 640, second category 480; B: first category 1080, second category 720; C: first category 400, second category 600; D: first category 1200, second category 900; E: first category 1100, second category 660"
     }
   ],
   "questions": [
     {
-      "topic": "Parallel rows",
-      "stem": "Who occupies Row 1, position 1 from the left of the diagram?",
+      "topic": "Floor and flat puzzle",
+      "stem": "Who lives on the same floor as Pia in the other flat?",
       "options": [
-        "Charu",
-        "Jaya",
-        "Meera",
         "Bina",
-        "Nisha"
+        "Hema",
+        "Lata",
+        "Pia",
+        "Esha"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Meera. The unique arrangement is: Row 1, position 1 from the left of the diagram: Meera; Row 1, position 2 from the left of the diagram: Bina; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Jaya; Row 2, position 1 from the left of the diagram: Lata; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Isha; Row 2, position 4 from the left of the diagram: Sana. Therefore Meera occupies Row 1, position 1 from the left of the diagram.",
-      "stimulusId": "T20-parallel",
+      "answerIndex": 0,
+      "explanation": "Answer: Bina. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Pia; floor 2, flat A: Lata; floor 2, flat B: Isha; floor 3, flat A: Riya; floor 3, flat B: Esha; floor 4, flat A: Kiran; floor 4, flat B: Hema. Following the stated relative position gives Bina.",
+      "stimulusId": "T20-floor",
       "id": "M20-Q01",
       "number": 1,
       "section": "reasoning"
     },
     {
-      "topic": "Parallel rows",
-      "stem": "Who occupies Row 2, position 2 from the left of the diagram?",
+      "topic": "Floor and flat puzzle",
+      "stem": "Who lives one floor above Bina in the same flat letter?",
       "options": [
-        "Jaya",
-        "Nisha",
-        "Charu",
-        "Bina",
-        "Meera"
+        "Lata",
+        "Pia",
+        "Esha",
+        "Hema",
+        "Bina"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Charu. The unique arrangement is: Row 1, position 1 from the left of the diagram: Meera; Row 1, position 2 from the left of the diagram: Bina; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Jaya; Row 2, position 1 from the left of the diagram: Lata; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Isha; Row 2, position 4 from the left of the diagram: Sana. Therefore Charu occupies Row 2, position 2 from the left of the diagram.",
-      "stimulusId": "T20-parallel",
+      "answerIndex": 0,
+      "explanation": "Answer: Lata. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Pia; floor 2, flat A: Lata; floor 2, flat B: Isha; floor 3, flat A: Riya; floor 3, flat B: Esha; floor 4, flat A: Kiran; floor 4, flat B: Hema. Following the stated relative position gives Lata.",
+      "stimulusId": "T20-floor",
       "id": "M20-Q02",
       "number": 2,
       "section": "reasoning"
     },
     {
-      "topic": "Parallel rows",
-      "stem": "Who occupies Row 1, position 2 from the left of the diagram?",
+      "topic": "Floor and flat puzzle",
+      "stem": "Who lives one floor below Lata in the same flat letter?",
       "options": [
-        "Meera",
-        "Charu",
-        "Nisha",
         "Bina",
-        "Jaya"
+        "Esha",
+        "Lata",
+        "Pia",
+        "Hema"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: Bina. The unique arrangement is: Row 1, position 1 from the left of the diagram: Meera; Row 1, position 2 from the left of the diagram: Bina; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Jaya; Row 2, position 1 from the left of the diagram: Lata; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Isha; Row 2, position 4 from the left of the diagram: Sana. Therefore Bina occupies Row 1, position 2 from the left of the diagram.",
-      "stimulusId": "T20-parallel",
+      "answerIndex": 0,
+      "explanation": "Answer: Bina. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Pia; floor 2, flat A: Lata; floor 2, flat B: Isha; floor 3, flat A: Riya; floor 3, flat B: Esha; floor 4, flat A: Kiran; floor 4, flat B: Hema. Following the stated relative position gives Bina.",
+      "stimulusId": "T20-floor",
       "id": "M20-Q03",
       "number": 3,
       "section": "reasoning"
     },
     {
-      "topic": "Parallel rows",
-      "stem": "Who faces Jaya?",
+      "topic": "Floor and flat puzzle",
+      "stem": "How many floors lie strictly between the floors on which Lata and Isha live?",
       "options": [
-        "Meera",
-        "Sana",
-        "Bina",
-        "Nisha",
-        "Jaya"
+        "0",
+        "3",
+        "1",
+        "2",
+        "4"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: Sana. The person at the same diagram position in the opposite row is Sana. Arrangement: Row 1, position 1 from the left of the diagram: Meera; Row 1, position 2 from the left of the diagram: Bina; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Jaya; Row 2, position 1 from the left of the diagram: Lata; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Isha; Row 2, position 4 from the left of the diagram: Sana.",
-      "stimulusId": "T20-parallel",
+      "answerIndex": 0,
+      "explanation": "Answer: 0. Their floors are 2 and 2. Count only intervening floors: 0. Arrangement: floor 1, flat A: Bina; floor 1, flat B: Pia; floor 2, flat A: Lata; floor 2, flat B: Isha; floor 3, flat A: Riya; floor 3, flat B: Esha; floor 4, flat A: Kiran; floor 4, flat B: Hema.",
+      "stimulusId": "T20-floor",
       "id": "M20-Q04",
       "number": 4,
       "section": "reasoning"
     },
     {
-      "topic": "Parallel rows",
-      "stem": "Which position is occupied by Charu?",
+      "topic": "Floor and flat puzzle",
+      "stem": "Which of the following does not occupy Flat B?",
       "options": [
-        "Row 2, position 1 from the left of the diagram",
-        "Row 1, position 1 from the left of the diagram",
-        "Row 2, position 3 from the left of the diagram",
-        "Row 1, position 4 from the left of the diagram",
-        "Row 2, position 2 from the left of the diagram"
+        "Kiran",
+        "Hema",
+        "Pia",
+        "Esha",
+        "Isha"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: Row 2, position 2 from the left of the diagram. The unique arrangement is: Row 1, position 1 from the left of the diagram: Meera; Row 1, position 2 from the left of the diagram: Bina; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Jaya; Row 2, position 1 from the left of the diagram: Lata; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Isha; Row 2, position 4 from the left of the diagram: Sana.",
-      "stimulusId": "T20-parallel",
+      "answerIndex": 0,
+      "explanation": "Answer: Kiran. The four people Pia, Isha, Esha, Hema occupy Flat B. Kiran does not. Arrangement: floor 1, flat A: Bina; floor 1, flat B: Pia; floor 2, flat A: Lata; floor 2, flat B: Isha; floor 3, flat A: Riya; floor 3, flat B: Esha; floor 4, flat A: Kiran; floor 4, flat B: Hema.",
+      "stimulusId": "T20-floor",
       "id": "M20-Q05",
       "number": 5,
       "section": "reasoning"
     },
     {
-      "topic": "Month and date puzzle",
-      "stem": "Who occupies May 21?",
+      "topic": "Box puzzle",
+      "stem": "Which box is 1 position(s) above Aditi?",
       "options": [
-        "Hema",
-        "Nisha",
+        "Aditi",
         "Esha",
-        "Deepa",
-        "Kiran"
+        "Hema",
+        "Meera",
+        "Bina"
       ],
       "answerIndex": 4,
-      "explanation": "Answer: Kiran. The unique arrangement is: March 7: Deepa; March 21: Jaya; April 7: Pia; April 21: Esha; May 7: Meera; May 21: Kiran; June 7: Hema; June 21: Nisha. Therefore Kiran occupies May 21.",
-      "stimulusId": "T20-schedule",
+      "explanation": "Answer: Bina. The unique arrangement is: position 1 from the bottom: Nisha; position 2 from the bottom: Aditi; position 3 from the bottom: Bina; position 4 from the bottom: Sana; position 5 from the bottom: Isha; position 6 from the bottom: Hema; position 7 from the bottom: Esha; position 8 from the bottom: Meera. Following the stated relative position gives Bina.",
+      "stimulusId": "T20-box",
       "id": "M20-Q06",
       "number": 6,
       "section": "reasoning"
     },
     {
-      "topic": "Month and date puzzle",
-      "stem": "Who occupies June 21?",
+      "topic": "Box puzzle",
+      "stem": "Which box is 2 position(s) above Isha?",
       "options": [
-        "Hema",
         "Esha",
-        "Nisha",
-        "Pia",
-        "Deepa"
+        "Hema",
+        "Meera",
+        "Aditi",
+        "Bina"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Nisha. The unique arrangement is: March 7: Deepa; March 21: Jaya; April 7: Pia; April 21: Esha; May 7: Meera; May 21: Kiran; June 7: Hema; June 21: Nisha. Therefore Nisha occupies June 21.",
-      "stimulusId": "T20-schedule",
+      "answerIndex": 0,
+      "explanation": "Answer: Esha. The unique arrangement is: position 1 from the bottom: Nisha; position 2 from the bottom: Aditi; position 3 from the bottom: Bina; position 4 from the bottom: Sana; position 5 from the bottom: Isha; position 6 from the bottom: Hema; position 7 from the bottom: Esha; position 8 from the bottom: Meera. Following the stated relative position gives Esha.",
+      "stimulusId": "T20-box",
       "id": "M20-Q07",
       "number": 7,
       "section": "reasoning"
     },
     {
-      "topic": "Month and date puzzle",
-      "stem": "Who occupies June 7?",
+      "topic": "Box puzzle",
+      "stem": "Which box is 3 position(s) above Bina?",
       "options": [
-        "Nisha",
-        "Pia",
-        "Deepa",
+        "Esha",
+        "Meera",
+        "Aditi",
         "Hema",
-        "Esha"
+        "Bina"
       ],
       "answerIndex": 3,
-      "explanation": "Answer: Hema. The unique arrangement is: March 7: Deepa; March 21: Jaya; April 7: Pia; April 21: Esha; May 7: Meera; May 21: Kiran; June 7: Hema; June 21: Nisha. Therefore Hema occupies June 7.",
-      "stimulusId": "T20-schedule",
+      "explanation": "Answer: Hema. The unique arrangement is: position 1 from the bottom: Nisha; position 2 from the bottom: Aditi; position 3 from the bottom: Bina; position 4 from the bottom: Sana; position 5 from the bottom: Isha; position 6 from the bottom: Hema; position 7 from the bottom: Esha; position 8 from the bottom: Meera. Following the stated relative position gives Hema.",
+      "stimulusId": "T20-box",
       "id": "M20-Q08",
       "number": 8,
       "section": "reasoning"
     },
     {
-      "topic": "Month and date puzzle",
-      "stem": "How many occupied positions lie between Hema and Jaya in the stated order?",
+      "topic": "Box puzzle",
+      "stem": "How many boxes are between Aditi and Hema?",
       "options": [
+        "0",
         "3",
         "4",
-        "2",
-        "0",
-        "1"
+        "1",
+        "2"
       ],
       "answerIndex": 1,
-      "explanation": "Answer: 4. Positions are 7 and 2; the count between them is |7 − 2| − 1. Arrangement: March 7: Deepa; March 21: Jaya; April 7: Pia; April 21: Esha; May 7: Meera; May 21: Kiran; June 7: Hema; June 21: Nisha.",
-      "stimulusId": "T20-schedule",
+      "explanation": "Answer: 3. Positions are 2 and 6; the count between them is |2 − 6| − 1. Arrangement: position 1 from the bottom: Nisha; position 2 from the bottom: Aditi; position 3 from the bottom: Bina; position 4 from the bottom: Sana; position 5 from the bottom: Isha; position 6 from the bottom: Hema; position 7 from the bottom: Esha; position 8 from the bottom: Meera.",
+      "stimulusId": "T20-box",
       "id": "M20-Q09",
       "number": 9,
       "section": "reasoning"
     },
     {
-      "topic": "Month and date puzzle",
-      "stem": "Which position is occupied by Jaya?",
+      "topic": "Box puzzle",
+      "stem": "Which of the following does not occupy positions 5–8?",
       "options": [
-        "May 21",
-        "April 7",
-        "March 21",
-        "May 7",
-        "June 7"
+        "Isha",
+        "Nisha",
+        "Hema",
+        "Meera",
+        "Esha"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: March 21. The unique arrangement is: March 7: Deepa; March 21: Jaya; April 7: Pia; April 21: Esha; May 7: Meera; May 21: Kiran; June 7: Hema; June 21: Nisha.",
-      "stimulusId": "T20-schedule",
+      "answerIndex": 1,
+      "explanation": "Answer: Nisha. The four people Isha, Hema, Esha, Meera occupy positions 5–8. Nisha does not. Arrangement: position 1 from the bottom: Nisha; position 2 from the bottom: Aditi; position 3 from the bottom: Bina; position 4 from the bottom: Sana; position 5 from the bottom: Isha; position 6 from the bottom: Hema; position 7 from the bottom: Esha; position 8 from the bottom: Meera.",
+      "stimulusId": "T20-box",
       "id": "M20-Q10",
       "number": 10,
       "section": "reasoning"
     },
     {
-      "topic": "Box puzzle",
-      "stem": "Who occupies position 1 from the bottom?",
+      "topic": "Month and date puzzle",
+      "stem": "Whose interview is 1 slot(s) after the interview of Isha?",
       "options": [
-        "Jaya",
+        "Hema",
+        "Uma",
+        "Pia",
         "Tara",
-        "Riya",
-        "Sana",
-        "Aditi"
+        "Bina"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: Jaya. The unique arrangement is: position 1 from the bottom: Jaya; position 2 from the bottom: Aditi; position 3 from the bottom: Meera; position 4 from the bottom: Sana; position 5 from the bottom: Tara; position 6 from the bottom: Hema; position 7 from the bottom: Ovi; position 8 from the bottom: Riya. Therefore Jaya occupies position 1 from the bottom.",
-      "stimulusId": "T20-box",
+      "answerIndex": 4,
+      "explanation": "Answer: Bina. The unique arrangement is: March 7: Pia; March 21: Uma; April 7: Meera; April 21: Ovi; May 7: Isha; May 21: Bina; June 7: Hema; June 21: Tara. Following the stated relative position gives Bina.",
+      "stimulusId": "T20-schedule",
       "id": "M20-Q11",
       "number": 11,
       "section": "reasoning"
     },
     {
-      "topic": "Box puzzle",
-      "stem": "Who occupies position 6 from the bottom?",
+      "topic": "Month and date puzzle",
+      "stem": "Whose interview is 2 slot(s) after the interview of Ovi?",
       "options": [
-        "Sana",
-        "Tara",
         "Hema",
-        "Riya",
-        "Jaya"
+        "Pia",
+        "Bina",
+        "Tara",
+        "Uma"
       ],
       "answerIndex": 2,
-      "explanation": "Answer: Hema. The unique arrangement is: position 1 from the bottom: Jaya; position 2 from the bottom: Aditi; position 3 from the bottom: Meera; position 4 from the bottom: Sana; position 5 from the bottom: Tara; position 6 from the bottom: Hema; position 7 from the bottom: Ovi; position 8 from the bottom: Riya. Therefore Hema occupies position 6 from the bottom.",
-      "stimulusId": "T20-box",
+      "explanation": "Answer: Bina. The unique arrangement is: March 7: Pia; March 21: Uma; April 7: Meera; April 21: Ovi; May 7: Isha; May 21: Bina; June 7: Hema; June 21: Tara. Following the stated relative position gives Bina.",
+      "stimulusId": "T20-schedule",
       "id": "M20-Q12",
       "number": 12,
       "section": "reasoning"
     },
     {
-      "topic": "Box puzzle",
-      "stem": "Who occupies position 8 from the bottom?",
+      "topic": "Month and date puzzle",
+      "stem": "Whose interview is 3 slot(s) after the interview of Ovi?",
       "options": [
-        "Aditi",
-        "Jaya",
-        "Sana",
+        "Hema",
         "Tara",
-        "Riya"
+        "Meera",
+        "Uma",
+        "Pia"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: Riya. The unique arrangement is: position 1 from the bottom: Jaya; position 2 from the bottom: Aditi; position 3 from the bottom: Meera; position 4 from the bottom: Sana; position 5 from the bottom: Tara; position 6 from the bottom: Hema; position 7 from the bottom: Ovi; position 8 from the bottom: Riya. Therefore Riya occupies position 8 from the bottom.",
-      "stimulusId": "T20-box",
+      "answerIndex": 0,
+      "explanation": "Answer: Hema. The unique arrangement is: March 7: Pia; March 21: Uma; April 7: Meera; April 21: Ovi; May 7: Isha; May 21: Bina; June 7: Hema; June 21: Tara. Following the stated relative position gives Hema.",
+      "stimulusId": "T20-schedule",
       "id": "M20-Q13",
       "number": 13,
       "section": "reasoning"
     },
     {
-      "topic": "Box puzzle",
-      "stem": "How many occupied positions lie between Aditi and Riya in the stated order?",
+      "topic": "Month and date puzzle",
+      "stem": "How many interview slots fall between the interviews of Ovi and Uma?",
       "options": [
-        "1",
-        "3",
         "2",
+        "3",
         "0",
-        "5"
+        "1",
+        "4"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 5. Positions are 2 and 8; the count between them is |2 − 8| − 1. Arrangement: position 1 from the bottom: Jaya; position 2 from the bottom: Aditi; position 3 from the bottom: Meera; position 4 from the bottom: Sana; position 5 from the bottom: Tara; position 6 from the bottom: Hema; position 7 from the bottom: Ovi; position 8 from the bottom: Riya.",
-      "stimulusId": "T20-box",
+      "answerIndex": 3,
+      "explanation": "Answer: 1. Positions are 4 and 2; the count between them is |4 − 2| − 1. Arrangement: March 7: Pia; March 21: Uma; April 7: Meera; April 21: Ovi; May 7: Isha; May 21: Bina; June 7: Hema; June 21: Tara.",
+      "stimulusId": "T20-schedule",
       "id": "M20-Q14",
       "number": 14,
       "section": "reasoning"
     },
     {
-      "topic": "Box puzzle",
-      "stem": "Which position is occupied by Tara?",
+      "topic": "Month and date puzzle",
+      "stem": "Which of the following does not occupy positions 5–8?",
       "options": [
-        "position 1 from the bottom",
-        "position 4 from the bottom",
-        "position 5 from the bottom",
-        "position 2 from the bottom",
-        "position 3 from the bottom"
+        "Isha",
+        "Meera",
+        "Tara",
+        "Hema",
+        "Bina"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: position 5 from the bottom. The unique arrangement is: position 1 from the bottom: Jaya; position 2 from the bottom: Aditi; position 3 from the bottom: Meera; position 4 from the bottom: Sana; position 5 from the bottom: Tara; position 6 from the bottom: Hema; position 7 from the bottom: Ovi; position 8 from the bottom: Riya.",
-      "stimulusId": "T20-box",
+      "answerIndex": 1,
+      "explanation": "Answer: Meera. The four people Isha, Bina, Hema, Tara occupy positions 5–8. Meera does not. Arrangement: March 7: Pia; March 21: Uma; April 7: Meera; April 21: Ovi; May 7: Isha; May 21: Bina; June 7: Hema; June 21: Tara.",
+      "stimulusId": "T20-schedule",
       "id": "M20-Q15",
       "number": 15,
       "section": "reasoning"
     },
     {
-      "topic": "Floor and flat puzzle",
-      "stem": "Who occupies floor 2, flat A?",
+      "topic": "Parallel rows",
+      "stem": "Who sits 1 place(s) to the left of Lata in the same row?",
       "options": [
-        "Esha",
-        "Meera",
-        "Gita",
-        "Tara",
-        "Lata"
+        "Nisha",
+        "Lata",
+        "Charu",
+        "Deepa",
+        "Sana"
       ],
       "answerIndex": 0,
-      "explanation": "Answer: Esha. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Jaya; floor 2, flat A: Esha; floor 2, flat B: Charu; floor 3, flat A: Gita; floor 3, flat B: Tara; floor 4, flat A: Meera; floor 4, flat B: Lata. Therefore Esha occupies floor 2, flat A.",
-      "stimulusId": "T20-floor",
+      "explanation": "Answer: Nisha. The unique arrangement is: Row 1, position 1 from the left of the diagram: Sana; Row 1, position 2 from the left of the diagram: Lata; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Deepa; Row 2, position 1 from the left of the diagram: Gita; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Hema; Row 2, position 4 from the left of the diagram: Pia. Following the stated relative position gives Nisha.",
+      "stimulusId": "T20-parallel",
       "id": "M20-Q16",
       "number": 16,
       "section": "reasoning"
     },
     {
-      "topic": "Floor and flat puzzle",
-      "stem": "Who occupies floor 1, flat A?",
+      "topic": "Parallel rows",
+      "stem": "Who sits 2 place(s) to the right of Charu in the same row?",
       "options": [
-        "Bina",
-        "Meera",
+        "Deepa",
+        "Sana",
         "Lata",
-        "Tara",
-        "Gita"
+        "Pia",
+        "Nisha"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: Bina. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Jaya; floor 2, flat A: Esha; floor 2, flat B: Charu; floor 3, flat A: Gita; floor 3, flat B: Tara; floor 4, flat A: Meera; floor 4, flat B: Lata. Therefore Bina occupies floor 1, flat A.",
-      "stimulusId": "T20-floor",
+      "answerIndex": 3,
+      "explanation": "Answer: Pia. The unique arrangement is: Row 1, position 1 from the left of the diagram: Sana; Row 1, position 2 from the left of the diagram: Lata; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Deepa; Row 2, position 1 from the left of the diagram: Gita; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Hema; Row 2, position 4 from the left of the diagram: Pia. Following the stated relative position gives Pia.",
+      "stimulusId": "T20-parallel",
       "id": "M20-Q17",
       "number": 17,
       "section": "reasoning"
     },
     {
-      "topic": "Floor and flat puzzle",
-      "stem": "Who occupies floor 3, flat B?",
+      "topic": "Parallel rows",
+      "stem": "Who sits 3 place(s) to the right of Gita in the same row?",
       "options": [
-        "Gita",
-        "Bina",
-        "Tara",
+        "Nisha",
         "Lata",
-        "Meera"
+        "Deepa",
+        "Sana",
+        "Pia"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Tara. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Jaya; floor 2, flat A: Esha; floor 2, flat B: Charu; floor 3, flat A: Gita; floor 3, flat B: Tara; floor 4, flat A: Meera; floor 4, flat B: Lata. Therefore Tara occupies floor 3, flat B.",
-      "stimulusId": "T20-floor",
+      "answerIndex": 4,
+      "explanation": "Answer: Pia. The unique arrangement is: Row 1, position 1 from the left of the diagram: Sana; Row 1, position 2 from the left of the diagram: Lata; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Deepa; Row 2, position 1 from the left of the diagram: Gita; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Hema; Row 2, position 4 from the left of the diagram: Pia. Following the stated relative position gives Pia.",
+      "stimulusId": "T20-parallel",
       "id": "M20-Q18",
       "number": 18,
       "section": "reasoning"
     },
     {
-      "topic": "Floor and flat puzzle",
-      "stem": "How many occupied positions lie between Charu and Lata in the stated order?",
+      "topic": "Parallel rows",
+      "stem": "Who faces Lata?",
       "options": [
-        "0",
-        "3",
-        "4",
-        "2",
-        "1"
+        "Deepa",
+        "Charu",
+        "Sana",
+        "Lata",
+        "Nisha"
       ],
       "answerIndex": 1,
-      "explanation": "Answer: 3. Positions are 4 and 8; the count between them is |4 − 8| − 1. Arrangement: floor 1, flat A: Bina; floor 1, flat B: Jaya; floor 2, flat A: Esha; floor 2, flat B: Charu; floor 3, flat A: Gita; floor 3, flat B: Tara; floor 4, flat A: Meera; floor 4, flat B: Lata.",
-      "stimulusId": "T20-floor",
+      "explanation": "Answer: Charu. The person at the same diagram position in the opposite row is Charu. Arrangement: Row 1, position 1 from the left of the diagram: Sana; Row 1, position 2 from the left of the diagram: Lata; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Deepa; Row 2, position 1 from the left of the diagram: Gita; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Hema; Row 2, position 4 from the left of the diagram: Pia.",
+      "stimulusId": "T20-parallel",
       "id": "M20-Q19",
       "number": 19,
       "section": "reasoning"
     },
     {
-      "topic": "Floor and flat puzzle",
-      "stem": "Which position is occupied by Lata?",
+      "topic": "Parallel rows",
+      "stem": "Which of the following does not sit in the same row?",
       "options": [
-        "floor 2, flat A",
-        "floor 4, flat B",
-        "floor 1, flat A",
-        "floor 1, flat B",
-        "floor 4, flat A"
+        "Deepa",
+        "Pia",
+        "Hema",
+        "Gita",
+        "Charu"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: floor 4, flat B. The unique arrangement is: floor 1, flat A: Bina; floor 1, flat B: Jaya; floor 2, flat A: Esha; floor 2, flat B: Charu; floor 3, flat A: Gita; floor 3, flat B: Tara; floor 4, flat A: Meera; floor 4, flat B: Lata.",
-      "stimulusId": "T20-floor",
+      "answerIndex": 0,
+      "explanation": "Answer: Deepa. The four people Gita, Charu, Hema, Pia sit in the same row. Deepa does not. Arrangement: Row 1, position 1 from the left of the diagram: Sana; Row 1, position 2 from the left of the diagram: Lata; Row 1, position 3 from the left of the diagram: Nisha; Row 1, position 4 from the left of the diagram: Deepa; Row 2, position 1 from the left of the diagram: Gita; Row 2, position 2 from the left of the diagram: Charu; Row 2, position 3 from the left of the diagram: Hema; Row 2, position 4 from the left of the diagram: Pia.",
+      "stimulusId": "T20-parallel",
       "id": "M20-Q20",
       "number": 20,
       "section": "reasoning"
     },
     {
       "topic": "Syllogism",
-      "stem": "Statements: Only a few tokens are accounts. Some accounts are cards. All cards are bonds.\nConclusions:\nI. All tokens are bonds.\nII. No accounts is a bonds.",
+      "stem": "Statements: Some lockers are branches. All branches are notes. No notes is a accounts.\nConclusions:\nI. Some lockers are notes.\nII. Some branches are accounts.",
       "options": [
-        "Only I follows",
-        "Both I and II follow",
-        "Neither I nor II follows",
         "Only II follows",
-        "Either I or II follows"
+        "Only I follows",
+        "Either I or II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Neither I nor II follows. A need not be contained in D. Some B are C and therefore D, contradicting II.",
+      "answerIndex": 1,
+      "explanation": "Answer: Only I follows. The stated A–B overlap lies in C. Since B is contained in C, no B can be D.",
       "id": "M20-Q21",
       "number": 21,
       "section": "reasoning"
     },
     {
       "topic": "Syllogism",
-      "stem": "Statements: No tokens is a accounts. Some accounts are cards. All cards are bonds.\nConclusions:\nI. All tokens are bonds.\nII. Some bonds are accounts.",
+      "stem": "Statements: Only a few lockers are branches. All branches are notes. No notes is a accounts.\nConclusions:\nI. Some lockers are not branches.\nII. No branches is a accounts.",
       "options": [
-        "Only I follows",
-        "Both I and II follow",
         "Only II follows",
-        "Neither I nor II follows",
-        "Either I or II follows"
+        "Only I follows",
+        "Either I or II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Only II follows. The B–C overlap is inside D, proving II. No universal A–D relation is given.",
+      "answerIndex": 3,
+      "explanation": "Answer: Both I and II follow. Only a few means some are and some are not. All B are C and no C is D excludes every B from D.",
       "id": "M20-Q22",
       "number": 22,
       "section": "reasoning"
     },
     {
       "topic": "Syllogism",
-      "stem": "Statements: Some tokens are accounts. All accounts are cards. No cards is a bonds.\nConclusions:\nI. Some tokens are cards.\nII. Some accounts are bonds.",
+      "stem": "Statements: Only a few lockers are branches. Some branches are notes. All notes are accounts.\nConclusions:\nI. All lockers are accounts.\nII. No branches is a accounts.",
       "options": [
-        "Either I or II follows",
-        "Only II follows",
         "Only I follows",
-        "Neither I nor II follows",
-        "Both I and II follow"
+        "Only II follows",
+        "Both I and II follow",
+        "Either I or II follows",
+        "Neither I nor II follows"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: Only I follows. The stated A–B overlap lies in C. Since B is contained in C, no B can be D.",
+      "answerIndex": 4,
+      "explanation": "Answer: Neither I nor II follows. A need not be contained in D. Some B are C and therefore D, contradicting II.",
       "id": "M20-Q23",
       "number": 23,
       "section": "reasoning"
     },
     {
       "topic": "Syllogism",
-      "stem": "Statements: Only a few tokens are accounts. All accounts are cards. No cards is a bonds.\nConclusions:\nI. Some tokens are not accounts.\nII. No accounts is a bonds.",
+      "stem": "Statements: No lockers is a branches. Some branches are notes. All notes are accounts.\nConclusions:\nI. All lockers are accounts.\nII. Some accounts are branches.",
       "options": [
         "Either I or II follows",
         "Only II follows",
-        "Only I follows",
+        "Neither I nor II follows",
         "Both I and II follow",
-        "Neither I nor II follows"
+        "Only I follows"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: Both I and II follow. Only a few means some are and some are not. All B are C and no C is D excludes every B from D.",
+      "answerIndex": 1,
+      "explanation": "Answer: Only II follows. The B–C overlap is inside D, proving II. No universal A–D relation is given.",
       "id": "M20-Q24",
       "number": 24,
       "section": "reasoning"
     },
     {
       "topic": "Inequality",
-      "stem": "Statements: W = X < S > V < R.\nConclusions: I. R < S   II. W ≤ S.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
+      "stem": "Statements: W > X < Q > P = T.\nConclusions: I. X > Q   II. T ≥ X.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
       "options": [
-        "Only I follows",
         "Both I and II follow",
         "Neither I nor II follows",
         "Only II follows",
-        "Either I or II follows"
+        "Either I or II follows",
+        "Only I follows"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: Only II follows. Trace the chain, retaining strict and equal signs. I is not guaranteed; II is definitely true. The selected conclusion follows across every weak ordering consistent with the statements.",
+      "answerIndex": 1,
+      "explanation": "Answer: Neither I nor II follows. Trace the chain, retaining strict and equal signs. I is not guaranteed; II is not guaranteed. The selected conclusion follows across every weak ordering consistent with the statements.",
       "id": "M20-Q25",
       "number": 25,
       "section": "reasoning"
     },
     {
       "topic": "Inequality",
-      "stem": "Statements: S < W > Q < V < T.\nConclusions: I. V > W   II. V > W.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
+      "stem": "Statements: U < V < T > P < R.\nConclusions: I. R ≤ T   II. V < R.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
       "options": [
-        "Only I follows",
-        "Both I and II follow",
-        "Either I or II follows",
         "Only II follows",
-        "Neither I nor II follows"
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows",
+        "Either I or II follows"
       ],
       "answerIndex": 4,
-      "explanation": "Answer: Neither I nor II follows. Trace the chain, retaining strict and equal signs. I is not guaranteed; II is not guaranteed. The selected conclusion follows across every weak ordering consistent with the statements.",
+      "explanation": "Answer: Either I or II follows. Trace the chain, retaining strict and equal signs. I is not guaranteed; II is not guaranteed. Together the alternatives cover every permissible ordering, so either I or II follows.",
       "id": "M20-Q26",
       "number": 26,
       "section": "reasoning"
     },
     {
       "topic": "Inequality",
-      "stem": "Statements: X > P < S > V = W.\nConclusions: I. S ≤ W   II. S ≥ X.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
+      "stem": "Statements: V < Q > W < P = U.\nConclusions: I. W > Q   II. V ≥ W.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
       "options": [
         "Either I or II follows",
+        "Both I and II follow",
         "Only I follows",
-        "Neither I nor II follows",
         "Only II follows",
-        "Both I and II follow"
+        "Neither I nor II follows"
       ],
-      "answerIndex": 2,
+      "answerIndex": 4,
       "explanation": "Answer: Neither I nor II follows. Trace the chain, retaining strict and equal signs. I is not guaranteed; II is not guaranteed. The selected conclusion follows across every weak ordering consistent with the statements.",
       "id": "M20-Q27",
       "number": 27,
@@ -605,15 +605,15 @@
     },
     {
       "topic": "Inequality",
-      "stem": "Statements: S > W = X < P > T.\nConclusions: I. T < W   II. S ≥ P.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
+      "stem": "Statements: T > P < X < R > W.\nConclusions: I. T < W   II. X ≥ R.\nWhich conclusions follow? “Either” means at least one must hold, although neither is individually guaranteed.",
       "options": [
-        "Only I follows",
         "Either I or II follows",
+        "Only I follows",
         "Both I and II follow",
-        "Only II follows",
-        "Neither I nor II follows"
+        "Neither I nor II follows",
+        "Only II follows"
       ],
-      "answerIndex": 4,
+      "answerIndex": 3,
       "explanation": "Answer: Neither I nor II follows. Trace the chain, retaining strict and equal signs. I is not guaranteed; II is not guaranteed. The selected conclusion follows across every weak ordering consistent with the statements.",
       "id": "M20-Q28",
       "number": 28,
@@ -621,208 +621,208 @@
     },
     {
       "topic": "Coding and decoding",
-      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital access secure = re to vo\ndigital savings growth = ze re ka\naccess savings credit = ze vo mi\nsecure growth credit = ka to mi\ndigital access credit = mi vo re\nWhat is the code for “access”?",
+      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital rural credit = ze su ni\ndigital savings banking = vo to ni\nrural savings access = vo ka su\ncredit banking access = to ze ka\ndigital rural access = ni su ka\nWhat is the code for “digital”?",
       "options": [
-        "ka",
+        "ni",
         "vo",
         "ze",
-        "to",
-        "re"
+        "su",
+        "to"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: vo. Compare the intersections of the coded lines. The complete consistent mapping is: digital = re, access = vo, secure = to, savings = ze, growth = ka, credit = mi.",
+      "answerIndex": 0,
+      "explanation": "Answer: ni. Compare the intersections of the coded lines. The complete consistent mapping is: digital = ni, rural = su, credit = ze, savings = vo, banking = to, access = ka.",
       "id": "M20-Q29",
       "number": 29,
       "section": "reasoning"
     },
     {
       "topic": "Coding and decoding",
-      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital access secure = re to vo\ndigital savings growth = ze re ka\naccess savings credit = ze vo mi\nsecure growth credit = ka to mi\ndigital access credit = mi vo re\nWhat is the code for “credit”?",
+      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital rural credit = ze su ni\ndigital savings banking = vo to ni\nrural savings access = vo ka su\ncredit banking access = to ze ka\ndigital rural access = ni su ka\nWhat is the code for “credit”?",
       "options": [
+        "su",
+        "ni",
         "vo",
-        "to",
-        "mi",
         "ze",
-        "re"
+        "to"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: mi. Compare the intersections of the coded lines. The complete consistent mapping is: digital = re, access = vo, secure = to, savings = ze, growth = ka, credit = mi.",
+      "answerIndex": 3,
+      "explanation": "Answer: ze. Compare the intersections of the coded lines. The complete consistent mapping is: digital = ni, rural = su, credit = ze, savings = vo, banking = to, access = ka.",
       "id": "M20-Q30",
       "number": 30,
       "section": "reasoning"
     },
     {
       "topic": "Coding and decoding",
-      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital access secure = re to vo\ndigital savings growth = ze re ka\naccess savings credit = ze vo mi\nsecure growth credit = ka to mi\ndigital access credit = mi vo re\nWhat is the code for “growth”?",
+      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital rural credit = ze su ni\ndigital savings banking = vo to ni\nrural savings access = vo ka su\ncredit banking access = to ze ka\ndigital rural access = ni su ka\nWhat is the code for “rural”?",
       "options": [
-        "ka",
-        "vo",
-        "re",
         "to",
-        "ze"
+        "vo",
+        "su",
+        "ze",
+        "ni"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: ka. Compare the intersections of the coded lines. The complete consistent mapping is: digital = re, access = vo, secure = to, savings = ze, growth = ka, credit = mi.",
+      "answerIndex": 2,
+      "explanation": "Answer: su. Compare the intersections of the coded lines. The complete consistent mapping is: digital = ni, rural = su, credit = ze, savings = vo, banking = to, access = ka.",
       "id": "M20-Q31",
       "number": 31,
       "section": "reasoning"
     },
     {
       "topic": "Coding and decoding",
-      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital access secure = re to vo\ndigital savings growth = ze re ka\naccess savings credit = ze vo mi\nsecure growth credit = ka to mi\ndigital access credit = mi vo re\nWhat is the code for “digital”?",
+      "stem": "In a substitution language, each word has one distinct code. Code order is arbitrary.\ndigital rural credit = ze su ni\ndigital savings banking = vo to ni\nrural savings access = vo ka su\ncredit banking access = to ze ka\ndigital rural access = ni su ka\nWhat is the code for “access”?",
       "options": [
+        "ni",
+        "vo",
         "ze",
-        "ka",
-        "to",
-        "re",
-        "vo"
+        "su",
+        "ka"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: re. Compare the intersections of the coded lines. The complete consistent mapping is: digital = re, access = vo, secure = to, savings = ze, growth = ka, credit = mi.",
+      "answerIndex": 4,
+      "explanation": "Answer: ka. Compare the intersections of the coded lines. The complete consistent mapping is: digital = ni, rural = su, credit = ze, savings = vo, banking = to, access = ka.",
       "id": "M20-Q32",
       "number": 32,
       "section": "reasoning"
     },
     {
       "topic": "Direction sense",
-      "stem": "A surveyor walks 70 km east, turns left and walks 76 km, then turns left and walks 13 km. What is the shortest distance (km) from the starting point?",
+      "stem": "A surveyor walks 95 km east, turns right and walks 204 km, then turns right and walks 10 km. What is the shortest distance (km) from the starting point?",
       "options": [
-        "95",
-        "103",
-        "87",
-        "111",
-        "79"
+        "239",
+        "203",
+        "185",
+        "221",
+        "257"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 95. Net displacement is 57 km east and 76 km north. By Pythagoras, √(57² + 76²) = 95 km.",
+      "answerIndex": 3,
+      "explanation": "Answer: 221. The first and third legs oppose each other. Net components are 85 km along the initial direction and 204 km perpendicular to it. Distance = √(85² + 204²) = 221 km.",
       "id": "M20-Q33",
       "number": 33,
       "section": "reasoning"
     },
     {
       "topic": "Direction sense",
-      "stem": "A surveyor walks 23 km east, turns left and walks 28 km, then turns left and walks 2 km. What is the shortest distance (km) from the starting point?",
+      "stem": "A surveyor walks 89 km north, turns left and walks 180 km, then turns left and walks 14 km. What is the shortest distance (km) from the starting point?",
       "options": [
-        "32",
-        "41",
-        "29",
-        "35",
-        "38"
+        "163",
+        "211",
+        "227",
+        "195",
+        "179"
       ],
       "answerIndex": 3,
-      "explanation": "Answer: 35. Net displacement is 21 km east and 28 km north. By Pythagoras, √(21² + 28²) = 35 km.",
+      "explanation": "Answer: 195. The first and third legs oppose each other. Net components are 75 km along the initial direction and 180 km perpendicular to it. Distance = √(75² + 180²) = 195 km.",
       "id": "M20-Q34",
       "number": 34,
       "section": "reasoning"
     },
     {
       "topic": "Direction sense",
-      "stem": "A surveyor walks 34 km east, turns left and walks 24 km, then turns left and walks 16 km. What is the shortest distance (km) from the starting point?",
+      "stem": "A surveyor walks 46 km west, turns left and walks 60 km, then turns left and walks 21 km. What is the shortest distance (km) from the starting point?",
       "options": [
-        "28",
-        "26",
-        "34",
-        "30",
-        "32"
+        "65",
+        "70",
+        "60",
+        "55",
+        "75"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 30. Net displacement is 18 km east and 24 km north. By Pythagoras, √(18² + 24²) = 30 km.",
+      "answerIndex": 0,
+      "explanation": "Answer: 65. The first and third legs oppose each other. Net components are 25 km along the initial direction and 60 km perpendicular to it. Distance = √(25² + 60²) = 65 km.",
       "id": "M20-Q35",
       "number": 35,
       "section": "reasoning"
     },
     {
       "topic": "Blood relations",
-      "stem": "G is the mother of E. F is the daughter of E. C is the father of E. How is F related to C?",
+      "stem": "E is the mother of H. C is the daughter of H. D is the father of H. How is C related to D?",
       "options": [
-        "Maternal grandfather",
         "Paternal uncle",
         "Maternal uncle",
+        "Maternal grandfather",
         "Grandson",
         "Granddaughter"
       ],
       "answerIndex": 4,
-      "explanation": "Answer: Granddaughter. C is a parent of E, and F is E’s daughter. Hence F is C’s grandchild.",
+      "explanation": "Answer: Granddaughter. D is a parent of H, and C is H’s daughter. Hence C is D’s grandchild.",
       "id": "M20-Q36",
       "number": 36,
       "section": "reasoning"
     },
     {
       "topic": "Blood relations",
-      "stem": "A is the brother of E. E is the mother of D. B is the father of A and E. How is A related to D?",
+      "stem": "F is the brother of A. A is the mother of B. G is the father of F and A. How is F related to B?",
       "options": [
-        "Paternal uncle",
         "Maternal grandfather",
         "Grandson",
-        "Granddaughter",
-        "Maternal uncle"
+        "Paternal uncle",
+        "Maternal uncle",
+        "Granddaughter"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: Maternal uncle. A is the brother of D’s mother E. Therefore A is the maternal uncle.",
+      "answerIndex": 3,
+      "explanation": "Answer: Maternal uncle. F is the brother of B’s mother A. Therefore F is the maternal uncle.",
       "id": "M20-Q37",
       "number": 37,
       "section": "reasoning"
     },
     {
       "topic": "Blood relations",
-      "stem": "H is the only daughter of E. E is the father of H. C is the son of H. B is the sister of E. How is E related to C?",
+      "stem": "C is the only daughter of E. E is the father of C. A is the son of C. H is the sister of E. How is E related to A?",
       "options": [
-        "Maternal uncle",
         "Grandson",
-        "Granddaughter",
+        "Maternal uncle",
         "Paternal uncle",
+        "Granddaughter",
         "Maternal grandfather"
       ],
       "answerIndex": 4,
-      "explanation": "Answer: Maternal grandfather. E is the father of H, and H is C’s mother. Thus E is the maternal grandfather.",
+      "explanation": "Answer: Maternal grandfather. E is the father of C, and C is A’s mother. Thus E is the maternal grandfather.",
       "id": "M20-Q38",
       "number": 38,
       "section": "reasoning"
     },
     {
       "topic": "Ranking",
-      "stem": "In a queue of 62 candidates, a candidate is 9th from the front. After moving 3 places towards the back, what is the candidate’s rank from the back?",
+      "stem": "In a queue of 41 candidates, a candidate is 9th from the front. After moving 3 places towards the back, what is the candidate’s rank from the back?",
       "options": [
-        "47",
-        "59",
-        "43",
-        "51",
-        "55"
+        "30",
+        "32",
+        "28",
+        "26",
+        "34"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 51. New front rank = 9+3 = 12. Back rank = 62 − 12 + 1 = 51.",
+      "answerIndex": 0,
+      "explanation": "Answer: 30. New front rank = 9+3 = 12. Back rank = 41 − 12 + 1 = 30.",
       "id": "M20-Q39",
       "number": 39,
       "section": "reasoning"
     },
     {
       "topic": "Ranking",
-      "stem": "In a queue of 46 candidates, a candidate is 15th from the front. After moving 4 places towards the back, what is the candidate’s rank from the back?",
+      "stem": "In a queue of 43 candidates, a candidate is 19th from the front. After moving 4 places towards the back, what is the candidate’s rank from the back?",
       "options": [
-        "28",
-        "26",
-        "32",
-        "24",
-        "30"
+        "23",
+        "25",
+        "21",
+        "19",
+        "17"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 28. New front rank = 15+4 = 19. Back rank = 46 − 19 + 1 = 28.",
+      "answerIndex": 2,
+      "explanation": "Answer: 21. New front rank = 19+4 = 23. Back rank = 43 − 23 + 1 = 21.",
       "id": "M20-Q40",
       "number": 40,
       "section": "reasoning"
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Table set] A fee of ₹20 applies to each in the approved category and ₹15 to each in the rejected category at B. What is the total fee collected (₹)?",
+      "stem": "[Table set] If the approved category at C increases by 20% and the rejected category there decreases by 10%, what is the new total?",
       "options": [
-        "16800",
-        "13200",
-        "12000",
-        "14400",
-        "15600"
+        "1508",
+        "1276",
+        "1160",
+        "1624",
+        "1392"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 14400. Derived data: A: first category 1700, second category 1020; B: first category 360, second category 480; C: first category 400, second category 600; D: first category 420, second category 560; E: first category 660, second category 440. Fee = 360×20 + 480×15.",
+      "answerIndex": 4,
+      "explanation": "Answer: 1392. Derived data: A: first category 900, second category 540; B: first category 360, second category 480; C: first category 800, second category 480; D: first category 640, second category 960; E: first category 540, second category 360. 800 × 1.20 + 480 × 0.90.",
       "stimulusId": "T20-table",
       "id": "M20-Q41",
       "number": 41,
@@ -830,16 +830,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Table set] The combined total at A and D is what percentage more or less than the total at C? Give the absolute percentage difference, rounded to two decimals.",
+      "stem": "[Table set] What is the difference between the total at B and the total at E?",
       "options": [
-        "270",
-        "226",
-        "314",
-        "292",
-        "248"
+        "55",
+        "65",
+        "50",
+        "60",
+        "70"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 270. Derived data: A: first category 1700, second category 1020; B: first category 360, second category 480; C: first category 400, second category 600; D: first category 420, second category 560; E: first category 660, second category 440. Percentage difference = |total(A)+total(D)−total(C)| ÷ total(C) × 100.",
+      "answerIndex": 3,
+      "explanation": "Answer: 60. Derived data: A: first category 900, second category 540; B: first category 360, second category 480; C: first category 800, second category 480; D: first category 640, second category 960; E: first category 540, second category 360. Absolute difference = |840 − 900|.",
       "stimulusId": "T20-table",
       "id": "M20-Q42",
       "number": 42,
@@ -847,16 +847,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Table set] What is the total number in the approved category at A and C together?",
+      "stem": "[Table set] The rejected category at D is what percentage of the approved category at B? (Round to two decimal places.)",
       "options": [
-        "1750",
-        "1925",
-        "2100",
-        "2275",
-        "2450"
+        "244.67",
+        "288.67",
+        "266.67",
+        "310.67",
+        "222.67"
       ],
       "answerIndex": 2,
-      "explanation": "Answer: 2100. Derived data: A: first category 1700, second category 1020; B: first category 360, second category 480; C: first category 400, second category 600; D: first category 420, second category 560; E: first category 660, second category 440. 1700 + 400 = 2100.",
+      "explanation": "Answer: 266.67. Derived data: A: first category 900, second category 540; B: first category 360, second category 480; C: first category 800, second category 480; D: first category 640, second category 960; E: first category 540, second category 360. 960 ÷ 360 × 100 = 266.67%.",
       "stimulusId": "T20-table",
       "id": "M20-Q43",
       "number": 43,
@@ -864,16 +864,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Table set] A new branch F has a total equal to the average total at A and E. Its categories are split in ratio 2:3. What is the number in its second category?",
+      "stem": "[Table set] What is the total number in the approved category at A and C together?",
       "options": [
-        "1338",
-        "954",
-        "1242",
-        "1146",
-        "1050"
+        "1558",
+        "1416",
+        "1700",
+        "1984",
+        "1842"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 1146. Derived data: A: first category 1700, second category 1020; B: first category 360, second category 480; C: first category 400, second category 600; D: first category 420, second category 560; E: first category 660, second category 440. Average total = (total A + total E)/2. The second category is 3/5 of that average.",
+      "answerIndex": 2,
+      "explanation": "Answer: 1700. Derived data: A: first category 900, second category 540; B: first category 360, second category 480; C: first category 800, second category 480; D: first category 640, second category 960; E: first category 540, second category 360. 900 + 800 = 1700.",
       "stimulusId": "T20-table",
       "id": "M20-Q44",
       "number": 44,
@@ -881,16 +881,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Table set] What is the ratio of the approved category at A and B together to the rejected category at D and E together?",
+      "stem": "[Table set] A fee of ₹20 applies to each in the approved category and ₹15 to each in the rejected category at B. What is the total fee collected (₹)?",
       "options": [
-        "3 : 5",
-        "103 : 50",
-        "2 : 3",
-        "5 : 7",
-        "50 : 103"
+        "14400",
+        "16800",
+        "15600",
+        "12000",
+        "13200"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 103 : 50. Derived data: A: first category 1700, second category 1020; B: first category 360, second category 480; C: first category 400, second category 600; D: first category 420, second category 560; E: first category 660, second category 440. Reduce 2060 : 1000 to lowest terms.",
+      "answerIndex": 0,
+      "explanation": "Answer: 14400. Derived data: A: first category 900, second category 540; B: first category 360, second category 480; C: first category 800, second category 480; D: first category 640, second category 960; E: first category 540, second category 360. Fee = 360×20 + 480×15.",
       "stimulusId": "T20-table",
       "id": "M20-Q45",
       "number": 45,
@@ -898,16 +898,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Bar set] If the agricultural category at C increases by 20% and the business category there decreases by 10%, what is the new total?",
+      "stem": "[Bar set] What is the average number in the business category across A, C and E?",
       "options": [
-        "1176",
-        "840",
-        "1092",
-        "1008",
-        "924"
+        "740",
+        "802",
+        "864",
+        "616",
+        "678"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 1008. Derived data: A: first category 560, second category 420; B: first category 1080, second category 1440; C: first category 420, second category 560; D: first category 320, second category 480; E: first category 400, second category 600. 420 × 1.20 + 560 × 0.90.",
+      "answerIndex": 0,
+      "explanation": "Answer: 740. Derived data: A: first category 900, second category 600; B: first category 780, second category 520; C: first category 480, second category 720; D: first category 1080, second category 720; E: first category 1500, second category 900. (600 + 720 + 900) ÷ 3.",
       "stimulusId": "T20-bar",
       "id": "M20-Q46",
       "number": 46,
@@ -915,16 +915,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Bar set] A fee of ₹20 applies to each in the agricultural category and ₹15 to each in the business category at B. What is the total fee collected (₹)?",
+      "stem": "[Bar set] What is the difference between the total at B and the total at E?",
       "options": [
-        "46800",
-        "36000",
-        "39600",
-        "43200",
-        "50400"
+        "1192",
+        "1284",
+        "1008",
+        "916",
+        "1100"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 43200. Derived data: A: first category 560, second category 420; B: first category 1080, second category 1440; C: first category 420, second category 560; D: first category 320, second category 480; E: first category 400, second category 600. Fee = 1080×20 + 1440×15.",
+      "answerIndex": 4,
+      "explanation": "Answer: 1100. Derived data: A: first category 900, second category 600; B: first category 780, second category 520; C: first category 480, second category 720; D: first category 1080, second category 720; E: first category 1500, second category 900. Absolute difference = |1300 − 2400|.",
       "stimulusId": "T20-bar",
       "id": "M20-Q47",
       "number": 47,
@@ -932,16 +932,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Bar set] The business category at D is what percentage of the agricultural category at B? (Round to two decimal places.)",
+      "stem": "[Bar set] A new branch F has a total equal to the average total at A and E. Its categories are split in ratio 2:3. What is the number in its second category?",
       "options": [
-        "36.44",
-        "48.44",
-        "40.44",
-        "52.44",
-        "44.44"
+        "1268",
+        "1072",
+        "1170",
+        "974",
+        "1366"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 44.44. Derived data: A: first category 560, second category 420; B: first category 1080, second category 1440; C: first category 420, second category 560; D: first category 320, second category 480; E: first category 400, second category 600. 480 ÷ 1080 × 100 = 44.44%.",
+      "answerIndex": 2,
+      "explanation": "Answer: 1170. Derived data: A: first category 900, second category 600; B: first category 780, second category 520; C: first category 480, second category 720; D: first category 1080, second category 720; E: first category 1500, second category 900. Average total = (total A + total E)/2. The second category is 3/5 of that average.",
       "stimulusId": "T20-bar",
       "id": "M20-Q48",
       "number": 48,
@@ -949,16 +949,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Bar set] What is the ratio of the agricultural category at A and B together to the business category at D and E together?",
+      "stem": "[Bar set] If the agricultural category at C increases by 20% and the business category there decreases by 10%, what is the new total?",
       "options": [
-        "5 : 7",
-        "2 : 3",
-        "27 : 41",
-        "3 : 5",
-        "41 : 27"
+        "1020",
+        "1224",
+        "1122",
+        "1428",
+        "1326"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 41 : 27. Derived data: A: first category 560, second category 420; B: first category 1080, second category 1440; C: first category 420, second category 560; D: first category 320, second category 480; E: first category 400, second category 600. Reduce 1640 : 1080 to lowest terms.",
+      "answerIndex": 1,
+      "explanation": "Answer: 1224. Derived data: A: first category 900, second category 600; B: first category 780, second category 520; C: first category 480, second category 720; D: first category 1080, second category 720; E: first category 1500, second category 900. 480 × 1.20 + 720 × 0.90.",
       "stimulusId": "T20-bar",
       "id": "M20-Q49",
       "number": 49,
@@ -966,16 +966,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Bar set] What is the average number in the business category across A, C and E? (Round to two decimal places if needed.)",
+      "stem": "[Bar set] If 25% of the business category at E is transferred to the agricultural category there, what is the new size of the agricultural category at E?",
       "options": [
-        "526.67",
-        "482.67",
-        "438.67",
-        "614.67",
-        "570.67"
+        "1725",
+        "1581",
+        "1869",
+        "2013",
+        "1437"
       ],
       "answerIndex": 0,
-      "explanation": "Answer: 526.67. Derived data: A: first category 560, second category 420; B: first category 1080, second category 1440; C: first category 420, second category 560; D: first category 320, second category 480; E: first category 400, second category 600. (420 + 560 + 600) ÷ 3.",
+      "explanation": "Answer: 1725. Derived data: A: first category 900, second category 600; B: first category 780, second category 520; C: first category 480, second category 720; D: first category 1080, second category 720; E: first category 1500, second category 900. New first category = 1500 + 25% of 900.",
       "stimulusId": "T20-bar",
       "id": "M20-Q50",
       "number": 50,
@@ -983,16 +983,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Caselet set] A fee of ₹20 applies to each in the male category and ₹15 to each in the female category at B. What is the total fee collected (₹)?",
+      "stem": "[Caselet set] If the male category at C increases by 20% and the female category there decreases by 10%, what is the new total?",
       "options": [
-        "17500",
-        "15000",
-        "16250",
-        "12500",
-        "13750"
+        "1105",
+        "935",
+        "1190",
+        "1020",
+        "850"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 15000. Derived data: A: first category 1500, second category 900; B: first category 480, second category 360; C: first category 1140, second category 1520; D: first category 560, second category 420; E: first category 480, second category 360. Fee = 480×20 + 360×15.",
+      "answerIndex": 3,
+      "explanation": "Answer: 1020. Derived data: A: first category 640, second category 480; B: first category 1080, second category 720; C: first category 400, second category 600; D: first category 1200, second category 900; E: first category 1100, second category 660. 400 × 1.20 + 600 × 0.90.",
       "stimulusId": "T20-caselet",
       "id": "M20-Q51",
       "number": 51,
@@ -1000,16 +1000,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Caselet set] The combined total at A and D is what percentage more or less than the total at C? Give the absolute percentage difference, rounded to two decimals.",
+      "stem": "[Caselet set] If 25% of the female category at E is transferred to the male category there, what is the new size of the male category at E?",
       "options": [
-        "23.07",
-        "25.07",
-        "31.07",
-        "29.07",
-        "27.07"
+        "1370",
+        "1475",
+        "1265",
+        "1055",
+        "1160"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 27.07. Derived data: A: first category 1500, second category 900; B: first category 480, second category 360; C: first category 1140, second category 1520; D: first category 560, second category 420; E: first category 480, second category 360. Percentage difference = |total(A)+total(D)−total(C)| ÷ total(C) × 100.",
+      "answerIndex": 2,
+      "explanation": "Answer: 1265. Derived data: A: first category 640, second category 480; B: first category 1080, second category 720; C: first category 400, second category 600; D: first category 1200, second category 900; E: first category 1100, second category 660. New first category = 1100 + 25% of 660.",
       "stimulusId": "T20-caselet",
       "id": "M20-Q52",
       "number": 52,
@@ -1017,16 +1017,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Caselet set] The female category at D is what percentage of the male category at B? (Round to two decimal places.)",
+      "stem": "[Caselet set] A new branch F has a total equal to the average total at A and E. Its categories are split in ratio 2:3. What is the number in its second category?",
       "options": [
-        "73.5",
-        "80.5",
-        "94.5",
-        "87.5",
-        "101.5"
+        "1008",
+        "864",
+        "936",
+        "792",
+        "720"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: 87.5. Derived data: A: first category 1500, second category 900; B: first category 480, second category 360; C: first category 1140, second category 1520; D: first category 560, second category 420; E: first category 480, second category 360. 420 ÷ 480 × 100 = 87.5%.",
+      "answerIndex": 1,
+      "explanation": "Answer: 864. Derived data: A: first category 640, second category 480; B: first category 1080, second category 720; C: first category 400, second category 600; D: first category 1200, second category 900; E: first category 1100, second category 660. Average total = (total A + total E)/2. The second category is 3/5 of that average.",
       "stimulusId": "T20-caselet",
       "id": "M20-Q53",
       "number": 53,
@@ -1034,16 +1034,16 @@
     },
     {
       "topic": "Data interpretation",
-      "stem": "[Caselet set] A new branch F has a total equal to the average total at A and E. Its categories are split in ratio 2:3. What is the number in its second category?",
+      "stem": "[Caselet set] What is the difference between the total at B and the total at E?",
       "options": [
-        "972",
-        "810",
-        "1134",
-        "891",
-        "1053"
+        "37",
+        "40",
+        "46",
+        "43",
+        "34"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 972. Derived data: A: first category 1500, second category 900; B: first category 480, second category 360; C: first category 1140, second category 1520; D: first category 560, second category 420; E: first category 480, second category 360. Average total = (total A + total E)/2. The second category is 3/5 of that average.",
+      "answerIndex": 1,
+      "explanation": "Answer: 40. Derived data: A: first category 640, second category 480; B: first category 1080, second category 720; C: first category 400, second category 600; D: first category 1200, second category 900; E: first category 1100, second category 660. Absolute difference = |1800 − 1760|.",
       "stimulusId": "T20-caselet",
       "id": "M20-Q54",
       "number": 54,
@@ -1053,14 +1053,14 @@
       "topic": "Data interpretation",
       "stem": "[Caselet set] What is the total number in the male category at A and C together?",
       "options": [
-        "2860",
-        "2640",
-        "2200",
-        "2420",
-        "3080"
+        "1040",
+        "1127",
+        "866",
+        "1214",
+        "953"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 2640. Derived data: A: first category 1500, second category 900; B: first category 480, second category 360; C: first category 1140, second category 1520; D: first category 560, second category 420; E: first category 480, second category 360. 1500 + 1140 = 2640.",
+      "answerIndex": 0,
+      "explanation": "Answer: 1040. Derived data: A: first category 640, second category 480; B: first category 1080, second category 720; C: first category 400, second category 600; D: first category 1200, second category 900; E: first category 1100, second category 660. 640 + 400 = 1040.",
       "stimulusId": "T20-caselet",
       "id": "M20-Q55",
       "number": 55,
@@ -1068,400 +1068,400 @@
     },
     {
       "topic": "Approximation",
-      "stem": "Find the approximate value of ?:\n65.02% of 399.82 + 225.12 − (16.98)² = ?",
+      "stem": "Find the approximate value of ?:\n75.02% of 739.82 + 196.12 − (22.98)² = ?",
       "options": [
+        "222",
+        "202",
         "212",
-        "196",
-        "228",
-        "164",
-        "180"
+        "232",
+        "242"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 196. Round to 65% of 400 + 225 − 17² = 196. All alternatives are separated by several units.",
+      "answerIndex": 0,
+      "explanation": "Answer: 222. Round to 75% of 740 + 196 − 23² = 222. The choices are sufficiently separated for this rounding.",
       "id": "M20-Q56",
       "number": 56,
       "section": "quant"
     },
     {
       "topic": "Approximation",
-      "stem": "Find the approximate value of ?:\n45.02% of 379.82 + 961.12 − (16.98)² = ?",
+      "stem": "Find the approximate value of ?:\n75.02% of 779.82 + 361.12 − (17.98)² = ?",
       "options": [
-        "843",
-        "913",
-        "983",
-        "773",
-        "703"
+        "612",
+        "622",
+        "602",
+        "642",
+        "632"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 843. Round to 45% of 380 + 961 − 17² = 843. All alternatives are separated by several units.",
+      "answerIndex": 1,
+      "explanation": "Answer: 622. Round to 75% of 780 + 361 − 18² = 622. The choices are sufficiently separated for this rounding.",
       "id": "M20-Q57",
       "number": 57,
       "section": "quant"
     },
     {
       "topic": "Approximation",
-      "stem": "Find the approximate value of ?:\n35.02% of 299.82 + 441.12 − (14.98)² = ?",
+      "stem": "Find the approximate value of ?:\n45.02% of 319.82 + 484.12 − (11.98)² = ?",
       "options": [
-        "321",
-        "294",
-        "375",
-        "348",
-        "267"
+        "464",
+        "474",
+        "484",
+        "504",
+        "494"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 321. Round to 35% of 300 + 441 − 15² = 321. All alternatives are separated by several units.",
+      "answerIndex": 2,
+      "explanation": "Answer: 484. Round to 45% of 320 + 484 − 12² = 484. The choices are sufficiently separated for this rounding.",
       "id": "M20-Q58",
       "number": 58,
       "section": "quant"
     },
     {
       "topic": "Approximation",
-      "stem": "Find the approximate value of ?:\n25.02% of 319.82 + 361.12 − (19.98)² = ?",
+      "stem": "Find the approximate value of ?:\n25.02% of 699.82 + 625.12 − (14.98)² = ?",
       "options": [
-        "35",
-        "44",
-        "38",
-        "41",
-        "47"
+        "585",
+        "555",
+        "595",
+        "575",
+        "565"
       ],
       "answerIndex": 3,
-      "explanation": "Answer: 41. Round to 25% of 320 + 361 − 20² = 41. All alternatives are separated by several units.",
+      "explanation": "Answer: 575. Round to 25% of 700 + 625 − 15² = 575. The choices are sufficiently separated for this rounding.",
       "id": "M20-Q59",
       "number": 59,
       "section": "quant"
     },
     {
       "topic": "Approximation",
-      "stem": "Find the approximate value of ?:\n35.02% of 239.82 + 361.12 − (12.98)² = ?",
+      "stem": "Find the approximate value of ?:\n15.02% of 259.82 + 529.12 − (11.98)² = ?",
       "options": [
-        "230",
-        "276",
-        "322",
-        "299",
-        "253"
+        "444",
+        "414",
+        "434",
+        "424",
+        "404"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 276. Round to 35% of 240 + 361 − 13² = 276. All alternatives are separated by several units.",
+      "answerIndex": 3,
+      "explanation": "Answer: 424. Round to 15% of 260 + 529 − 12² = 424. The choices are sufficiently separated for this rounding.",
       "id": "M20-Q60",
       "number": 60,
       "section": "quant"
     },
     {
       "topic": "Quadratic equations",
-      "stem": "I. x² − 19x + 70 = 0\nII. y² − 15y + 26 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
+      "stem": "I. x² − 23x + 132 = 0\nII. y² − 18y + 65 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
       "options": [
-        "x = y or relationship cannot be determined",
-        "x < y",
         "x > y",
+        "x ≥ y",
+        "x < y",
         "x ≤ y",
-        "x ≥ y"
+        "x = y or relationship cannot be determined"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 5, 14. Factor II: roots 2, 13. Compare all four pairings to obtain x = y or relationship cannot be determined.",
+      "answerIndex": 4,
+      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 11, 12. Factor II: roots 5, 13. Compare all four pairings to obtain x = y or relationship cannot be determined.",
       "id": "M20-Q61",
       "number": 61,
       "section": "quant"
     },
     {
       "topic": "Quadratic equations",
-      "stem": "I. x² − 17x + 30 = 0\nII. y² − 18y + 45 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
+      "stem": "I. x² − 16x + 60 = 0\nII. y² − 21y + 104 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
       "options": [
-        "x < y",
+        "x > y",
         "x ≥ y",
+        "x < y",
         "x ≤ y",
-        "x = y or relationship cannot be determined",
-        "x > y"
+        "x = y or relationship cannot be determined"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 2, 15. Factor II: roots 3, 15. Compare all four pairings to obtain x = y or relationship cannot be determined.",
+      "answerIndex": 4,
+      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 6, 10. Factor II: roots 8, 13. Compare all four pairings to obtain x = y or relationship cannot be determined.",
       "id": "M20-Q62",
       "number": 62,
       "section": "quant"
     },
     {
       "topic": "Quadratic equations",
-      "stem": "I. x² − 14x + 45 = 0\nII. y² − 24y + 135 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
+      "stem": "I. x² − 19x + 88 = 0\nII. y² − 21y + 108 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
       "options": [
-        "x < y",
         "x ≥ y",
         "x > y",
         "x ≤ y",
-        "x = y or relationship cannot be determined"
+        "x = y or relationship cannot be determined",
+        "x < y"
       ],
       "answerIndex": 3,
-      "explanation": "Answer: x ≤ y. Factor I: roots 5, 9. Factor II: roots 9, 15. Compare all four pairings to obtain x ≤ y.",
+      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 8, 11. Factor II: roots 9, 12. Compare all four pairings to obtain x = y or relationship cannot be determined.",
       "id": "M20-Q63",
       "number": 63,
       "section": "quant"
     },
     {
       "topic": "Quadratic equations",
-      "stem": "I. x² − 17x + 66 = 0\nII. y² − 16y + 39 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
+      "stem": "I. x² − 9x + 18 = 0\nII. y² − 20y + 96 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
       "options": [
-        "x ≤ y",
         "x < y",
-        "x ≥ y",
+        "x ≤ y",
         "x = y or relationship cannot be determined",
+        "x ≥ y",
         "x > y"
       ],
-      "answerIndex": 3,
-      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 6, 11. Factor II: roots 3, 13. Compare all four pairings to obtain x = y or relationship cannot be determined.",
+      "answerIndex": 0,
+      "explanation": "Answer: x < y. Factor I: roots 3, 6. Factor II: roots 8, 12. Compare all four pairings to obtain x < y.",
       "id": "M20-Q64",
       "number": 64,
       "section": "quant"
     },
     {
       "topic": "Quadratic equations",
-      "stem": "I. x² − 13x + 36 = 0\nII. y² − 18y + 45 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
+      "stem": "I. x² − 13x + 12 = 0\nII. y² − 7y + 12 = 0\nChoose the strongest relationship that holds for all possible root pairings.",
       "options": [
-        "x > y",
-        "x = y or relationship cannot be determined",
         "x ≤ y",
-        "x ≥ y",
-        "x < y"
+        "x = y or relationship cannot be determined",
+        "x > y",
+        "x < y",
+        "x ≥ y"
       ],
       "answerIndex": 1,
-      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 4, 9. Factor II: roots 3, 15. Compare all four pairings to obtain x = y or relationship cannot be determined.",
+      "explanation": "Answer: x = y or relationship cannot be determined. Factor I: roots 1, 12. Factor II: roots 3, 4. Compare all four pairings to obtain x = y or relationship cannot be determined.",
       "id": "M20-Q65",
       "number": 65,
       "section": "quant"
     },
     {
       "topic": "Number series",
-      "stem": "Find the missing number:\n77, 86, 102, 127, 163, ?",
+      "stem": "Find the missing number:\n87, 136, 200, 281, 381, ?",
       "options": [
-        "176",
-        "248",
-        "194",
-        "230",
-        "212"
+        "586",
+        "418",
+        "544",
+        "502",
+        "460"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 212. Consecutive increments are 9, 16, 25, 36, 49. The next term is 212.",
+      "answerIndex": 3,
+      "explanation": "Answer: 502. Consecutive increments are 49, 64, 81, 100, 121. The next term is 502.",
       "id": "M20-Q66",
       "number": 66,
       "section": "quant"
     },
     {
       "topic": "Number series",
-      "stem": "Find the missing number:\n113, 118, 128, 143, 163, ?",
+      "stem": "Find the missing number:\n58, 65, 79, 100, 128, ?",
       "options": [
-        "188",
-        "204",
-        "172",
-        "220",
-        "156"
+        "135",
+        "177",
+        "149",
+        "163",
+        "191"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 188. Consecutive increments are 5, 10, 15, 20, 25. The next term is 188.",
+      "answerIndex": 3,
+      "explanation": "Answer: 163. Consecutive increments are 7, 14, 21, 28, 35. The next term is 163.",
       "id": "M20-Q67",
       "number": 67,
       "section": "quant"
     },
     {
       "topic": "Number series",
-      "stem": "Find the missing number:\n95, 196, 399, 806, 1621, ?",
+      "stem": "Find the missing number:\n142, 290, 587, 1182, 2373, ?",
       "options": [
-        "2710",
-        "3252",
-        "3794",
-        "3523",
-        "2981"
+        "3964",
+        "4360",
+        "5548",
+        "4756",
+        "5152"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 3252. Multiply each term by 2 and add successive integers 6 through 10. The next term is 3252.",
+      "answerIndex": 3,
+      "explanation": "Answer: 4756. Multiply each term by 2 and add successive integers 6 through 10. The next term is 4756.",
       "id": "M20-Q68",
       "number": 68,
       "section": "quant"
     },
     {
       "topic": "Number series",
-      "stem": "Find the missing number:\n80, 84, 92, 108, 140, ?",
+      "stem": "Find the missing number:\n146, 154, 170, 202, 266, ?",
       "options": [
-        "204",
-        "170",
-        "238",
-        "187",
-        "221"
+        "361",
+        "427",
+        "328",
+        "460",
+        "394"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 204. Consecutive increments are 4, 8, 16, 32, 64. The next term is 204.",
+      "answerIndex": 4,
+      "explanation": "Answer: 394. Consecutive increments are 8, 16, 32, 64, 128. The next term is 394.",
       "id": "M20-Q69",
       "number": 69,
       "section": "quant"
     },
     {
       "topic": "Number series",
-      "stem": "Find the missing number:\n49, 50, 58, 85, 149, ?",
+      "stem": "Find the missing number:\n161, 162, 170, 197, 261, ?",
       "options": [
-        "320",
-        "251",
-        "228",
-        "297",
-        "274"
+        "322",
+        "354",
+        "418",
+        "386",
+        "450"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 274. Consecutive increments are 1, 8, 27, 64, 125. The next term is 274.",
+      "answerIndex": 3,
+      "explanation": "Answer: 386. Consecutive increments are 1, 8, 27, 64, 125. The next term is 386.",
       "id": "M20-Q70",
       "number": 70,
       "section": "quant"
     },
     {
       "topic": "Profit and loss",
-      "stem": "Two articles are sold for ₹1600 each. One earns 10% profit and the other incurs 10% loss. Find the combined cost price (₹, to two decimals).",
+      "stem": "Two articles are sold for ₹2600 each. One earns 10% profit and the other incurs 25% loss. Find the combined cost price (₹, to two decimals).",
       "options": [
-        "2963.32",
-        "3501.32",
-        "3770.32",
-        "2694.32",
-        "3232.32"
+        "5830.3",
+        "6802.3",
+        "4858.3",
+        "6316.3",
+        "5344.3"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 3232.32. Recover each cost separately: 1600×100/110 + 1600×100/90. Equal selling prices do not imply equal costs.",
+      "answerIndex": 0,
+      "explanation": "Answer: 5830.3. Recover each cost separately: 2600×100/110 + 2600×100/75. Equal selling prices do not imply equal costs.",
       "id": "M20-Q71",
       "number": 71,
       "section": "quant"
     },
     {
       "topic": "Pipes and cisterns",
-      "stem": "Two inlet pipes can fill a tank in 32 and 48 hours. An outlet empties it in 48 hours. All three open together. Find the time (hours) to fill the empty tank.",
+      "stem": "Two inlet pipes can fill a tank in 66 and 99 hours. An outlet empties it in 198 hours. All three open together. Find the time (hours) to fill the empty tank. (Round to two decimal places if needed.)",
       "options": [
-        "29",
-        "32",
-        "26",
-        "35",
-        "38"
+        "53.5",
+        "41.5",
+        "49.5",
+        "57.5",
+        "45.5"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 32. Net rate = 1/32 + 1/48 − 1/48 = 1/32. Take the reciprocal.",
+      "answerIndex": 2,
+      "explanation": "Answer: 49.5. Net rate = 1/66 + 1/99 − 1/198 = 2/99 tank/hour. Required time = 49.5 hours.",
       "id": "M20-Q72",
       "number": 72,
       "section": "quant"
     },
     {
       "topic": "Boats and streams",
-      "stem": "A boat covers 160 km in still water in 8 hours. If the stream flows at 5 km/h, how far (km) can it travel upstream in 4 hours?",
+      "stem": "A boat covers 132 km in still water in 6 hours. If the stream flows at 2 km/h, how far (km) can it travel upstream in 3 hours?",
       "options": [
         "50",
-        "55",
         "60",
+        "55",
         "70",
         "65"
       ],
-      "answerIndex": 2,
-      "explanation": "Answer: 60. Still-water speed = 20 km/h. Upstream speed = 20 − 5. Distance = speed × 4.",
+      "answerIndex": 1,
+      "explanation": "Answer: 60. Still-water speed = 22 km/h. Upstream speed = 22 − 2. Distance = speed × 3.",
       "id": "M20-Q73",
       "number": 73,
       "section": "quant"
     },
     {
       "topic": "Partnership",
-      "stem": "A and B invest in ratio 4:6. A invests for 12 months; B joins later and invests for 5 months. A receives ₹57600 profit. What is the total profit (₹)?",
+      "stem": "A and B invest in ratio 5:6. A invests for 12 months; B joins later and invests for 7 months. A receives ₹90000 profit. What is the total profit (₹)?",
       "options": [
-        "78000",
-        "109200",
-        "101400",
-        "85800",
-        "93600"
+        "165750",
+        "153000",
+        "178500",
+        "127500",
+        "140250"
       ],
-      "answerIndex": 4,
-      "explanation": "Answer: 93600. Profit ratio is 48:30. Each ratio unit = ₹1200. Total = 78 × 1200.",
+      "answerIndex": 1,
+      "explanation": "Answer: 153000. Profit ratio is 60:42. Each ratio unit = ₹1500. Total = 102 × 1500.",
       "id": "M20-Q74",
       "number": 74,
       "section": "quant"
     },
     {
       "topic": "Simple interest",
-      "stem": "A sum of ₹19000 earns ₹11400 simple interest in 3 years. At the same annual rate, what would be the amount (₹) after 2 years with annual compounding?",
+      "stem": "A sum of ₹28000 earns ₹8400 simple interest in 3 years. At the same annual rate, what would be the amount (₹) after 2 years with annual compounding?",
       "options": [
-        "25080",
-        "29640",
-        "22800",
-        "27360",
-        "31920"
+        "31057",
+        "39526",
+        "36703",
+        "33880",
+        "28234"
       ],
       "answerIndex": 3,
-      "explanation": "Answer: 27360. Rate = interest ×100/(principal ×3) = 20%. Compound amount = 19000 × (1 + 20/100)².",
+      "explanation": "Answer: 33880. Rate = interest ×100/(principal ×3) = 10%. Compound amount = 28000 × (1 + 10/100)².",
       "id": "M20-Q75",
       "number": 75,
       "section": "quant"
     },
     {
       "topic": "Replacement mixture",
-      "stem": "A container holds 160 litres of pure milk. 32 litres are removed and replaced with water. This process is repeated once more, mixing thoroughly each time. How many litres of milk remain? (Round to two decimal places if needed.)",
+      "stem": "A container holds 130 litres of pure milk. 26 litres are removed and replaced with water. This process is repeated once more, mixing thoroughly each time. How many litres of milk remain? (Round to two decimal places if needed.)",
       "options": [
-        "120.4",
-        "102.4",
-        "84.4",
-        "111.4",
-        "93.4"
+        "90.2",
+        "69.2",
+        "83.2",
+        "76.2",
+        "97.2"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 102.4. Each replacement retains 4/5 of the milk. Remaining milk = 160 × (4/5)².",
+      "answerIndex": 2,
+      "explanation": "Answer: 83.2. Each replacement retains 4/5 of the milk. Remaining milk = 130 × (4/5)².",
       "id": "M20-Q76",
       "number": 76,
       "section": "quant"
     },
     {
       "topic": "Average",
-      "stem": "The average weight of 28 people is 25 kg. One person joins and the average rises by 1 kg. Find the new person’s weight (kg).",
+      "stem": "The average weight of 29 people is 45 kg. One person joins and the average rises by 1 kg. Find the new person’s weight (kg).",
       "options": [
-        "54",
-        "58",
-        "46",
-        "62",
-        "50"
+        "87",
+        "81",
+        "63",
+        "75",
+        "69"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 54. New total minus old total = (28+1)×(25+1) − 28×25 = 54.",
+      "answerIndex": 3,
+      "explanation": "Answer: 75. New total minus old total = (29+1)×(45+1) − 29×45 = 75.",
       "id": "M20-Q77",
       "number": 77,
       "section": "quant"
     },
     {
       "topic": "Ages",
-      "stem": "A is twice as old as B. After 11 years their ages will be in ratio 3:2. What is the present sum of their ages?",
+      "stem": "A is twice as old as B. After 18 years their ages will be in ratio 3:2. What is the present sum of their ages?",
       "options": [
-        "39",
-        "33",
-        "30",
-        "27",
-        "36"
+        "54",
+        "50",
+        "46",
+        "62",
+        "58"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 33. Let B = x, A = 2x. (2x+11)/(x+11) = 3/2 gives x = 11. Present sum = 3x.",
+      "answerIndex": 0,
+      "explanation": "Answer: 54. Let B = x, A = 2x. (2x+18)/(x+18) = 3/2 gives x = 18. Present sum = 3x.",
       "id": "M20-Q78",
       "number": 78,
       "section": "quant"
     },
     {
       "topic": "Relative speed",
-      "stem": "A 250 m train moving at 64.8 km/h overtakes a runner moving in the same direction at 10.8 km/h. Find the time (seconds, to two decimals) to pass the runner.",
+      "stem": "A 250 m train moving at 82.8 km/h overtakes a runner moving in the same direction at 7.2 km/h. Find the time (seconds, to two decimals) to pass the runner.",
       "options": [
-        "16.67",
-        "17.67",
-        "18.67",
-        "14.67",
-        "15.67"
+        "10.9",
+        "9.9",
+        "12.9",
+        "11.9",
+        "13.9"
       ],
-      "answerIndex": 0,
-      "explanation": "Answer: 16.67. Relative speed = (64.8 − 10.8) ×5/18 = 15 m/s. Time = 250/15.",
+      "answerIndex": 3,
+      "explanation": "Answer: 11.9. Relative speed = (82.8 − 7.2) ×5/18 = 21 m/s. Time = 250/21.",
       "id": "M20-Q79",
       "number": 79,
       "section": "quant"
     },
     {
       "topic": "Expenditure",
-      "stem": "The price of a commodity increases by 25%. A household keeps spending fixed at ₹1900. By what percentage must consumption decrease? (Round to two decimals.)",
+      "stem": "The price of a commodity increases by 50%. A household keeps spending fixed at ₹2600. By what percentage must consumption decrease? (Round to two decimals.)",
       "options": [
-        "16",
-        "20",
-        "18",
-        "22",
-        "24"
+        "27.33",
+        "36.33",
+        "30.33",
+        "39.33",
+        "33.33"
       ],
-      "answerIndex": 1,
-      "explanation": "Answer: 20. New quantity / old quantity = 100/125. Reduction percentage = 25/125 ×100.",
+      "answerIndex": 4,
+      "explanation": "Answer: 33.33. New quantity / old quantity = 100/150. Reduction percentage = 50/150 ×100.",
       "id": "M20-Q80",
       "number": 80,
       "section": "quant"

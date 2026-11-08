@@ -21,12 +21,12 @@
   },
   {
     "mock": 2,
-    "stimulus": "T02-floor",
+    "stimulus": "T02-schedule",
     "solutions": 1
   },
   {
     "mock": 2,
-    "stimulus": "T02-schedule",
+    "stimulus": "T02-floor",
     "solutions": 1
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "mock": 3,
-    "stimulus": "T03-circular",
+    "stimulus": "T03-linear",
     "solutions": 1
   },
   {
@@ -51,12 +51,12 @@
   },
   {
     "mock": 3,
-    "stimulus": "T03-schedule",
+    "stimulus": "T03-circular",
     "solutions": 1
   },
   {
     "mock": 3,
-    "stimulus": "T03-linear",
+    "stimulus": "T03-schedule",
     "solutions": 1
   },
   {
@@ -66,17 +66,22 @@
   },
   {
     "mock": 4,
-    "stimulus": "T04-parallel",
-    "solutions": 1
-  },
-  {
-    "mock": 4,
     "stimulus": "T04-floor",
     "solutions": 1
   },
   {
     "mock": 4,
+    "stimulus": "T04-parallel",
+    "solutions": 1
+  },
+  {
+    "mock": 4,
     "stimulus": "T04-schedule",
+    "solutions": 1
+  },
+  {
+    "mock": 5,
+    "stimulus": "T05-linear",
     "solutions": 1
   },
   {
@@ -95,8 +100,8 @@
     "solutions": 1
   },
   {
-    "mock": 5,
-    "stimulus": "T05-linear",
+    "mock": 6,
+    "stimulus": "T06-parallel",
     "solutions": 1
   },
   {
@@ -111,17 +116,7 @@
   },
   {
     "mock": 6,
-    "stimulus": "T06-parallel",
-    "solutions": 1
-  },
-  {
-    "mock": 6,
     "stimulus": "T06-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 7,
-    "stimulus": "T07-floor",
     "solutions": 1
   },
   {
@@ -140,8 +135,8 @@
     "solutions": 1
   },
   {
-    "mock": 8,
-    "stimulus": "T08-schedule",
+    "mock": 7,
+    "stimulus": "T07-floor",
     "solutions": 1
   },
   {
@@ -151,17 +146,22 @@
   },
   {
     "mock": 8,
-    "stimulus": "T08-box",
-    "solutions": 1
-  },
-  {
-    "mock": 8,
     "stimulus": "T08-floor",
     "solutions": 1
   },
   {
+    "mock": 8,
+    "stimulus": "T08-schedule",
+    "solutions": 1
+  },
+  {
+    "mock": 8,
+    "stimulus": "T08-box",
+    "solutions": 1
+  },
+  {
     "mock": 9,
-    "stimulus": "T09-floor",
+    "stimulus": "T09-circular",
     "solutions": 1
   },
   {
@@ -171,22 +171,17 @@
   },
   {
     "mock": 9,
-    "stimulus": "T09-schedule",
+    "stimulus": "T09-floor",
     "solutions": 1
   },
   {
     "mock": 9,
-    "stimulus": "T09-circular",
+    "stimulus": "T09-schedule",
     "solutions": 1
   },
   {
     "mock": 10,
     "stimulus": "T10-parallel",
-    "solutions": 1
-  },
-  {
-    "mock": 10,
-    "stimulus": "T10-schedule",
     "solutions": 1
   },
   {
@@ -200,8 +195,18 @@
     "solutions": 1
   },
   {
+    "mock": 10,
+    "stimulus": "T10-schedule",
+    "solutions": 1
+  },
+  {
     "mock": 11,
     "stimulus": "T11-floor",
+    "solutions": 1
+  },
+  {
+    "mock": 11,
+    "stimulus": "T11-schedule",
     "solutions": 1
   },
   {
@@ -215,8 +220,8 @@
     "solutions": 1
   },
   {
-    "mock": 11,
-    "stimulus": "T11-schedule",
+    "mock": 12,
+    "stimulus": "T12-circular",
     "solutions": 1
   },
   {
@@ -235,18 +240,13 @@
     "solutions": 1
   },
   {
-    "mock": 12,
-    "stimulus": "T12-circular",
+    "mock": 13,
+    "stimulus": "T13-schedule",
     "solutions": 1
   },
   {
     "mock": 13,
     "stimulus": "T13-box",
-    "solutions": 1
-  },
-  {
-    "mock": 13,
-    "stimulus": "T13-schedule",
     "solutions": 1
   },
   {
@@ -261,17 +261,12 @@
   },
   {
     "mock": 14,
-    "stimulus": "T14-parallel",
-    "solutions": 1
-  },
-  {
-    "mock": 14,
-    "stimulus": "T14-box",
-    "solutions": 1
-  },
-  {
-    "mock": 14,
     "stimulus": "T14-schedule",
+    "solutions": 1
+  },
+  {
+    "mock": 14,
+    "stimulus": "T14-parallel",
     "solutions": 1
   },
   {
@@ -280,8 +275,8 @@
     "solutions": 1
   },
   {
-    "mock": 15,
-    "stimulus": "T15-floor",
+    "mock": 14,
+    "stimulus": "T14-box",
     "solutions": 1
   },
   {
@@ -296,7 +291,22 @@
   },
   {
     "mock": 15,
+    "stimulus": "T15-floor",
+    "solutions": 1
+  },
+  {
+    "mock": 15,
     "stimulus": "T15-schedule",
+    "solutions": 1
+  },
+  {
+    "mock": 16,
+    "stimulus": "T16-parallel",
+    "solutions": 1
+  },
+  {
+    "mock": 16,
+    "stimulus": "T16-box",
     "solutions": 1
   },
   {
@@ -310,13 +320,8 @@
     "solutions": 1
   },
   {
-    "mock": 16,
-    "stimulus": "T16-box",
-    "solutions": 1
-  },
-  {
-    "mock": 16,
-    "stimulus": "T16-parallel",
+    "mock": 17,
+    "stimulus": "T17-linear",
     "solutions": 1
   },
   {
@@ -331,11 +336,6 @@
   },
   {
     "mock": 17,
-    "stimulus": "T17-linear",
-    "solutions": 1
-  },
-  {
-    "mock": 17,
     "stimulus": "T17-floor",
     "solutions": 1
   },
@@ -346,7 +346,7 @@
   },
   {
     "mock": 18,
-    "stimulus": "T18-floor",
+    "stimulus": "T18-circular",
     "solutions": 1
   },
   {
@@ -356,17 +356,12 @@
   },
   {
     "mock": 18,
-    "stimulus": "T18-circular",
+    "stimulus": "T18-floor",
     "solutions": 1
   },
   {
     "mock": 19,
-    "stimulus": "T19-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 19,
-    "stimulus": "T19-linear",
+    "stimulus": "T19-box",
     "solutions": 1
   },
   {
@@ -376,17 +371,17 @@
   },
   {
     "mock": 19,
-    "stimulus": "T19-box",
+    "stimulus": "T19-linear",
+    "solutions": 1
+  },
+  {
+    "mock": 19,
+    "stimulus": "T19-schedule",
     "solutions": 1
   },
   {
     "mock": 20,
-    "stimulus": "T20-parallel",
-    "solutions": 1
-  },
-  {
-    "mock": 20,
-    "stimulus": "T20-schedule",
+    "stimulus": "T20-floor",
     "solutions": 1
   },
   {
@@ -396,7 +391,12 @@
   },
   {
     "mock": 20,
-    "stimulus": "T20-floor",
+    "stimulus": "T20-schedule",
+    "solutions": 1
+  },
+  {
+    "mock": 20,
+    "stimulus": "T20-parallel",
     "solutions": 1
   }
 ]

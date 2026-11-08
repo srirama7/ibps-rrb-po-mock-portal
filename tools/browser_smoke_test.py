@@ -38,7 +38,7 @@ with Server(('127.0.0.1',0),partial(Handler,directory=str(ROOT))) as server:
         page.screenshot(path=str(OUT/'desktop-exam.png'),full_page=True)
         page.reload(wait_until='networkidle');page.locator('#resumeActiveBtn').click()
         assert page.locator('.option-item.selected').count()==1
-        page.evaluate("""() => { const s=JSON.parse(localStorage.getItem('rrbpo_active_v3')); s.sectionEndAt=Date.now()-1000; localStorage.setItem('rrbpo_active_v3',JSON.stringify(s)); }""")
+        page.evaluate("""() => { const s=JSON.parse(localStorage.getItem('rrbpo_active_v4')); s.sectionEndAt=Date.now()-1000; localStorage.setItem('rrbpo_active_v4',JSON.stringify(s)); }""")
         page.reload(wait_until='networkidle');page.locator('#resumeActiveBtn').click()
         assert page.locator('.pal-btn').first.inner_text().strip()=='41'
         assert page.locator('#btnPrev').is_disabled()
@@ -50,7 +50,7 @@ with Server(('127.0.0.1',0),partial(Handler,directory=str(ROOT))) as server:
         assert 'ratio' in page.locator('.stimulus-card').inner_text()
         data=json.loads((ROOT/'data/tests.json').read_text(encoding='utf-8'))
         for test in data['tests']:
-            page.evaluate("""t => {const s={testId:t.id,startedAt:Date.now(),sectionIndex:1,sectionEndAt:Date.now()+1200000,currentIndex:40,answers:Object.fromEntries(t.questions.map(q=>[q.id,q.answerIndex])),visited:t.questions.map(q=>q.id),marked:[t.questions[0].id]};localStorage.setItem('rrbpo_active_v3',JSON.stringify(s));}""",test)
+            page.evaluate("""t => {const s={testId:t.id,startedAt:Date.now(),sectionIndex:1,sectionEndAt:Date.now()+1200000,currentIndex:40,answers:Object.fromEntries(t.questions.map(q=>[q.id,q.answerIndex])),visited:t.questions.map(q=>q.id),marked:[t.questions[0].id]};localStorage.setItem('rrbpo_active_v4',JSON.stringify(s));}""",test)
             page.reload(wait_until='networkidle');page.locator('#resumeActiveBtn').click()
             page.locator('#submitExamBtn').click()
             assert page.locator('.hero-score-value').inner_text().strip().startswith('80.00')
@@ -58,7 +58,7 @@ with Server(('127.0.0.1',0),partial(Handler,directory=str(ROOT))) as server:
             page.locator('#toggleOnlyWrong').click()
             assert page.locator('.solution-card').count()==0
         t=data['tests'][0]
-        page.evaluate("""t => {const q=t.questions;const s={testId:t.id,startedAt:Date.now(),sectionIndex:1,sectionEndAt:Date.now()+1200000,currentIndex:40,answers:{[q[0].id]:q[0].answerIndex,[q[1].id]:(q[1].answerIndex+1)%5},visited:[],marked:[]};localStorage.setItem('rrbpo_active_v3',JSON.stringify(s));}""",t)
+        page.evaluate("""t => {const q=t.questions;const s={testId:t.id,startedAt:Date.now(),sectionIndex:1,sectionEndAt:Date.now()+1200000,currentIndex:40,answers:{[q[0].id]:q[0].answerIndex,[q[1].id]:(q[1].answerIndex+1)%5},visited:[],marked:[]};localStorage.setItem('rrbpo_active_v4',JSON.stringify(s));}""",t)
         page.reload(wait_until='networkidle');page.locator('#resumeActiveBtn').click();page.locator('#submitExamBtn').click()
         assert page.locator('.hero-score-value').inner_text().strip().startswith('0.75')
         mobile=browser.new_page(viewport=dict(width=390,height=844),is_mobile=True,has_touch=True)
@@ -74,9 +74,9 @@ with Server(('127.0.0.1',0),partial(Handler,directory=str(ROOT))) as server:
         mobile.locator('.option-item').first.click()
         assert mobile.locator('.option-item.selected').count()==1
         mobile.screenshot(path=str(OUT/'mobile-exam.png'),full_page=True)
-        mobile.evaluate("""() => {const s=JSON.parse(localStorage.getItem('rrbpo_active_v3'));s.sectionIndex=1;s.sectionEndAt=Date.now()-1000;localStorage.setItem('rrbpo_active_v3',JSON.stringify(s));}""")
+        mobile.evaluate("""() => {const s=JSON.parse(localStorage.getItem('rrbpo_active_v4'));s.sectionIndex=1;s.sectionEndAt=Date.now()-1000;localStorage.setItem('rrbpo_active_v4',JSON.stringify(s));}""")
         mobile.reload(wait_until='networkidle')
-        assert mobile.evaluate("localStorage.getItem('rrbpo_active_v3') === null")
+        assert mobile.evaluate("localStorage.getItem('rrbpo_active_v4') === null")
         assert not errors,errors
         browser.close()
     server.shutdown()

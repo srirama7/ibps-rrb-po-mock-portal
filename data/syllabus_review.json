@@ -1,0 +1,63 @@
+{
+  "reviewedOn": "2026-11-08",
+  "bankVersion": "4.0.0",
+  "examStage": "Officer Scale I preliminary examination",
+  "questionsReviewed": 1600,
+  "outOfScopeTopicLabels": [],
+  "finding": "The previous bank topics already matched published prelims guidance. Revisions address weak tasks, repetitive formats and unclear puzzle language rather than removing supported subjects.",
+  "revisedFamilies": {
+    "puzzleQuestions": 400,
+    "directionSenseQuestions": 60,
+    "pipesAndCisternsQuestions": 10,
+    "approximationOptionSets": 100
+  },
+  "topicCounts": {
+    "Ages": 20,
+    "Approximation": 100,
+    "Average": 20,
+    "Blood relations": 60,
+    "Boats and streams": 20,
+    "Box puzzle": 70,
+    "Circular seating": 30,
+    "Coding and decoding": 80,
+    "Compound interest": 10,
+    "Data interpretation": 300,
+    "Direction sense": 60,
+    "Expenditure": 10,
+    "Floor and flat puzzle": 100,
+    "Inequality": 80,
+    "Linear seating": 50,
+    "Mixtures": 10,
+    "Month and date puzzle": 100,
+    "Number series": 100,
+    "Parallel rows": 50,
+    "Partnership": 20,
+    "Percentage": 10,
+    "Pipes and cisterns": 10,
+    "Profit and loss": 20,
+    "Quadratic equations": 100,
+    "Ranking": 40,
+    "Relative speed": 10,
+    "Replacement mixture": 10,
+    "Simple interest": 10,
+    "Syllogism": 80,
+    "Time and work": 10,
+    "Trains": 10
+  },
+  "sources": [
+    {
+      "url": "https://www.ibps.in/index.php/notification-for-common-recruitment-process-for-crp-rrb-xv/",
+      "role": "Official notification reference; the current PDF was not retrievable during this review. No claim of a newly verified official topic-by-topic syllabus."
+    },
+    {
+      "url": "https://www.bankersadda.com/ibps-rrb-po-syllabus/",
+      "role": "Current preparation-provider topic guidance and prelims/mains distinction, read during this review."
+    },
+    {
+      "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/8/2024/06/10162029/Copy-of-Decoding-IBPS-RRB-Prelims-2024-Final.pdf",
+      "role": "Publisher topic guidance and past-paper trends, pages 5–6. Historical timing information is not used for current timers."
+    }
+  ],
+  "limits": "Topic checks do not establish official difficulty equivalence, exhaustive syllabus coverage or future question weightage.",
+  "additionalFinding": "Three regenerated approximation items had a distractor closer to the exact value than the rounded key. All 100 approximation option sets now use wider spacing; the independent checker enforces a uniquely nearest correct option."
+}
