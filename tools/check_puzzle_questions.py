@@ -17,6 +17,10 @@ for test in data['tests']:
         assert len(positions) == 8
         s = q['stem']
         kind = st['variant']
+        if kind in ('month', 'year', 'single_floor'): kind = 'box'
+        if kind == 'south':
+            kind = 'linear'
+            s = s.replace('to the left', 'TEMP_SIDE').replace('to the right', 'to the left').replace('TEMP_SIDE', 'to the right')
         mentioned = [name for name in re.findall(r'\b[A-Z][a-z]+\b', s) if name in positions]
         if s.startswith('Which of the following does not'):
             if kind == 'floor':

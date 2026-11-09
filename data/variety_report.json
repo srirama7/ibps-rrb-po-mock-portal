@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "distinctPuzzleCombinations": 20,
+  "distinctTopicOrders": 20,
+  "distinctPassages": 140,
+  "arrangementVariants": [
+    "box",
+    "circular",
+    "floor",
+    "linear",
+    "month",
+    "parallel",
+    "schedule",
+    "single_floor",
+    "south",
+    "year"
+  ],
+  "papers": [
+    {
+      "id": "MOCK-01",
+      "puzzleTypes": [
+        "circular",
+        "parallel",
+        "schedule",
+        "single_floor"
+      ]
+    },
+    {
+      "id": "MOCK-02",
+      "puzzleTypes": [
+        "box",
+        "linear",
+        "month",
+        "parallel"
+      ]
+    },
+    {
+      "id": "MOCK-03",
+      "puzzleTypes": [
+        "circular",
+        "floor",
+        "month",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-04",
+      "puzzleTypes": [
+        "box",
+        "linear",
+        "schedule",
+        "single_floor"
+      ]
+    },
+    {
+      "id": "MOCK-05",
+      "puzzleTypes": [
+        "box",
+        "circular",
+        "floor",
+        "schedule"
+      ]
+    },
+    {
+      "id": "MOCK-06",
+      "puzzleTypes": [
+        "circular",
+        "floor",
+        "month",
+        "single_floor"
+      ]
+    },
+    {
+      "id": "MOCK-07",
+      "puzzleTypes": [
+        "circular",
+        "month",
+        "schedule",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-08",
+      "puzzleTypes": [
+        "floor",
+        "linear",
+        "parallel",
+        "single_floor"
+      ]
+    },
+    {
+      "id": "MOCK-09",
+      "puzzleTypes": [
+        "box",
+        "month",
+        "parallel",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-10",
+      "puzzleTypes": [
+        "floor",
+        "single_floor",
+        "south",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-11",
+      "puzzleTypes": [
+        "box",
+        "parallel",
+        "single_floor",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-12",
+      "puzzleTypes": [
+        "box",
+        "floor",
+        "parallel",
+        "single_floor"
+      ]
+    },
+    {
+      "id": "MOCK-13",
+      "puzzleTypes": [
+        "circular",
+        "floor",
+        "linear",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-14",
+      "puzzleTypes": [
+        "box",
+        "floor",
+        "parallel",
+        "schedule"
+      ]
+    },
+    {
+      "id": "MOCK-15",
+      "puzzleTypes": [
+        "floor",
+        "linear",
+        "parallel",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-16",
+      "puzzleTypes": [
+        "floor",
+        "linear",
+        "month",
+        "parallel"
+      ]
+    },
+    {
+      "id": "MOCK-17",
+      "puzzleTypes": [
+        "box",
+        "circular",
+        "month",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-18",
+      "puzzleTypes": [
+        "circular",
+        "linear",
+        "month",
+        "single_floor"
+      ]
+    },
+    {
+      "id": "MOCK-19",
+      "puzzleTypes": [
+        "parallel",
+        "schedule",
+        "single_floor",
+        "year"
+      ]
+    },
+    {
+      "id": "MOCK-20",
+      "puzzleTypes": [
+        "floor",
+        "parallel",
+        "single_floor",
+        "year"
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ from fractions import Fraction as F
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-R = random.Random(706112026)
+R = random.Random(9112026)
 PERMS = list(itertools.permutations(range(8)))
 AUDIT = []
 
@@ -38,6 +38,35 @@ def question(topic, stem, answer, explanation, pool=None, stimulus=None):
     return q
 
 def arrangement(t, kind):
+    # Ordered month/year/floor sets share the exact permutation solver, but use
+    # their own displayed units, clues and questions throughout.
+    if kind in ('month', 'year', 'single_floor', 'south'):
+        base = 'linear' if kind == 'south' else 'box'
+        st, qs = arrangement(t, base)
+        old_id = st['id']
+        st['id'] = f'T{t:02d}-{kind}'
+        st['variant'] = kind
+        names = [entry.rsplit(': ', 1)[1] for entry in st['solution'].split('; ')]
+        if kind == 'south':
+            st['title'] = st['title'].replace('facing north', 'facing south') + ' Left and right in the questions refer to the seated person.'
+            replacements = [('to the left', 'TEMP_SIDE'), ('to the right', 'to the left'), ('TEMP_SIDE', 'to the right')]
+            topic = 'Linear seating'
+        else:
+            units = {'month': ('interview', 'interviews', 'chronological'), 'year': ('joining year', 'joining years', 'chronological'), 'single_floor': ('floor', 'floors', 'bottom-to-top')}
+            unit, plural, order = units[kind]
+            title = {'month': 'attend interviews in January, February, March, April, May, June, July and August, one person per month', 'year': 'joined a bank in 2011, 2013, 2015, 2017, 2019, 2021, 2023 and 2025, one person per year', 'single_floor': 'live on floors 1 to 8 of a building, one person per floor; floor 1 is the bottom floor'}[kind]
+            st['title'] = f'{", ".join(names)} {title}. Positions 1 to 8 follow {order} order. Count intervening occupied slots, not elapsed calendar years.'
+            replacements = [('boxes', plural), ('box', unit), ('above', 'after' if kind != 'single_floor' else 'above'), ('below', 'before' if kind != 'single_floor' else 'below'), ('from the bottom', 'in the stated order')]
+            topic = {'month': 'Month and date puzzle', 'year': 'Year puzzle', 'single_floor': 'Floor puzzle'}[kind]
+        def translate(value):
+            for old, new in replacements: value = value.replace(old, new)
+            return value
+        for key in ('body', 'solution'): st[key] = translate(st[key])
+        for q in qs:
+            q['stimulusId'] = st['id']; q['topic'] = topic
+            for key in ('stem', 'explanation'): q[key] = translate(q[key])
+        AUDIT[-1]['stimulus'] = st['id']
+        return st, qs
     names = R.sample(['Aditi','Bina','Charu','Deepa','Esha','Farah','Gita','Hema','Isha','Jaya','Kiran','Lata','Meera','Nisha','Ovi','Pia','Riya','Sana','Tara','Uma'],8)
     target = R.choice(PERMS)
     sid = f'T{t:02d}-{kind}'
@@ -390,12 +419,29 @@ def quantitative(t):
 
 def build():
     tests=[];seen=set()
+    families = ['linear', 'parallel', 'circular', 'box', 'schedule', 'floor', 'month', 'year', 'single_floor', 'south']
+    combinations = list(itertools.combinations(families, 4))
+    R.shuffle(combinations)
+    selected = []
+    for combo in combinations:
+        if len({'linear' if k == 'south' else k for k in combo}) == 4:
+            selected.append(combo)
+        if len(selected) == 20: break
+    def order_blocks(items):
+        blocks = {}
+        for q in items:
+            key = q.get('stimulusId') or q['topic']
+            blocks.setdefault(key, []).append(q)
+        groups = list(blocks.values())
+        R.shuffle(groups)
+        for group in groups: R.shuffle(group)
+        return [q for group in groups for q in group]
     def distinct(qq):
         stems=[q['stem'] for q in qq if not q.get('stimulusId')]
         return len(stems)==len(set(stems)) and not any(st in seen for st in stems)
     for t in range(1,21):
         stimuli=[];questions=[]
-        kinds=['linear' if t%2 else 'parallel','box' if t%3 else 'circular','schedule','floor']
+        kinds=list(selected[t-1])
         R.shuffle(kinds)
         for kind in kinds:
             st,qq=arrangement(t,kind);stimuli.append(st);questions.extend(qq)
@@ -411,13 +457,14 @@ def build():
             if distinct(qq): break
         else: raise AssertionError(f'Could not create distinct standalone quant for paper {t}: '+str([q['stem'] for q in qq if q['stem'] in seen]))
         seen.update(q['stem'] for q in qq if not q.get('stimulusId'))
-        stimuli.extend(st);questions.extend(qq)
+        questions = order_blocks(questions)
+        stimuli.extend(st);questions.extend(order_blocks(qq))
         assert len(questions)==80
         for n,q in enumerate(questions,1):
             q.update(id=f'M{t:02d}-Q{n:02d}',number=n,section='reasoning' if n<=40 else 'quant')
             q['explanation']='Answer: '+q['options'][q['answerIndex']]+'. '+q['explanation']
         tests.append(dict(id=f'MOCK-{t:02d}',number=t,title=f'RRB Officer Scale I · Mock {t:02d}',totalQuestions=80,durationSeconds=2700,sections=[dict(id='reasoning',name='Reasoning Ability',start=1,end=40,durationSeconds=1500),dict(id='quant',name='Quantitative Aptitude',start=41,end=80,durationSeconds=1200)],marking=dict(correct=1,incorrect=-0.25,unattempted=0),stimuli=stimuli,questions=questions))
-    payload=dict(format='rrb-practice-v4',exam='IBPS RRB Officer Scale I Prelims',version='4.0.0',totalMocks=20,totalQuestions=1600,blueprint='Prelims topics reviewed against IBPS exam structure and published RRB PO topic guidance. Original questions; difficulty is not officially calibrated.',tests=tests)
+    payload=dict(format='rrb-practice-v5',exam='IBPS RRB Officer Scale I Prelims',version='5.0.0',totalMocks=20,totalQuestions=1600,blueprint='Twenty different puzzle combinations with varied topic and question order. Original prelims practice; difficulty is not officially calibrated.',tests=tests)
     raw=json.dumps(payload,ensure_ascii=False,indent=2)
     (ROOT/'data/tests.json').write_text(raw,encoding='utf-8')
     (ROOT/'data/tests_data.js').write_text('window.__IBPS_MOCK_DATA__ = '+raw+';',encoding='utf-8')

@@ -8,7 +8,7 @@ data = json.loads((root / 'data/tests.json').read_text(encoding='utf-8'))
 allowed = {
     'reasoning': {
         'Linear seating', 'Parallel rows', 'Circular seating', 'Box puzzle',
-        'Floor and flat puzzle', 'Month and date puzzle', 'Syllogism', 'Inequality',
+        'Floor puzzle', 'Year puzzle', 'Floor and flat puzzle', 'Month and date puzzle', 'Syllogism', 'Inequality',
         'Coding and decoding', 'Direction sense', 'Blood relations', 'Ranking',
     },
     'quant': {
@@ -25,12 +25,12 @@ for test in data['tests']:
         assert q['topic'] in allowed[q['section']], (q['id'], q['topic'])
         counts[q['topic']] += 1
 report = {
-    'reviewedOn': '2026-11-08',
+    'reviewedOn': '2026-11-09',
     'bankVersion': data['version'],
     'examStage': 'Officer Scale I preliminary examination',
     'questionsReviewed': sum(counts.values()),
     'outOfScopeTopicLabels': [],
-    'finding': 'The previous bank topics already matched published prelims guidance. Revisions address weak tasks, repetitive formats and unclear puzzle language rather than removing supported subjects.',
+    'finding': 'Twenty distinct four-puzzle combinations now span ten arrangement variants. Each section has independently varied topic blocks and question order; all contexts were regenerated. Month, year and single-floor sets extend the published prelims puzzle guidance.',
     'revisedFamilies': {
         'puzzleQuestions': 400,
         'directionSenseQuestions': 60,

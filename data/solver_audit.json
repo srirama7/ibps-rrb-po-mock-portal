@@ -1,17 +1,12 @@
 [
   {
     "mock": 1,
-    "stimulus": "T01-box",
+    "stimulus": "T01-circular",
     "solutions": 1
   },
   {
     "mock": 1,
-    "stimulus": "T01-floor",
-    "solutions": 1
-  },
-  {
-    "mock": 1,
-    "stimulus": "T01-linear",
+    "stimulus": "T01-parallel",
     "solutions": 1
   },
   {
@@ -20,18 +15,18 @@
     "solutions": 1
   },
   {
-    "mock": 2,
-    "stimulus": "T02-schedule",
+    "mock": 1,
+    "stimulus": "T01-single_floor",
     "solutions": 1
   },
   {
     "mock": 2,
-    "stimulus": "T02-floor",
+    "stimulus": "T02-linear",
     "solutions": 1
   },
   {
     "mock": 2,
-    "stimulus": "T02-parallel",
+    "stimulus": "T02-month",
     "solutions": 1
   },
   {
@@ -40,13 +35,13 @@
     "solutions": 1
   },
   {
-    "mock": 3,
-    "stimulus": "T03-linear",
+    "mock": 2,
+    "stimulus": "T02-parallel",
     "solutions": 1
   },
   {
     "mock": 3,
-    "stimulus": "T03-floor",
+    "stimulus": "T03-year",
     "solutions": 1
   },
   {
@@ -56,7 +51,17 @@
   },
   {
     "mock": 3,
-    "stimulus": "T03-schedule",
+    "stimulus": "T03-month",
+    "solutions": 1
+  },
+  {
+    "mock": 3,
+    "stimulus": "T03-floor",
+    "solutions": 1
+  },
+  {
+    "mock": 4,
+    "stimulus": "T04-single_floor",
     "solutions": 1
   },
   {
@@ -66,12 +71,7 @@
   },
   {
     "mock": 4,
-    "stimulus": "T04-floor",
-    "solutions": 1
-  },
-  {
-    "mock": 4,
-    "stimulus": "T04-parallel",
+    "stimulus": "T04-linear",
     "solutions": 1
   },
   {
@@ -81,17 +81,7 @@
   },
   {
     "mock": 5,
-    "stimulus": "T05-linear",
-    "solutions": 1
-  },
-  {
-    "mock": 5,
     "stimulus": "T05-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 5,
-    "stimulus": "T05-floor",
     "solutions": 1
   },
   {
@@ -100,13 +90,13 @@
     "solutions": 1
   },
   {
-    "mock": 6,
-    "stimulus": "T06-parallel",
+    "mock": 5,
+    "stimulus": "T05-circular",
     "solutions": 1
   },
   {
-    "mock": 6,
-    "stimulus": "T06-floor",
+    "mock": 5,
+    "stimulus": "T05-floor",
     "solutions": 1
   },
   {
@@ -116,7 +106,22 @@
   },
   {
     "mock": 6,
-    "stimulus": "T06-schedule",
+    "stimulus": "T06-month",
+    "solutions": 1
+  },
+  {
+    "mock": 6,
+    "stimulus": "T06-floor",
+    "solutions": 1
+  },
+  {
+    "mock": 6,
+    "stimulus": "T06-single_floor",
+    "solutions": 1
+  },
+  {
+    "mock": 7,
+    "stimulus": "T07-month",
     "solutions": 1
   },
   {
@@ -126,22 +131,22 @@
   },
   {
     "mock": 7,
-    "stimulus": "T07-linear",
+    "stimulus": "T07-circular",
     "solutions": 1
   },
   {
     "mock": 7,
-    "stimulus": "T07-box",
-    "solutions": 1
-  },
-  {
-    "mock": 7,
-    "stimulus": "T07-floor",
+    "stimulus": "T07-year",
     "solutions": 1
   },
   {
     "mock": 8,
-    "stimulus": "T08-parallel",
+    "stimulus": "T08-linear",
+    "solutions": 1
+  },
+  {
+    "mock": 8,
+    "stimulus": "T08-single_floor",
     "solutions": 1
   },
   {
@@ -151,37 +156,37 @@
   },
   {
     "mock": 8,
-    "stimulus": "T08-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 8,
-    "stimulus": "T08-box",
+    "stimulus": "T08-parallel",
     "solutions": 1
   },
   {
     "mock": 9,
-    "stimulus": "T09-circular",
+    "stimulus": "T09-box",
     "solutions": 1
   },
   {
     "mock": 9,
-    "stimulus": "T09-linear",
+    "stimulus": "T09-parallel",
     "solutions": 1
   },
   {
     "mock": 9,
-    "stimulus": "T09-floor",
+    "stimulus": "T09-month",
     "solutions": 1
   },
   {
     "mock": 9,
-    "stimulus": "T09-schedule",
+    "stimulus": "T09-year",
     "solutions": 1
   },
   {
     "mock": 10,
-    "stimulus": "T10-parallel",
+    "stimulus": "T10-single_floor",
+    "solutions": 1
+  },
+  {
+    "mock": 10,
+    "stimulus": "T10-year",
     "solutions": 1
   },
   {
@@ -191,22 +196,17 @@
   },
   {
     "mock": 10,
-    "stimulus": "T10-box",
-    "solutions": 1
-  },
-  {
-    "mock": 10,
-    "stimulus": "T10-schedule",
+    "stimulus": "T10-south",
     "solutions": 1
   },
   {
     "mock": 11,
-    "stimulus": "T11-floor",
+    "stimulus": "T11-year",
     "solutions": 1
   },
   {
     "mock": 11,
-    "stimulus": "T11-schedule",
+    "stimulus": "T11-parallel",
     "solutions": 1
   },
   {
@@ -216,22 +216,7 @@
   },
   {
     "mock": 11,
-    "stimulus": "T11-linear",
-    "solutions": 1
-  },
-  {
-    "mock": 12,
-    "stimulus": "T12-circular",
-    "solutions": 1
-  },
-  {
-    "mock": 12,
-    "stimulus": "T12-parallel",
-    "solutions": 1
-  },
-  {
-    "mock": 12,
-    "stimulus": "T12-schedule",
+    "stimulus": "T11-single_floor",
     "solutions": 1
   },
   {
@@ -240,23 +225,38 @@
     "solutions": 1
   },
   {
-    "mock": 13,
-    "stimulus": "T13-schedule",
+    "mock": 12,
+    "stimulus": "T12-single_floor",
+    "solutions": 1
+  },
+  {
+    "mock": 12,
+    "stimulus": "T12-box",
+    "solutions": 1
+  },
+  {
+    "mock": 12,
+    "stimulus": "T12-parallel",
     "solutions": 1
   },
   {
     "mock": 13,
-    "stimulus": "T13-box",
-    "solutions": 1
-  },
-  {
-    "mock": 13,
-    "stimulus": "T13-linear",
+    "stimulus": "T13-year",
     "solutions": 1
   },
   {
     "mock": 13,
     "stimulus": "T13-floor",
+    "solutions": 1
+  },
+  {
+    "mock": 13,
+    "stimulus": "T13-circular",
+    "solutions": 1
+  },
+  {
+    "mock": 13,
+    "stimulus": "T13-linear",
     "solutions": 1
   },
   {
@@ -266,12 +266,12 @@
   },
   {
     "mock": 14,
-    "stimulus": "T14-parallel",
+    "stimulus": "T14-floor",
     "solutions": 1
   },
   {
     "mock": 14,
-    "stimulus": "T14-floor",
+    "stimulus": "T14-parallel",
     "solutions": 1
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "mock": 15,
-    "stimulus": "T15-circular",
+    "stimulus": "T15-parallel",
     "solutions": 1
   },
   {
@@ -291,12 +291,17 @@
   },
   {
     "mock": 15,
-    "stimulus": "T15-floor",
+    "stimulus": "T15-year",
     "solutions": 1
   },
   {
     "mock": 15,
-    "stimulus": "T15-schedule",
+    "stimulus": "T15-floor",
+    "solutions": 1
+  },
+  {
+    "mock": 16,
+    "stimulus": "T16-floor",
     "solutions": 1
   },
   {
@@ -306,22 +311,22 @@
   },
   {
     "mock": 16,
-    "stimulus": "T16-box",
+    "stimulus": "T16-linear",
     "solutions": 1
   },
   {
     "mock": 16,
-    "stimulus": "T16-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 16,
-    "stimulus": "T16-floor",
+    "stimulus": "T16-month",
     "solutions": 1
   },
   {
     "mock": 17,
-    "stimulus": "T17-linear",
+    "stimulus": "T17-year",
+    "solutions": 1
+  },
+  {
+    "mock": 17,
+    "stimulus": "T17-circular",
     "solutions": 1
   },
   {
@@ -331,17 +336,17 @@
   },
   {
     "mock": 17,
-    "stimulus": "T17-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 17,
-    "stimulus": "T17-floor",
+    "stimulus": "T17-month",
     "solutions": 1
   },
   {
     "mock": 18,
-    "stimulus": "T18-parallel",
+    "stimulus": "T18-month",
+    "solutions": 1
+  },
+  {
+    "mock": 18,
+    "stimulus": "T18-single_floor",
     "solutions": 1
   },
   {
@@ -351,27 +356,12 @@
   },
   {
     "mock": 18,
-    "stimulus": "T18-schedule",
-    "solutions": 1
-  },
-  {
-    "mock": 18,
-    "stimulus": "T18-floor",
+    "stimulus": "T18-linear",
     "solutions": 1
   },
   {
     "mock": 19,
-    "stimulus": "T19-box",
-    "solutions": 1
-  },
-  {
-    "mock": 19,
-    "stimulus": "T19-floor",
-    "solutions": 1
-  },
-  {
-    "mock": 19,
-    "stimulus": "T19-linear",
+    "stimulus": "T19-year",
     "solutions": 1
   },
   {
@@ -380,23 +370,33 @@
     "solutions": 1
   },
   {
-    "mock": 20,
-    "stimulus": "T20-floor",
+    "mock": 19,
+    "stimulus": "T19-parallel",
+    "solutions": 1
+  },
+  {
+    "mock": 19,
+    "stimulus": "T19-single_floor",
     "solutions": 1
   },
   {
     "mock": 20,
-    "stimulus": "T20-box",
-    "solutions": 1
-  },
-  {
-    "mock": 20,
-    "stimulus": "T20-schedule",
+    "stimulus": "T20-single_floor",
     "solutions": 1
   },
   {
     "mock": 20,
     "stimulus": "T20-parallel",
+    "solutions": 1
+  },
+  {
+    "mock": 20,
+    "stimulus": "T20-year",
+    "solutions": 1
+  },
+  {
+    "mock": 20,
+    "stimulus": "T20-floor",
     "solutions": 1
   }
 ]

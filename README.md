@@ -10,8 +10,12 @@ Live: https://srirama7.github.io/ibps-rrb-po-mock-portal/
 - +1 correct, -0.25 wrong, zero unanswered. Answered and marked questions are scored.
 - Automatic section locking and final submission, browser-local resume and attempt history.
 - Desktop passage/answer split, responsive mobile layout, keyboard answer controls, accessible focus indicators.
-- Puzzle families: linear, parallel rows, circular, box, floor-flat, month-date.
+- Puzzle families: north-facing and south-facing rows, parallel rows, circular, box, floor-flat, month-date, month order, joining years and single-floor. All 20 papers have different four-puzzle combinations. Topic blocks and questions vary in order while passage questions stay together.
 - Quant: indirect table DI, labelled bar charts, prose caselets, ten DI question formats, five series rules, approximation, quadratic comparisons, and alternate arithmetic families.
+
+## November 9 variety update
+
+Version 5 regenerates all 1,600 questions with a new seed and twenty different puzzle combinations. Cards show the actual puzzle types in each paper. A new browser storage version prevents old answers from being graded against the new bank; previous storage is retained. Shared topic families still recur for exam practice; these are original questions rather than claims of actual past-paper reproduction.
 
 ## Sources and limits
 
