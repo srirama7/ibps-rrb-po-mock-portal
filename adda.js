@@ -63,6 +63,97 @@
     return t.questions[active.currentIndex];
   }
 
+  function formatMathText(raw) {
+    if (!raw) return '';
+    let text = esc(raw);
+
+    // Render markdown tables if present
+    if (text.includes('|') && text.includes('---')) {
+      const lines = text.split('\n');
+      const tableLines = [];
+      const before = [];
+      const after = [];
+      let inTable = false;
+      let finishedTable = false;
+
+      for (const line of lines) {
+        if (!finishedTable && (line.trim().startsWith('|') || (line.includes('|') && (line.includes('---') || inTable)))) {
+          inTable = true;
+          tableLines.push(line.trim());
+        } else if (inTable) {
+          finishedTable = true;
+          inTable = false;
+          after.push(line);
+        } else {
+          before.push(line);
+        }
+      }
+
+      if (tableLines.length >= 2) {
+        let headers = [];
+        let rows = [];
+        for (let i = 0; i < tableLines.length; i++) {
+          const parts = tableLines[i].split('|').map(s => s.trim()).filter(Boolean);
+          if (i === 0) headers = parts;
+          else if (tableLines[i].includes('---')) continue;
+          else rows.push(parts);
+        }
+
+        const tableHtml = `
+          <div class="cbt-table-box">
+            <table class="cbt-rendered-table">
+              <thead>
+                <tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>
+              </thead>
+              <tbody>
+                ${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+        text = before.join('\n') + '\n' + tableHtml + '\n' + after.join('\n');
+      }
+    }
+
+    // Format mathematical fractions: (a/b), a/b, 33 1/3, 3/8th
+    text = text.replace(/(\()?(\d+(?:\.\d+)?|\?)\s*\/\s*(\d+(?:\.\d+)?|\?)(\))?(th|st|nd|rd)?(?!\w)/gi, (match, openParen, num, den, closeParen, ord) => {
+      const ordHtml = ord ? `<sup>${ord}</sup>` : '';
+      return `<span class="cbt-frac"><span class="cbt-num">${num}</span><span class="cbt-den">${den}</span></span>${ordHtml}`;
+    });
+
+    // Format powers: ² -> <sup>2</sup>, ³ -> <sup>3</sup>
+    text = text.replace(/²/g, '<sup>2</sup>').replace(/³/g, '<sup>3</sup>');
+
+    // Format square roots: √X or ∛X
+    text = text.replace(/√([0-9\.\?]+)/g, '<span style="font-family:serif;">√<span style="border-top:1.5px solid currentColor; padding-top:1px;">$1</span></span>');
+    text = text.replace(/∛([0-9\.\?]+)/g, '<span style="font-family:serif;">∛<span style="border-top:1.5px solid currentColor; padding-top:1px;">$1</span></span>');
+
+    return text;
+  }
+
+  function renderQuestionStemWithDiagrams(q) {
+    let html = `<div class="q-stem" style="font-size:14.5px; font-weight:550; line-height:1.8; color:#24382f; margin-bottom:20px; white-space:pre-wrap;">${formatMathText(q.stem)}</div>`;
+
+    if (q.diagrams && q.diagrams.length > 0) {
+      html += `
+        <div class="cbt-diagram-box">
+          <div style="font-size:11.5px; text-transform:uppercase; letter-spacing:1px; color:#4b6353; font-weight:800; margin-bottom:12px;">
+            📊 ${esc(q.diagramCaption || 'Reference Data Chart / Diagram')}
+          </div>
+          <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; align-items:center;">
+            ${q.diagrams.map(src => `
+              <div style="max-width:100%;">
+                <img src="${esc(src)}" class="cbt-diagram-img" alt="Diagram for Question ${q.number}" onclick="window.open('${esc(src)}', '_blank')" title="Click to view full image in a new tab">
+              </div>
+            `).join('')}
+          </div>
+          <div class="cbt-diagram-caption">🔍 Click image to enlarge in high resolution ↗</div>
+        </div>
+      `;
+    }
+    return html;
+  }
+
   function statusFor(id) {
     const isAnswered = active.answers[id] !== undefined;
     const isMarked = active.marked.includes(id);
@@ -495,13 +586,13 @@
             </div>
 
             <div class="question-body" style="padding:24px; flex:1; min-height:360px;">
-              <div class="q-stem" style="font-size:14.5px; font-weight:550; line-height:1.8; color:#24382f; margin-bottom:24px; white-space:pre-wrap;">${esc(q.stem)}</div>
+              ${renderQuestionStemWithDiagrams(q)}
 
               <div class="options-list" style="display:flex; flex-direction:column; gap:10px;">
                 ${q.options.map((opt, oIdx) => `
                   <button class="option-item ${userChoice === oIdx ? 'selected' : ''}" data-opt="${oIdx}" style="text-align:left; padding:12px 16px; border:1px solid ${userChoice === oIdx ? '#67905d' : 'var(--border)'}; background:${userChoice === oIdx ? '#edf3e8' : '#ffffff'}; border-radius:8px; cursor:pointer; font-size:13.5px; display:flex; align-items:center; gap:12px; font-family:inherit;">
                     <span style="font-weight:750; font-size:12px; color:var(--primary); width:20px;">(${'ABCDE'[oIdx]})</span>
-                    <span style="flex:1;">${esc(opt)}</span>
+                    <span style="flex:1;">${formatMathText(opt)}</span>
                   </button>
                 `).join('')}
               </div>
@@ -828,7 +919,7 @@
                     <div>${statusTag}</div>
                   </div>
 
-                  <div style="font-size:14.5px; font-weight:550; line-height:1.8; color:#24382f; margin-bottom:18px; white-space:pre-wrap;">${esc(q.stem)}</div>
+                  ${renderQuestionStemWithDiagrams(q)}
 
                   <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
                     ${q.options.map((opt, oIdx) => {
@@ -851,7 +942,7 @@
                       return `
                         <div style="padding:10px 14px; border:1px solid ${rowBorder}; background:${rowBg}; border-radius:6px; font-size:13px; display:flex; align-items:center; gap:10px;">
                           <strong style="color:var(--primary); width:24px;">(${'ABCDE'[oIdx]})</strong>
-                          <span style="flex:1;">${esc(opt)}</span>
+                          <span style="flex:1;">${formatMathText(opt)}</span>
                           ${tag}
                         </div>
                       `;
@@ -860,7 +951,7 @@
 
                   <div class="expl-box" style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:16px; font-size:13.5px; line-height:1.8;">
                     <strong style="color:var(--primary); display:block; margin-bottom:6px;">Step-by-Step Analysis & Solution:</strong>
-                    <div style="white-space:pre-wrap; color:#334155;">${esc(q.explanation)}</div>
+                    <div style="white-space:pre-wrap; color:#334155;">${formatMathText(q.explanation)}</div>
                   </div>
                 </div>
               `;

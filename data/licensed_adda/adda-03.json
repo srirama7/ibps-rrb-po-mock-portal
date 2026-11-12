@@ -30,7 +30,7 @@
       "number": 1,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "Who sits second to the right of the one who faces B?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row-1 facing north and P , Q, R, S, T , U, V\nsit in row-2 facing south such that the persons sitting in row-1 faces the persons sitting in row-2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
+      "stem": "Who sits second to the right of the one who faces B?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row - 1 facing north and P , Q, R, S, T , U, V\nsit in row - 2 facing south such that the persons sitting in row - 1 faces the persons sitting in row - 2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
       "options": [
         "P",
         "Q",
@@ -39,15 +39,16 @@
         "U"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Q\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) Q holds true.",
-      "sourceQuestionNumber": 1
+      "explanation": "Correct Answer: (b) Q Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Q holds true.",
+      "sourceQuestionNumber": 1,
+      "diagrams": []
     },
     {
       "id": "adda-03-q002",
       "number": 2,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row-1 facing north and P , Q, R, S, T , U, V\nsit in row-2 facing south such that the persons sitting in row-1 faces the persons sitting in row-2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
+      "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row - 1 facing north and P , Q, R, S, T , U, V\nsit in row - 2 facing south such that the persons sitting in row - 1 faces the persons sitting in row - 2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
       "options": [
         "V",
         "A",
@@ -56,15 +57,16 @@
         "F"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) F\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) F holds true.",
-      "sourceQuestionNumber": 2
+      "explanation": "Correct Answer: (e) F Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) F holds true.",
+      "sourceQuestionNumber": 2,
+      "diagrams": []
     },
     {
       "id": "adda-03-q003",
       "number": 3,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "The numbers of persons sit between Q and R is same as the numbers of persons sit to the left of\n______.\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row-1 facing north and P , Q, R, S, T , U, V\nsit in row-2 facing south such that the persons sitting in row-1 faces the persons sitting in row-2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
+      "stem": "The numbers of persons sit between Q and R is same as the numbers of persons sit to the left of\n______.\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row - 1 facing north and P , Q, R, S, T , U, V\nsit in row - 2 facing south such that the persons sitting in row - 1 faces the persons sitting in row - 2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
       "options": [
         "G",
         "D",
@@ -73,15 +75,16 @@
         "V"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) G\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) G holds true.",
-      "sourceQuestionNumber": 3
+      "explanation": "Correct Answer: (a) G Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) G holds true.",
+      "sourceQuestionNumber": 3,
+      "diagrams": []
     },
     {
       "id": "adda-03-q004",
       "number": 4,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "If U is related to Q in a certain way and B is related to F in the same way, to whom is A related?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row-1 facing north and P , Q, R, S, T , U, V\nsit in row-2 facing south such that the persons sitting in row-1 faces the persons sitting in row-2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
+      "stem": "If U is related to Q in a certain way and B is related to F in the same way, to whom is A related?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row - 1 facing north and P , Q, R, S, T , U, V\nsit in row - 2 facing south such that the persons sitting in row - 1 faces the persons sitting in row - 2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
       "options": [
         "E",
         "D",
@@ -90,15 +93,16 @@
         "C"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) B\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) B holds true.",
-      "sourceQuestionNumber": 4
+      "explanation": "Correct Answer: (c) B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) B holds true.",
+      "sourceQuestionNumber": 4,
+      "diagrams": []
     },
     {
       "id": "adda-03-q005",
       "number": 5,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row-1 facing north and P , Q, R, S, T , U, V\nsit in row-2 facing south such that the persons sitting in row-1 faces the persons sitting in row-2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
+      "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row - 1 facing north and P , Q, R, S, T , U, V\nsit in row - 2 facing south such that the persons sitting in row - 1 faces the persons sitting in row - 2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
       "options": [
         "Option A",
         "Option B",
@@ -107,8 +111,14 @@
         "Option E"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
-      "sourceQuestionNumber": 5
+      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "sourceQuestionNumber": 5,
+      "diagrams": [
+        "data/diagrams/adda-03_page5_Image44.png",
+        "data/diagrams/adda-03_page6_Image49.png",
+        "data/diagrams/adda-03_page6_Image50.png"
+      ],
+      "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
       "id": "adda-03-q006",
@@ -124,8 +134,14 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step-by-step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 6
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 6,
+      "diagrams": [
+        "data/diagrams/adda-03_page5_Image44.png",
+        "data/diagrams/adda-03_page6_Image49.png",
+        "data/diagrams/adda-03_page6_Image50.png"
+      ],
+      "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
       "id": "adda-03-q007",
@@ -141,8 +157,14 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A\n\nAnalysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step-by-step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 7
+      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 7,
+      "diagrams": [
+        "data/diagrams/adda-03_page5_Image44.png",
+        "data/diagrams/adda-03_page6_Image49.png",
+        "data/diagrams/adda-03_page6_Image50.png"
+      ],
+      "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
       "id": "adda-03-q008",
@@ -158,8 +180,14 @@
         "Option E"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D\n\nAnalysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step-by-step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 8
+      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 8,
+      "diagrams": [
+        "data/diagrams/adda-03_page5_Image44.png",
+        "data/diagrams/adda-03_page6_Image49.png",
+        "data/diagrams/adda-03_page6_Image50.png"
+      ],
+      "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
       "id": "adda-03-q009",
@@ -175,15 +203,16 @@
         "Option E"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D\n\nAnalysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
-      "sourceQuestionNumber": 9
+      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "sourceQuestionNumber": 9,
+      "diagrams": []
     },
     {
       "id": "adda-03-q010",
       "number": 10,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "How is Q related to Y?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother-in-law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister-in-law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
+      "stem": "How is Q related to Y?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
         "Option A",
         "Option B",
@@ -192,15 +221,16 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
-      "sourceQuestionNumber": 10
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
+      "sourceQuestionNumber": 10,
+      "diagrams": []
     },
     {
       "id": "adda-03-q011",
       "number": 11,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "Which of the following is true?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother-in-law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister-in-law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
+      "stem": "Which of the following is true?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
         "Option A",
         "Option B",
@@ -209,15 +239,16 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
-      "sourceQuestionNumber": 11
+      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "sourceQuestionNumber": 11,
+      "diagrams": []
     },
     {
       "id": "adda-03-q012",
       "number": 12,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother-in-law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister-in-law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
+      "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
         "Y",
         "T",
@@ -226,15 +257,16 @@
         "S"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) P\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields P.",
-      "sourceQuestionNumber": 12
+      "explanation": "Correct Answer: (c) P Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields P.",
+      "sourceQuestionNumber": 12,
+      "diagrams": []
     },
     {
       "id": "adda-03-q013",
       "number": 13,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "Who among the following lives in Flat-X of 2nd floor?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five-story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat-X and flat-Y . Flat-X of floor-2 is immediately above flat-X of floor-1 and immediately below flat-X of\nfloor-3 and so on. In the same way flat-Y of floor-2 is immediately above flat-Y of floor-1 and immediately\nbelow flat-Y of floor-3 and so on. Flat-X is in west of flat-Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south-east of N.\nU lives just above W’s flat. Q lives north of R.",
+      "stem": "Who among the following lives in Flat - X of 2nd floor?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "P",
         "S",
@@ -243,15 +275,16 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) V\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) V holds true.",
-      "sourceQuestionNumber": 13
+      "explanation": "Correct Answer: (c) V Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) V holds true.",
+      "sourceQuestionNumber": 13,
+      "diagrams": []
     },
     {
       "id": "adda-03-q014",
       "number": 14,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "Which of the following groups live on an even numbered floor?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five-story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat-X and flat-Y . Flat-X of floor-2 is immediately above flat-X of floor-1 and immediately below flat-X of\nfloor-3 and so on. In the same way flat-Y of floor-2 is immediately above flat-Y of floor-1 and immediately\nbelow flat-Y of floor-3 and so on. Flat-X is in west of flat-Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south-east of N.\nU lives just above W’s flat. Q lives north of R.",
+      "stem": "Which of the following groups live on an even numbered floor?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "S, T",
         "R, U",
@@ -260,15 +293,16 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) S, T\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) S, T holds true.",
-      "sourceQuestionNumber": 14
+      "explanation": "Correct Answer: (a) S, T Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) S, T holds true.",
+      "sourceQuestionNumber": 14,
+      "diagrams": []
     },
     {
       "id": "adda-03-q015",
       "number": 15,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "In which of the following flat-floor does R lives?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five-story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat-X and flat-Y . Flat-X of floor-2 is immediately above flat-X of floor-1 and immediately below flat-X of\nfloor-3 and so on. In the same way flat-Y of floor-2 is immediately above flat-Y of floor-1 and immediately\nbelow flat-Y of floor-3 and so on. Flat-X is in west of flat-Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south-east of N.\nU lives just above W’s flat. Q lives north of R.",
+      "stem": "In which of the following flat - floor does R lives?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "Option A",
         "Option B",
@@ -277,15 +311,16 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
-      "sourceQuestionNumber": 15
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "sourceQuestionNumber": 15,
+      "diagrams": []
     },
     {
       "id": "adda-03-q016",
       "number": 16,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "How many floors are between Q and the one who lives just below T’s flat?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five-story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat-X and flat-Y . Flat-X of floor-2 is immediately above flat-X of floor-1 and immediately below flat-X of\nfloor-3 and so on. In the same way flat-Y of floor-2 is immediately above flat-Y of floor-1 and immediately\nbelow flat-Y of floor-3 and so on. Flat-X is in west of flat-Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south-east of N.\nU lives just above W’s flat. Q lives north of R.",
+      "stem": "How many floors are between Q and the one who lives just below T’s flat?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "One",
         "Two",
@@ -294,15 +329,16 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Two\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
-      "sourceQuestionNumber": 16
+      "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
+      "sourceQuestionNumber": 16,
+      "diagrams": []
     },
     {
       "id": "adda-03-q017",
       "number": 17,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five-story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat-X and flat-Y . Flat-X of floor-2 is immediately above flat-X of floor-1 and immediately below flat-X of\nfloor-3 and so on. In the same way flat-Y of floor-2 is immediately above flat-Y of floor-1 and immediately\nbelow flat-Y of floor-3 and so on. Flat-X is in west of flat-Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south-east of N.\nU lives just above W’s flat. Q lives north of R.",
+      "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "U",
         "T",
@@ -311,15 +347,16 @@
         "O"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) S\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) S holds true.",
-      "sourceQuestionNumber": 17
+      "explanation": "Correct Answer: (c) S Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) S holds true.",
+      "sourceQuestionNumber": 17,
+      "diagrams": []
     },
     {
       "id": "adda-03-q018",
       "number": 18,
       "section": "reasoning",
       "topic": "Alphanumeric & Word Formation",
-      "stem": "If we form a four-letter meaningful word by using the first, second, third and sixth letter from the\nleft end of the word ‘FELICITOUS’, then which of the following will be the second letter of the meaningful\nword thus formed. If more than one word is forme d mark Z as your answer. If no meaningful word is\nformed, mark X as your answer?",
+      "stem": "If we form a four - letter meaningful word by using the first, second, third and sixth letter from the\nleft end of the word ‘FELICITOUS’, then which of the following will be the second letter of the meaningful\nword thus formed. If more than one word is forme d mark Z as your answer. If no meaningful word is\nformed, mark X as your answer?",
       "options": [
         "F",
         "I",
@@ -328,8 +365,9 @@
         "Z"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Z\n\nAnalysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Z.",
-      "sourceQuestionNumber": 18
+      "explanation": "Correct Answer: (e) Z Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Z.",
+      "sourceQuestionNumber": 18,
+      "diagrams": []
     },
     {
       "id": "adda-03-q019",
@@ -345,8 +383,9 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) rd\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) rd holds true.",
-      "sourceQuestionNumber": 19
+      "explanation": "Correct Answer: (b) rd Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) rd holds true.",
+      "sourceQuestionNumber": 19,
+      "diagrams": []
     },
     {
       "id": "adda-03-q020",
@@ -362,8 +401,9 @@
         "Option E"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
-      "sourceQuestionNumber": 20
+      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "sourceQuestionNumber": 20,
+      "diagrams": []
     },
     {
       "id": "adda-03-q021",
@@ -379,8 +419,9 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) bad\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) bad holds true.",
-      "sourceQuestionNumber": 21
+      "explanation": "Correct Answer: (c) bad Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) bad holds true.",
+      "sourceQuestionNumber": 21,
+      "diagrams": []
     },
     {
       "id": "adda-03-q022",
@@ -396,8 +437,9 @@
         "lk zh"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) xa tf\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) xa tf holds true.",
-      "sourceQuestionNumber": 22
+      "explanation": "Correct Answer: (a) xa tf Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) xa tf holds true.",
+      "sourceQuestionNumber": 22,
+      "diagrams": []
     },
     {
       "id": "adda-03-q023",
@@ -413,8 +455,9 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 23
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 23,
+      "diagrams": []
     },
     {
       "id": "adda-03-q024",
@@ -430,8 +473,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 24
+      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 24,
+      "diagrams": []
     },
     {
       "id": "adda-03-q025",
@@ -447,8 +491,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 25
+      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 25,
+      "diagrams": []
     },
     {
       "id": "adda-03-q026",
@@ -464,8 +509,9 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
-      "sourceQuestionNumber": 26
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 26,
+      "diagrams": []
     },
     {
       "id": "adda-03-q027",
@@ -481,8 +527,9 @@
         "Option E"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E\n\nAnalysis & Solution:\nTopic: Puzzle (Scheduling / Month-Date)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
-      "sourceQuestionNumber": 27
+      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "sourceQuestionNumber": 27,
+      "diagrams": []
     },
     {
       "id": "adda-03-q028",
@@ -498,8 +545,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Two\n\nAnalysis & Solution:\nTopic: Puzzle (Scheduling / Month-Date)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) Two holds true.",
-      "sourceQuestionNumber": 28
+      "explanation": "Correct Answer: (a) Two Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Two holds true.",
+      "sourceQuestionNumber": 28,
+      "diagrams": []
     },
     {
       "id": "adda-03-q029",
@@ -515,8 +563,9 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Puzzle (Scheduling / Month-Date)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
-      "sourceQuestionNumber": 29
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "sourceQuestionNumber": 29,
+      "diagrams": []
     },
     {
       "id": "adda-03-q030",
@@ -532,8 +581,9 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) C, H\n\nAnalysis & Solution:\nTopic: Puzzle (Scheduling / Month-Date)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) C, H holds true.",
-      "sourceQuestionNumber": 30
+      "explanation": "Correct Answer: (c) C, H Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) C, H holds true.",
+      "sourceQuestionNumber": 30,
+      "diagrams": []
     },
     {
       "id": "adda-03-q031",
@@ -549,8 +599,9 @@
         "Option E"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) D\n\nAnalysis & Solution:\nTopic: Puzzle (Scheduling / Month-Date)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (d) D holds true.",
-      "sourceQuestionNumber": 31
+      "explanation": "Correct Answer: (d) D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) D holds true.",
+      "sourceQuestionNumber": 31,
+      "diagrams": []
     },
     {
       "id": "adda-03-q032",
@@ -566,15 +617,16 @@
         "BPSA"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) UDFT\n\nAnalysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields UDFT.",
-      "sourceQuestionNumber": 32
+      "explanation": "Correct Answer: (c) UDFT Analysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields UDFT.",
+      "sourceQuestionNumber": 32,
+      "diagrams": []
     },
     {
       "id": "adda-03-q033",
       "number": 33,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "Who among the following is the fourth shortest person?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest.  D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
+      "stem": "Who among the following is the fourth shortest person?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
         "F",
         "D",
@@ -583,15 +635,16 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) B\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields B.",
-      "sourceQuestionNumber": 33
+      "explanation": "Correct Answer: (c) B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields B.",
+      "sourceQuestionNumber": 33,
+      "diagrams": []
     },
     {
       "id": "adda-03-q034",
       "number": 34,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "If the F’s height is 50cm more than G and the difference of height between E and F is 100cm then\nwhat is the possible height of B?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest.  D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
+      "stem": "If the F’s height is 50cm more than G and the difference of height between E and F is 100cm then\nwhat is the possible height of B?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
         "Option A",
         "Option B",
@@ -600,15 +653,16 @@
         "Option E"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
-      "sourceQuestionNumber": 34
+      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "sourceQuestionNumber": 34,
+      "diagrams": []
     },
     {
       "id": "adda-03-q035",
       "number": 35,
       "section": "reasoning",
       "topic": "Blood Relations",
-      "stem": "How many persons shorter than the one who is just taller than E?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest.  D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
+      "stem": "How many persons shorter than the one who is just taller than E?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
         "One",
         "Two",
@@ -617,8 +671,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) One\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
-      "sourceQuestionNumber": 35
+      "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
+      "sourceQuestionNumber": 35,
+      "diagrams": []
     },
     {
       "id": "adda-03-q036",
@@ -634,8 +689,9 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
-      "sourceQuestionNumber": 36
+      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "sourceQuestionNumber": 36,
+      "diagrams": []
     },
     {
       "id": "adda-03-q037",
@@ -651,8 +707,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) S\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) S holds true.",
-      "sourceQuestionNumber": 37
+      "explanation": "Correct Answer: (a) S Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) S holds true.",
+      "sourceQuestionNumber": 37,
+      "diagrams": []
     },
     {
       "id": "adda-03-q038",
@@ -668,8 +725,9 @@
         "Option E"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
-      "sourceQuestionNumber": 38
+      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "sourceQuestionNumber": 38,
+      "diagrams": []
     },
     {
       "id": "adda-03-q039",
@@ -685,8 +743,9 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
-      "sourceQuestionNumber": 39
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "sourceQuestionNumber": 39,
+      "diagrams": []
     },
     {
       "id": "adda-03-q040",
@@ -702,8 +761,9 @@
         "Option E"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
-      "sourceQuestionNumber": 40
+      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "sourceQuestionNumber": 40,
+      "diagrams": []
     },
     {
       "id": "adda-03-q041",
@@ -719,8 +779,9 @@
         "1361"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 704\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 704.",
-      "sourceQuestionNumber": 41
+      "explanation": "Correct Answer: (d) 704 Analysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 704.",
+      "sourceQuestionNumber": 41,
+      "diagrams": []
     },
     {
       "id": "adda-03-q042",
@@ -736,8 +797,9 @@
         "40"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 47\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 47.",
-      "sourceQuestionNumber": 42
+      "explanation": "Correct Answer: (a) 47 Analysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 47.",
+      "sourceQuestionNumber": 42,
+      "diagrams": []
     },
     {
       "id": "adda-03-q043",
@@ -753,8 +815,9 @@
         "18"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) 19\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 19.",
-      "sourceQuestionNumber": 43
+      "explanation": "Correct Answer: (c) 19 Analysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 19.",
+      "sourceQuestionNumber": 43,
+      "diagrams": []
     },
     {
       "id": "adda-03-q044",
@@ -770,8 +833,9 @@
         "1200"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 900\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 900.",
-      "sourceQuestionNumber": 44
+      "explanation": "Correct Answer: (a) 900 Analysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 900.",
+      "sourceQuestionNumber": 44,
+      "diagrams": []
     },
     {
       "id": "adda-03-q045",
@@ -787,8 +851,9 @@
         "310"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 304\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 304.",
-      "sourceQuestionNumber": 45
+      "explanation": "Correct Answer: (b) 304 Analysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 304.",
+      "sourceQuestionNumber": 45,
+      "diagrams": []
     },
     {
       "id": "adda-03-q046",
@@ -804,15 +869,17 @@
         "360"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 330\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 330.",
-      "sourceQuestionNumber": 46
+      "explanation": "Correct Answer: (a) 330 Analysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 330.",
+      "sourceQuestionNumber": 46,
+      "diagrams": [],
+      "diagramCaption": "Data Interpretation Bar Chart"
     },
     {
       "id": "adda-03-q047",
       "number": 47,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "Total number of orders delivered by Xomato on Monday is 25% more than the total number of\norders delivered by Twiggy on Thursday. If the average  number of orders delivered by Xomato on\nMonday and Tuesday together is 95, then find the  total number of orders  delivered by Xomato on\nTuesday?",
+      "stem": "Total number of orders delivered by Xomato on Monday is 25% more than the total number of\norders delivered by Twiggy on Thursday. If the average number of orders delivered by Xomato on\nMonday and Tuesday together is 95, then find the total number of orders delivered by Xomato on\nTuesday?",
       "options": [
         "45",
         "55",
@@ -821,8 +888,13 @@
         "75"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 55\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 55.",
-      "sourceQuestionNumber": 47
+      "explanation": "Correct Answer: (b) 55 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 55.",
+      "sourceQuestionNumber": 47,
+      "diagrams": [
+        "data/diagrams/adda-03_page27_Image135.jpeg",
+        "data/diagrams/adda-03_page27_Image136.jpeg"
+      ],
+      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
     },
     {
       "id": "adda-03-q048",
@@ -838,8 +910,13 @@
         "25%"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 25%\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 25%.",
-      "sourceQuestionNumber": 48
+      "explanation": "Correct Answer: (e) 25% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 25%.",
+      "sourceQuestionNumber": 48,
+      "diagrams": [
+        "data/diagrams/adda-03_page27_Image135.jpeg",
+        "data/diagrams/adda-03_page27_Image136.jpeg"
+      ],
+      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
     },
     {
       "id": "adda-03-q049",
@@ -855,8 +932,13 @@
         "24"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 34\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 34.",
-      "sourceQuestionNumber": 49
+      "explanation": "Correct Answer: (a) 34 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 34.",
+      "sourceQuestionNumber": 49,
+      "diagrams": [
+        "data/diagrams/adda-03_page27_Image135.jpeg",
+        "data/diagrams/adda-03_page27_Image136.jpeg"
+      ],
+      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
     },
     {
       "id": "adda-03-q050",
@@ -872,8 +954,13 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) 90\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 90.",
-      "sourceQuestionNumber": 50
+      "explanation": "Correct Answer: (c) 90 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 90.",
+      "sourceQuestionNumber": 50,
+      "diagrams": [
+        "data/diagrams/adda-03_page27_Image135.jpeg",
+        "data/diagrams/adda-03_page27_Image136.jpeg"
+      ],
+      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
     },
     {
       "id": "adda-03-q051",
@@ -889,8 +976,13 @@
         "21:19"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) 27:11\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 27:11.",
-      "sourceQuestionNumber": 51
+      "explanation": "Correct Answer: (c) 27:11 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 27:11.",
+      "sourceQuestionNumber": 51,
+      "diagrams": [
+        "data/diagrams/adda-03_page27_Image135.jpeg",
+        "data/diagrams/adda-03_page27_Image136.jpeg"
+      ],
+      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
     },
     {
       "id": "adda-03-q052",
@@ -906,8 +998,13 @@
         "20%"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 20%\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 20%.",
-      "sourceQuestionNumber": 52
+      "explanation": "Correct Answer: (e) 20% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 20%.",
+      "sourceQuestionNumber": 52,
+      "diagrams": [
+        "data/diagrams/adda-03_page27_Image135.jpeg",
+        "data/diagrams/adda-03_page27_Image136.jpeg"
+      ],
+      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
     },
     {
       "id": "adda-03-q053",
@@ -923,8 +1020,13 @@
         "3:1"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 1:1\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 1:1.",
-      "sourceQuestionNumber": 53
+      "explanation": "Correct Answer: (b) 1:1 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 1:1.",
+      "sourceQuestionNumber": 53,
+      "diagrams": [
+        "data/diagrams/adda-03_page30_Image149.png",
+        "data/diagrams/adda-03_page30_Image150.png"
+      ],
+      "diagramCaption": "Quarterly Songs Download Data (Table)"
     },
     {
       "id": "adda-03-q054",
@@ -940,8 +1042,13 @@
         "2"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 2\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 2.",
-      "sourceQuestionNumber": 54
+      "explanation": "Correct Answer: (e) 2 Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 2.",
+      "sourceQuestionNumber": 54,
+      "diagrams": [
+        "data/diagrams/adda-03_page30_Image149.png",
+        "data/diagrams/adda-03_page30_Image150.png"
+      ],
+      "diagramCaption": "Quarterly Songs Download Data (Table)"
     },
     {
       "id": "adda-03-q055",
@@ -957,8 +1064,13 @@
         "26%"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 36%\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 36%.",
-      "sourceQuestionNumber": 55
+      "explanation": "Correct Answer: (d) 36% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 36%.",
+      "sourceQuestionNumber": 55,
+      "diagrams": [
+        "data/diagrams/adda-03_page30_Image149.png",
+        "data/diagrams/adda-03_page30_Image150.png"
+      ],
+      "diagramCaption": "Quarterly Songs Download Data (Table)"
     },
     {
       "id": "adda-03-q056",
@@ -974,15 +1086,20 @@
         "8"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 12\n\nAnalysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
-      "sourceQuestionNumber": 56
+      "explanation": "Correct Answer: (a) 12 Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
+      "sourceQuestionNumber": 56,
+      "diagrams": [
+        "data/diagrams/adda-03_page30_Image149.png",
+        "data/diagrams/adda-03_page30_Image150.png"
+      ],
+      "diagramCaption": "Quarterly Songs Download Data (Table)"
     },
     {
       "id": "adda-03-q057",
       "number": 57,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "Total romantic songs download by A in quarters 1 and 2 is X+8 and X -5 respectively. If the total\nsongs (cultural and modern) download by A in quarter 2 is three less than the total romantic songs\ndownload by A in quarters 1 & 2, then find the value of X.",
+      "stem": "Total romantic songs download by A in quarters 1 and 2 is X + 8 and X - 5 respectively. If the total\nsongs (cultural and modern) download by A in quarter 2 is three less than the total romantic songs\ndownload by A in quarters 1 & 2, then find the value of X.",
       "options": [
         "50",
         "35",
@@ -991,8 +1108,13 @@
         "40"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 40\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40.",
-      "sourceQuestionNumber": 57
+      "explanation": "Correct Answer: (e) 40 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40.",
+      "sourceQuestionNumber": 57,
+      "diagrams": [
+        "data/diagrams/adda-03_page30_Image149.png",
+        "data/diagrams/adda-03_page30_Image150.png"
+      ],
+      "diagramCaption": "Quarterly Songs Download Data (Table)"
     },
     {
       "id": "adda-03-q058",
@@ -1008,8 +1130,13 @@
         "16.67%"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 40%\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40%.",
-      "sourceQuestionNumber": 58
+      "explanation": "Correct Answer: (b) 40% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40%.",
+      "sourceQuestionNumber": 58,
+      "diagrams": [
+        "data/diagrams/adda-03_page30_Image149.png",
+        "data/diagrams/adda-03_page30_Image150.png"
+      ],
+      "diagramCaption": "Quarterly Songs Download Data (Table)"
     },
     {
       "id": "adda-03-q059",
@@ -1025,15 +1152,19 @@
         "102"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 122\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 122.",
-      "sourceQuestionNumber": 59
+      "explanation": "Correct Answer: (d) 122 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 122.",
+      "sourceQuestionNumber": 59,
+      "diagrams": [
+        "data/diagrams/adda-03_page32_Image159.png"
+      ],
+      "diagramCaption": "Approximation Equation Formula"
     },
     {
       "id": "adda-03-q060",
       "number": 60,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "What approximate value should come in the place of questions (?) mark in the following questions.\n2.99 × 15.99 + 3.99 ×23.04 = 99.93 + ?",
+      "stem": "What approximate value should come in the place of questions (?) mark in the following questions.\n2.99 × 15.99 + 3.99 × 23.04 = 99.93 + ?",
       "options": [
         "40",
         "50",
@@ -1042,8 +1173,12 @@
         "60"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 40\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40.",
-      "sourceQuestionNumber": 60
+      "explanation": "Correct Answer: (a) 40 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40.",
+      "sourceQuestionNumber": 60,
+      "diagrams": [
+        "data/diagrams/adda-03_page32_Image160.png"
+      ],
+      "diagramCaption": "Approximation Equation Formula"
     },
     {
       "id": "adda-03-q061",
@@ -1059,8 +1194,12 @@
         "156"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 256\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 256.",
-      "sourceQuestionNumber": 61
+      "explanation": "Correct Answer: (a) 256 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 256.",
+      "sourceQuestionNumber": 61,
+      "diagrams": [
+        "data/diagrams/adda-03_page33_Image165.png"
+      ],
+      "diagramCaption": "Approximation Equation Formula"
     },
     {
       "id": "adda-03-q062",
@@ -1076,8 +1215,12 @@
         "386"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 386\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 386.",
-      "sourceQuestionNumber": 62
+      "explanation": "Correct Answer: (e) 386 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 386.",
+      "sourceQuestionNumber": 62,
+      "diagrams": [
+        "data/diagrams/adda-03_page33_Image166.png"
+      ],
+      "diagramCaption": "Approximation Equation Formula"
     },
     {
       "id": "adda-03-q063",
@@ -1093,8 +1236,12 @@
         "348"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 807\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 807.",
-      "sourceQuestionNumber": 63
+      "explanation": "Correct Answer: (a) 807 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 807.",
+      "sourceQuestionNumber": 63,
+      "diagrams": [
+        "data/diagrams/adda-03_page33_Image167.png"
+      ],
+      "diagramCaption": "Approximation Equation Formula"
     },
     {
       "id": "adda-03-q064",
@@ -1110,8 +1257,9 @@
         "284"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 224\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 224.",
-      "sourceQuestionNumber": 64
+      "explanation": "Correct Answer: (d) 224 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 224.",
+      "sourceQuestionNumber": 64,
+      "diagrams": []
     },
     {
       "id": "adda-03-q065",
@@ -1127,8 +1275,9 @@
         "26"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 28\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 28.",
-      "sourceQuestionNumber": 65
+      "explanation": "Correct Answer: (b) 28 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 28.",
+      "sourceQuestionNumber": 65,
+      "diagrams": []
     },
     {
       "id": "adda-03-q066",
@@ -1144,8 +1293,9 @@
         "42"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 48\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 48.",
-      "sourceQuestionNumber": 66
+      "explanation": "Correct Answer: (d) 48 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 48.",
+      "sourceQuestionNumber": 66,
+      "diagrams": []
     },
     {
       "id": "adda-03-q067",
@@ -1161,15 +1311,16 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
-      "sourceQuestionNumber": 67
+      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "sourceQuestionNumber": 67,
+      "diagrams": []
     },
     {
       "id": "adda-03-q068",
       "number": 68,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "A invested Rs P at rate of 5% p.a. for two years on simple interest and B invested Rs P+1000 at rate\nof 10% p.a. for three years on simple interest. If the difference between interest received by A and B is\nRs 1300, then find the value of P (in Rs.)",
+      "stem": "A invested Rs P at rate of 5% p.a. for two years on simple interest and B invested Rs P + 1000 at rate\nof 10% p.a. for three years on simple interest. If the difference between interest received by A and B is\nRs 1300, then find the value of P (in Rs.)",
       "options": [
         "4000",
         "7500",
@@ -1178,8 +1329,9 @@
         "8000"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 5000\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 5000.",
-      "sourceQuestionNumber": 68
+      "explanation": "Correct Answer: (d) 5000 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 5000.",
+      "sourceQuestionNumber": 68,
+      "diagrams": []
     },
     {
       "id": "adda-03-q069",
@@ -1195,8 +1347,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
-      "sourceQuestionNumber": 69
+      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
+      "sourceQuestionNumber": 69,
+      "diagrams": []
     },
     {
       "id": "adda-03-q070",
@@ -1212,8 +1365,9 @@
         "Option E"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
-      "sourceQuestionNumber": 70
+      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
+      "sourceQuestionNumber": 70,
+      "diagrams": []
     },
     {
       "id": "adda-03-q071",
@@ -1229,8 +1383,9 @@
         "400"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 380\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 380.",
-      "sourceQuestionNumber": 71
+      "explanation": "Correct Answer: (a) 380 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 380.",
+      "sourceQuestionNumber": 71,
+      "diagrams": []
     },
     {
       "id": "adda-03-q072",
@@ -1246,8 +1401,9 @@
         "300"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 240\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 240.",
-      "sourceQuestionNumber": 72
+      "explanation": "Correct Answer: (d) 240 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 240.",
+      "sourceQuestionNumber": 72,
+      "diagrams": []
     },
     {
       "id": "adda-03-q073",
@@ -1263,8 +1419,9 @@
         "300"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 375\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 375.",
-      "sourceQuestionNumber": 73
+      "explanation": "Correct Answer: (a) 375 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 375.",
+      "sourceQuestionNumber": 73,
+      "diagrams": []
     },
     {
       "id": "adda-03-q074",
@@ -1280,8 +1437,9 @@
         "Option E"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
-      "sourceQuestionNumber": 74
+      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "sourceQuestionNumber": 74,
+      "diagrams": []
     },
     {
       "id": "adda-03-q075",
@@ -1297,8 +1455,9 @@
         "14"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 12\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
-      "sourceQuestionNumber": 75
+      "explanation": "Correct Answer: (d) 12 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
+      "sourceQuestionNumber": 75,
+      "diagrams": []
     },
     {
       "id": "adda-03-q076",
@@ -1314,8 +1473,9 @@
         "20"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) 12\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
-      "sourceQuestionNumber": 76
+      "explanation": "Correct Answer: (c) 12 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
+      "sourceQuestionNumber": 76,
+      "diagrams": []
     },
     {
       "id": "adda-03-q077",
@@ -1331,15 +1491,16 @@
         "280%"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 260%\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 260%.",
-      "sourceQuestionNumber": 77
+      "explanation": "Correct Answer: (b) 260% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 260%.",
+      "sourceQuestionNumber": 77,
+      "diagrams": []
     },
     {
       "id": "adda-03-q078",
       "number": 78,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "180 meters long train A crosses train B having length of 120 meters and running in opposite\ndirection in  seconds. If speed of train A is 6/5 th of the speed of train B, then find the time taken by\nboth trains to cross each other, when they running in same direction?",
+      "stem": "180 meters long train A crosses train B having length of 120 meters and running in opposite\ndirection in seconds. If speed of train A is 6/5 th of the speed of train B, then find the time taken by\nboth trains to cross each other, when they running in same direction?",
       "options": [
         "Option A",
         "Option B",
@@ -1348,8 +1509,9 @@
         "Option E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
-      "sourceQuestionNumber": 78
+      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
+      "sourceQuestionNumber": 78,
+      "diagrams": []
     },
     {
       "id": "adda-03-q079",
@@ -1365,8 +1527,9 @@
         "Option E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
-      "sourceQuestionNumber": 79
+      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "sourceQuestionNumber": 79,
+      "diagrams": []
     },
     {
       "id": "adda-03-q080",
@@ -1382,8 +1545,9 @@
         "95"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 91.5\n\nAnalysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 91.5.",
-      "sourceQuestionNumber": 80
+      "explanation": "Correct Answer: (a) 91.5 Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 91.5.",
+      "sourceQuestionNumber": 80,
+      "diagrams": []
     }
   ]
 }
