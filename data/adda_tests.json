@@ -3120,8 +3120,10 @@
           "answerIndex": 1,
           "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
           "sourceQuestionNumber": 6,
-          "diagrams": [],
-          "diagramCaption": "Seating / Arrangement Reference Diagram"
+          "diagrams": [
+            "data/diagrams/adda-03_page5_Image44.png"
+          ],
+          "diagramCaption": "Inequality Statements & Conclusions Formula"
         },
         {
           "id": "adda-03-q007",
@@ -3139,8 +3141,10 @@
           "answerIndex": 0,
           "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
           "sourceQuestionNumber": 7,
-          "diagrams": [],
-          "diagramCaption": "Seating / Arrangement Reference Diagram"
+          "diagrams": [
+            "data/diagrams/adda-03_page6_Image49.png"
+          ],
+          "diagramCaption": "Inequality Statements & Conclusions Formula"
         },
         {
           "id": "adda-03-q008",
@@ -3158,8 +3162,10 @@
           "answerIndex": 3,
           "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
           "sourceQuestionNumber": 8,
-          "diagrams": [],
-          "diagramCaption": "Seating / Arrangement Reference Diagram"
+          "diagrams": [
+            "data/diagrams/adda-03_page6_Image50.png"
+          ],
+          "diagramCaption": "Inequality Statements & Conclusions Formula"
         },
         {
           "id": "adda-03-q009",
@@ -5751,7 +5757,10 @@
           "answerIndex": 1,
           "explanation": "Correct Answer: (b) 14 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 14.",
           "sourceQuestionNumber": 66,
-          "diagrams": []
+          "diagrams": [
+            "data/diagrams/adda-04_page35_Image165.png"
+          ],
+          "diagramCaption": "Approximation Equation Formula"
         },
         {
           "id": "adda-04-q067",
@@ -11747,7 +11756,10 @@
           "answerIndex": 0,
           "explanation": "Correct Answer: (a) 798 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 798.",
           "sourceQuestionNumber": 62,
-          "diagrams": []
+          "diagrams": [
+            "data/diagrams/adda-08_page32_Image175.png"
+          ],
+          "diagramCaption": "Approximation Equation Formula"
         },
         {
           "id": "adda-08-q063",
@@ -12197,7 +12209,7 @@
           "number": 6,
           "section": "reasoning",
           "topic": "Puzzles & Seating Arrangement",
-          "stem": "Statements: All flowers are plants. Only a few plants are fruits. No fruits is vegetables.\nConclusion I: Some flowers are fruits.\nConclusion II: Some plants are not vegetables.\nIn each of the questions below some statements are given followed by two conclusions. You have to take\nthe given statements to be true even if they seem to be at variance with commonly known facts. Read all\nthe conclusions and then decide which of the give n conclusions logically follows from the given\nstatements disregarding commonly known facts.",
+          "stem": "Statements:\nAll flowers are plants.\nOnly a few plants are fruits.\nNo fruits is vegetables.\n\nConclusions:\nI. Some flowers are fruits.\nII. Some plants are not vegetables.\n\nIn each of the questions below some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only conclusion I follows",
             "If only conclusion II follows",
@@ -12215,7 +12227,7 @@
           "number": 7,
           "section": "reasoning",
           "topic": "Syllogism",
-          "stem": "Statements: All mammals are bird. All birds are eggs. No eggs are reptiles.\nConclusion I: Some mammals are eggs.\nConclusion II: Some reptiles can be birds.\nIn each of the questions below some statements are given followed by two conclusions. You have to take\nthe given statements to be true even if they seem to be at variance with commonly known facts. Read all\nthe conclusions and then decide which of the give n conclusions logically follows from the given\nstatements disregarding commonly known facts.",
+          "stem": "Statements:\nAll mammals are bird.\nAll birds are eggs.\nNo eggs are reptiles.\n\nConclusions:\nI. Some mammals are eggs.\nII. Some reptiles can be birds.\n\nIn each of the questions below some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only conclusion I follows",
             "If only conclusion II follows",
@@ -12233,7 +12245,7 @@
           "number": 8,
           "section": "reasoning",
           "topic": "Syllogism",
-          "stem": "Statements: Only a few apples are oranges. All oranges are bananas. Only bananas are grapes.\nConclusion I: Some apples are bananas.\nConclusion II: Some grapes are not oranges.\nIn each of the questions below some statements are given followed by two conclusions. You have to take\nthe given statements to be true even if they seem to be at variance with commonly known facts. Read all\nthe conclusions and then decide which of the give n conclusions logically follows from the given\nstatements disregarding commonly known facts.",
+          "stem": "Statements:\nOnly a few apples are oranges.\nAll oranges are bananas.\nOnly bananas are grapes.\n\nConclusions:\nI. Some apples are bananas.\nII. Some grapes are not oranges.\n\nIn each of the questions below some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only conclusion I follows",
             "If only conclusion II follows",
@@ -13654,7 +13666,7 @@
           "number": 2,
           "section": "reasoning",
           "topic": "Syllogism",
-          "stem": "by two conclusions. You have to take the given statements to be true even if they seem to be at variance with\ncommonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from\nthe given statements disregarding commonly known facts.",
+          "stem": "Statements:\nSome cats are animals.\nAll animals are living.\nOnly a few living are dogs.\n\nConclusions:\nI. No cats being dogs is a possibility.\nII. No animals are dogs.\n\nIn each of the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only I follows",
             "If only II follows",
@@ -13672,7 +13684,7 @@
           "number": 3,
           "section": "reasoning",
           "topic": "Syllogism",
-          "stem": "two conclusions. You have to take the given statements to be true even if they seem to be at variance with\ncommonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from\nthe given statements disregarding commonly known facts.",
+          "stem": "Statements:\nAll books are pages.\nNo pages are cover.\nSome cover is white.\n\nConclusions:\nI. Some white is not pages.\nII. No books are cover.\n\nIn each of the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only I follows",
             "If only II follows",
@@ -13690,7 +13702,7 @@
           "number": 4,
           "section": "reasoning",
           "topic": "Syllogism",
-          "stem": "by two conclusions. You have to take the given statements to be true even if they seem to be at variance with\ncommonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from\nthe given statements disregarding commonly known facts.",
+          "stem": "Statements:\nOnly a few toys are games.\nOnly a few games are enjoy.\nAll enjoy is dice.\n\nConclusions:\nI. No games are dice.\nII. Some dice is not toys.\n\nIn each of the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only I follows",
             "If only II follows",
@@ -13708,7 +13720,7 @@
           "number": 5,
           "section": "reasoning",
           "topic": "Syllogism",
-          "stem": "statements are given followed by two conclusions. You have to take the given statements to be true even if they\nseem to be at variance with commonly known facts. Read all the conclusions and decide which of the given\nconclusions logically follows from the given statements disregarding commonly known facts.",
+          "stem": "Statements:\nNo request is access.\nAll access is tech.\nSome tech is plan.\n\nConclusions:\nI. No tech is request.\nII. All plan being request is a possibility.\n\nIn each of the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from the given statements disregarding commonly known facts.",
           "options": [
             "If only I follows",
             "If only II follows",
