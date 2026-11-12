@@ -32,11 +32,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which of the following box is placed immediately below box A?\nStudy the following information carefully and answer the question given below:\nTen boxes A, B, C, D, E, F, G, H, I and J are stacked one above another, but not necessarily in the same\norder. Three boxes are placed between Box D and Box I. Box B is placed just below Box D. Three boxes\nare placed between Box B and Box E. Box E is place d immediately above Box A. Box A is placed above\nBox I. One box is placed between Box J and Box E. Box C is placed somewhere above Box E. Box H is\nplaced exactly between Box C and Box E. The number of boxes placed above Box F is one less than the\nnumber of boxes placed boxes below box H.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Box H",
+        "The box which is placed immediately above box D",
+        "The box which is placed four boxes below box F",
+        "The box which is placed three boxes above box C",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -69,10 +69,10 @@
       "stem": "How many boxes are placed between box F and the one which is placed immediately below box G?\nStudy the following information carefully and answer the question given below:\nTen boxes A, B, C, D, E, F, G, H, I and J are stacked one above another, but not necessarily in the same\norder. Three boxes are placed between Box D and Box I. Box B is placed just below Box D. Three boxes\nare placed between Box B and Box E. Box E is place d immediately above Box A. Box A is placed above\nBox I. One box is placed between Box J and Box E. Box C is placed somewhere above Box E. Box H is\nplaced exactly between Box C and Box E. The number of boxes placed above Box F is one less than the\nnumber of boxes placed boxes below box H.",
       "options": [
         "Two",
-        "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Five",
+        "Three",
+        "Four",
+        "One"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -86,11 +86,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "What is the position of Box D with respect to Box G?\nStudy the following information carefully and answer the question given below:\nTen boxes A, B, C, D, E, F, G, H, I and J are stacked one above another, but not necessarily in the same\norder. Three boxes are placed between Box D and Box I. Box B is placed just below Box D. Three boxes\nare placed between Box B and Box E. Box E is place d immediately above Box A. Box A is placed above\nBox I. One box is placed between Box J and Box E. Box C is placed somewhere above Box E. Box H is\nplaced exactly between Box C and Box E. The number of boxes placed above Box F is one less than the\nnumber of boxes placed boxes below box H.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three boxes above Box G",
+        "Four boxes above Box G",
+        "Three boxes below Box G",
+        "Four boxes below Box G",
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -104,11 +104,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which among the following statement(s) is/are true?\nI. More than four boxes are placed below box B\nII. Box I is placed at the topmost position\nIII. Box C is not placed below box F\nStudy the following information carefully and answer the question given below:\nTen boxes A, B, C, D, E, F, G, H, I and J are stacked one above another, but not necessarily in the same\norder. Three boxes are placed between Box D and Box I. Box B is placed just below Box D. Three boxes\nare placed between Box B and Box E. Box E is place d immediately above Box A. Box A is placed above\nBox I. One box is placed between Box J and Box E. Box C is placed somewhere above Box E. Box H is\nplaced exactly between Box C and Box E. The number of boxes placed above Box F is one less than the\nnumber of boxes placed boxes below box H.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only I",
+        "Only III",
+        "Both I and II",
+        "Both II and III",
+        "All I, II and III"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -122,11 +122,11 @@
       "topic": "Alphanumeric & Word Formation",
       "stem": "How many such pairs of letters are there in the word “ GENERATE” each of which has as many letters\nbetween them as there are in the alphabetical series (both in the forward and backward directions)?",
       "options": [
+        "Four",
+        "Three",
+        "None",
         "Two",
-        "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "One"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -140,11 +140,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nSome monkey is dare\nOnly a few dare is amaze\nAll amaze is tall\nConclusions:\nI. All monkey being amaze is a possibility\nII. Some tall is dare\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given conclusions definitely follows from the given statements,\ndisregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -158,11 +158,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nAll boys are brother\nOnly a few brothers is smart\nNo smart is rare\nConclusions:\nI. All boys are smart\nII. Some brothers are not rare\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given conclusions definitely follows from the given statements,\ndisregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -176,11 +176,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nOnly champion is start\nSome champion is battery\nAll battery is power\nConclusions:\nI. Some start is battery\nII. All champion being power is a possibility\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given conclusions definitely follows from the given statements,\ndisregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
@@ -194,11 +194,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nSome Sales is draw\nOnly a few draw is motor\nAll motor are engine\nConclusions:\nI. All sales being motor is a possibility\nII. Some sales is engine\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given conclusions definitely follows from the given statements,\ndisregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -214,9 +214,9 @@
       "options": [
         "One",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "None"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) One holds true.",
@@ -230,11 +230,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of L with respect to O?\nStudy the following information carefully and answer the question given below:\nSeven persons J, K, L, M, N, O, and P are sitting in a row facing north. Each person likes a different fruit:\nPapaya, Watermelon, Kiwi, Strawberry, Pear, Plum, Avocado.\nO sits at one of the ends. The one who likes Kiwi sits third from the right end. Only one person sits\nbetween N and the one who likes Kiwi. P likes Avocado. Two persons sit between P and O. M sits third\nto the right of N. N likes Pear. J likes Watermelon and sits right of M. More than two persons sit between\nK and the one who likes watermelon. Three persons sit between M and the one who likes papaya. The\none who likes Plum does not sit at the end of the row.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Fourth to the left",
+        "Fourth to the right",
+        "Third to the left",
+        "Third to the right",
+        "Second to the right"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -269,8 +269,8 @@
         "O",
         "L",
         "K",
-        "Option D",
-        "Option E"
+        "Either O or K",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) K Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) K holds true.",
@@ -284,11 +284,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which among the following statement is/are correct?\nStudy the following information carefully and answer the question given below:\nSeven persons J, K, L, M, N, O, and P are sitting in a row facing north. Each person likes a different fruit:\nPapaya, Watermelon, Kiwi, Strawberry, Pear, Plum, Avocado.\nO sits at one of the ends. The one who likes Kiwi sits third from the right end. Only one person sits\nbetween N and the one who likes Kiwi. P likes Avocado. Two persons sit between P and O. M sits third\nto the right of N. N likes Pear. J likes Watermelon and sits right of M. More than two persons sit between\nK and the one who likes watermelon. Three persons sit between M and the one who likes papaya. The\none who likes Plum does not sit at the end of the row.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "K likes papaya",
+        "P sits third to the left of the one who likes watermelon",
+        "K sits third to the left of M",
+        "Four persons sit between O and L",
+        "Both [a] and [b]"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -302,11 +302,11 @@
       "topic": "Blood Relations",
       "stem": "How is Q related to K?\nStudy the following information carefully and answer the question given below:\nThere are nine family members: I, J, K, L, M, N, O, P , and Q. They belong to three generations.\nK is the father of M and N. M is the sister - in - law of O. M is unmarried. J is the mother - in - law of O. L is the\nfather of O. I is the grandmother of Q. N is the father of Q. P is the sister of Q. Not more than five female\nmembers in the family.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Grandmother",
+        "Grandfather",
+        "Grandson",
+        "Granddaughter",
+        "Can’t be determined"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -320,11 +320,11 @@
       "topic": "Blood Relations",
       "stem": "How many members are in the second generation of the family?\nStudy the following information carefully and answer the question given below:\nThere are nine family members: I, J, K, L, M, N, O, P , and Q. They belong to three generations.\nK is the father of M and N. M is the sister - in - law of O. M is unmarried. J is the mother - in - law of O. L is the\nfather of O. I is the grandmother of Q. N is the father of Q. P is the sister of Q. Not more than five female\nmembers in the family.",
       "options": [
+        "Four",
+        "Three",
+        "Five",
         "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "More than Five"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -338,11 +338,11 @@
       "topic": "Blood Relations",
       "stem": "If A is the husband of P , then how O is related to A?\nStudy the following information carefully and answer the question given below:\nThere are nine family members: I, J, K, L, M, N, O, P , and Q. They belong to three generations.\nK is the father of M and N. M is the sister - in - law of O. M is unmarried. J is the mother - in - law of O. L is the\nfather of O. I is the grandmother of Q. N is the father of Q. P is the sister of Q. Not more than five female\nmembers in the family.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Daughter-in-law",
+        "Aunt",
+        "Mother",
+        "Father-in-law",
+        "Mother-in-law"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -356,11 +356,11 @@
       "topic": "Inequalities",
       "stem": "Statements: H≥U>M = E; R<Q>P≤U = N\nConclusions: I. H>N\nII. H = N\nII. H = N\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
@@ -374,11 +374,11 @@
       "topic": "Inequalities",
       "stem": "Statements: W <J < P≥ E = N > Z < X ≤ M = F < L\nConclusions: I. P>F\nII. J>X\nII. J>X\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -392,11 +392,11 @@
       "topic": "Inequalities",
       "stem": "Statements: D< B = V ≥A < X > F; Q ≤ S < E≤ V\nConclusions: I. B > Q\nII. X≥E\nII. X≥E\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -410,11 +410,11 @@
       "topic": "Inequalities",
       "stem": "Statements: Q≥M>N>K; T>O>R≤V<K\nConclusions: I. M>O\nII. N>R\nII. N>R\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -500,11 +500,11 @@
       "topic": "Puzzles & Seating Arrangement",
       "stem": "What is the position of S with respect to U?\nStudy the following information carefully and answer the question given below:\nEight persons P , Q, R, S, T , U, V and W are sitting around a square shaped table, but not necessarily in the\nsame order. Four persons sit in the corners and face inside the center. Four persons sit in the middle of\nthe sides of the table and face outside the center.\nR sits second to the right of P . T sits second to the right of R. P and U are immediate neighbors. Q is not\nan immediate neighbor of R. W sits to the immediate right of U. Two persons sit between S and W when\ncounted in the clockwise direction from W. S doesn’t sit at the corner of the table.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Third to the left",
+        "Third to the right",
+        "Second to the left",
+        "Fourth to the right",
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -518,11 +518,11 @@
       "topic": "Puzzles & Seating Arrangement",
       "stem": "How many persons sit between V and T when counted from the right of T?\nStudy the following information carefully and answer the question given below:\nEight persons P , Q, R, S, T , U, V and W are sitting around a square shaped table, but not necessarily in the\nsame order. Four persons sit in the corners and face inside the center. Four persons sit in the middle of\nthe sides of the table and face outside the center.\nR sits second to the right of P . T sits second to the right of R. P and U are immediate neighbors. Q is not\nan immediate neighbor of R. W sits to the immediate right of U. Two persons sit between S and W when\ncounted in the clockwise direction from W. S doesn’t sit at the corner of the table.",
       "options": [
+        "Three",
         "Two",
+        "Five",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Four"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -556,9 +556,9 @@
       "options": [
         "New",
         "concept",
+        "Either ‘learn’ or ‘teacher’",
         "idea",
-        "explain",
-        "Option E"
+        "explain"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) New Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields New.",
@@ -576,7 +576,7 @@
         "EF GH",
         "GH RS",
         "RS KL",
-        "Option E"
+        "Can’t be determined"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -594,7 +594,7 @@
         "IJ DF",
         "DF CD",
         "IJ CD",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) IJ DF Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields IJ DF.",
@@ -644,11 +644,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "How many persons visited between U and P?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T, U, V, and W – visited different tourist places on two different dates: 12th and\n21st of four different months – May, June, July, and August of the same year. Only one person visited on\neach date of each month, but not necessarily in the same order.\nR visited on 21st July. No person visited between T and R. Only two persons visited between the visits\nof P and W. T visited immediately before W. Q visited immediately before S but not in the same month.\nU visited before V.",
       "options": [
-        "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Four",
+        "As many persons born between S and V",
+        "Three",
+        "As many persons born between U and S",
+        "Two"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -666,7 +666,7 @@
         "T",
         "W",
         "P",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) R Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) R holds true.",
@@ -680,11 +680,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which among the following is a true statement?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T, U, V, and W – visited different tourist places on two different dates: 12th and\n21st of four different months – May, June, July, and August of the same year. Only one person visited on\neach date of each month, but not necessarily in the same order.\nR visited on 21st July. No person visited between T and R. Only two persons visited between the visits\nof P and W. T visited immediately before W. Q visited immediately before S but not in the same month.\nU visited before V.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "S visited on the 12th July",
+        "P visited on the 12th July",
+        "S and V didn’t visit in the same month",
+        "Q visited immediately before P",
+        "Q visited before U"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -698,11 +698,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which of the following pairs of persons visited on the same month?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T, U, V, and W – visited different tourist places on two different dates: 12th and\n21st of four different months – May, June, July, and August of the same year. Only one person visited on\neach date of each month, but not necessarily in the same order.\nR visited on 21st July. No person visited between T and R. Only two persons visited between the visits\nof P and W. T visited immediately before W. Q visited immediately before S but not in the same month.\nU visited before V.",
       "options": [
-        "U and V /U V",
-        "P and Q / P Q",
-        "S and P /S P",
-        "S and V /S V",
-        "Option E"
+        "U and V",
+        "P and Q",
+        "S and P",
+        "S and V",
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) S and V /S V Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) S and V /S V holds true.",
@@ -717,10 +717,10 @@
       "stem": "How many persons visited between P and Q?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T, U, V, and W – visited different tourist places on two different dates: 12th and\n21st of four different months – May, June, July, and August of the same year. Only one person visited on\neach date of each month, but not necessarily in the same order.\nR visited on 21st July. No person visited between T and R. Only two persons visited between the visits\nof P and W. T visited immediately before W. Q visited immediately before S but not in the same month.\nU visited before V.",
       "options": [
         "One",
-        "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Five",
+        "Four",
+        "Two"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -762,10 +762,9 @@
       "explanation": "Correct Answer: (b) 80 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 80.",
       "sourceQuestionNumber": 41,
       "diagrams": [
-        "data/diagrams/adda-05_page24_Image120.png",
-        "data/diagrams/adda-05_page24_Image121.png"
+        "data/diagrams/adda-05_page24_Image120.png"
       ],
-      "diagramCaption": "Company TVs Sold (Bar Charts)"
+      "diagramCaption": "Company TVs Sold (Bar Chart)"
     },
     {
       "id": "adda-05-q042",
@@ -784,10 +783,9 @@
       "explanation": "Correct Answer: (b) 33.33% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 33.33%.",
       "sourceQuestionNumber": 42,
       "diagrams": [
-        "data/diagrams/adda-05_page24_Image120.png",
-        "data/diagrams/adda-05_page24_Image121.png"
+        "data/diagrams/adda-05_page24_Image120.png"
       ],
-      "diagramCaption": "Company TVs Sold (Bar Charts)"
+      "diagramCaption": "Company TVs Sold (Bar Chart)"
     },
     {
       "id": "adda-05-q043",
@@ -806,10 +804,9 @@
       "explanation": "Correct Answer: (e) 372 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 372.",
       "sourceQuestionNumber": 43,
       "diagrams": [
-        "data/diagrams/adda-05_page24_Image120.png",
-        "data/diagrams/adda-05_page24_Image121.png"
+        "data/diagrams/adda-05_page24_Image120.png"
       ],
-      "diagramCaption": "Company TVs Sold (Bar Charts)"
+      "diagramCaption": "Company TVs Sold (Bar Chart)"
     },
     {
       "id": "adda-05-q044",
@@ -822,16 +819,15 @@
         "616000",
         "816000",
         "678000",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) 816000 Analysis & Solution:\nTopic: Profit & Loss\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 816000.",
       "sourceQuestionNumber": 44,
       "diagrams": [
-        "data/diagrams/adda-05_page24_Image120.png",
-        "data/diagrams/adda-05_page24_Image121.png"
+        "data/diagrams/adda-05_page24_Image120.png"
       ],
-      "diagramCaption": "Company TVs Sold (Bar Charts)"
+      "diagramCaption": "Company TVs Sold (Bar Chart)"
     },
     {
       "id": "adda-05-q045",
@@ -850,10 +846,9 @@
       "explanation": "Correct Answer: (c) 84 Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 84.",
       "sourceQuestionNumber": 45,
       "diagrams": [
-        "data/diagrams/adda-05_page24_Image120.png",
-        "data/diagrams/adda-05_page24_Image121.png"
+        "data/diagrams/adda-05_page24_Image120.png"
       ],
-      "diagramCaption": "Company TVs Sold (Bar Charts)"
+      "diagramCaption": "Company TVs Sold (Bar Chart)"
     },
     {
       "id": "adda-05-q046",
@@ -872,10 +867,9 @@
       "explanation": "Correct Answer: (e) 9:10 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 9:10.",
       "sourceQuestionNumber": 46,
       "diagrams": [
-        "data/diagrams/adda-05_page26_Image130.png",
-        "data/diagrams/adda-05_page26_Image131.jpeg"
+        "data/diagrams/adda-05_page26_Image130.png"
       ],
-      "diagramCaption": "Company Employees Distribution (Pie Charts)"
+      "diagramCaption": "Company Employees Distribution (Pie Chart)"
     },
     {
       "id": "adda-05-q047",
@@ -894,10 +888,9 @@
       "explanation": "Correct Answer: (b) 58.33% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 58.33%.",
       "sourceQuestionNumber": 47,
       "diagrams": [
-        "data/diagrams/adda-05_page26_Image130.png",
-        "data/diagrams/adda-05_page26_Image131.jpeg"
+        "data/diagrams/adda-05_page26_Image130.png"
       ],
-      "diagramCaption": "Company Employees Distribution (Pie Charts)"
+      "diagramCaption": "Company Employees Distribution (Pie Chart)"
     },
     {
       "id": "adda-05-q048",
@@ -916,10 +909,9 @@
       "explanation": "Correct Answer: (a) 90 Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 90.",
       "sourceQuestionNumber": 48,
       "diagrams": [
-        "data/diagrams/adda-05_page26_Image130.png",
-        "data/diagrams/adda-05_page26_Image131.jpeg"
+        "data/diagrams/adda-05_page26_Image130.png"
       ],
-      "diagramCaption": "Company Employees Distribution (Pie Charts)"
+      "diagramCaption": "Company Employees Distribution (Pie Chart)"
     },
     {
       "id": "adda-05-q049",
@@ -938,10 +930,9 @@
       "explanation": "Correct Answer: (c) 285 Analysis & Solution:\nTopic: Time & Work\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 285.",
       "sourceQuestionNumber": 49,
       "diagrams": [
-        "data/diagrams/adda-05_page26_Image130.png",
-        "data/diagrams/adda-05_page26_Image131.jpeg"
+        "data/diagrams/adda-05_page26_Image130.png"
       ],
-      "diagramCaption": "Company Employees Distribution (Pie Charts)"
+      "diagramCaption": "Company Employees Distribution (Pie Chart)"
     },
     {
       "id": "adda-05-q050",
@@ -960,10 +951,9 @@
       "explanation": "Correct Answer: (c) 127.5% Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 127.5%.",
       "sourceQuestionNumber": 50,
       "diagrams": [
-        "data/diagrams/adda-05_page26_Image130.png",
-        "data/diagrams/adda-05_page26_Image131.jpeg"
+        "data/diagrams/adda-05_page26_Image130.png"
       ],
-      "diagramCaption": "Company Employees Distribution (Pie Charts)"
+      "diagramCaption": "Company Employees Distribution (Pie Chart)"
     },
     {
       "id": "adda-05-q051",
@@ -1212,11 +1202,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "Rohan travels to his college by a cycle at a speed of 15 km/h and returns home by a bike at a speed\nof 45 km/h. The total time taken for the journey is 2 hours. Find the distance he traveled by bike.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "22.5 km",
+        "20 km",
+        "23.5 km",
+        "24 km",
+        "25.5 km"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1230,11 +1220,11 @@
       "topic": "Problems on Ages",
       "stem": "The present age of P is 75% of the present age of Q, and the present age of R is 30% less than that\nof Q. The difference between the present age of P and R is 4 years. Find the present age of Q.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "60 years",
+        "40 years",
+        "80 years",
+        "75 years",
+        "90 years"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1320,11 +1310,11 @@
       "topic": "Quadratic Equations",
       "stem": "D is 30% more efficient than E. In how many days can F alone complete the work?\nStatement I: The ratio of efficiency of F to E is 4:5.\nStatement II: E alone can complete the work in 12 days.\nEach of the following questions is provided with two statements, i.e., Statement I and Statement II. You\nhave to study them and find which statement(s) is/are necessary to answer the question as per the\ninstructions given below.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only Statement I is sufficient",
+        "Only Statement II is sufficient",
+        "Neither Statement I nor Statement II is sufficient",
+        "Either Statement I or Statement II alone is sufficient",
+        "Both Statement I & Statement II together are sufficient"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Quadratic Equations\nSolving the two quadratic equations by factorizing their coefficients gives roots that establish the relational comparison corresponding to option (e).",
@@ -1338,11 +1328,11 @@
       "topic": "Quadratic Equations",
       "stem": "What is the area of the circle?\nStatement I: The radius of the circle is 7 cm.\nStatement II: A circle is inscribed in a square whose diagonal is 14√2 cm.\nEach of the following questions is provided with two statements, i.e., Statement I and Statement II. You\nhave to study them and find which statement(s) is/are necessary to answer the question as per the\ninstructions given below.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only Statement I is sufficient",
+        "Only Statement II is sufficient",
+        "Neither Statement I nor Statement II is sufficient",
+        "Either Statement I or Statement II alone is sufficient",
+        "Both Statement I & Statement II together are sufficient"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Quadratic Equations\nSolving the two quadratic equations by factorizing their coefficients gives roots that establish the relational comparison corresponding to option (d).",
@@ -1378,7 +1368,7 @@
         "32.2",
         "34.5",
         "37.4",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) 37.4 Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 37.4.",

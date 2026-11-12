@@ -104,20 +104,16 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nFourteen persons sit in two parallel rows. A, B, C, D, E, F, G sit in row - 1 facing north and P , Q, R, S, T , U, V\nsit in row - 2 facing south such that the persons sitting in row - 1 faces the persons sitting in row - 2.\nV is the only immediate neighbour of S. T sits 2nd to the left of V. Two persons sit between T and the one\nwho faces F. A sits exactly between B and C who sits diagonally opposite to R. A does not face V. P faces\nD. G faces the one who sits just right of U. E does not face T .",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "P sits diagonally opposite to F",
+        "More than one person sits between D and G",
+        "P does not sit just left of U",
+        "F sits at one of the extreme ends",
+        "None is true"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
       "sourceQuestionNumber": 5,
-      "diagrams": [
-        "data/diagrams/adda-03_page5_Image44.png",
-        "data/diagrams/adda-03_page6_Image49.png",
-        "data/diagrams/adda-03_page6_Image50.png"
-      ],
+      "diagrams": [],
       "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
@@ -127,20 +123,16 @@
       "topic": "Inequalities",
       "stem": "In these questions, relationships between different elements are shown in the statements. The\nstatements are followed by conclusions. Study the conclusions based on the given statements and select\nthe appropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If neither conclusion I nor II is true",
+        "If both conclusions I and II are true"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
       "sourceQuestionNumber": 6,
-      "diagrams": [
-        "data/diagrams/adda-03_page5_Image44.png",
-        "data/diagrams/adda-03_page6_Image49.png",
-        "data/diagrams/adda-03_page6_Image50.png"
-      ],
+      "diagrams": [],
       "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
@@ -150,20 +142,16 @@
       "topic": "Inequalities",
       "stem": "In these questions, relationships between different elements are shown in the statements. The\nstatements are followed by conclusions. Study the conclusions based on the given statements and select\nthe appropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If neither conclusion I nor II is true",
+        "If both conclusions I and II are true"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
       "sourceQuestionNumber": 7,
-      "diagrams": [
-        "data/diagrams/adda-03_page5_Image44.png",
-        "data/diagrams/adda-03_page6_Image49.png",
-        "data/diagrams/adda-03_page6_Image50.png"
-      ],
+      "diagrams": [],
       "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
@@ -173,20 +161,16 @@
       "topic": "Inequalities",
       "stem": "In these questions, relationships between different elements are shown in the statements. The\nstatements are followed by conclusions. Study the conclusions based on the given statements and select\nthe appropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If neither conclusion I nor II is true",
+        "If both conclusions I and II are true"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
       "sourceQuestionNumber": 8,
-      "diagrams": [
-        "data/diagrams/adda-03_page5_Image44.png",
-        "data/diagrams/adda-03_page6_Image49.png",
-        "data/diagrams/adda-03_page6_Image50.png"
-      ],
+      "diagrams": [],
       "diagramCaption": "Seating / Arrangement Reference Diagram"
     },
     {
@@ -196,11 +180,11 @@
       "topic": "Alphanumeric & Word Formation",
       "stem": "In the number ‘748523971’, how many pairs of the digits have the same number of digits between\nthem (both forward and backward direction) in the number series?",
       "options": [
+        "Four",
         "Two",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "More than four"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -214,11 +198,11 @@
       "topic": "Blood Relations",
       "stem": "How is Q related to Y?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Mother",
+        "Aunt",
+        "Uncle",
+        "Mother-in-law",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -232,11 +216,11 @@
       "topic": "Blood Relations",
       "stem": "Which of the following is true?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "V is the daughter of S",
+        "Y is son of X",
+        "W is the P’s nephew",
+        "S is the U’s father",
+        "All are true"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -272,7 +256,7 @@
         "S",
         "V",
         "R",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) V Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) V holds true.",
@@ -290,7 +274,7 @@
         "R, U",
         "P , Q",
         "V, W",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) S, T Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) S, T holds true.",
@@ -304,11 +288,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "In which of the following flat - floor does R lives?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Flat-Y , Floor 3",
+        "Flat-X, Floor 1",
+        "Flat-X, Floor 2",
+        "Flat-Y , Floor 4",
+        "Flat-Y , Floor 1"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -323,10 +307,10 @@
       "stem": "How many floors are between Q and the one who lives just below T’s flat?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "One",
+        "Three",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
@@ -380,7 +364,7 @@
         "rd",
         "nq",
         "pb",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) rd Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) rd holds true.",
@@ -398,7 +382,7 @@
         "nq",
         "pb",
         "xa",
-        "Option E"
+        "Either xa or pb"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -416,7 +400,7 @@
         "sorrow",
         "bad",
         "happy",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) bad Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) bad holds true.",
@@ -448,11 +432,11 @@
       "topic": "Syllogism",
       "stem": "Statements: Only a few apple is orange.\nSome orange is grapes.\nNo grapes are banana.\nConclusions:\nI. Some grapes are not apple.\nII. All apple being banana is a possibility.\nIn each of the questions below, some statements are given followed by conclusions/group of\nconclusions. You have to assume all the statements to be true even if they seem to be at variance from\nthe commonly known facts and then decide which of the given co nclusions logically follow from the\ninformation given in the statements:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -466,11 +450,11 @@
       "topic": "Syllogism",
       "stem": "Statements: All cat are dog.\nSome dog are not lion.\nOnly a few tigers are lion.\nConclusions:\nI. All cat being lion is a possibility.\nII. All tigers being lion is a possibility.\nIn each of the questions below, some statements are given followed by conclusions/group of\nconclusions. You have to assume all the statements to be true even if they seem to be at variance from\nthe commonly known facts and then decide which of the given co nclusions logically follow from the\ninformation given in the statements:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -484,11 +468,11 @@
       "topic": "Syllogism",
       "stem": "Statements: Some pen are pencil.\nOnly pencil are eraser.\nNo pen are marker.\nConclusions:\nI. Some eraser are not marker.\nII. Some eraser are marker.\nIn each of the questions below, some statements are given followed by conclusions/group of\nconclusions. You have to assume all the statements to be true even if they seem to be at variance from\nthe commonly known facts and then decide which of the given co nclusions logically follow from the\ninformation given in the statements:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -502,11 +486,11 @@
       "topic": "Syllogism",
       "stem": "Statements: Some book are not magazine.\nOnly a few magazine are newspaper.\nAll newspaper are journal.\nConclusions:\nI. All newspaper are Magazine.\nII. All newspaper being book is a possibility.\nIn each of the questions below, some statements are given followed by conclusions/group of\nconclusions. You have to assume all the statements to be true even if they seem to be at variance from\nthe commonly known facts and then decide which of the given co nclusions logically follow from the\ninformation given in the statements:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -524,7 +508,7 @@
         "C",
         "F",
         "G",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -538,11 +522,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "How many persons were born between F and I?\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
+        "Three",
+        "Four",
         "Two",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Two Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Two holds true.",
@@ -556,11 +540,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "F was born in September",
+        "H was born in October",
+        "G was born in May",
+        "D was born in December",
+        "None is true"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -578,7 +562,7 @@
         "I, G",
         "C, H",
         "B, A",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) C, H Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) C, H holds true.",
@@ -596,7 +580,7 @@
         "B",
         "C",
         "D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) D holds true.",
@@ -632,7 +616,7 @@
         "D",
         "B",
         "G",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields B.",
@@ -646,11 +630,11 @@
       "topic": "Blood Relations",
       "stem": "If the F’s height is 50cm more than G and the difference of height between E and F is 100cm then\nwhat is the possible height of B?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "174cm",
+        "118cm",
+        "180cm",
+        "135cm",
+        "119cm"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -664,11 +648,11 @@
       "topic": "Blood Relations",
       "stem": "How many persons shorter than the one who is just taller than E?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
+        "Three",
         "One",
+        "None",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
@@ -682,11 +666,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which of the following fruit does P like?\nStudy the following information carefully and answer the questions given below.\nSeven persons M, N, O, P , Q, R, and S sit in a row and all of them face towards the north direction. Each\nof them likes different fruits viz. Apple, Banana, Mango, Orange, Grapes, Pineapple, and Watermelon. All\nthe information is not necessarily in the same order.\nR sits third to the right of O who likes Mango. R sits second to the left of Q. The one who likes Banana\nsits at one of the extreme ends of the row. P sits third to the right of the one who likes Grapes. Only two\nperson sits between N and Q. R doesn’t like Watermelon. S sits fourth to the left of R. The one who likes\nApple sits second to the right of N who likes neither Watermelon nor Pineapple. Q doesn’t sit to the right\nof the one who likes Banana.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Banana",
+        "Pineapple",
+        "Apple",
+        "Grapes",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -704,7 +688,7 @@
         "M",
         "Q",
         "P",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) S Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) S holds true.",
@@ -722,7 +706,7 @@
         "Q, P",
         "Q, N",
         "M, Q",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -736,11 +720,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which of the following is true?\nI. P sits 2nd to the right of the one who likes mango\nII. O and M are immediate neighbours\nIII. S sits 2nd to the left of the one who likes Grapes\nStudy the following information carefully and answer the questions given below.\nSeven persons M, N, O, P , Q, R, and S sit in a row and all of them face towards the north direction. Each\nof them likes different fruits viz. Apple, Banana, Mango, Orange, Grapes, Pineapple, and Watermelon. All\nthe information is not necessarily in the same order.\nR sits third to the right of O who likes Mango. R sits second to the left of Q. The one who likes Banana\nsits at one of the extreme ends of the row. P sits third to the right of the one who likes Grapes. Only two\nperson sits between N and Q. R doesn’t like Watermelon. S sits fourth to the left of R. The one who likes\nApple sits second to the right of N who likes neither Watermelon nor Pineapple. Q doesn’t sit to the right\nof the one who likes Banana.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only I",
+        "Both II and III",
+        "Only III",
+        "Both I and II",
+        "Only II"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -754,11 +738,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of the one who likes Apple to the one who likes Banana?\nStudy the following information carefully and answer the questions given below.\nSeven persons M, N, O, P , Q, R, and S sit in a row and all of them face towards the north direction. Each\nof them likes different fruits viz. Apple, Banana, Mango, Orange, Grapes, Pineapple, and Watermelon. All\nthe information is not necessarily in the same order.\nR sits third to the right of O who likes Mango. R sits second to the left of Q. The one who likes Banana\nsits at one of the extreme ends of the row. P sits third to the right of the one who likes Grapes. Only two\nperson sits between N and Q. R doesn’t like Watermelon. S sits fourth to the left of R. The one who likes\nApple sits second to the right of N who likes neither Watermelon nor Pineapple. Q doesn’t sit to the right\nof the one who likes Banana.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "2nd to the right",
+        "Immediate right",
+        "4th to the right",
+        "2nd to the left",
+        "Immediate left"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -894,7 +878,7 @@
         "data/diagrams/adda-03_page27_Image135.jpeg",
         "data/diagrams/adda-03_page27_Image136.jpeg"
       ],
-      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
+      "diagramCaption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"
     },
     {
       "id": "adda-03-q048",
@@ -916,7 +900,7 @@
         "data/diagrams/adda-03_page27_Image135.jpeg",
         "data/diagrams/adda-03_page27_Image136.jpeg"
       ],
-      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
+      "diagramCaption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"
     },
     {
       "id": "adda-03-q049",
@@ -938,7 +922,7 @@
         "data/diagrams/adda-03_page27_Image135.jpeg",
         "data/diagrams/adda-03_page27_Image136.jpeg"
       ],
-      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
+      "diagramCaption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"
     },
     {
       "id": "adda-03-q050",
@@ -949,9 +933,9 @@
       "options": [
         "40",
         "25",
+        "Can’t be determined",
         "90",
-        "Option D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) 90 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 90.",
@@ -960,7 +944,7 @@
         "data/diagrams/adda-03_page27_Image135.jpeg",
         "data/diagrams/adda-03_page27_Image136.jpeg"
       ],
-      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
+      "diagramCaption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"
     },
     {
       "id": "adda-03-q051",
@@ -982,7 +966,7 @@
         "data/diagrams/adda-03_page27_Image135.jpeg",
         "data/diagrams/adda-03_page27_Image136.jpeg"
       ],
-      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
+      "diagramCaption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"
     },
     {
       "id": "adda-03-q052",
@@ -1004,7 +988,7 @@
         "data/diagrams/adda-03_page27_Image135.jpeg",
         "data/diagrams/adda-03_page27_Image136.jpeg"
       ],
-      "diagramCaption": "Twiggy & Xomato Orders (Pie Charts)"
+      "diagramCaption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"
     },
     {
       "id": "adda-03-q053",
@@ -1026,7 +1010,7 @@
         "data/diagrams/adda-03_page30_Image149.png",
         "data/diagrams/adda-03_page30_Image150.png"
       ],
-      "diagramCaption": "Quarterly Songs Download Data (Table)"
+      "diagramCaption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"
     },
     {
       "id": "adda-03-q054",
@@ -1048,7 +1032,7 @@
         "data/diagrams/adda-03_page30_Image149.png",
         "data/diagrams/adda-03_page30_Image150.png"
       ],
-      "diagramCaption": "Quarterly Songs Download Data (Table)"
+      "diagramCaption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"
     },
     {
       "id": "adda-03-q055",
@@ -1070,7 +1054,7 @@
         "data/diagrams/adda-03_page30_Image149.png",
         "data/diagrams/adda-03_page30_Image150.png"
       ],
-      "diagramCaption": "Quarterly Songs Download Data (Table)"
+      "diagramCaption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"
     },
     {
       "id": "adda-03-q056",
@@ -1092,7 +1076,7 @@
         "data/diagrams/adda-03_page30_Image149.png",
         "data/diagrams/adda-03_page30_Image150.png"
       ],
-      "diagramCaption": "Quarterly Songs Download Data (Table)"
+      "diagramCaption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"
     },
     {
       "id": "adda-03-q057",
@@ -1114,7 +1098,7 @@
         "data/diagrams/adda-03_page30_Image149.png",
         "data/diagrams/adda-03_page30_Image150.png"
       ],
-      "diagramCaption": "Quarterly Songs Download Data (Table)"
+      "diagramCaption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"
     },
     {
       "id": "adda-03-q058",
@@ -1136,7 +1120,7 @@
         "data/diagrams/adda-03_page30_Image149.png",
         "data/diagrams/adda-03_page30_Image150.png"
       ],
-      "diagramCaption": "Quarterly Songs Download Data (Table)"
+      "diagramCaption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"
     },
     {
       "id": "adda-03-q059",
@@ -1304,11 +1288,11 @@
       "topic": "Simplification & Approximation",
       "stem": "A and B together complete a work in 6 days. If time required to complete 90% of work by A is equal\nto time required to complete 60% of work by of B, then find the time taken by A to complete 50% of the\nsame work?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "7.5 days",
+        "10 days",
+        "5 days",
+        "6 days",
+        "12 days"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1340,11 +1324,11 @@
       "topic": "Simplification & Approximation",
       "stem": "A and B entered into a business and invested in the ratio of 3: 5 respectively. After 6 months, C also\njoined with investment of three times of investment of B. At the end of a year, then total profit was Rs\n6200. Find the profit share of A?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "1200 Rs",
+        "2000 Rs",
+        "3000 Rs",
+        "1000 Rs",
+        "1500 Rs"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1358,11 +1342,11 @@
       "topic": "Simplification & Approximation",
       "stem": "Rima spends 25% of his monthly salary on grocery, 10% of remaining salary on house rent and\n40% on education. If she invests remaining amount of Rs 18000 in FD, then find the monthly salary of\nRima?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "36000 Rs",
+        "48000 Rs",
+        "40000 Rs",
+        "54000 Rs",
+        "30000 Rs"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -1430,11 +1414,11 @@
       "topic": "Simplification & Approximation",
       "stem": "An article is mark up 30% above its cost price and it sold at 10% discount. If profit received on the\narticle is Rs 204, then find the selling price when the same article is sold at profit of 10%?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "1280 Rs",
+        "1360 Rs",
+        "1240 Rs",
+        "1320 Rs",
+        "1420 Rs"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -1502,11 +1486,11 @@
       "topic": "Simplification & Approximation",
       "stem": "180 meters long train A crosses train B having length of 120 meters and running in opposite\ndirection in seconds. If speed of train A is 6/5 th of the speed of train B, then find the time taken by\nboth trains to cross each other, when they running in same direction?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "60 sec",
+        "58 sec",
+        "55 sec",
+        "50 sec",
+        "65 sec"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1520,11 +1504,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "First train starts from station A at 6 am and reaches station B at 4 pm and second train started\nfrom B at 7 am and reaches A at 3 pm. Then, find the time at which both the trains meet each other.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "11: 10 am",
+        "11: 05 am",
+        "11: 00 am",
+        "10: 55 am",
+        "10: 50 am"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",

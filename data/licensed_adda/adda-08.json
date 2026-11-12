@@ -51,10 +51,10 @@
       "stem": "Who among the following sits third to the left of C?\nStudy the following information carefully and answer the question given below:\nTwelve persons are sitting in two parallel rows of six people each. In Row 1, A, B, C, D, E, and F are seated\nand facing north. In Row 2, P , Q, R, S, T , and U are seated and facing south but not necessarily in the same\norder.\nF sits at an end and faces T. One person sits between C and F. C sits to the immediate left of E. R faces the\nimmediate neighbor of C. R sits second to the left of Q. Q does not sit at the end of the row. B sits second\nto the right of A. The one who faces B sits immediate right of P . S sits exactly between Q and U.",
       "options": [
         "D",
+        "The one who faces Q",
+        "The one who faces F",
         "A",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -70,9 +70,9 @@
       "options": [
         "One",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "None"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -104,11 +104,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which among the following statement(s) is /are true?\nI. S is the only neighbor of U\nII. More than three persons sit to the left of E\nIII. No one sits to the left of B\nStudy the following information carefully and answer the question given below:\nTwelve persons are sitting in two parallel rows of six people each. In Row 1, A, B, C, D, E, and F are seated\nand facing north. In Row 2, P , Q, R, S, T , and U are seated and facing south but not necessarily in the same\norder.\nF sits at an end and faces T. One person sits between C and F. C sits to the immediate left of E. R faces the\nimmediate neighbor of C. R sits second to the left of Q. Q does not sit at the end of the row. B sits second\nto the right of A. The one who faces B sits immediate right of P . S sits exactly between Q and U.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Both I and II",
+        "Both I and III",
+        "Only III",
+        "Only I",
+        "All I, II and III"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -124,9 +124,9 @@
       "options": [
         "Six",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "Five"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Six Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Six holds true.",
@@ -160,9 +160,9 @@
       "options": [
         "Nine",
         "Eight",
-        "Six",
-        "Option D",
-        "Option E"
+        "Seven",
+        "Five",
+        "Six"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -176,11 +176,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "The number of floors below the floor on which R lives is same as the number of floors between the\nfloors on which ______ and ______ lives.\nRead the given information carefully and answer the related questions:\nTen persons – J, K, L, M, N, O, P , Q, R and S – live on ten different floors (but not necessarily in the same\norder) of a ten - floor building where the floors are numbered 1 to 10 (from bottom to top respectively).\nK lives on an even - numbered floor but not on the 2nd and 10th floors. Only three persons live between\nK and J. There are exactly two floors between O and K. J lives on one of the top three floors. P lives\nimmediately above O. M lives on a floor just above S's floor. N lives above K below M. M doesn’t live on\nthe topmost floor. More than two persons live between R and Q. Q doesn’t live on an odd - numbered floor.",
       "options": [
-        "L and S /L S",
-        "J and M /J M",
-        "Q and S /Q S",
-        "K and P /K P",
-        "Option E"
+        "L and S",
+        "J and M",
+        "Q and S",
+        "K and P",
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) L and S /L S Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) L and S /L S holds true.",
@@ -194,11 +194,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "Which among the following statement is/are correct?\nRead the given information carefully and answer the related questions:\nTen persons – J, K, L, M, N, O, P , Q, R and S – live on ten different floors (but not necessarily in the same\norder) of a ten - floor building where the floors are numbered 1 to 10 (from bottom to top respectively).\nK lives on an even - numbered floor but not on the 2nd and 10th floors. Only three persons live between\nK and J. There are exactly two floors between O and K. J lives on one of the top three floors. P lives\nimmediately above O. M lives on a floor just above S's floor. N lives above K below M. M doesn’t live on\nthe topmost floor. More than two persons live between R and Q. Q doesn’t live on an odd - numbered floor.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "L lives on the topmost floor",
+        "O lives on the bottom-most floor",
+        "K lives on a floor below the floor on which R lives",
+        "J doesn’t live on eighth floor",
+        "M lives on a floor above the floor on which Q lives"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -249,10 +249,10 @@
       "stem": "How many persons sit between S and L?\nStudy the following information carefully and answer the question given below:\nA certain number of people are sitting in a row facing north. P sits 5th to the right of Q and sits 2nd to\nthe left of R. Four persons sit between R and T. Four persons sit between T and U. O is an immediate\nneighbor of R and sits third to the right of S. S sits to the right of U. L sits fifth to the right of O. The\nnumber of persons sitting to the right of L is one less than the number of persons sitting to the left of Q.\nNot more than seven persons sit to the right of O.",
       "options": [
         "Six",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "Seven",
+        "Five"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -266,11 +266,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Who sits fourth to the left of the person who sits second to the left of S?\nStudy the following information carefully and answer the question given below:\nA certain number of people are sitting in a row facing north. P sits 5th to the right of Q and sits 2nd to\nthe left of R. Four persons sit between R and T. Four persons sit between T and U. O is an immediate\nneighbor of R and sits third to the right of S. S sits to the right of U. L sits fifth to the right of O. The\nnumber of persons sitting to the right of L is one less than the number of persons sitting to the left of Q.\nNot more than seven persons sit to the right of O.",
       "options": [
+        "The person who sits immediate left of Q",
         "U",
         "T",
-        "P",
-        "Option D",
-        "Option E"
+        "The person who sits immediate right of Q",
+        "P"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) T Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) T holds true.",
@@ -288,7 +288,7 @@
         "D",
         "C",
         "B",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) A Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) A holds true.",
@@ -302,11 +302,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "Who among the following is an immediate neighbor of B?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — are sitting around a circular table, facing the center.\nEach person owns a different vehicle: Car, Bike, Bus, Truck, Scooter, Bicycle, and Jeep but not necessarily\nin the same order.\nC sits third to the right of the person who owns the Truck. A is an immediate neighbor of C. A sits second\nto the left of E, who owns bus. The one who owns bicycle sits immediate left of A. D sits second to the\nleft of the one who owns bicycle. F owns the Scooter and sits second to the left of B. The one who owns\njeep sits immediate left of G. G doesn’t like bike.",
       "options": [
+        "The one who owns Scooter",
+        "The one who owns Bicycle",
         "D",
         "G",
-        "Option C",
-        "Option D",
-        "Option E"
+        "The one who owns bike"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -320,11 +320,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "How many persons sit between A and the person who owns Jeep when counted in clockwise\ndirection from A?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — are sitting around a circular table, facing the center.\nEach person owns a different vehicle: Car, Bike, Bus, Truck, Scooter, Bicycle, and Jeep but not necessarily\nin the same order.\nC sits third to the right of the person who owns the Truck. A is an immediate neighbor of C. A sits second\nto the left of E, who owns bus. The one who owns bicycle sits immediate left of A. D sits second to the\nleft of the one who owns bicycle. F owns the Scooter and sits second to the left of B. The one who owns\njeep sits immediate left of G. G doesn’t like bike.",
       "options": [
+        "Three",
         "Two",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Four",
+        "None"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) One Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) One holds true.",
@@ -338,11 +338,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "Which of the following combination is/are definitely correct?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — are sitting around a circular table, facing the center.\nEach person owns a different vehicle: Car, Bike, Bus, Truck, Scooter, Bicycle, and Jeep but not necessarily\nin the same order.\nC sits third to the right of the person who owns the Truck. A is an immediate neighbor of C. A sits second\nto the left of E, who owns bus. The one who owns bicycle sits immediate left of A. D sits second to the\nleft of the one who owns bicycle. F owns the Scooter and sits second to the left of B. The one who owns\njeep sits immediate left of G. G doesn’t like bike.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "B-truck",
+        "G-car",
+        "C- jeep",
+        "D-bike",
+        "Both [a] and [b]"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -356,11 +356,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "What is the position of G with respect to the one who owns scooter?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — are sitting around a circular table, facing the center.\nEach person owns a different vehicle: Car, Bike, Bus, Truck, Scooter, Bicycle, and Jeep but not necessarily\nin the same order.\nC sits third to the right of the person who owns the Truck. A is an immediate neighbor of C. A sits second\nto the left of E, who owns bus. The one who owns bicycle sits immediate left of A. D sits second to the\nleft of the one who owns bicycle. F owns the Scooter and sits second to the left of B. The one who owns\njeep sits immediate left of G. G doesn’t like bike.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Fourth to the left",
+        "Third to the right",
+        "Second to the left",
+        "Third to the left",
+        "Second to the right"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -376,9 +376,9 @@
       "options": [
         "One",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "More than four"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -392,11 +392,11 @@
       "topic": "Blood Relations",
       "stem": "How many persons secured rank lower than L?\nStudy the following information carefully and answer the question given below:\nSeven friends – L, M, N, O, P , Q, and R – participated in a cooking competition and secured different rank,\nbut not necessarily in the same order.\nN ranked immediately higher than M but lower than L. Only two participants ranked between L and Q.\nP ranked higher than L but lower than O. Q ranked higher than O. M is not secured lower rank.",
       "options": [
+        "Three",
+        "Four",
         "One",
-        "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Five",
+        "Two"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
@@ -410,11 +410,11 @@
       "topic": "Syllogism",
       "stem": "Which among the following statements is/are not true?\nI. Q secured rank higher than O.\nII. Two persons secured rank lower than L.\nIII. R did not secure the least rank.\nStudy the following information carefully and answer the question given below:\nSeven friends – L, M, N, O, P , Q, and R – participated in a cooking competition and secured different rank,\nbut not necessarily in the same order.\nN ranked immediately higher than M but lower than L. Only two participants ranked between L and Q.\nP ranked higher than L but lower than O. Q ranked higher than O. M is not secured lower rank.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Both I and II",
+        "Only III",
+        "Only II",
+        "Both I and III",
+        "Both II and III"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -429,10 +429,10 @@
       "stem": "How many persons secured rank between R and Q?\nStudy the following information carefully and answer the question given below:\nSeven friends – L, M, N, O, P , Q, and R – participated in a cooking competition and secured different rank,\nbut not necessarily in the same order.\nN ranked immediately higher than M but lower than L. Only two participants ranked between L and Q.\nP ranked higher than L but lower than O. Q ranked higher than O. M is not secured lower rank.",
       "options": [
         "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "Five",
+        "None"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -464,11 +464,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "What is the sum of ages of P , K and O?\nStudy the following information carefully and answer the question given below:\nEight persons – J, K, L, M, N, O, P and Q were born in nine different years - 1988, 1991, 1993, 1995, 1999,\n2002, 2007 and 2011, but not necessarily in the same order. The base year is considered here as 2023.\nP is 6 years elder than Q. Two persons were born between Q and K. J is two years younger than P . The\nage difference between J and O is seven years. M is elder than O but younger than N.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "63 years",
+        "66 years",
+        "62 years",
+        "36 years",
+        "64 years"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -482,11 +482,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "How many persons were born between N and L?\nStudy the following information carefully and answer the question given below:\nEight persons – J, K, L, M, N, O, P and Q were born in nine different years - 1988, 1991, 1993, 1995, 1999,\n2002, 2007 and 2011, but not necessarily in the same order. The base year is considered here as 2023.\nP is 6 years elder than Q. Two persons were born between Q and K. J is two years younger than P . The\nage difference between J and O is seven years. M is elder than O but younger than N.",
       "options": [
+        "Three",
+        "Four",
         "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Five",
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -522,7 +522,7 @@
         "L",
         "Q",
         "O",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) M Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) M holds true.",
@@ -536,11 +536,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nSome Spain are burger.\nNo flute is burger.\nOnly a few flute are teacher.\nConclusions:\nI. Some teacher are not burger.\nII. All Spain are flute\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given conclusions definitely logically follows from the given\nstatements, disregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -554,11 +554,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nOnly violin are drums.\nAll salad are pasta.\nSome violin are not pasta.\nConclusions:\nI. Some drums being salad is a possibility.\nII. No salad is drums\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given concl usions definitely logically follows from the given\nstatements, disregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -572,11 +572,11 @@
       "topic": "Puzzles & Seating Arrangement",
       "stem": "Statements:\nNo fire is table.\nOnly a few table is ready.\nAll ready is cyber.\nConclusions:\nI. No cyber is fire\nII. Some cyber is fire.\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given concl usions definitely logically follows from the given\nstatements, disregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -590,11 +590,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nOnly a few common are plan.\nSome plan are else.\nNo else is mapping.\nConclusions:\nI. Some common are else.\nII. Some plan are not mapping.\nIn this question below some statements are given followed by some conclusions. You have to take the\ngiven statements to be true even if they seem to be at variance with commonly known facts. Read all the\nconclusions and then decide which of the given concl usions definitely logically follows from the given\nstatements, disregarding commonly known facts. Give an answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Neither conclusion I nor II follows",
+        "Both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -608,11 +608,11 @@
       "topic": "Blood Relations",
       "stem": "How U is related to W?\nStudy the following information carefully and answer the question given below:\nP is the father of Q, who is the mother of R. S is the wife of P . T is the son of Q. U is the daughter of R. V is\nthe husband of R. W is the father of V. M and W are siblings. S and M are of different genders.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Grandfather",
+        "Daughter-in-law",
+        "Grandmother",
+        "Granddaughter",
+        "Neice"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -626,11 +626,11 @@
       "topic": "Blood Relations",
       "stem": "How many female members are in the family?\nStudy the following information carefully and answer the question given below:\nP is the father of Q, who is the mother of R. S is the wife of P . T is the son of Q. U is the daughter of R. V is\nthe husband of R. W is the father of V. M and W are siblings. S and M are of different genders.",
       "options": [
+        "Four",
+        "Five",
+        "Three",
         "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Can’t be determined"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Two Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Two.",
@@ -680,11 +680,11 @@
       "topic": "Direction Sense",
       "stem": "In which direction is Point M with respect to Point O?\nStudy the following information carefully and answer the questions given below:\nPoint A is 9m east of Point C. Point W is 12m north of Point O. Point B is 10m north of Point A. Point B is\n8m west of Point W and 5m east of Point M. Point M is 6m south of Point Q and 5m north of Point K.\nPoint K is 4m east of Point E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "East",
+        "North-West",
+        "West",
+        "North-East",
+        "South-West"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -698,11 +698,11 @@
       "topic": "Direction Sense",
       "stem": "If Point F is 5m to the north of Point E then in which direction is Point F with respect to Point M?\nStudy the following information carefully and answer the questions given below:\nPoint A is 9m east of Point C. Point W is 12m north of Point O. Point B is 10m north of Point A. Point B is\n8m west of Point W and 5m east of Point M. Point M is 6m south of Point Q and 5m north of Point K.\nPoint K is 4m east of Point E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "East",
+        "South",
+        "North-east",
+        "West",
+        "South-west"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -716,11 +716,11 @@
       "topic": "Direction Sense",
       "stem": "What is the shortest distance between Point A and Point O?\nStudy the following information carefully and answer the questions given below:\nPoint A is 9m east of Point C. Point W is 12m north of Point O. Point B is 10m north of Point A. Point B is\n8m west of Point W and 5m east of Point M. Point M is 6m south of Point Q and 5m north of Point K.\nPoint K is 4m east of Point E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "64m",
+        "68m",
+        "√68m",
+        "8m",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -734,11 +734,11 @@
       "topic": "Blood Relations",
       "stem": "In the given word ‘ PROBLEMS’, if all the vowels are replaced by their immediate next letter and all\nthe consonants are replaced by their immediate previous letter then, how many letters are repeated in\nthe word formed?",
       "options": [
+        "Four",
+        "None",
+        "Three",
         "Two",
-        "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "One"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) One Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
@@ -762,8 +762,7 @@
       "explanation": "Correct Answer: (a) 5600 Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 5600.",
       "sourceQuestionNumber": 41,
       "diagrams": [
-        "data/diagrams/adda-08_page24_Image120.png",
-        "data/diagrams/adda-08_page25_Image125.png"
+        "data/diagrams/adda-08_page24_Image120.png"
       ],
       "diagramCaption": "Physics & Chemistry Student Distribution (Table)"
     },
@@ -784,8 +783,7 @@
       "explanation": "Correct Answer: (b) 24% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 24%.",
       "sourceQuestionNumber": 42,
       "diagrams": [
-        "data/diagrams/adda-08_page24_Image120.png",
-        "data/diagrams/adda-08_page25_Image125.png"
+        "data/diagrams/adda-08_page24_Image120.png"
       ],
       "diagramCaption": "Physics & Chemistry Student Distribution (Table)"
     },
@@ -806,8 +804,7 @@
       "explanation": "Correct Answer: (d) 3000 Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 3000.",
       "sourceQuestionNumber": 43,
       "diagrams": [
-        "data/diagrams/adda-08_page24_Image120.png",
-        "data/diagrams/adda-08_page25_Image125.png"
+        "data/diagrams/adda-08_page24_Image120.png"
       ],
       "diagramCaption": "Physics & Chemistry Student Distribution (Table)"
     },
@@ -828,8 +825,7 @@
       "explanation": "Correct Answer: (b) 10 : 9 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 10 : 9.",
       "sourceQuestionNumber": 44,
       "diagrams": [
-        "data/diagrams/adda-08_page24_Image120.png",
-        "data/diagrams/adda-08_page25_Image125.png"
+        "data/diagrams/adda-08_page24_Image120.png"
       ],
       "diagramCaption": "Physics & Chemistry Student Distribution (Table)"
     },
@@ -850,8 +846,7 @@
       "explanation": "Correct Answer: (c) 525% Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 525%.",
       "sourceQuestionNumber": 45,
       "diagrams": [
-        "data/diagrams/adda-08_page24_Image120.png",
-        "data/diagrams/adda-08_page25_Image125.png"
+        "data/diagrams/adda-08_page24_Image120.png"
       ],
       "diagramCaption": "Physics & Chemistry Student Distribution (Table)"
     },
@@ -872,10 +867,9 @@
       "explanation": "Correct Answer: (b) 280 Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 280.",
       "sourceQuestionNumber": 46,
       "diagrams": [
-        "data/diagrams/adda-08_page26_Image130.png",
-        "data/diagrams/adda-08_page27_Image135.png"
+        "data/diagrams/adda-08_page26_Image130.png"
       ],
-      "diagramCaption": "Villages Total Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Total Population Distribution (Pie Chart)"
     },
     {
       "id": "adda-08-q047",
@@ -894,10 +888,9 @@
       "explanation": "Correct Answer: (a) 19:18 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 19:18.",
       "sourceQuestionNumber": 47,
       "diagrams": [
-        "data/diagrams/adda-08_page26_Image130.png",
-        "data/diagrams/adda-08_page27_Image135.png"
+        "data/diagrams/adda-08_page26_Image130.png"
       ],
-      "diagramCaption": "Villages Total Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Total Population Distribution (Pie Chart)"
     },
     {
       "id": "adda-08-q048",
@@ -916,10 +909,9 @@
       "explanation": "Correct Answer: (d) 71 (3/7)% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 71 (3/7)%.",
       "sourceQuestionNumber": 48,
       "diagrams": [
-        "data/diagrams/adda-08_page26_Image130.png",
-        "data/diagrams/adda-08_page27_Image135.png"
+        "data/diagrams/adda-08_page26_Image130.png"
       ],
-      "diagramCaption": "Villages Total Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Total Population Distribution (Pie Chart)"
     },
     {
       "id": "adda-08-q049",
@@ -938,10 +930,9 @@
       "explanation": "Correct Answer: (a) 40 Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40.",
       "sourceQuestionNumber": 49,
       "diagrams": [
-        "data/diagrams/adda-08_page26_Image130.png",
-        "data/diagrams/adda-08_page27_Image135.png"
+        "data/diagrams/adda-08_page26_Image130.png"
       ],
-      "diagramCaption": "Villages Total Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Total Population Distribution (Pie Chart)"
     },
     {
       "id": "adda-08-q050",
@@ -960,10 +951,9 @@
       "explanation": "Correct Answer: (b) 126 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 126.",
       "sourceQuestionNumber": 50,
       "diagrams": [
-        "data/diagrams/adda-08_page26_Image130.png",
-        "data/diagrams/adda-08_page27_Image135.png"
+        "data/diagrams/adda-08_page26_Image130.png"
       ],
-      "diagramCaption": "Villages Total Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Total Population Distribution (Pie Chart)"
     },
     {
       "id": "adda-08-q051",
@@ -972,11 +962,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In the following question, two equations are given. Solve these equations, and answer the question given\nbelow.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "if x > y",
+        "if y > x",
+        "if x ≥ y",
+        "if y ≥ x",
+        "if x = y or no relation can be established between x and y"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -995,9 +985,9 @@
       "options": [
         "x > y",
         "x ≤ y",
+        "x = y or no relation can be established",
         "x < y",
-        "x ≥ y",
-        "Option E"
+        "x ≥ y"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1018,7 +1008,7 @@
         "x > y",
         "x ≤ y",
         "x ≥ y",
-        "Option E"
+        "x = y or no relation"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) x < y Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x < y.",
@@ -1039,7 +1029,7 @@
         "x > y",
         "x ≤ y",
         "x ≥ y",
-        "Option E"
+        "x = y or no relation"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1056,11 +1046,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of these questions, two equations are given. You have to solve both the equations and give\nanswer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x > y",
+        "If x ≥ y",
+        "If x < y",
+        "If x ≤ y",
+        "If x = y or relationship between x and y cannot be established"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1077,11 +1067,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of the following questions two equations are given. Solve these equations and give answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x>y",
+        "If x≥y",
+        "𝐼𝑓𝑥 < 𝑦",
+        "If x≤y",
+        "If x = y or no relation can be established between x and y"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1434,11 +1424,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "Vessel A contains mixture of milk and water in the ratio of 2: 3 respectively. When 30 liters of\nmixture taken out and 3 liters of water is added into remaining mixture, then the ratio of milk to water\nin the resultant mixture becomes 3: 5. Find the quantity of water in the mixture initially.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "75 liters",
+        "30 liters",
+        "45 liters",
+        "60 liters",
+        "15 liters"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1470,11 +1460,11 @@
       "topic": "Simplification & Approximation",
       "stem": "Seven years ago, Average age of Ram, Shyam and Rohan was 45 years. Ratio of present age of Ram\nto Rohan is 2:3. Shyam is 5 years younger to Ram. What is the sum of Ram’s age 6 years ago and Shyam’s\nage 8 years hence?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "95 years",
+        "89 years",
+        "78 years",
+        "72 years",
+        "99 years"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -1488,11 +1478,11 @@
       "topic": "Profit & Loss",
       "stem": "A shopkeeper buys 200 books at the cost of Rs.14000. He sold 50 books as a compliment for\npublicity and rest he marked up by 80% above the cost price. If he gives a discount of Rs.26 on each\nbook, then find the total profit earned by him.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Rs.1500",
+        "Rs.1000",
+        "Rs.2000",
+        "Rs.2500",
+        "Rs.3000"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Profit & Loss\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -1524,11 +1514,11 @@
       "topic": "Simplification & Approximation",
       "stem": "Two inlet pipes A and B and one outlet pipe C connected to a tank. In a minute, part of tank filled\nby pipes A and C together is 30% that of filled by pipes B and C together. Find the time taken by pipe A\nalone to fill the tank?\nStatement I: Time taken by pipe B alone to fill the tank is 5 minutes.\nStatement II: Ratio of efficiency of pipe A to pipe C is 5: 2.\nThe following questions are accompany by two statements i. e. statement (I) and statement (II). You\nhave to determine which statement (s) is/are sufficient/necessary to answer the questions.",
       "options": [
-        "Statement (II) alone is sufficient to answer the question but statement (I) alone is not sufficient to",
-        "Both the statements taken together are necessary to answer the questions, but neither of the",
-        "Statement (I) alone is sufficient to answer the question but statement (II) alone is not sufficient to",
-        "Option D",
-        "Option E"
+        "Neither statement",
+        "Statement",
+        "Either statement",
+        "Both the statements taken together are necessary to answer the questions, but neither of the statements alone is sufficient to answer the question",
+        "Statement"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",

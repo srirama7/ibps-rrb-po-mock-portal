@@ -32,11 +32,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of M with respect to G?\nRead the given information carefully and answer the questions based on it:\nA certain number of persons sit in a row facing north. Five persons sit between P and Q. M sits third to\nthe right of Q and fourth from an end. The number of persons sit between H and M is same as the number\nof persons sit between Q and M. Four persons sit between B and H. D sits sixth to the left of B and third\nfrom an end. G sits fourth to the right of F who sits between D and Q.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Immediate left",
+        "Second to the left",
+        "Fourth to the left",
+        "Second to the right",
+        "Immediate right"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -71,8 +71,8 @@
         "19",
         "17",
         "13",
-        "14",
-        "Option E"
+        "None of these",
+        "14"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -104,11 +104,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which of the following is true about B?\nI. Five persons sit to the right of B\nII. No one sits between B and M\nIII. P sits seventh to the left of B\nRead the given information carefully and answer the questions based on it:\nA certain number of persons sit in a row facing north. Five persons sit between P and Q. M sits third to\nthe right of Q and fourth from an end. The number of persons sit between H and M is same as the number\nof persons sit between Q and M. Four persons sit between B and H. D sits sixth to the left of B and third\nfrom an end. G sits fourth to the right of F who sits between D and Q.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only I",
+        "Only II",
+        "Only III",
+        "Only I and II",
+        "Only I and III"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -122,11 +122,11 @@
       "topic": "Alphanumeric & Word Formation",
       "stem": "If 2 is subtracted from each even digit and 1 is subtracted from each odd digit in the number\n“463278293” , then which of the following digits will appear more than twice in the new number thus\nformed?",
       "options": [
-        "6, 8 and 2/6, 8 2",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only 6",
+        "Only 6 and 2",
+        "Only 2",
+        "6, 8 and 2",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -140,11 +140,11 @@
       "topic": "Alphanumeric & Word Formation",
       "stem": "In the word ‘RESIDUAL’, how many pairs of the letters have the same number of letters\nbetween them (both forward and backward direction) in the word as in the alphabet?",
       "options": [
+        "Four",
         "Two",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "None"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -158,11 +158,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Who among the following person was born on 22nd January?\nStudy the following information carefully and answer the questions given below:\nEight persons - M, N, O, P, Q, R, S and T were born on the 15th and 22nd of the months January, April, July\nand September of the same year, but not necessarily in the same order. No two persons were born on\nthe same date of the same month.\nR was born on even number date in the month having odd number of days. Four persons were born\nbetween R and N. N was born before S. Q was born three persons before S. M and S was not born in the\nmonth of July. As many persons were born before M as after Q. Only one person was born between M\nand T. O was born before P but after T.",
       "options": [
+        "The one who was born immediately before M",
+        "The one who was born three persons before Q",
         "Q",
         "R",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) R Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) R holds true.",
@@ -176,11 +176,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "How many persons were born between T and P?\nStudy the following information carefully and answer the questions given below:\nEight persons - M, N, O, P, Q, R, S and T were born on the 15th and 22nd of the months January, April, July\nand September of the same year, but not necessarily in the same order. No two persons were born on\nthe same date of the same month.\nR was born on even number date in the month having odd number of days. Four persons were born\nbetween R and N. N was born before S. Q was born three persons before S. M and S was not born in the\nmonth of July. As many persons were born before M as after Q. Only one person was born between M\nand T. O was born before P but after T.",
       "options": [
+        "Five",
         "One",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -216,7 +216,7 @@
         "P",
         "R",
         "S",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) R Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) R holds true.",
@@ -230,11 +230,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which of the following statements is/are true?\nStudy the following information carefully and answer the questions given below:\nEight persons - M, N, O, P, Q, R, S and T were born on the 15th and 22nd of the months January, April, July\nand September of the same year, but not necessarily in the same order. No two persons were born on\nthe same date of the same month.\nR was born on even number date in the month having odd number of days. Four persons were born\nbetween R and N. N was born before S. Q was born three persons before S. M and S was not born in the\nmonth of July. As many persons were born before M as after Q. Only one person was born between M\nand T. O was born before P but after T.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "N was born after Q",
+        "T was born on 15th July",
+        "M was born in the month of April",
+        "Five persons were born between R and S",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -248,11 +248,11 @@
       "topic": "Direction Sense",
       "stem": "In which direction is Point G with respect to Point A?\nStudy the following information carefully and answer the questions given below:\nNivedita started walking from Point A in the north direction for 8m and reached Point B. From Point B\nshe turned left and walked for 7m and reached Point C. From Point C she turned right and walked for\n5m and reached Point D. From Point D she turned left and walked for 10m and reached Point E. From\nPoint E she turned left and walked for 13m and reached Point F. From Point F she turned left and walked\nfor 8m and reached Point G.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "South",
+        "East",
+        "West",
+        "South-West",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -266,11 +266,11 @@
       "topic": "Direction Sense",
       "stem": "What is the total distance travelled from Point G to Point C?\nStudy the following information carefully and answer the questions given below:\nNivedita started walking from Point A in the north direction for 8m and reached Point B. From Point B\nshe turned left and walked for 7m and reached Point C. From Point C she turned right and walked for\n5m and reached Point D. From Point D she turned left and walked for 10m and reached Point E. From\nPoint E she turned left and walked for 13m and reached Point F. From Point F she turned left and walked\nfor 8m and reached Point G.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "28m",
+        "30m",
+        "32m",
+        "36m",
+        "34m"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -284,11 +284,11 @@
       "topic": "Direction Sense",
       "stem": "If Point M is 6m to the east of Point A then what is the shortest distance travelled between Point B\nand Point M?\nStudy the following information carefully and answer the questions given below:\nNivedita started walking from Point A in the north direction for 8m and reached Point B. From Point B\nshe turned left and walked for 7m and reached Point C. From Point C she turned right and walked for\n5m and reached Point D. From Point D she turned left and walked for 10m and reached Point E. From\nPoint E she turned left and walked for 13m and reached Point F. From Point F she turned left and walked\nfor 8m and reached Point G.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "12m",
+        "10m",
+        "14m",
+        "16m",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -321,10 +321,10 @@
       "stem": "How many boxes are placed between box D and box F?\nRead the given information carefully and answer the questions based on it:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above the other in a stack (but not necessarily in the\nsame order as given). The boxes are numbered as 1 to 9 from bottom to top.\nFive boxes are placed between box B and box G. Box E is placed just below box G. Three boxes are placed\nbetween box E and box H. Box I is placed just below box H but above box D which is a prime numbered\nbox. Box C is placed above box A but does not place on topmost position.",
       "options": [
         "Two",
-        "Six",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "Five",
+        "Six"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -338,11 +338,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which box is placed exactly between box A and box G?\nRead the given information carefully and answer the questions based on it:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above the other in a stack (but not necessarily in the\nsame order as given). The boxes are numbered as 1 to 9 from bottom to top.\nFive boxes are placed between box B and box G. Box E is placed just below box G. Three boxes are placed\nbetween box E and box H. Box I is placed just below box H but above box D which is a prime numbered\nbox. Box C is placed above box A but does not place on topmost position.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Box H",
+        "Box I",
+        "Box D",
+        "Box C",
+        "Box E"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -356,11 +356,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which of the following is correct?\nRead the given information carefully and answer the questions based on it:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above the other in a stack (but not necessarily in the\nsame order as given). The boxes are numbered as 1 to 9 from bottom to top.\nFive boxes are placed between box B and box G. Box E is placed just below box G. Three boxes are placed\nbetween box E and box H. Box I is placed just below box H but above box D which is a prime numbered\nbox. Box C is placed above box A but does not place on topmost position.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Box F and box H are adjacent to each other",
+        "Box E is placed at bottommost position",
+        "All are correct",
+        "Four boxes are placed below box I",
+        "Box C is placed at even number position"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -374,11 +374,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which box is placed immediately below box I?\nRead the given information carefully and answer the questions based on it:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above the other in a stack (but not necessarily in the\nsame order as given). The boxes are numbered as 1 to 9 from bottom to top.\nFive boxes are placed between box B and box G. Box E is placed just below box G. Three boxes are placed\nbetween box E and box H. Box I is placed just below box H but above box D which is a prime numbered\nbox. Box C is placed above box A but does not place on topmost position.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Box D",
+        "Box G",
+        "Box H",
+        "Box F",
+        "Box C"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -392,11 +392,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nAll sky are water.\nSome water is not blue.\nOnly a few blue is rain.\nConclusions:\nI. Some blue is not rain.\nII. All sky can be rain.\nIn the questions below, some statements are followed by some conclusions. You have to assume\neverything in the statement to be true even if they seem to be at variance with commonly known facts.\nRead all the statements and decide which conclusion will logically follow from the given statements\ndisregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -410,11 +410,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Statements:\nAll chair are black.\nOnly a few black are leather.\nOnly leather is brown.\nConclusions:\nI. Some brown being chair is a possibility.\nII. No black is brown.\nIn the questions below, some statements are followed by some conclusions. You have to assume\neverything in the statement to be true even if they seem to be at variance with commonly known facts.\nRead all the statements and decide which conclusion will logically follow from the given statements\ndisregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -428,11 +428,11 @@
       "topic": "Syllogism",
       "stem": "Statements:\nNo tower is wave.\nAll wave is green.\nOnly a few green is plant.\nConclusions:\nI. No wave is plant.\nII. Some plant is not tower.\nIn the questions below, some statements are followed by some conclusions. You have to assume\neverything in the statement to be true even if they seem to be at variance with commonly known facts.\nRead all the statements and decide which conclusion will logically follow from the given statements\ndisregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
@@ -446,11 +446,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "How many persons sit between H and G when counted to the right of G?\nRead the given information carefully and answer the questions based on it:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not necessarily in the same order as\ngiven. Four persons face inside and four face outside.\nE sits second to the right of A who faces inside. Two persons sit between E and F who faces opposite\ndirection as A. Three persons sit between G and C who doesn’t sit adjacent to A. Immediate neighbors\nof G face same direction. H sits third to the right of D who faces same direction as A. B faces same\ndirection as E but does not sit adjacent to F.",
       "options": [
+        "None",
         "One",
-        "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "Two"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -464,11 +464,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "What is the position of E with respect to C?\nRead the given information carefully and answer the questions based on it:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not necessarily in the same order as\ngiven. Four persons face inside and four face outside.\nE sits second to the right of A who faces inside. Two persons sit between E and F who faces opposite\ndirection as A. Three persons sit between G and C who doesn’t sit adjacent to A. Immediate neighbors\nof G face same direction. H sits third to the right of D who faces same direction as A. B faces same\ndirection as E but does not sit adjacent to F.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Fourth to the left",
+        "Immediate left",
+        "Fifth to the right",
+        "Third to the right",
+        "Immediate right"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -482,11 +482,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "Which of the following is true about F?\nI. F faces outside.\nII. Three persons sit between F and D.\nIII. B sits immediate right of F.\nRead the given information carefully and answer the questions based on it:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not necessarily in the same order as\ngiven. Four persons face inside and four face outside.\nE sits second to the right of A who faces inside. Two persons sit between E and F who faces opposite\ndirection as A. Three persons sit between G and C who doesn’t sit adjacent to A. Immediate neighbors\nof G face same direction. H sits third to the right of D who faces same direction as A. B faces same\ndirection as E but does not sit adjacent to F.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only I and III",
+        "Only II",
+        "Only I and II",
+        "Only III",
+        "Only II and III"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -554,11 +554,11 @@
       "topic": "Syllogism",
       "stem": "Statements: H > I = J ≥ K < N, L ≤ N = M < P ≤ Q\nConclusions:\nI. P > K\nII. L ≤ Q\nI. P > K\nII. L ≤ Q\nIn each of the questions, relationships between some elements are shown in the statements. These\nstatements are followed by conclusions numbered I and II. Read the statements and give the answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -572,11 +572,11 @@
       "topic": "Syllogism",
       "stem": "Statements: M ≥ N > O > P ≥ R, Q ≤ O = L > S\nConclusions:\nI. S < M\nII. L > R\nI. S < M\nII. L > R\nIn each of the questions, relationships between some elements are shown in the statements. These\nstatements are followed by conclusions numbered I and II. Read the statements and give the answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
@@ -590,11 +590,11 @@
       "topic": "Syllogism",
       "stem": "Statements: D ≤ E > F > G = H < I, H ≥ K < Z = U\nConclusions:\nI. F > Z\nII. D < I\nI. F > Z\nII. D < I\nIn each of the questions, relationships between some elements are shown in the statements. These\nstatements are followed by conclusions numbered I and II. Read the statements and give the answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -608,11 +608,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Who among the following persons likes Pink Colour?\nStudy the following information carefully and answer the questions given below:\nSeven persons - B, C, D, E, F, G and H sit in a linear row and face north. Each one of them likes different\ncolour - Pink, Green, Red, Yellow, White, Blue and Grey.\nF sits third to the right of the one who likes Yellow colour. Three persons sit between the one who likes\nYellow colour and the one who likes White colour. Only one person sits between the one who likes white\ncolour and D. G sits fourth to the left of D and likes Red colour. The one who likes Grey colour is the\nimmediate neighbour of G. F doesn’t like Grey colour. Three persons sit between the one who likes Grey\ncolour and H. The one who sits second to the left of H likes Green Colour. Two persons sit between the\none who likes Green colour and B. H doesn’t like Blue colour. C is not an immediate neighbour of G.",
       "options": [
+        "The who sits second to the left of C",
         "C",
         "H",
-        "Option C",
-        "Option D",
-        "Option E"
+        "The one who sit second to the right of E",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -626,11 +626,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "How many persons sit between E and the one who likes Blue?\nStudy the following information carefully and answer the questions given below:\nSeven persons - B, C, D, E, F, G and H sit in a linear row and face north. Each one of them likes different\ncolour - Pink, Green, Red, Yellow, White, Blue and Grey.\nF sits third to the right of the one who likes Yellow colour. Three persons sit between the one who likes\nYellow colour and the one who likes White colour. Only one person sits between the one who likes white\ncolour and D. G sits fourth to the left of D and likes Red colour. The one who likes Grey colour is the\nimmediate neighbour of G. F doesn’t like Grey colour. Three persons sit between the one who likes Grey\ncolour and H. The one who sits second to the left of H likes Green Colour. Two persons sit between the\none who likes Green colour and B. H doesn’t like Blue colour. C is not an immediate neighbour of G.",
       "options": [
+        "None",
         "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "More than three",
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -644,11 +644,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which of the following pairs of persons sit at the ends of the row?\nStudy the following information carefully and answer the questions given below:\nSeven persons - B, C, D, E, F, G and H sit in a linear row and face north. Each one of them likes different\ncolour - Pink, Green, Red, Yellow, White, Blue and Grey.\nF sits third to the right of the one who likes Yellow colour. Three persons sit between the one who likes\nYellow colour and the one who likes White colour. Only one person sits between the one who likes white\ncolour and D. G sits fourth to the left of D and likes Red colour. The one who likes Grey colour is the\nimmediate neighbour of G. F doesn’t like Grey colour. Three persons sit between the one who likes Grey\ncolour and H. The one who sits second to the left of H likes Green Colour. Two persons sit between the\none who likes Green colour and B. H doesn’t like Blue colour. C is not an immediate neighbour of G.",
       "options": [
-        "G and D/ G D",
-        "B and G/ B G",
-        "Option C",
-        "Option D",
-        "Option E"
+        "G and D",
+        "The one who like white colour and G",
+        "H and the one who likes blue colour",
+        "B and G",
+        "B and the one who like Blue colour"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -662,11 +662,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which among the following colour does C likes?\nStudy the following information carefully and answer the questions given below:\nSeven persons - B, C, D, E, F, G and H sit in a linear row and face north. Each one of them likes different\ncolour - Pink, Green, Red, Yellow, White, Blue and Grey.\nF sits third to the right of the one who likes Yellow colour. Three persons sit between the one who likes\nYellow colour and the one who likes White colour. Only one person sits between the one who likes white\ncolour and D. G sits fourth to the left of D and likes Red colour. The one who likes Grey colour is the\nimmediate neighbour of G. F doesn’t like Grey colour. Three persons sit between the one who likes Grey\ncolour and H. The one who sits second to the left of H likes Green Colour. Two persons sit between the\none who likes Green colour and B. H doesn’t like Blue colour. C is not an immediate neighbour of G.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Pink",
+        "Grey",
+        "Blue",
+        "White",
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -680,11 +680,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of the one who likes Green colour with respect to D?\nStudy the following information carefully and answer the questions given below:\nSeven persons - B, C, D, E, F, G and H sit in a linear row and face north. Each one of them likes different\ncolour - Pink, Green, Red, Yellow, White, Blue and Grey.\nF sits third to the right of the one who likes Yellow colour. Three persons sit between the one who likes\nYellow colour and the one who likes White colour. Only one person sits between the one who likes white\ncolour and D. G sits fourth to the left of D and likes Red colour. The one who likes Grey colour is the\nimmediate neighbour of G. F doesn’t like Grey colour. Three persons sit between the one who likes Grey\ncolour and H. The one who sits second to the left of H likes Green Colour. Two persons sit between the\none who likes Green colour and B. H doesn’t like Blue colour. C is not an immediate neighbour of G.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Second to the right",
+        "Third to the right",
+        "Third to the left",
+        "Second to the left",
+        "Immediate right"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -698,11 +698,11 @@
       "topic": "Blood Relations",
       "stem": "How many female members are there in the family?\nStudy the following information carefully and answer the questions given below:\nThere are eight members in a family: S, T, U, V, W, X, Y and Z. The family has three generations in the\nfamily. There is no single parent in the family. U is the brother of W who is the father of V. Z is the paternal\ngrandfather of V. S is the mother - in - law of Y. T is the only son of Y. X is the sister of Z.",
       "options": [
+        "Three",
         "Two",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Four",
+        "Five",
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -716,11 +716,11 @@
       "topic": "Blood Relations",
       "stem": "Who among the following is the niece of U?\nStudy the following information carefully and answer the questions given below:\nThere are eight members in a family: S, T, U, V, W, X, Y and Z. The family has three generations in the\nfamily. There is no single parent in the family. U is the brother of W who is the father of V. Z is the paternal\ngrandfather of V. S is the mother - in - law of Y. T is the only son of Y. X is the sister of Z.",
       "options": [
+        "None of these",
         "T",
         "S",
         "X",
-        "V",
-        "Option E"
+        "V"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -734,11 +734,11 @@
       "topic": "Blood Relations",
       "stem": "How is S related to T?\nStudy the following information carefully and answer the questions given below:\nThere are eight members in a family: S, T, U, V, W, X, Y and Z. The family has three generations in the\nfamily. There is no single parent in the family. U is the brother of W who is the father of V. Z is the paternal\ngrandfather of V. S is the mother - in - law of Y. T is the only son of Y. X is the sister of Z.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Mother",
+        "Grandmother",
+        "Daughter",
+        "Aunt",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -765,7 +765,7 @@
         "data/diagrams/adda-07_page25_Image124.png",
         "data/diagrams/adda-07_page26_Image129.png"
       ],
-      "diagramCaption": "Villages Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"
     },
     {
       "id": "adda-07-q042",
@@ -787,7 +787,7 @@
         "data/diagrams/adda-07_page25_Image124.png",
         "data/diagrams/adda-07_page26_Image129.png"
       ],
-      "diagramCaption": "Villages Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"
     },
     {
       "id": "adda-07-q043",
@@ -809,7 +809,7 @@
         "data/diagrams/adda-07_page25_Image124.png",
         "data/diagrams/adda-07_page26_Image129.png"
       ],
-      "diagramCaption": "Villages Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"
     },
     {
       "id": "adda-07-q044",
@@ -831,7 +831,7 @@
         "data/diagrams/adda-07_page25_Image124.png",
         "data/diagrams/adda-07_page26_Image129.png"
       ],
-      "diagramCaption": "Villages Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"
     },
     {
       "id": "adda-07-q045",
@@ -853,7 +853,7 @@
         "data/diagrams/adda-07_page25_Image124.png",
         "data/diagrams/adda-07_page26_Image129.png"
       ],
-      "diagramCaption": "Villages Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"
     },
     {
       "id": "adda-07-q046",
@@ -875,7 +875,7 @@
         "data/diagrams/adda-07_page25_Image124.png",
         "data/diagrams/adda-07_page26_Image129.png"
       ],
-      "diagramCaption": "Villages Population Distribution (Pie Charts)"
+      "diagramCaption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"
     },
     {
       "id": "adda-07-q047",
@@ -966,8 +966,7 @@
       "explanation": "Correct Answer: (a) 16.67% Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 16.67%.",
       "sourceQuestionNumber": 51,
       "diagrams": [
-        "data/diagrams/adda-07_page29_Image142.png",
-        "data/diagrams/adda-07_page30_Image147.png"
+        "data/diagrams/adda-07_page29_Image142.png"
       ],
       "diagramCaption": "Cities Population & Males Data (Bar Graph)"
     },
@@ -988,8 +987,7 @@
       "explanation": "Correct Answer: (e) 55 Analysis & Solution:\nTopic: Simple & Compound Interest\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 55.",
       "sourceQuestionNumber": 52,
       "diagrams": [
-        "data/diagrams/adda-07_page29_Image142.png",
-        "data/diagrams/adda-07_page30_Image147.png"
+        "data/diagrams/adda-07_page29_Image142.png"
       ],
       "diagramCaption": "Cities Population & Males Data (Bar Graph)"
     },
@@ -1010,8 +1008,7 @@
       "explanation": "Correct Answer: (a) 14 Analysis & Solution:\nTopic: Simple & Compound Interest\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 14.",
       "sourceQuestionNumber": 53,
       "diagrams": [
-        "data/diagrams/adda-07_page29_Image142.png",
-        "data/diagrams/adda-07_page30_Image147.png"
+        "data/diagrams/adda-07_page29_Image142.png"
       ],
       "diagramCaption": "Cities Population & Males Data (Bar Graph)"
     },
@@ -1032,8 +1029,7 @@
       "explanation": "Correct Answer: (b) 48 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 48.",
       "sourceQuestionNumber": 54,
       "diagrams": [
-        "data/diagrams/adda-07_page29_Image142.png",
-        "data/diagrams/adda-07_page30_Image147.png"
+        "data/diagrams/adda-07_page29_Image142.png"
       ],
       "diagramCaption": "Cities Population & Males Data (Bar Graph)"
     },
@@ -1054,8 +1050,7 @@
       "explanation": "Correct Answer: (e) 23:28 Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 23:28.",
       "sourceQuestionNumber": 55,
       "diagrams": [
-        "data/diagrams/adda-07_page29_Image142.png",
-        "data/diagrams/adda-07_page30_Image147.png"
+        "data/diagrams/adda-07_page29_Image142.png"
       ],
       "diagramCaption": "Cities Population & Males Data (Bar Graph)"
     },
@@ -1066,11 +1061,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "The age of A five years hence is equal to the age of B ten years ago. If the ratio of the ages of A to B\nafter four years is 8:13, then find the sum of the present ages of A and B (in years).",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "35 years",
+        "50 years",
+        "55 years",
+        "20 years",
+        "40 years"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1087,11 +1082,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "A mixture contains milk and water in the ratio of 8:1, respectively. If 27 liters of mixture are\nremoved and 5 liters of water are added to the mixture, then the quantity of milk in the resultant mixture\nbecomes 16 liters. Find the initial quantity of water.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "12 liters",
+        "4 liters",
+        "5 liters",
+        "9 liters",
+        "14 liters"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1255,11 +1250,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and\ngive answer",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x>y",
+        "If x≥y",
+        "If x<y",
+        "If x≤y",
+        "If x = y or no relation can be established between x and y"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1276,11 +1271,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and\ngive answer",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x>y",
+        "If x≥y",
+        "If x<y",
+        "If x≤y",
+        "If x = y or no relation can be established between x and y"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1294,11 +1289,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and\ngive answer",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x>y",
+        "If x≥y",
+        "If x<y",
+        "If x≤y",
+        "If x = y or no relation can be established between x and y"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -1312,11 +1307,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and\ngive answer",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x>y",
+        "If x≥y",
+        "If x<y",
+        "If x≤y",
+        "If x = y or no relation can be established between x and y"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -1330,11 +1325,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "In each of these questions, two equation (I) and (II) are given. You have to solve both the equations and\ngive answer",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If x>y",
+        "If x≥y",
+        "If x<y",
+        "If x≤y",
+        "If x = y or no relation can be established between x and y"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1438,11 +1433,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "A man invested Rs 20000 in two different schemes, i.e., A and B. Schemes A and B offer 10% and\n20% p.a. compound interest respectively for two years. If the ratio of the total amount received by man\nfrom schemes A to B is 11:16, then find the amount invested in the scheme B.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Rs 9000",
+        "Rs 11000",
+        "Rs 14000",
+        "Rs 8000",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -1492,11 +1487,11 @@
       "topic": "Simplification & Approximation",
       "stem": "The cost price of article A is equals to selling price of the article B. if article A is sold at the\nprofit and article B is sold at the 50% profit and the sum of the cost price of article B and selling price\nof article A is Rs. 672, then find the cost price of article A?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Rs. 224",
+        "Rs. 336",
+        "Rs. 380",
+        "Rs. 420",
+        "Rs. 448"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -1510,11 +1505,11 @@
       "topic": "Simplification & Approximation",
       "stem": "The area of a rectangular field having length 128m and breadth 16m is equal to the area of an\nisosceles right - angle triangle. If the radius of a sphere is of the hypotenuse of the isosceles right - angle triangle, then find out the total surface area of sphere?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "512π m2",
+        "343π m2",
+        "580π m2",
+        "494π m2",
+        "500π m2"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1528,11 +1523,11 @@
       "topic": "Simplification & Approximation",
       "stem": "Train A crosses a 230m long platform in 29 seconds and train B crosses a 150m long platform in\n24 seconds. Train B which is 450m long crosses train A in 160 seconds, while running in the same\ndirection. Find how much time will the train A take to cross a 50m long bridge?",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "16 seconds",
+        "22 seconds",
+        "20 seconds",
+        "17 seconds",
+        "25 seconds"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",

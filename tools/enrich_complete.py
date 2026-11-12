@@ -5,7 +5,8 @@ DATA_DIR = os.path.join(REPO_ROOT, "data")
 DIAGRAMS_DIR = os.path.join(DATA_DIR, "diagrams")
 LICENSED_DIR = os.path.join(DATA_DIR, "licensed_adda")
 
-# Verified diagram & chart mappings for all papers
+# Clean, strictly verified diagram & chart mappings for all papers
+# 1 image per single-chart/formula question; 2 images ONLY for legitimate dual charts (Pie Chart I & II)
 DIAGRAM_MAPPINGS = {
     "adda-01": [
         {"range": (76, 80), "images": ["data/diagrams/adda-01_page24_Image115.png"], "caption": "Colleges Student Distribution (Pie Charts)"}
@@ -19,9 +20,9 @@ DIAGRAM_MAPPINGS = {
         {"range": (46, 51), "images": ["data/diagrams/adda-02_page17_Image92.png"], "caption": "Monthly Cupboard & Dashboard Data (Line Graph)"}
     ],
     "adda-03": [
-        {"range": (5, 8), "images": ["data/diagrams/adda-03_page5_Image44.png", "data/diagrams/adda-03_page6_Image49.png", "data/diagrams/adda-03_page6_Image50.png"], "caption": "Seating / Arrangement Reference Diagram"},
-        {"range": (47, 52), "images": ["data/diagrams/adda-03_page27_Image135.jpeg", "data/diagrams/adda-03_page27_Image136.jpeg"], "caption": "Twiggy & Xomato Orders (Pie Charts)"},
-        {"range": (53, 58), "images": ["data/diagrams/adda-03_page30_Image149.png", "data/diagrams/adda-03_page30_Image150.png"], "caption": "Quarterly Songs Download Data (Table)"},
+        # Q5-Q8 removed: no diagram needed for reasoning puzzles/inequalities
+        {"range": (47, 52), "images": ["data/diagrams/adda-03_page27_Image135.jpeg", "data/diagrams/adda-03_page27_Image136.jpeg"], "caption": "Twiggy & Xomato Orders (Dual Pie Charts: Total & Twiggy)"},
+        {"range": (53, 58), "images": ["data/diagrams/adda-03_page30_Image149.png", "data/diagrams/adda-03_page30_Image150.png"], "caption": "Quarterly Songs Download Data (Dual Tables: Quarter 1 & Quarter 2)"},
         {"range": (59, 59), "images": ["data/diagrams/adda-03_page32_Image159.png"], "caption": "Approximation Equation Formula"},
         {"range": (60, 60), "images": ["data/diagrams/adda-03_page32_Image160.png"], "caption": "Approximation Equation Formula"},
         {"range": (61, 61), "images": ["data/diagrams/adda-03_page33_Image165.png"], "caption": "Approximation Equation Formula"},
@@ -32,18 +33,21 @@ DIAGRAM_MAPPINGS = {
         {"range": (41, 45), "images": ["data/diagrams/adda-04_page25_Image124.png"], "caption": "School Students & Boys (Line Graph)"}
     ],
     "adda-05": [
-        {"range": (41, 45), "images": ["data/diagrams/adda-05_page24_Image120.png", "data/diagrams/adda-05_page24_Image121.png"], "caption": "Company TVs Sold (Bar Charts)"},
-        {"range": (46, 50), "images": ["data/diagrams/adda-05_page26_Image130.png", "data/diagrams/adda-05_page26_Image131.jpeg"], "caption": "Company Employees Distribution (Pie Charts)"},
+        # Exactly 1 English image (Image120 is English, Image121 is Hindi)
+        {"range": (41, 45), "images": ["data/diagrams/adda-05_page24_Image120.png"], "caption": "Company TVs Sold (Bar Chart)"},
+        # Exactly 1 English image (Image130 is English, Image131 is Hindi)
+        {"range": (46, 50), "images": ["data/diagrams/adda-05_page26_Image130.png"], "caption": "Company Employees Distribution (Pie Chart)"},
         {"range": (56, 56), "images": ["data/diagrams/adda-05_page31_Image162.png"], "caption": "Approximation Equation Formula"},
         {"range": (57, 57), "images": ["data/diagrams/adda-05_page31_Image163.png"], "caption": "Approximation Equation Formula"}
     ],
     "adda-06": [
         {"range": (50, 50), "images": ["data/diagrams/adda-06_page27_Image137.png"], "caption": "Approximation Equation Formula"},
-        {"range": (52, 57), "images": ["data/diagrams/adda-06_page28_Image142.jpeg", "data/diagrams/adda-06_page28_Image143.jpeg"], "caption": "Office People & Males Distribution (Pie Charts)"}
+        {"range": (52, 57), "images": ["data/diagrams/adda-06_page28_Image142.jpeg", "data/diagrams/adda-06_page28_Image143.jpeg"], "caption": "Office People & Males Distribution (Dual Pie Charts: Total & Males)"}
     ],
     "adda-07": [
-        {"range": (41, 46), "images": ["data/diagrams/adda-07_page25_Image124.png", "data/diagrams/adda-07_page26_Image129.png"], "caption": "Villages Population Distribution (Pie Charts)"},
-        {"range": (51, 55), "images": ["data/diagrams/adda-07_page29_Image142.png", "data/diagrams/adda-07_page30_Image147.png"], "caption": "Cities Population & Males Data (Bar Graph)"},
+        {"range": (41, 46), "images": ["data/diagrams/adda-07_page25_Image124.png", "data/diagrams/adda-07_page26_Image129.png"], "caption": "Villages Population Distribution (Dual Pie Charts: 2021+2022 & 2022)"},
+        # Exactly 1 image (Image147 was duplicate crop)
+        {"range": (51, 55), "images": ["data/diagrams/adda-07_page29_Image142.png"], "caption": "Cities Population & Males Data (Bar Graph)"},
         {"range": (56, 56), "images": ["data/diagrams/adda-07_page34_Image164.png"], "caption": "Quadratic Equation Formula"},
         {"range": (57, 57), "images": ["data/diagrams/adda-07_page34_Image165.png"], "caption": "Quadratic Equation Formula"},
         {"range": (58, 58), "images": ["data/diagrams/adda-07_page35_Image170.png"], "caption": "Quadratic Equation Formula"},
@@ -56,8 +60,10 @@ DIAGRAM_MAPPINGS = {
         {"range": (65, 65), "images": ["data/diagrams/adda-07_page37_Image185.png"], "caption": "Approximation Equation Formula"}
     ],
     "adda-08": [
-        {"range": (41, 45), "images": ["data/diagrams/adda-08_page24_Image120.png", "data/diagrams/adda-08_page25_Image125.png"], "caption": "Physics & Chemistry Student Distribution (Table)"},
-        {"range": (46, 50), "images": ["data/diagrams/adda-08_page26_Image130.png", "data/diagrams/adda-08_page27_Image135.png"], "caption": "Villages Total Population Distribution (Pie Charts)"},
+        # Exactly 1 image (Image125 was duplicate crop)
+        {"range": (41, 45), "images": ["data/diagrams/adda-08_page24_Image120.png"], "caption": "Physics & Chemistry Student Distribution (Table)"},
+        # Exactly 1 image (Image135 was duplicate crop)
+        {"range": (46, 50), "images": ["data/diagrams/adda-08_page26_Image130.png"], "caption": "Villages Total Population Distribution (Pie Chart)"},
         {"range": (51, 51), "images": ["data/diagrams/adda-08_page28_Image140.png"], "caption": "Quadratic Equation Formula"},
         {"range": (52, 52), "images": ["data/diagrams/adda-08_page29_Image145.png"], "caption": "Quadratic Equation Formula"},
         {"range": (53, 53), "images": ["data/diagrams/adda-08_page29_Image146.png"], "caption": "Quadratic Equation Formula"},
@@ -91,11 +97,12 @@ DIAGRAM_MAPPINGS = {
         {"range": (50, 50), "images": ["data/diagrams/adda-10_page22_Image116.png"], "caption": "Approximation Equation Formula"},
         {"range": (64, 68), "images": ["data/diagrams/adda-10_page26_Image133.png"], "caption": "Company Employees Distribution (Table)"},
         {"range": (71, 75), "images": ["data/diagrams/adda-10_page28_Image142.png"], "caption": "Stores Cupboards & Drawers (Bar Chart)"},
-        {"range": (76, 76), "images": ["data/diagrams/adda-10_page31_Image155.png", "data/diagrams/adda-10_page31_Image156.png"], "caption": "Export & Import Distribution / Quadratic Equation"},
-        {"range": (77, 77), "images": ["data/diagrams/adda-10_page31_Image155.png", "data/diagrams/adda-10_page31_Image157.png"], "caption": "Export & Import Distribution / Quadratic Equation"},
-        {"range": (78, 78), "images": ["data/diagrams/adda-10_page31_Image155.png", "data/diagrams/adda-10_page34_Image162.png"], "caption": "Export & Import Distribution / Quadratic Equation"},
-        {"range": (79, 79), "images": ["data/diagrams/adda-10_page31_Image155.png", "data/diagrams/adda-10_page34_Image163.png"], "caption": "Export & Import Distribution / Quadratic Equation"},
-        {"range": (80, 80), "images": ["data/diagrams/adda-10_page31_Image155.png", "data/diagrams/adda-10_page34_Image164.png"], "caption": "Export & Import Distribution / Quadratic Equation"}
+        # Q76-Q80: EXACTLY 1 quadratic formula image per question (Image155 removed!)
+        {"range": (76, 76), "images": ["data/diagrams/adda-10_page31_Image156.png"], "caption": "Quadratic Equation Formula"},
+        {"range": (77, 77), "images": ["data/diagrams/adda-10_page31_Image157.png"], "caption": "Quadratic Equation Formula"},
+        {"range": (78, 78), "images": ["data/diagrams/adda-10_page34_Image162.png"], "caption": "Quadratic Equation Formula"},
+        {"range": (79, 79), "images": ["data/diagrams/adda-10_page34_Image163.png"], "caption": "Quadratic Equation Formula"},
+        {"range": (80, 80), "images": ["data/diagrams/adda-10_page34_Image164.png"], "caption": "Quadratic Equation Formula"}
     ]
 }
 
@@ -209,7 +216,7 @@ def enrich_all():
     with open(bundle_path, 'w', encoding='utf-8') as f:
         f.write(f"window.__ADDA_TESTS_DATA__ = {{ tests: {json.dumps(tests_data, ensure_ascii=False)} }};\n")
 
-    print("SUCCESS: Fully enriched all 10 Adda mock papers with all diagrams, formula images, and Markdown tables.")
+    print("SUCCESS: Fully enriched all 10 Adda mock papers with strict clean mappings.")
 
 if __name__ == '__main__':
     enrich_all()

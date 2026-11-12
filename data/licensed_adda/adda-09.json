@@ -68,11 +68,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nEight persons P , Q, R, S, T , U, V and W were born in different years viz. 1994, 1996, 1998, 1999, 2001,\n2002, 2004 and 2005 but not necessarily in the same order. Base year is counted as 2021.\nAt most one person is older to P . Two persons were born between P and V. Q was born just before V in\nthe odd numbered year. R is 4 years older to T . W is older to U and just younger to S.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "P was born in 1994",
+        "V was born in 1996",
+        "T is the oldest among all",
+        "U was born in 2002",
+        "R is older than P"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -90,7 +90,7 @@
         "2",
         "3",
         "4",
-        "Option E"
+        "Cannot be determined"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) 3 Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) 3 holds true.",
@@ -122,11 +122,11 @@
       "topic": "Puzzles & Seating Arrangement",
       "stem": "Statements: All flowers are plants. Only a few plants are fruits. No fruits is vegetables.\nConclusion I: Some flowers are fruits.\nConclusion II: Some plants are not vegetables.\nIn each of the questions below some statements are given followed by two conclusions. You have to take\nthe given statements to be true even if they seem to be at variance with commonly known facts. Read all\nthe conclusions and then decide which of the give n conclusions logically follows from the given\nstatements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -140,11 +140,11 @@
       "topic": "Syllogism",
       "stem": "Statements: All mammals are bird. All birds are eggs. No eggs are reptiles.\nConclusion I: Some mammals are eggs.\nConclusion II: Some reptiles can be birds.\nIn each of the questions below some statements are given followed by two conclusions. You have to take\nthe given statements to be true even if they seem to be at variance with commonly known facts. Read all\nthe conclusions and then decide which of the give n conclusions logically follows from the given\nstatements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -158,11 +158,11 @@
       "topic": "Syllogism",
       "stem": "Statements: Only a few apples are oranges. All oranges are bananas. Only bananas are grapes.\nConclusion I: Some apples are bananas.\nConclusion II: Some grapes are not oranges.\nIn each of the questions below some statements are given followed by two conclusions. You have to take\nthe given statements to be true even if they seem to be at variance with commonly known facts. Read all\nthe conclusions and then decide which of the give n conclusions logically follows from the given\nstatements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -180,7 +180,7 @@
         "E",
         "C",
         "D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) E holds true.",
@@ -195,10 +195,10 @@
       "stem": "How many boxes are placed between boxes A and I?\nStudy the following information carefully and answer the questions given below:\nNine boxes are arranged one above the other. More than four boxes are placed below the box G.\nThree boxes are placed between box G and box H. The numbers of boxes are placed above box H is same\nas the numbers of boxes placed below box C. Box A is placed two places above the box E which is placed\njust above the box I. Box F and box H are not placed adjacent to each other. Box B is placed above the\nbox D but placed below box E.",
       "options": [
         "Two",
+        "Three",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "More than four",
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Two Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Two holds true.",
@@ -213,10 +213,10 @@
       "stem": "If box F is placed immediately below box D, how many boxes are there between boxes F and G?\nStudy the following information carefully and answer the questions given below:\nNine boxes are arranged one above the other. More than four boxes are placed below the box G.\nThree boxes are placed between box G and box H. The numbers of boxes are placed above box H is same\nas the numbers of boxes placed below box C. Box A is placed two places above the box E which is placed\njust above the box I. Box F and box H are not placed adjacent to each other. Box B is placed above the\nbox D but placed below box E.",
       "options": [
         "Two",
+        "Three",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Four",
+        "None of these"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -248,11 +248,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which of the following statement is true?\nI. Box F is placed above the box E\nII. More than two boxes are placed between box A and box I\nIII. No box is placed below the box H\nStudy the following information carefully and answer the questions given below:\nNine boxes are arranged one above the other. More than four boxes are placed below the box G.\nThree boxes are placed between box G and box H. The numbers of boxes are placed above box H is same\nas the numbers of boxes placed below box C. Box A is placed two places above the box E which is placed\njust above the box I. Box F and box H are not placed adjacent to each other. Box B is placed above the\nbox D but placed below box E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Both II and III",
+        "Only I",
+        "Both I and II",
+        "Only II",
+        "All I, II and III"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -266,11 +266,11 @@
       "topic": "Inequalities",
       "stem": "In these questions, relationship between different elements is shown in the statements. These\nstatements are followed by two conclusions. Mark answer as",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -284,11 +284,11 @@
       "topic": "Inequalities",
       "stem": "In these questions, relationship between different elements is shown in the statements. These\nstatements are followed by two conclusions. Mark answer as",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -302,11 +302,11 @@
       "topic": "Inequalities",
       "stem": "In these questions, relationship between different elements is shown in the statements. These\nstatements are followed by two conclusions. Mark answer as",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
@@ -338,11 +338,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nCertain numbers of persons sit in a row and face north. A sits 3 rd to the left of F. Three persons sit\nbetween F and R. R sits 2nd to the left of C who sits just left of V. One person sits between U and V. U sits\nright of C. B sits 2nd to the left of N and 3rd to the right of U. Q sits 3rd to the left of D who sits just right to\nA. The numbers of persons sit between Q and R is one more than the numbers of persons sit to the right\nof N. No one sits left of Q.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "B sits to the immediate right of N",
+        "U sits at one of the ends of the row",
+        "A sits to the immediate left of F",
+        "V sits at one of the ends of the row",
+        "C sits second to the right of R"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -396,7 +396,7 @@
         "14",
         "12",
         "16",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) 12 Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 12.",
@@ -414,7 +414,7 @@
         "hu",
         "qt",
         "dm",
-        "Option E"
+        "None of the above"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) hu Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) hu holds true.",
@@ -432,7 +432,7 @@
         "hu",
         "qt",
         "dm",
-        "Option E"
+        "None of the above"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) qt Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) qt holds true.",
@@ -450,7 +450,7 @@
         "Word",
         "Towards",
         "Around",
-        "Option E"
+        "None of the above"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Around Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Around holds true.",
@@ -468,7 +468,7 @@
         "hu hh dm",
         "qt ch hu",
         "dm hh xf",
-        "Option E"
+        "None of the above"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) dm hh xf Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) dm hh xf holds true.",
@@ -486,7 +486,7 @@
         "Word",
         "Towards",
         "Chapter",
-        "Option E"
+        "None of the above"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) New Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) New holds true.",
@@ -502,9 +502,9 @@
       "options": [
         "Q",
         "S",
+        "The one who belongs to Italy",
         "R",
-        "Option D",
-        "Option E"
+        "Both"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -518,11 +518,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "Which country does O belong to?\nStudy the following information carefully and answer the questions given below:\nSeven persons from M - S live in seven storey building and belongs to different countries viz. Italy, Canada,\nGermany, China. Spain, India and Brazil but not necessarily in the same order. The bottom most floor is\nnumbered as 1 and so on till the topmost floor is numbered as 7.\nS lives two floors above the one who belongs to Brazil and live on prime numbered floor. More than two\nfloors gap between S and the one who belongs to Canada. N belong to Spain and lives three floors below\nthe one who belongs to Canada. O lives just above the one who belongs to Italy. The numbers of persons\nlive below M as same as live above R who lives just below P . The one who belongs to China lives just\nabove the one who belongs to India.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "India",
+        "None of these",
+        "Brazil",
+        "China",
+        "Germany"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -540,7 +540,7 @@
         "2",
         "3",
         "4",
-        "Option E"
+        "Cannot be determined"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) 4 Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) 4 holds true.",
@@ -554,11 +554,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "Which country does the person on the 3rd floor belong to?\nStudy the following information carefully and answer the questions given below:\nSeven persons from M - S live in seven storey building and belongs to different countries viz. Italy, Canada,\nGermany, China. Spain, India and Brazil but not necessarily in the same order. The bottom most floor is\nnumbered as 1 and so on till the topmost floor is numbered as 7.\nS lives two floors above the one who belongs to Brazil and live on prime numbered floor. More than two\nfloors gap between S and the one who belongs to Canada. N belong to Spain and lives three floors below\nthe one who belongs to Canada. O lives just above the one who belongs to Italy. The numbers of persons\nlive below M as same as live above R who lives just below P . The one who belongs to China lives just\nabove the one who belongs to India.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Germany",
+        "Brazil",
+        "Italy",
+        "China",
+        "Canada"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -573,10 +573,10 @@
       "stem": "If all the persons live in alphabetical order from top to bottom then how many persons remain at\nthe same position (Excluding M)?\nStudy the following information carefully and answer the questions given below:\nSeven persons from M - S live in seven storey building and belongs to different countries viz. Italy, Canada,\nGermany, China. Spain, India and Brazil but not necessarily in the same order. The bottom most floor is\nnumbered as 1 and so on till the topmost floor is numbered as 7.\nS lives two floors above the one who belongs to Brazil and live on prime numbered floor. More than two\nfloors gap between S and the one who belongs to Canada. N belong to Spain and lives three floors below\nthe one who belongs to Canada. O lives just above the one who belongs to Italy. The numbers of persons\nlive below M as same as live above R who lives just below P . The one who belongs to China lives just\nabove the one who belongs to India.",
       "options": [
         "One",
+        "None",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "More than three"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
@@ -590,11 +590,11 @@
       "topic": "Direction Sense",
       "stem": "In which direction is point T with respect to point to Q?\nStudy the following information and answer the questions given below:\nW walks 8m towards west from point P to reach point Q. He takes a left turn from point Q and walks\n10m to reach point R. He takes a right turn from point R and walks 12m to reach point S. He takes\nanother right turn from point S and walks 6m to reach point T . He takes a left turn from point T and\nwalks 8m to reach his home.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "North",
+        "South",
+        "South-east",
+        "South-west",
+        "North-east"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -608,11 +608,11 @@
       "topic": "Direction Sense",
       "stem": "What is the shortest distance between point S and W’s home?\nStudy the following information and answer the questions given below:\nW walks 8m towards west from point P to reach point Q. He takes a left turn from point Q and walks\n10m to reach point R. He takes a right turn from point R and walks 12m to reach point S. He takes\nanother right turn from point S and walks 6m to reach point T . He takes a left turn from point T and\nwalks 8m to reach his home.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "22m",
+        "10m",
+        "12m",
+        "26m",
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -626,11 +626,11 @@
       "topic": "Direction Sense",
       "stem": "What is the total distance travelled by W?\nStudy the following information and answer the questions given below:\nW walks 8m towards west from point P to reach point Q. He takes a left turn from point Q and walks\n10m to reach point R. He takes a right turn from point R and walks 12m to reach point S. He takes\nanother right turn from point S and walks 6m to reach point T . He takes a left turn from point T and\nwalks 8m to reach his home.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "47m",
+        "40m",
+        "44m",
+        "41m",
+        "36m"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -666,7 +666,7 @@
         "L",
         "I",
         "G",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) L Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) L holds true.",
@@ -683,8 +683,8 @@
         "L",
         "I",
         "H",
-        "F",
-        "Option E"
+        "None of these",
+        "F"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) H Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) H holds true.",
@@ -698,11 +698,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "How many persons sit between E and I when counted from the right of I?\nStudy the following information and answer the questions given below:\nEight persons sit around a circular table in which some of them face inside and some of them face\noutside.\nH sits 3 rd to the right of K and both face the same direction. I sits opposite K but both face opposite\ndirection. L sits 2nd to the right of I. F sits opposite D who sits 2nd to the left of E. Immediate neighbor of\nE face opposite direction as E faces. G sits 3rd to the right of D and not an immediate neighbor of I and K.\nL and E face inside. G and F face the same direction.",
       "options": [
+        "Four",
+        "Three",
         "One",
-        "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None",
+        "Two"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) One holds true.",
@@ -716,11 +716,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "Which of the following is true?\nStudy the following information and answer the questions given below:\nEight persons sit around a circular table in which some of them face inside and some of them face\noutside.\nH sits 3 rd to the right of K and both face the same direction. I sits opposite K but both face opposite\ndirection. L sits 2nd to the right of I. F sits opposite D who sits 2nd to the left of E. Immediate neighbor of\nE face opposite direction as E faces. G sits 3rd to the right of D and not an immediate neighbor of I and K.\nL and E face inside. G and F face the same direction.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "G sits 2nd to the left of I",
+        "H and F face the same direction",
+        "L and D are immediate neighbors",
+        "E and G face opposite direction to each other",
+        "All are true"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -752,11 +752,11 @@
       "topic": "Profit & Loss",
       "stem": "A and B entered into a partnership business with investment of Rs. 1300 & Rs. 500\nrespectively. After six months, C joined them with investment of Rs. 1800. At the end of a year, the profit\nshare of C is Rs. 360. Find the difference between profit share of A and B.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "480 Rs",
+        "280 Rs",
+        "400 Rs",
+        "320 Rs",
+        "180 Rs"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Profit & Loss\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -770,11 +770,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "Five years ago, the average age of A and B was 15 years. The ratio of present age of A and C is 6 : 5\nrespectively. If B is four years younger than C, then find the sum of present age of B and C (in years).",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "34 years",
+        "32 years",
+        "36 years",
+        "24 years",
+        "40 years"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -788,11 +788,11 @@
       "topic": "Problems on Ages",
       "stem": "The average weight of eight people is X kg. Two new people joined them with total weight of 151\nkg and average weight of all people increased by kg. If the weight of lightest people out of two people\njoined is X - 5 kg, the find the difference between weight these two people who joined later.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "27 kg",
+        "21 kg",
+        "15 kg",
+        "25 kg",
+        "22 kg"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -824,11 +824,11 @@
       "topic": "Simple & Compound Interest",
       "stem": "A man invested Rs. P in scheme A on compound interest at rate of 10% p.a. for two years and he\ninvested Rs. (P + 500) in scheme B on simple interest at rate of 12% p.a. for same period of time. If the\ninterest received by man from scheme A is Rs. 150 less th an that of from scheme B, then find amount\ninvested in scheme B.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "1250 Rs",
+        "1000 Rs",
+        "1500 Rs",
+        "2000 Rs",
+        "2500 Rs"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Simple & Compound Interest\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1160,11 +1160,11 @@
       "topic": "Mensuration",
       "stem": "In a right - angled triangle hypotenuse is 8√10 cm and based is half of the height. If height and based\nof the triangle are equal to height & radius of a cylinder, then find\ncurved surface area of cylinder.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "512π cm²",
+        "256 π cm²",
+        "128 π cm²",
+        "556 π cm²",
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Mensuration\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1391,11 +1391,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "Find out the length of train X given that speed of train X is 20 m/sec.\nI. Train X crosses another train Y moving in opposite direction in 6 sec and the speed of train Y is 50%\nmore than the speed of train X.\nII. Length of train Y is 50% less than length of train X.\nGiven below in each question there are two statements (I) and (II). You must determine; which\nstatement is enough to give the answer of question. Also, there are five alternatives given, you have to\nchoose one alternative as your answer of the questions:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Both I and II together",
+        "Only statement I",
+        "Only statement II",
+        "Both I and II together are not sufficient",
+        "Either I or II alone"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1427,11 +1427,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "Solve the given two equations and mark the correct option based on your answer.",
       "options": [
-        "if x = y or no relation can be established between x and y.",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "if x>y",
+        "if x≥y",
+        "if x<y",
+        "if x ≤y",
+        "if x = y or no relation can be established between x and y"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) if x = y or no relation can be established between x and y. Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields if x = y or no relation can be established between x and y..",
@@ -1448,11 +1448,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "Solve the given two equations and mark the correct option based on your answer.",
       "options": [
-        "if x = y or no relation can be established between x and y.",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "if x>y",
+        "if x≥y",
+        "if x<y",
+        "if x ≤y",
+        "if x = y or no relation can be established between x and y"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1469,11 +1469,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "Solve the given two equations and mark the correct option based on your answer.",
       "options": [
-        "if x = y or no relation can be established between x and y.",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "if x>y",
+        "if x≥y",
+        "if x<y",
+        "if x ≤y",
+        "if x = y or no relation can be established between x and y"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) if x = y or no relation can be established between x and y. Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields if x = y or no relation can be established between x and y..",
@@ -1490,11 +1490,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "Solve the given two equations and mark the correct option based on your answer.",
       "options": [
-        "if x = y or no relation can be established between x and y.",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "if x>y",
+        "if x≥y",
+        "if x<y",
+        "if x ≤y",
+        "if x = y or no relation can be established between x and y"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1511,11 +1511,11 @@
       "topic": "Arithmetic Word Problem",
       "stem": "Solve the given two equations and mark the correct option based on your answer.",
       "options": [
-        "if x = y or no relation can be established between x and y.",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "if x>y",
+        "if x≥y",
+        "if x<y",
+        "if x ≤y",
+        "if x = y or no relation can be established between x and y"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",

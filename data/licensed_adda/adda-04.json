@@ -50,11 +50,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which flower was picked by the person who visited on Wednesday?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Daffodil",
+        "Bluebell",
+        "Lavender",
+        "Peony",
+        "Hibiscus"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -68,11 +68,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "On which day did A visited the garden?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Monday",
+        "Thursday",
+        "Wednesday",
+        "Tuesday",
+        "Friday"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -104,11 +104,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which of the following combination is/ are definitely true?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "B- Peony",
+        "C- Friday",
+        "F- Lotus",
+        "E visited the garden on Thursday",
+        "A- lavender"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -144,7 +144,7 @@
         "xt",
         "kr",
         "cy",
-        "Option E"
+        "Can’t be determined"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) qt Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) qt holds true.",
@@ -162,7 +162,7 @@
         "Rights law",
         "Protect rights",
         "Order protect",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Order protect Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Order protect holds true.",
@@ -179,8 +179,8 @@
         "Law - se",
         "Order - lw",
         "Money - xt",
-        "Option D",
-        "Option E"
+        "Both",
+        "Both"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Money - xt Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Money - xt holds true.",
@@ -198,7 +198,7 @@
         "dz to",
         "to dl",
         "dl at",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) dz dl Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) dz dl holds true.",
@@ -230,11 +230,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "How many boxes are kept between box F and box E?\nStudy the following information carefully and answer the questions given below:\nTen boxes — A, B, C, D, E, F, G, H, I, and J — are kept one above the other, but not necessarily in the same\norder. The bottommost position is 1 and the topmost is 10.\nOnly three boxes are kept between Box C and Box G. Box A is kept two boxes below Box C. Box I is kept\njust above Box C. One box is kept between Box I and Box B. Box J is kept three boxes above Box B. Only\ntwo boxes are between Box A and Box E. Box F is kep t immediately above Box H. Box F is below Box A\nand above Box E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "As many boxes are kept between box G and box D",
+        "As many boxes are kept between box A and box I",
+        "As many boxes are kept between box A and box C",
+        "Four",
+        "Five"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -248,11 +248,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "What is the position of box J with respect to box C?\nStudy the following information carefully and answer the questions given below:\nTen boxes — A, B, C, D, E, F, G, H, I, and J — are kept one above the other, but not necessarily in the same\norder. The bottommost position is 1 and the topmost is 10.\nOnly three boxes are kept between Box C and Box G. Box A is kept two boxes below Box C. Box I is kept\njust above Box C. One box is kept between Box I and Box B. Box J is kept three boxes above Box B. Only\ntwo boxes are between Box A and Box E. Box F is kep t immediately above Box H. Box F is below Box A\nand above Box E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Two boxes above",
+        "Three boxes below",
+        "Four boxes below",
+        "Four boxes above",
+        "Immediately above"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -266,11 +266,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "If all the boxes are arranged in alphabetical order from top to bottom then the position of how\nmany boxes remains unchanged?\nStudy the following information carefully and answer the questions given below:\nTen boxes — A, B, C, D, E, F, G, H, I, and J — are kept one above the other, but not necessarily in the same\norder. The bottommost position is 1 and the topmost is 10.\nOnly three boxes are kept between Box C and Box G. Box A is kept two boxes below Box C. Box I is kept\njust above Box C. One box is kept between Box I and Box B. Box J is kept three boxes above Box B. Only\ntwo boxes are between Box A and Box E. Box F is kep t immediately above Box H. Box F is below Box A\nand above Box E.",
       "options": [
+        "Three",
         "Two",
+        "Four",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -284,11 +284,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "Which among the following box is kept at the 5th position from the top?\nStudy the following information carefully and answer the questions given below:\nTen boxes — A, B, C, D, E, F, G, H, I, and J — are kept one above the other, but not necessarily in the same\norder. The bottommost position is 1 and the topmost is 10.\nOnly three boxes are kept between Box C and Box G. Box A is kept two boxes below Box C. Box I is kept\njust above Box C. One box is kept between Box I and Box B. Box J is kept three boxes above Box B. Only\ntwo boxes are between Box A and Box E. Box F is kep t immediately above Box H. Box F is below Box A\nand above Box E.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Box D",
+        "Box C",
+        "Box A",
+        "Box G",
+        "Box F"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -302,11 +302,11 @@
       "topic": "Puzzle (Box / Stack)",
       "stem": "How many boxes are placed between box C and box D?\nStudy the following information carefully and answer the questions given below:\nTen boxes — A, B, C, D, E, F, G, H, I, and J — are kept one above the other, but not necessarily in the same\norder. The bottommost position is 1 and the topmost is 10.\nOnly three boxes are kept between Box C and Box G. Box A is kept two boxes below Box C. Box I is kept\njust above Box C. One box is kept between Box I and Box B. Box J is kept three boxes above Box B. Only\ntwo boxes are between Box A and Box E. Box F is kep t immediately above Box H. Box F is below Box A\nand above Box E.",
       "options": [
+        "Three",
         "Two",
+        "Four",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) One Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) One holds true.",
@@ -338,11 +338,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "How many persons sit between N and L (when counting from left of L)?\nStudy the following information carefully and answer the question given below:\nEight people — J, K, L, M, N, O, P , and Q — are sitting around a circular table. Four of them face towards\nthe center and the other four face outside the center. But not necessarily in the same order.\nJ sits second to the right of M, who faces outside. L sits third to the left of J, and L faces the same direction\nas J. Only three persons sit between L and Q. The immediate neighbors of M face opposite directions to\neach other. K is not an immediate neigh bor of Q and L. K faces outside. O sits third to the right of K. N\nsits third to the left of P , who faces the center. Both N and P face opposite direction to each other.",
       "options": [
+        "Four",
+        "Three",
         "Two",
-        "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Five",
+        "One"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -356,11 +356,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "Who among the following sits second to the right of K?\nStudy the following information carefully and answer the question given below:\nEight people — J, K, L, M, N, O, P , and Q — are sitting around a circular table. Four of them face towards\nthe center and the other four face outside the center. But not necessarily in the same order.\nJ sits second to the right of M, who faces outside. L sits third to the left of J, and L faces the same direction\nas J. Only three persons sit between L and Q. The immediate neighbors of M face opposite directions to\neach other. K is not an immediate neigh bor of Q and L. K faces outside. O sits third to the right of K. N\nsits third to the left of P , who faces the center. Both N and P face opposite direction to each other.",
       "options": [
+        "The one who sits second to the left of O",
         "J",
+        "The one who sits immediate left of P",
         "Q",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -374,11 +374,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "Which among the following statement(s) is/are true?\nI. N is an immediate neighbor of M\nII. Q sits second to the left of N.\nIII. Three persons sit between M and P\nStudy the following information carefully and answer the question given below:\nEight people — J, K, L, M, N, O, P , and Q — are sitting around a circular table. Four of them face towards\nthe center and the other four face outside the center. But not necessarily in the same order.\nJ sits second to the right of M, who faces outside. L sits third to the left of J, and L faces the same direction\nas J. Only three persons sit between L and Q. The immediate neighbors of M face opposite directions to\neach other. K is not an immediate neigh bor of Q and L. K faces outside. O sits third to the right of K. N\nsits third to the left of P , who faces the center. Both N and P face opposite direction to each other.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only I",
+        "Both I and III",
+        "Only II",
+        "Both II and III",
+        "All I, II and III"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -396,7 +396,7 @@
         "K",
         "N",
         "L",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) L Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) L holds true.",
@@ -410,11 +410,11 @@
       "topic": "Seating Arrangement (Circular)",
       "stem": "What is the position of J with respect to O?\nStudy the following information carefully and answer the question given below:\nEight people — J, K, L, M, N, O, P , and Q — are sitting around a circular table. Four of them face towards\nthe center and the other four face outside the center. But not necessarily in the same order.\nJ sits second to the right of M, who faces outside. L sits third to the left of J, and L faces the same direction\nas J. Only three persons sit between L and Q. The immediate neighbors of M face opposite directions to\neach other. K is not an immediate neigh bor of Q and L. K faces outside. O sits third to the right of K. N\nsits third to the left of P , who faces the center. Both N and P face opposite direction to each other.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Fourth to the right",
+        "Third to the left",
+        "Fourth to the left",
+        "Second to the right",
+        "Both"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -431,8 +431,8 @@
         "T",
         "W",
         "S",
-        "Q",
-        "Option E"
+        "Unknown person",
+        "Q"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Q Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Q holds true.",
@@ -446,11 +446,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of W with respect to S?\nStudy the following information carefully and answer the question given below:\nA certain number of people are sitting in a row facing north. Three people sit between P and T . R sits\nthird to the right of P . Only two persons sit between S and R. W sits second to the left of Q. One person\nsit between S and Q. The number of persons sits to the right of R is one more than the number of persons\nsit to the left of P . Not more than two persons sit to the right of S.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "7th to the right",
+        "Immediate left",
+        "6th to the right",
+        "5th to the left",
+        "4th to the left"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -468,7 +468,7 @@
         "14",
         "15",
         "16",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) 13 Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) 13 holds true.",
@@ -482,11 +482,11 @@
       "topic": "Alphanumeric & Word Formation",
       "stem": "How many such pairs of letters are there in the word “ AUTHORITY” each of which has as many\nletters between them as there are in the alphabetical series (both in the forward and backward\ndirections)?",
       "options": [
+        "Four",
+        "Three",
+        "None",
         "Two",
-        "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "One"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -500,11 +500,11 @@
       "topic": "Inequalities",
       "stem": "Statements: A ≥ S > K ≤ M < B; F < M≥ Q> V ≥ Z\nConclusions: I. S>F\nII. Z<B\nII. Z<B\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -518,11 +518,11 @@
       "topic": "Inequalities",
       "stem": "Statements: C ≤ F> H ≥G = N; W> N≥ J = L<O\nConclusions: I. L≤G\nII. F<L\nII. F<L\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -536,11 +536,11 @@
       "topic": "Inequalities",
       "stem": "Statements: A ≥ B ≥ P = D ≤ Y< W; Q ≤ B< L = Z\nConclusions: I. A ≥ Q\nII. D<Z\nII. D<Z\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
@@ -554,11 +554,11 @@
       "topic": "Inequalities",
       "stem": "Statements: D < C ≤ N = M; P ≥ R = T > E ≥ D\nConclusions: I. M<R\nII. N≤P\nII. N≤P\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If both conclusions I and II are true",
+        "If neither conclusion I nor II is true"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -572,11 +572,11 @@
       "topic": "Direction Sense",
       "stem": "In which direction is point P with respect to point A?\nStudy the following information carefully and answer the questions given below:\nPooja starts walking from the point A and walks 17km towards the north direction to reach point J. From\nthere she turns right walks 19km to reach point K and then turns left and walks 11km to reach point P .\nFrom point P she turns right and walks 8km to rea ch point E. Finally, he turned left and walks 8km to\nreach Point M.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "South-east",
+        "South-west",
+        "North-west",
+        "North-east",
+        "South"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -590,11 +590,11 @@
       "topic": "Direction Sense",
       "stem": "If Point M is 8km east of Point C then in which direction is Point C with respect to Point K?\nStudy the following information carefully and answer the questions given below:\nPooja starts walking from the point A and walks 17km towards the north direction to reach point J. From\nthere she turns right walks 19km to reach point K and then turns left and walks 11km to reach point P .\nFrom point P she turns right and walks 8km to rea ch point E. Finally, he turned left and walks 8km to\nreach Point M.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "South-east",
+        "South",
+        "North",
+        "North-west",
+        "Can’t be determined"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -608,11 +608,11 @@
       "topic": "Direction Sense",
       "stem": "What is the total distance from Point M to Point A (via point K)?\nStudy the following information carefully and answer the questions given below:\nPooja starts walking from the point A and walks 17km towards the north direction to reach point J. From\nthere she turns right walks 19km to reach point K and then turns left and walks 11km to reach point P .\nFrom point P she turns right and walks 8km to rea ch point E. Finally, he turned left and walks 8km to\nreach Point M.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "53km",
+        "63km",
+        "65km",
+        "62km",
+        "36km"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -626,11 +626,11 @@
       "topic": "Direction Sense",
       "stem": "What is the shortest distance between point K and E?\nStudy the following information carefully and answer the questions given below:\nPooja starts walking from the point A and walks 17km towards the north direction to reach point J. From\nthere she turns right walks 19km to reach point K and then turns left and walks 11km to reach point P .\nFrom point P she turns right and walks 8km to rea ch point E. Finally, he turned left and walks 8km to\nreach Point M.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "185km",
+        "180km",
+        "13km",
+        "√185km",
+        "None of these"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -644,11 +644,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "U lives on which among the following floor and flat?\nStudy the following information carefully and answer the question given below:\nEight persons - R, S, T , U, V, W, X and Z are living on four story - building such that the lowermost floor is\nnumbered as one and the floor immediately above it is numbered as two and so on. But not necessarily\nin the same order.\nNote - I: Each floor has two flats i.e. Flat - A and Flat - B, where Flat A is to the west of flat B.\nNote - II: Flat B of floor 2 is immediately above Flat B of floor 1 and immediately below Flat B of floor 3\nand so on. Similarly, Flat A of Floor 2 is immediately above Flat A of floor 1 and immediately below Flat\nA of floor 3 and so on.\nNote - III: Area of each flat on each floor is equal.\nNote - IV: Only two persons live on each floor and only one person lives in each flat.\nW lives immediately above the person who lives in Flat - B of Floor 2 in the same named flat. V lives two\nfloors below W. Z lives in flat - B. R and X live on the same floor. T lives in Flat - A and on a floor just below\nR. T lives above Z. S does not live on an even - numbered floor. No one lives to the east of S.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Floor 1st, flat A",
+        "Floor 4th, flat B",
+        "Floor 2nd, flat A",
+        "Floor 1st, flat B",
+        "Floor 3rd, flat A"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -662,11 +662,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "Which among the following statement(s) is/are not true?\nI. R lives on an odd numbered floor\nII. T lives above S.\nIII. Two floors between R’s floor and U’s floor\nStudy the following information carefully and answer the question given below:\nEight persons - R, S, T , U, V, W, X and Z are living on four story - building such that the lowermost floor is\nnumbered as one and the floor immediately above it is numbered as two and so on. But not necessarily\nin the same order.\nNote - I: Each floor has two flats i.e. Flat - A and Flat - B, where Flat A is to the west of flat B.\nNote - II: Flat B of floor 2 is immediately above Flat B of floor 1 and immediately below Flat B of floor 3\nand so on. Similarly, Flat A of Floor 2 is immediately above Flat A of floor 1 and immediately below Flat\nA of floor 3 and so on.\nNote - III: Area of each flat on each floor is equal.\nNote - IV: Only two persons live on each floor and only one person lives in each flat.\nW lives immediately above the person who lives in Flat - B of Floor 2 in the same named flat. V lives two\nfloors below W. Z lives in flat - B. R and X live on the same floor. T lives in Flat - A and on a floor just below\nR. T lives above Z. S does not live on an even - numbered floor. No one lives to the east of S.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Both I and III",
+        "Both II and III",
+        "Only I",
+        "Only II",
+        "All I, II and III"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -698,11 +698,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "How many floors are there between the floor on which V and T lives?\nStudy the following information carefully and answer the question given below:\nEight persons - R, S, T , U, V, W, X and Z are living on four story - building such that the lowermost floor is\nnumbered as one and the floor immediately above it is numbered as two and so on. But not necessarily\nin the same order.\nNote - I: Each floor has two flats i.e. Flat - A and Flat - B, where Flat A is to the west of flat B.\nNote - II: Flat B of floor 2 is immediately above Flat B of floor 1 and immediately below Flat B of floor 3\nand so on. Similarly, Flat A of Floor 2 is immediately above Flat A of floor 1 and immediately below Flat\nA of floor 3 and so on.\nNote - III: Area of each flat on each floor is equal.\nNote - IV: Only two persons live on each floor and only one person lives in each flat.\nW lives immediately above the person who lives in Flat - B of Floor 2 in the same named flat. V lives two\nfloors below W. Z lives in flat - B. R and X live on the same floor. T lives in Flat - A and on a floor just below\nR. T lives above Z. S does not live on an even - numbered floor. No one lives to the east of S.",
       "options": [
+        "None",
+        "Either none or one",
         "Two",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Either one or two"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -855,7 +855,7 @@
       "number": 46,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000\n\n| Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% |\n\nThe total males who visit mall D and mall E together is what percentage more or less than the total\nfemales who visit malls A, B, and C together?",
+      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000 | Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% | The total males who visit mall D and mall E together is what percentage more or less than the total\nfemales who visit malls A, B, and C together?",
       "options": [
         "35%",
         "40%",
@@ -873,7 +873,7 @@
       "number": 47,
       "section": "quant",
       "topic": "Simple & Compound Interest",
-      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000\n\n| Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% |\n\nThe total number of females who visit mall F is 20% more than the average number of males who\nvisit malls D and A. If the total number of people who visit mall F is 8/7th those who visit mall B, then\nfind the difference between the total number of males who visit mall F and mall A.",
+      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000 | Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% | The total number of females who visit mall F is 20% more than the average number of males who\nvisit malls D and A. If the total number of people who visit mall F is 8/7th those who visit mall B, then\nfind the difference between the total number of males who visit mall F and mall A.",
       "options": [
         "63",
         "66",
@@ -891,7 +891,7 @@
       "number": 48,
       "section": "quant",
       "topic": "Speed, Time & Distance",
-      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000\n\n| Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% |\n\n60% of the total males who visit mall E used a card for payment, and the rest use UPI. 1/15th of\nthe total males who use UPI is equal to the total females who use cards. Find the ratio of the total people\nwho used card and who used UPI for payment in mall E.",
+      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000 | Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% | 60% of the total males who visit mall E used a card for payment, and the rest use UPI. 1/15th of\nthe total males who use UPI is equal to the total females who use cards. Find the ratio of the total people\nwho used card and who used UPI for payment in mall E.",
       "options": [
         "44: 49",
         "41:43",
@@ -909,7 +909,7 @@
       "number": 49,
       "section": "quant",
       "topic": "Speed, Time & Distance",
-      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000\n\n| Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% |\n\nIn mall A, the total number of people who purchased clothes and groceries is in the ratio of 2:3,\nrespectively. 25% of the number of males who purchased clothes out of the total number of males in\nmall A. Find the number of females who purchased groceries (People purchased only two items i.e.\ngroceries and cloths).",
+      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000 | Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% | In mall A, the total number of people who purchased clothes and groceries is in the ratio of 2:3,\nrespectively. 25% of the number of males who purchased clothes out of the total number of males in\nmall A. Find the number of females who purchased groceries (People purchased only two items i.e.\ngroceries and cloths).",
       "options": [
         "15",
         "20",
@@ -927,7 +927,7 @@
       "number": 50,
       "section": "quant",
       "topic": "Simplification & Approximation",
-      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000\n\n| Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% |\n\nThe total number of females who visit the mall C is what percentage of the total number of males\nwho visit the mall D?",
+      "stem": "Directions (46-50): Read the following table carefully and answer the questions given below. The table shows the total number of people (males + females) who visit five malls, and it also shows the percentage of males out of total males who visit these malls. Note: Total males = 1000 | Malls | Total People | Percentage of males out of total males |\n|---|---|---|\n| A | 200 | 14% |\n| B | 350 | 24% |\n| C | 320 | 29% |\n| D | 240 | 18% |\n| E | 180 | 15% | The total number of females who visit the mall C is what percentage of the total number of males\nwho visit the mall D?",
       "options": [
         "15%",
         "16.67%",
@@ -1365,7 +1365,7 @@
         "140",
         "100",
         "120",
-        "Option E"
+        "Can’t be determined"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1400,8 +1400,8 @@
         "80",
         "100",
         "75",
-        "Option D",
-        "Option E"
+        "None of these",
+        "Can’t be determined"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1433,11 +1433,11 @@
       "topic": "Simplification & Approximation",
       "stem": "A shopkeeper sold 150 items, and the cost price of each item is Rs. (y + 20). The marked price of\neach item is Rs. 100, and the shopkeeper offers a 15% discount on each item. The total profit made by\nthe shopkeeper is Rs. 1200.\nQuantity I: Find y. Quantity II: z = 57\nIn the given questions, two quantities are given, one as ‘Quantity I’ and another as ‘Quantity II’. You have\nto determine relationship between numerical value of these two quantities and choose the appropriate\noption.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Quantity I > Quantity II",
+        "Quantity I < Quantity II",
+        "Quantity I ≥ Quantity II",
+        "Quantity I ≤ Quantity II",
+        "Quantity I = Quantity II or no relation"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1451,11 +1451,11 @@
       "topic": "Simplification & Approximation",
       "stem": "A cylinder has a radius of 14 cm and a height of 30 cm.\nQuantity I: Find the total surface area of the cylinder.\nQuantity II: 2240 cm²\nIn the given questions, two quantities are given, one as ‘Quantity I’ and another as ‘Quantity II’. You have\nto determine relationship between numerical value of these two quantities and choose the appropriate\noption.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Quantity I > Quantity II",
+        "Quantity I < Quantity II",
+        "Quantity I ≥ Quantity II",
+        "Quantity I ≤ Quantity II",
+        "Quantity I = Quantity II or no relation"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -1469,11 +1469,11 @@
       "topic": "Simplification & Approximation",
       "stem": "The average age of 5 people in a room is 28 years. A new person joins, increasing the average to\n30 years.\nQuantity I: Age of the new person.\nQuantity II: 50 years.\nIn the given questions, two quantities are given, one as ‘Quantity I’ and another as ‘Quantity II’. You have\nto determine relationship between numerical value of these two quantities and choose the appropriate\noption.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Quantity I > Quantity II",
+        "Quantity I < Quantity II",
+        "Quantity I ≥ Quantity II",
+        "Quantity I ≤ Quantity II",
+        "Quantity I = Quantity II or no relation"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",

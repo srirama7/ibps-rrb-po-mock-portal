@@ -50,11 +50,11 @@
       "topic": "Syllogism",
       "stem": "by two conclusions. You have to take the given statements to be true even if they seem to be at variance with\ncommonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from\nthe given statements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -68,11 +68,11 @@
       "topic": "Syllogism",
       "stem": "two conclusions. You have to take the given statements to be true even if they seem to be at variance with\ncommonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from\nthe given statements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -86,11 +86,11 @@
       "topic": "Syllogism",
       "stem": "by two conclusions. You have to take the given statements to be true even if they seem to be at variance with\ncommonly known facts. Read all the conclusions and decide which of the given conclusions logically follows from\nthe given statements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
@@ -104,11 +104,11 @@
       "topic": "Syllogism",
       "stem": "statements are given followed by two conclusions. You have to take the given statements to be true even if they\nseem to be at variance with commonly known facts. Read all the conclusions and decide which of the given\nconclusions logically follows from the given statements disregarding commonly known facts.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I follows",
+        "If only II follows",
+        "If either I or II follows",
+        "If neither I nor II follows",
+        "If both I and II follow"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -140,11 +140,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of L with respect to K?\nRead the given information carefully and answer the questions based on it:\n8 persons sit in a row (equidistant from each other) in such a way that 5 persons face north and 3 persons face\nsouth. The persons are B, F, G, H, K, L, M and N but not necessarily sit in same order as given.\nM sits second from an end of the row. G sits third to the right of M. G and H sits immediate left to each other. Three\npersons sit between H and N who faces north. B sits second to the right of N. Both the immediate neighbors of F\nface same direction. K sits fourth to the left of F.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Third to the right",
+        "Second to the left",
+        "Second to the right",
+        "Third to the left",
+        "Fourth to the right"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -160,9 +160,9 @@
       "options": [
         "One",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "Five"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
@@ -176,11 +176,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "8 persons sit in a row (equidistant from each other) in such a way that 5 persons face north and 3 persons face\nsouth. The persons are B, F, G, H, K, L, M and N but not necessarily sit in same order as given.\nM sits second from an end of the row. G sits third to the right of M. G and H sits immediate left to each other. Three\npersons sit between H and N who faces north. B sits second to the right of N. Both the immediate neighbors of F\nface same direction. K sits fourth to the left of F.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only I is true",
+        "Only II is true",
+        "Only I and III are true",
+        "Only III is true",
+        "Only I and II are true"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -194,11 +194,11 @@
       "topic": "Seating Arrangement (Linear / Parallel)",
       "stem": "What is the position of H from right end?\nRead the given information carefully and answer the questions based on it:\n8 persons sit in a row (equidistant from each other) in such a way that 5 persons face north and 3 persons face\nsouth. The persons are B, F, G, H, K, L, M and N but not necessarily sit in same order as given.\nM sits second from an end of the row. G sits third to the right of M. G and H sits immediate left to each other. Three\npersons sit between H and N who faces north. B sits second to the right of N. Both the immediate neighbors of F\nface same direction. K sits fourth to the left of F.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Second",
+        "Third",
+        "Fourth",
+        "Seventh",
+        "Sixth"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -216,7 +216,7 @@
         "gi",
         "yt",
         "cn",
-        "Option E"
+        "Either gi or cn"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) sf Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields sf.",
@@ -233,8 +233,8 @@
         "Cricket",
         "Ball",
         "Sky",
-        "Cloud",
-        "Option E"
+        "Either ball or pencil",
+        "Cloud"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Cloud Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Cloud.",
@@ -286,9 +286,9 @@
       "options": [
         "One",
         "Two",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Three",
+        "Four",
+        "More than four"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -302,11 +302,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "E teaches in which month?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "January",
+        "March",
+        "June",
+        "July",
+        "April"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
@@ -320,11 +320,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which subject is taught by G?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Commerce",
+        "Science",
+        "Humanities",
+        "Pharmacy",
+        "Journalism"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -356,11 +356,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which combination is correct?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "G - Science",
+        "January - Humanities",
+        "D - April",
+        "B – Commerce",
+        "June - Medicine"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -374,11 +374,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "How many persons teach after G?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
+        "Three",
         "Two",
+        "Four",
         "One",
-        "Option C",
-        "Option D",
-        "Option E"
+        "None"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -410,11 +410,11 @@
       "topic": "Inequalities",
       "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I is true",
+        "If only II is true",
+        "If either I or II is true",
+        "If neither I nor II is true",
+        "if both I and II are true"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
@@ -428,11 +428,11 @@
       "topic": "Inequalities",
       "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I is true",
+        "If only II is true",
+        "If either I or II is true",
+        "If neither I nor II is true",
+        "if both I and II are true"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
@@ -446,11 +446,11 @@
       "topic": "Inequalities",
       "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I is true",
+        "If only II is true",
+        "If either I or II is true",
+        "If neither I nor II is true",
+        "if both I and II are true"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
@@ -464,11 +464,11 @@
       "topic": "Inequalities",
       "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I is true",
+        "If only II is true",
+        "If either I or II is true",
+        "If neither I nor II is true",
+        "if both I and II are true"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -482,11 +482,11 @@
       "topic": "Inequalities",
       "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "If only I is true",
+        "If only II is true",
+        "If either I or II is true",
+        "If neither I nor II is true",
+        "if both I and II are true"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
@@ -500,11 +500,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "On which floor does U live?\nRead the given information carefully and answer the questions based on it:\nTen persons live on different floors of a ten - floor building where floors are numbered as 1 to 10 from bottom to\ntop respectively.\nLess than three persons live above P . Five persons live between P and B. S lives just above B. Number of floors\nabove E and below S are same. M lives three floors above A. Two floors gap between M and W. U lives above O but\nbelow Q.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "3rd floor",
+        "6th floor",
+        "7th floor",
+        "8th floor",
+        "5th floor"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
@@ -554,11 +554,11 @@
       "topic": "Puzzle (Floor / Flat)",
       "stem": "Ten persons live on different floors of a ten - floor building where floors are numbered as 1 to 10 from bottom to\ntop respectively.\nLess than three persons live above P . Five persons live between P and B. S lives just above B. Number of floors\nabove E and below S are same. M lives three floors above A. Two floors gap between M and W. U lives above O but\nbelow Q.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only II and III",
+        "All I, II, III",
+        "Only I",
+        "Only II",
+        "Only III"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
@@ -608,11 +608,11 @@
       "topic": "Direction Sense",
       "stem": "In which direction is point F with respect to point B?\nRead the given information carefully and answer the questions based on it:\nRahul starts from point A and walks 10 meters towards the North to reach point B. From point B, he takes a right\nturn and walks 15 meters to reach point C. At point C, he takes another right turn and walks 20 meters to reach\npoint D. From D, he then makes a 90 - degree turn to the left and walks 5 meters to reach point E. Finally, from E,\nhe takes a left turn and walks 25 meters to reach point F .",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "North-east",
+        "East",
+        "South",
+        "West",
+        "North-west"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
@@ -626,11 +626,11 @@
       "topic": "Direction Sense",
       "stem": "What is the shortest distance between point B and point D?\nRead the given information carefully and answer the questions based on it:\nRahul starts from point A and walks 10 meters towards the North to reach point B. From point B, he takes a right\nturn and walks 15 meters to reach point C. At point C, he takes another right turn and walks 20 meters to reach\npoint D. From D, he then makes a 90 - degree turn to the left and walks 5 meters to reach point E. Finally, from E,\nhe takes a left turn and walks 25 meters to reach point F .",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "18 meters",
+        "35 meters",
+        "24 meters",
+        "25 meters",
+        "None of the above"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -644,11 +644,11 @@
       "topic": "Direction Sense",
       "stem": "If point G is 5 meters south of point F , then what will be the direction of point C with respect to point G?\nRead the given information carefully and answer the questions based on it:\nRahul starts from point A and walks 10 meters towards the North to reach point B. From point B, he takes a right\nturn and walks 15 meters to reach point C. At point C, he takes another right turn and walks 20 meters to reach\npoint D. From D, he then makes a 90 - degree turn to the left and walks 5 meters to reach point E. Finally, from E,\nhe takes a left turn and walks 25 meters to reach point F .",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "East",
+        "West",
+        "South-west",
+        "North-west",
+        "North-east"
       ],
       "answerIndex": 1,
       "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
@@ -680,11 +680,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "What is the sum of the ages of P and R?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "42 years",
+        "34 years",
+        "36 years",
+        "44 years",
+        "40 years"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
@@ -698,11 +698,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "What is the age difference between M and T?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "12 years",
+        "8 years",
+        "6 years",
+        "10 years",
+        "2 years"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -716,11 +716,11 @@
       "topic": "Puzzle (Scheduling / Month-Date)",
       "stem": "Which of the following is correct?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Two persons are older to T",
+        "M was born in 1996",
+        "Q is 25 years old",
+        "O is not the youngest person",
+        "P’s age is a square number"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
@@ -1127,11 +1127,11 @@
       "topic": "Profit & Loss",
       "stem": "At present the cost of a share is Rs. 133100. Find the cost price of the share exactly three years ago.\nStatement I: Present cost price of the share is two times the price of share three years ago.\nStatement II: The price of the share increased by 10% every year.\nThe following questions are accompanied by two statements (I) and (II). You have to determine which\nstatement(s) is/are necessary/sufficient to answer the question.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only Statement I is sufficient",
+        "Only Statement II is sufficient",
+        "Neither Statement I nor Statement II is sufficient",
+        "Either Statement I or Statement II alone is sufficient",
+        "Both Statement I & Statement II together are sufficient"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Profit & Loss\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -1145,11 +1145,11 @@
       "topic": "Data Interpretation",
       "stem": "Find the total cost price of 200 antiques (in Rs).\nStatement I: 38 antiques were broken and the broken antique remains unsold & he sold the remaining at Rs. 480\nper piece.\nStatement II: He gained 29.6% profit by selling unbroken antique pieces.\nThe following questions are accompanied by two statements (I) and (II). You have to determine which\nstatement(s) is/are necessary/sufficient to answer the question.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only Statement I is sufficient",
+        "Only Statement II is sufficient",
+        "Neither Statement I nor Statement II is sufficient",
+        "Either Statement I or Statement II alone is sufficient",
+        "Both Statement I & Statement II together are sufficient"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields Option E.",
@@ -1163,11 +1163,11 @@
       "topic": "Simplification & Approximation",
       "stem": "What is area of a square?\nStatement I: The length of a rectangle ‘ A’ is half of the side of the square.\nStatement II: The area of rectangle A is 144 sq cm.\nThe following questions are accompanied by two statements (I) and (II). You have to determine which\nstatement(s) is/are necessary/sufficient to answer the question.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "Only Statement I is sufficient",
+        "Only Statement II is sufficient",
+        "Neither Statement I nor Statement II is sufficient",
+        "Either Statement I or Statement II alone is sufficient",
+        "Both Statement I & Statement II together are sufficient"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
@@ -1206,7 +1206,7 @@
         "112:111",
         "73:121",
         "55:121",
-        "Option E"
+        "None of these"
       ],
       "answerIndex": 4,
       "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
@@ -1304,11 +1304,11 @@
       "topic": "Speed, Time & Distance",
       "stem": "The ratio of time taken by A to B to compete a work is 1:4 and A & B together complete the 50% more work\nin 4.8 days. Find the time taken by A alone to complete the work.",
       "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
+        "10 days",
+        "9 days",
+        "2 days",
+        "4 days",
+        "12 days"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
@@ -1429,18 +1429,17 @@
       "options": [
         "x > y",
         "x ≤ y",
+        "x = y or no relation can be established",
         "x < y",
-        "x ≥ y",
-        "Option E"
+        "x ≥ y"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) x ≥ y Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x ≥ y.",
       "sourceQuestionNumber": 76,
       "diagrams": [
-        "data/diagrams/adda-10_page31_Image155.png",
         "data/diagrams/adda-10_page31_Image156.png"
       ],
-      "diagramCaption": "Export & Import Distribution / Quadratic Equation"
+      "diagramCaption": "Quadratic Equation Formula"
     },
     {
       "id": "adda-10-q077",
@@ -1451,18 +1450,17 @@
       "options": [
         "x > y",
         "x ≤ y",
+        "x = y or no relation can be established",
         "x < y",
-        "x ≥ y",
-        "Option E"
+        "x ≥ y"
       ],
       "answerIndex": 0,
       "explanation": "Correct Answer: (a) x > y Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x > y.",
       "sourceQuestionNumber": 77,
       "diagrams": [
-        "data/diagrams/adda-10_page31_Image155.png",
         "data/diagrams/adda-10_page31_Image157.png"
       ],
-      "diagramCaption": "Export & Import Distribution / Quadratic Equation"
+      "diagramCaption": "Quadratic Equation Formula"
     },
     {
       "id": "adda-10-q078",
@@ -1473,18 +1471,17 @@
       "options": [
         "x > y",
         "x ≤ y",
+        "x = y or no relation can be established",
         "x < y",
-        "x ≥ y",
-        "Option E"
+        "x ≥ y"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) x < y Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x < y.",
       "sourceQuestionNumber": 78,
       "diagrams": [
-        "data/diagrams/adda-10_page31_Image155.png",
         "data/diagrams/adda-10_page34_Image162.png"
       ],
-      "diagramCaption": "Export & Import Distribution / Quadratic Equation"
+      "diagramCaption": "Quadratic Equation Formula"
     },
     {
       "id": "adda-10-q079",
@@ -1495,18 +1492,17 @@
       "options": [
         "x > y",
         "x ≤ y",
+        "x = y or no relation can be established",
         "x < y",
-        "x ≥ y",
-        "Option E"
+        "x ≥ y"
       ],
       "answerIndex": 3,
       "explanation": "Correct Answer: (d) x ≥ y Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x ≥ y.",
       "sourceQuestionNumber": 79,
       "diagrams": [
-        "data/diagrams/adda-10_page31_Image155.png",
         "data/diagrams/adda-10_page34_Image163.png"
       ],
-      "diagramCaption": "Export & Import Distribution / Quadratic Equation"
+      "diagramCaption": "Quadratic Equation Formula"
     },
     {
       "id": "adda-10-q080",
@@ -1517,18 +1513,17 @@
       "options": [
         "x > y",
         "x ≤ y",
+        "x = y or no relation can be established",
         "x < y",
-        "x ≥ y",
-        "Option E"
+        "x ≥ y"
       ],
       "answerIndex": 2,
       "explanation": "Correct Answer: (c) x < y Analysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x < y.",
       "sourceQuestionNumber": 80,
       "diagrams": [
-        "data/diagrams/adda-10_page31_Image155.png",
         "data/diagrams/adda-10_page34_Image164.png"
       ],
-      "diagramCaption": "Export & Import Distribution / Quadratic Equation"
+      "diagramCaption": "Quadratic Equation Formula"
     }
   ]
 }
