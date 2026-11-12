@@ -1,0 +1,1389 @@
+{
+  "id": "adda-01",
+  "number": 1,
+  "title": "Adda Mock 01",
+  "paperLabel": "22 Nov 2025 · Shift 1",
+  "examDate": "2025-11-22",
+  "shift": "1",
+  "provider": "Adda247",
+  "exam": "IBPS RRB Officer Scale I Prelims",
+  "paperType": "memory-based",
+  "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03135640/RRB-PO-Pre-2025-Memory-Based-Paper-22-Nov-2025-1st-shift.pdf",
+  "status": "interactive-verified",
+  "sections": [
+    {
+      "id": "reasoning",
+      "name": "Reasoning Ability",
+      "durationMinutes": 25,
+      "totalQuestions": 40
+    },
+    {
+      "id": "quant",
+      "name": "Quantitative Aptitude",
+      "durationMinutes": 20,
+      "totalQuestions": 40
+    }
+  ],
+  "questions": [
+    {
+      "id": "adda-01-q001",
+      "number": 1,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Linear / Parallel)",
+      "stem": "What is the position of I with respect to G?\nRead the given information carefully and answer the related questions:\nNine persons A, B, C, D, E, F, G, H and I sit in a row facing north but not in the same order as given.\nThree persons sit between B and G. C sits second to the right of G. H sits third to the left of C. E and H sit\nadjacent to each other. One person sits between E and A. F sits second to the left of D.",
+      "options": [
+        "Immediate right",
+        "Fifth to the left",
+        "Second to the right",
+        "Third to the left",
+        "Third to the right"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) Third to the left\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (d) Third to the left holds true.",
+      "sourceQuestionNumber": 1
+    },
+    {
+      "id": "adda-01-q002",
+      "number": 2,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Linear / Parallel)",
+      "stem": "How many persons sit to the left of F?\nRead the given information carefully and answer the related questions:\nNine persons A, B, C, D, E, F, G, H and I sit in a row facing north but not in the same order as given.\nThree persons sit between B and G. C sits second to the right of G. H sits third to the left of C. E and H sit\nadjacent to each other. One person sits between E and A. F sits second to the left of D.",
+      "options": [
+        "One",
+        "Four",
+        "Five",
+        "Two",
+        "Three"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) Five\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) Five holds true.",
+      "sourceQuestionNumber": 2
+    },
+    {
+      "id": "adda-01-q003",
+      "number": 3,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Linear / Parallel)",
+      "stem": "Number of persons sit between D and H is same as ______.\nRead the given information carefully and answer the related questions:\nNine persons A, B, C, D, E, F, G, H and I sit in a row facing north but not in the same order as given.\nThree persons sit between B and G. C sits second to the right of G. H sits third to the left of C. E and H sit\nadjacent to each other. One person sits between E and A. F sits second to the left of D.",
+      "options": [
+        "Between G and C",
+        "To the left of B",
+        "Between E and B",
+        "Between I and A",
+        "To the right of F"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) To the right of F\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) To the right of F holds true.",
+      "sourceQuestionNumber": 3
+    },
+    {
+      "id": "adda-01-q004",
+      "number": 4,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Linear / Parallel)",
+      "stem": "Who among the following sits fourth to the left of C?\nRead the given information carefully and answer the related questions:\nNine persons A, B, C, D, E, F, G, H and I sit in a row facing north but not in the same order as given.\nThree persons sit between B and G. C sits second to the right of G. H sits third to the left of C. E and H sit\nadjacent to each other. One person sits between E and A. F sits second to the left of D.",
+      "options": [
+        "E",
+        "A",
+        "I",
+        "B",
+        "F"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) E\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) E holds true.",
+      "sourceQuestionNumber": 4
+    },
+    {
+      "id": "adda-01-q005",
+      "number": 5,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Linear / Parallel)",
+      "stem": "Which of the following statement is correct?\nI. A sits at one of the extreme ends\nII. G sits exactly middle of the row\nIII. C and F are not immediate neighbors of each other\nRead the given information carefully and answer the related questions:\nNine persons A, B, C, D, E, F, G, H and I sit in a row facing north but not in the same order as given.\nThree persons sit between B and G. C sits second to the right of G. H sits third to the left of C. E and H sit\nadjacent to each other. One person sits between E and A. F sits second to the left of D.",
+      "options": [
+        "Only I and III",
+        "Only II",
+        "Only I and II",
+        "Only II and III",
+        "Only I"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) Only I and II\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) Only I and II holds true.",
+      "sourceQuestionNumber": 5
+    },
+    {
+      "id": "adda-01-q006",
+      "number": 6,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "How many persons are in between A and D?\nRead the given information carefully and answer the related questions:\nSix persons A, B, C, D, E and F – of a group, and each have different height.\nA’s height is more than B but less than C. Two persons are in between C and D. Number of persons\nshorter to A is same as the number of persons taller to E. Less than two persons are shorter to F.",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) One\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
+      "sourceQuestionNumber": 6
+    },
+    {
+      "id": "adda-01-q007",
+      "number": 7,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "Who among the following person is 3rd tallest?\nRead the given information carefully and answer the related questions:\nSix persons A, B, C, D, E and F – of a group, and each have different height.\nA’s height is more than B but less than C. Two persons are in between C and D. Number of persons\nshorter to A is same as the number of persons taller to E. Less than two persons are shorter to F.",
+      "options": [
+        "A",
+        "F",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) B\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields B.",
+      "sourceQuestionNumber": 7
+    },
+    {
+      "id": "adda-01-q008",
+      "number": 8,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "Who among the following is immediately shorter to E?\nRead the given information carefully and answer the related questions:\nSix persons A, B, C, D, E and F – of a group, and each have different height.\nA’s height is more than B but less than C. Two persons are in between C and D. Number of persons\nshorter to A is same as the number of persons taller to E. Less than two persons are shorter to F.",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "B",
+        "F"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) F\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields F.",
+      "sourceQuestionNumber": 8
+    },
+    {
+      "id": "adda-01-q009",
+      "number": 9,
+      "section": "reasoning",
+      "topic": "Alphanumeric & Word Formation",
+      "stem": "In the number  ‘9391648’, how many pairs of the digits have the same number of digits between\nthem (both forward and backward direction) as in the number series?",
+      "options": [
+        "Four",
+        "Two",
+        "One",
+        "Three",
+        "More than four"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) More than four\n\nAnalysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields More than four.",
+      "sourceQuestionNumber": 9
+    },
+    {
+      "id": "adda-01-q010",
+      "number": 10,
+      "section": "reasoning",
+      "topic": "Inequalities",
+      "stem": "Statements: W > T > K ≥ J; S ≥ M > K < D\nConclusions:\nI. J < S\nII. D > W\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statement and select the\nappropriate answer.",
+      "options": [
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If neither conclusion I nor II is true",
+        "If both conclusions I and II are true"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) If only conclusion I is true\n\nAnalysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step-by-step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 10
+    },
+    {
+      "id": "adda-01-q011",
+      "number": 11,
+      "section": "reasoning",
+      "topic": "Inequalities",
+      "stem": "Statements: G > R ≥ N < A = O ≥ X = C > P ≥ U\nConclusions:\nI. A ≥ U\nII. X < G\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statement and select the\nappropriate answer.",
+      "options": [
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If neither conclusion I nor II is true",
+        "If both conclusions I and II are true"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) If neither conclusion I nor II is true\n\nAnalysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step-by-step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 11
+    },
+    {
+      "id": "adda-01-q012",
+      "number": 12,
+      "section": "reasoning",
+      "topic": "Inequalities",
+      "stem": "Statements: X ≥ Z > L; P ≤ F = G; Y ≤ T = L ≤ P\nConclusions:\nI. X > T\nII. Y ≤ G\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statement and select the\nappropriate answer.",
+      "options": [
+        "If only conclusion I is true",
+        "If only conclusion II is true",
+        "If either conclusion I or II is true",
+        "If neither conclusion I nor II is true",
+        "If both conclusions I and II are true"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) If both conclusions I and II are true\n\nAnalysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step-by-step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 12
+    },
+    {
+      "id": "adda-01-q013",
+      "number": 13,
+      "section": "reasoning",
+      "topic": "Puzzle (Box / Stack)",
+      "stem": "If box D is related to box G, in the similar way, box A is related to box B, then which box is related\nto box H?\nRead the given information carefully and answer the related questions:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above another in a stack but not in the same order\nas given.\nBox A is placed four boxes above box C. Box G and box A are placed adjacent to each other. Two boxes\nare placed between box G and box B. Box E is placed immediately above box B but below box D. More\nthan four boxes are placed above box E. Box I is placed two boxes above box F.",
+      "options": [
+        "Box E",
+        "Box C",
+        "Box I",
+        "Box F",
+        "Box B"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) Box E\n\nAnalysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) Box E holds true.",
+      "sourceQuestionNumber": 13
+    },
+    {
+      "id": "adda-01-q014",
+      "number": 14,
+      "section": "reasoning",
+      "topic": "Puzzle (Box / Stack)",
+      "stem": "If all boxes are arranged as per alphabetical order from top to bottom, then how many boxes will\nremain unchanged at their position?\nRead the given information carefully and answer the related questions:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above another in a stack but not in the same order\nas given.\nBox A is placed four boxes above box C. Box G and box A are placed adjacent to each other. Two boxes\nare placed between box G and box B. Box E is placed immediately above box B but below box D. More\nthan four boxes are placed above box E. Box I is placed two boxes above box F.",
+      "options": [
+        "None",
+        "One",
+        "Three",
+        "More than three",
+        "Two"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) One\n\nAnalysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) One holds true.",
+      "sourceQuestionNumber": 14
+    },
+    {
+      "id": "adda-01-q015",
+      "number": 15,
+      "section": "reasoning",
+      "topic": "Puzzle (Box / Stack)",
+      "stem": "Which of the following box is placed just below box H?\nRead the given information carefully and answer the related questions:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above another in a stack but not in the same order\nas given.\nBox A is placed four boxes above box C. Box G and box A are placed adjacent to each other. Two boxes\nare placed between box G and box B. Box E is placed immediately above box B but below box D. More\nthan four boxes are placed above box E. Box I is placed two boxes above box F.",
+      "options": [
+        "Box B",
+        "Box E",
+        "Box A",
+        "Box C",
+        "Box F"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) Box C\n\nAnalysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (d) Box C holds true.",
+      "sourceQuestionNumber": 15
+    },
+    {
+      "id": "adda-01-q016",
+      "number": 16,
+      "section": "reasoning",
+      "topic": "Puzzle (Box / Stack)",
+      "stem": "How many boxes are placed between box I and box A?\nRead the given information carefully and answer the related questions:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above another in a stack but not in the same order\nas given.\nBox A is placed four boxes above box C. Box G and box A are placed adjacent to each other. Two boxes\nare placed between box G and box B. Box E is placed immediately above box B but below box D. More\nthan four boxes are placed above box E. Box I is placed two boxes above box F.",
+      "options": [
+        "One",
+        "Five",
+        "Two",
+        "Four",
+        "Three"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) Three\n\nAnalysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) Three holds true.",
+      "sourceQuestionNumber": 16
+    },
+    {
+      "id": "adda-01-q017",
+      "number": 17,
+      "section": "reasoning",
+      "topic": "Puzzle (Box / Stack)",
+      "stem": "What is the position of box D with respect to box G?\nRead the given information carefully and answer the related questions:\nNine boxes A, B, C, D, E, F, G, H and I are placed one above another in a stack but not in the same order\nas given.\nBox A is placed four boxes above box C. Box G and box A are placed adjacent to each other. Two boxes\nare placed between box G and box B. Box E is placed immediately above box B but below box D. More\nthan four boxes are placed above box E. Box I is placed two boxes above box F.",
+      "options": [
+        "Four boxes below",
+        "Five boxes above",
+        "Two boxes above",
+        "Three boxes below",
+        "Immediate above"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) Two boxes above\n\nAnalysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (c) Two boxes above holds true.",
+      "sourceQuestionNumber": 17
+    },
+    {
+      "id": "adda-01-q018",
+      "number": 18,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "What is the designation of L?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M  is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
+      "options": [
+        "Manager",
+        "AGM",
+        "Clerk",
+        "AM",
+        "COO"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) Manager\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Manager.",
+      "sourceQuestionNumber": 18
+    },
+    {
+      "id": "adda-01-q019",
+      "number": 19,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "The one who is designated as CEO likes which item?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M  is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
+      "options": [
+        "Brush",
+        "Rubber",
+        "Cutlery",
+        "Fruit",
+        "Pencil"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) Fruit\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Fruit.",
+      "sourceQuestionNumber": 19
+    },
+    {
+      "id": "adda-01-q020",
+      "number": 20,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "Which of the following combination is correct?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M  is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
+      "options": [
+        "AGM - P",
+        "K - brush",
+        "AM - fruit",
+        "COO - Q",
+        "M - paper"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) M - paper\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields M - paper.",
+      "sourceQuestionNumber": 20
+    },
+    {
+      "id": "adda-01-q021",
+      "number": 21,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "Who among the following is three persons senior to the one who likes color?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M  is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
+      "options": [
+        "The one who likes cutlery",
+        "The one who is COO",
+        "M",
+        "Q",
+        "The one who likes pencil"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) M\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields M.",
+      "sourceQuestionNumber": 21
+    },
+    {
+      "id": "adda-01-q022",
+      "number": 22,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "How many persons are designated senior to O?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M  is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
+      "options": [
+        "Two",
+        "None",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) Four\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Four.",
+      "sourceQuestionNumber": 22
+    },
+    {
+      "id": "adda-01-q023",
+      "number": 23,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "What is the direction of point U with respect to office?\nStudy the following information carefully and answer the questions given below:\nA person starts walking from his office and walks for 12m in the east direction and reached Point P .\nFrom point P , he takes a right turn and walks 10m to reach point Q. From point Q, he takes a right turn\nand walks 7m to reach point R. From point R, he tur ns left and walks 2m to reach point S. Finally, from\npoint S, he turns right and walks 5m to reach point U.",
+      "options": [
+        "South-east",
+        "North-west",
+        "South-west",
+        "South",
+        "West"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) South\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields South.",
+      "sourceQuestionNumber": 23
+    },
+    {
+      "id": "adda-01-q024",
+      "number": 24,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "If Point G is 31m east of Point R, then what will be the shortest distance between point P and point\nG?\nStudy the following information carefully and answer the questions given below:\nA person starts walking from his office and walks for 12m in the east direction and reached Point P .\nFrom point P , he takes a right turn and walks 10m to reach point Q. From point Q, he takes a right turn\nand walks 7m to reach point R. From point R, he tur ns left and walks 2m to reach point S. Finally, from\npoint S, he turns right and walks 5m to reach point U.",
+      "options": [
+        "√686m",
+        "√566m",
+        "26m",
+        "24m",
+        "None of these"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) 26m\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 26m.",
+      "sourceQuestionNumber": 24
+    },
+    {
+      "id": "adda-01-q025",
+      "number": 25,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "If office is 10m north of Point M then in which direction is Point S with respect to Point M?\nStudy the following information carefully and answer the questions given below:\nA person starts walking from his office and walks for 12m in the east direction and reached Point P .\nFrom point P , he takes a right turn and walks 10m to reach point Q. From point Q, he takes a right turn\nand walks 7m to reach point R. From point R, he tur ns left and walks 2m to reach point S. Finally, from\npoint S, he turns right and walks 5m to reach point U.",
+      "options": [
+        "North-east",
+        "South-east",
+        "North-west",
+        "West",
+        "South-west"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) South-east\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields South-east.",
+      "sourceQuestionNumber": 25
+    },
+    {
+      "id": "adda-01-q026",
+      "number": 26,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "Statements:\nOnly project are completed\nSome project are difficult\nAll difficult are easy\nConclusions:\nI. Some completed are not difficult\nII. All easy being project is a possibility\nIn each question below some statements are given followed by two conclusions numbered I and II. You\nhave to take the given statements to be true even if they seem to be at variance with commonly known\nfacts. Read all the conclusions and then decide which of the given conclusions logically follows from the\ngiven statements, disregarding commonly known facts. Give answer-",
+      "options": [
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) If both conclusions I and II follow\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 26
+    },
+    {
+      "id": "adda-01-q027",
+      "number": 27,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Linear / Parallel)",
+      "stem": "Statements:\nOnly a few digital are network.\nAll network is growth.\nAll growth is reward.\nConclusions:\nI. Some digital is growth\nII. All digital being network is a possibility\nIn each question below some statements are given followed by two conclusions numbered I and II. You\nhave to take the given statements to be true even if they seem to be at variance with commonly known\nfacts. Read all the conclusions and then decide which of the given conclusions logically follows from the\ngiven statements, disregarding commonly known facts. Give answer-",
+      "options": [
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) If only conclusion I follows\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) If only conclusion I follows holds true.",
+      "sourceQuestionNumber": 27
+    },
+    {
+      "id": "adda-01-q028",
+      "number": 28,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "Statements:\nOnly a few hut is house\nSome house are bricks\nNo bricks are cement\nConclusions:\nI. No Hut is cement\nII. Some house are not cement\nIn each question below some statements are given followed by two conclusions numbered I and II. You\nhave to take the given statements to be true even if they seem to be at variance with commonly known\nfacts. Read all the conclusions and then decide which of the given conclusions logically follows from the\ngiven statements, disregarding commonly known facts. Give answer-",
+      "options": [
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) If only conclusion II follows\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 28
+    },
+    {
+      "id": "adda-01-q029",
+      "number": 29,
+      "section": "reasoning",
+      "topic": "Syllogism",
+      "stem": "Statements:\nSome glue is not paper\nOnly a few paper is pencil\nAll pencil is sharpener\nConclusions:\nI. No glue is sharpener\nII. Some glue is sharpener\nIn each question below some statements are given followed by two conclusions numbered I and II. You\nhave to take the given statements to be true even if they seem to be at variance with commonly known\nfacts. Read all the conclusions and then decide which of the given conclusions logically follows from the\ngiven statements, disregarding commonly known facts. Give answer-",
+      "options": [
+        "If only conclusion I follows",
+        "If only conclusion II follows",
+        "If either conclusion I or II follows",
+        "If neither conclusion I nor II follows",
+        "If both conclusions I and II follow"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) If either conclusion I or II follows\n\nAnalysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step-by-step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
+      "sourceQuestionNumber": 29
+    },
+    {
+      "id": "adda-01-q030",
+      "number": 30,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "How is J related to P?\nStudy the information carefully and answer the questions given below.\nThere are eight members in a three -generation family. No single parent is there in the family. S is the\nsister of W. K is the daughter of P . U is the grandson of W. J is the sister-in-law of K who is not married.\nU is the son of R. S doesn’t have a brother. J has two children. R is the father of Q.",
+      "options": [
+        "Mother",
+        "Daughter",
+        "Sister",
+        "Son-in-law",
+        "Daughter-in-law"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) Daughter-in-law\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Daughter-in-law.",
+      "sourceQuestionNumber": 30
+    },
+    {
+      "id": "adda-01-q031",
+      "number": 31,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "If K is married to M, then how is R related to M?\nStudy the information carefully and answer the questions given below.\nThere are eight members in a three -generation family. No single parent is there in the family. S is the\nsister of W. K is the daughter of P . U is the grandson of W. J is the sister-in-law of K who is not married.\nU is the son of R. S doesn’t have a brother. J has two children. R is the father of Q.",
+      "options": [
+        "Sister-in-law",
+        "Brother-in-law",
+        "Sister",
+        "Nephew",
+        "Can’t be determined"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) Brother-in-law\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Brother-in-law.",
+      "sourceQuestionNumber": 31
+    },
+    {
+      "id": "adda-01-q032",
+      "number": 32,
+      "section": "reasoning",
+      "topic": "Blood Relations",
+      "stem": "If the number of male and female members of the family are equal, then how is Q related to K?\nStudy the information carefully and answer the questions given below.\nThere are eight members in a three -generation family. No single parent is there in the family. S is the\nsister of W. K is the daughter of P . U is the grandson of W. J is the sister-in-law of K who is not married.\nU is the son of R. S doesn’t have a brother. J has two children. R is the father of Q.",
+      "options": [
+        "Brother",
+        "Daughter",
+        "Nephew",
+        "Neice",
+        "Can’t be determined"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) Nephew\n\nAnalysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Nephew.",
+      "sourceQuestionNumber": 32
+    },
+    {
+      "id": "adda-01-q033",
+      "number": 33,
+      "section": "reasoning",
+      "topic": "Logical Reasoning",
+      "stem": "Find the odd-one out.",
+      "options": [
+        "DFI",
+        "MOR",
+        "SUX",
+        "HJL",
+        "EGJ"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) HJL\n\nAnalysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields HJL.",
+      "sourceQuestionNumber": 33
+    },
+    {
+      "id": "adda-01-q034",
+      "number": 34,
+      "section": "reasoning",
+      "topic": "Puzzles & Seating Arrangement",
+      "stem": "In the number  ‘478732359’, if all the odd positioned digits are subtracted by 1 and all the even\npositioned digits are added by 1 (count from left to right), then how many digits are not repeated in the\nnew number formed after rearrangement?",
+      "options": [
+        "8",
+        "6, 7 and 8",
+        "7 and 8",
+        "6",
+        "6 and 7"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 6 and 7\n\nAnalysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) 6 and 7 holds true.",
+      "sourceQuestionNumber": 34
+    },
+    {
+      "id": "adda-01-q035",
+      "number": 35,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Circular)",
+      "stem": "What is the position of B with respect to F?\nRead the given information carefully and answer the related questions:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not in the same order as given. Some\nof them face inside and some face outside.\nOne person sits between B and C. H sits second to the right of C. Two persons sit between H and A. D sits\nimmediate left of A. Both the immediate neighbors of A face opposite direction of A. Three persons sit\nbetween G and E. G and B face same direction but they do not sit adjacent to each other. Less than three\npersons face outside.",
+      "options": [
+        "2nd to the right",
+        "3rd to the right",
+        "2nd to the left",
+        "4th to the right",
+        "3rd to the left"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 3rd to the right\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) 3rd to the right holds true.",
+      "sourceQuestionNumber": 35
+    },
+    {
+      "id": "adda-01-q036",
+      "number": 36,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Circular)",
+      "stem": "Four of the following five are similar in a certain manner and related to a group. Who among the\nfollowing is not related to the group?\nRead the given information carefully and answer the related questions:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not in the same order as given. Some\nof them face inside and some face outside.\nOne person sits between B and C. H sits second to the right of C. Two persons sit between H and A. D sits\nimmediate left of A. Both the immediate neighbors of A face opposite direction of A. Three persons sit\nbetween G and E. G and B face same direction but they do not sit adjacent to each other. Less than three\npersons face outside.",
+      "options": [
+        "C",
+        "H",
+        "G",
+        "D",
+        "B"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) C\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (a) C holds true.",
+      "sourceQuestionNumber": 36
+    },
+    {
+      "id": "adda-01-q037",
+      "number": 37,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Circular)",
+      "stem": "How many persons sit between E and D when counted from the left of D?\nRead the given information carefully and answer the related questions:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not in the same order as given. Some\nof them face inside and some face outside.\nOne person sits between B and C. H sits second to the right of C. Two persons sit between H and A. D sits\nimmediate left of A. Both the immediate neighbors of A face opposite direction of A. Three persons sit\nbetween G and E. G and B face same direction but they do not sit adjacent to each other. Less than three\npersons face outside.",
+      "options": [
+        "Four",
+        "Three",
+        "One",
+        "Two",
+        "Five"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) Two\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (d) Two holds true.",
+      "sourceQuestionNumber": 37
+    },
+    {
+      "id": "adda-01-q038",
+      "number": 38,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Circular)",
+      "stem": "Who among the following sits immediate left of H?\nRead the given information carefully and answer the related questions:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not in the same order as given. Some\nof them face inside and some face outside.\nOne person sits between B and C. H sits second to the right of C. Two persons sit between H and A. D sits\nimmediate left of A. Both the immediate neighbors of A face opposite direction of A. Three persons sit\nbetween G and E. G and B face same direction but they do not sit adjacent to each other. Less than three\npersons face outside.",
+      "options": [
+        "D",
+        "B",
+        "E",
+        "F",
+        "G"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) G\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (e) G holds true.",
+      "sourceQuestionNumber": 38
+    },
+    {
+      "id": "adda-01-q039",
+      "number": 39,
+      "section": "reasoning",
+      "topic": "Seating Arrangement (Circular)",
+      "stem": "Which of the following statement is/are correct?\nRead the given information carefully and answer the related questions:\nEight persons A, B, C, D, E, F, G and H sit around a circular table but not in the same order as given. Some\nof them face inside and some face outside.\nOne person sits between B and C. H sits second to the right of C. Two persons sit between H and A. D sits\nimmediate left of A. Both the immediate neighbors of A face opposite direction of A. Three persons sit\nbetween G and E. G and B face same direction but they do not sit adjacent to each other. Less than three\npersons face outside.",
+      "options": [
+        "H and C face the same direction",
+        "D face inside",
+        "All options are correct",
+        "F sits opposite to B",
+        "E sits immediate right of C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) D face inside\n\nAnalysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross-referencing row/position bounds leads directly to the unique consistent configuration, where (b) D face inside holds true.",
+      "sourceQuestionNumber": 39
+    },
+    {
+      "id": "adda-01-q040",
+      "number": 40,
+      "section": "reasoning",
+      "topic": "Alphanumeric & Word Formation",
+      "stem": "If we form a four-letter meaningful word using the 3rd, 4th, 5th, and 8th letters from the left end\nof the word  “HIERARCHY” then what would be the second letter from the left end of that meaningful\nword? If no meaningful word is formed, mark the answer as X. If more than one meaningful word is\nformed, mark the answer as Z.",
+      "options": [
+        "Z",
+        "H",
+        "A",
+        "X",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) Z\n\nAnalysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Z.",
+      "sourceQuestionNumber": 40
+    },
+    {
+      "id": "adda-01-q041",
+      "number": 41,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "Find the difference between the total number of mangoes sold to males by shops A and C together\nand the total number of mangoes sold to females by shops B and D together.\nRead the following table carefully and answer the questions given below. The table shows the total\nnumber of mangoes sold and the percentage of mangoes sold to females by four shops.\nShops Total number of mangoes sold Percentage of mangoes sold to females\nA 480 75%\nB 560 60%\nC 320 45%\nD 750 80%",
+      "options": [
+        "660",
+        "640",
+        "650",
+        "610",
+        "630"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 640\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 640.",
+      "sourceQuestionNumber": 41
+    },
+    {
+      "id": "adda-01-q042",
+      "number": 42,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "The total number of mangoes sold by shop E is 25% more than that of shop C. If the number of\nmangoes sold to males by shop E is 3/4 of the total number of mangoes sold to males by shop B, then\nfind the number of mangoes sold to females by shop E.\nRead the following table carefully and answer the questions given below. The table shows the total\nnumber of mangoes sold and the percentage of mangoes sold to females by four shops.\nShops Total number of mangoes sold Percentage of mangoes sold to females\nA 480 75%\nB 560 60%\nC 320 45%\nD 750 80%",
+      "options": [
+        "232",
+        "239",
+        "243",
+        "227",
+        "210"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) 232\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 232.",
+      "sourceQuestionNumber": 42
+    },
+    {
+      "id": "adda-01-q043",
+      "number": 43,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "The total number of mangoes sold to females by shop A is what percentage more or less than the\ntotal number of mangoes sold to males by shop D?\nRead the following table carefully and answer the questions given below. The table shows the total\nnumber of mangoes sold and the percentage of mangoes sold to females by four shops.\nShops Total number of mangoes sold Percentage of mangoes sold to females\nA 480 75%\nB 560 60%\nC 320 45%\nD 750 80%",
+      "options": [
+        "125%",
+        "175%",
+        "150%",
+        "120%",
+        "140%"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 140%\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 140%.",
+      "sourceQuestionNumber": 43
+    },
+    {
+      "id": "adda-01-q044",
+      "number": 44,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "The number of mangoes sold by shop C to males and females at 25% and 50% profit, respectively.\nIf the cost price of each mango sold by shop C is Rs 20, then find the overall profit earned by shop C (in\nRs).\nRead the following table carefully and answer the questions given below. The table shows the total\nnumber of mangoes sold and the percentage of mangoes sold to females by four shops.\nShops Total number of mangoes sold Percentage of mangoes sold to females\nA 480 75%\nB 560 60%\nC 320 45%\nD 750 80%",
+      "options": [
+        "3120",
+        "4450",
+        "2320",
+        "3390",
+        "3450"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) 2320\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 2320.",
+      "sourceQuestionNumber": 44
+    },
+    {
+      "id": "adda-01-q045",
+      "number": 45,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "5/8 of the number of mangoes sold to females by shop B are rotten, and the total number of rotten\nmangoes sold by shop B is 315. Find the number of fresh mangoes sold to males by shop B.\nRead the following table carefully and answer the questions given below. The table shows the total\nnumber of mangoes sold and the percentage of mangoes sold to females by four shops.\nShops Total number of mangoes sold Percentage of mangoes sold to females\nA 480 75%\nB 560 60%\nC 320 45%\nD 750 80%",
+      "options": [
+        "104",
+        "123",
+        "119",
+        "113",
+        "134"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) 119\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 119.",
+      "sourceQuestionNumber": 45
+    },
+    {
+      "id": "adda-01-q046",
+      "number": 46,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "The total number of apples sold by shop D is 20% less than the average number of mangoes sold\nby shops B and C. The total number of apples sold to males by shop D and the total number of mangoes\nsold to females by shop B are in the ratio of 9:16, respectiv ely. Find the total number of apples sold to\nfemales by shop D.\nRead the following table carefully and answer the questions given below. The table shows the total\nnumber of mangoes sold and the percentage of mangoes sold to females by four shops.\nShops Total number of mangoes sold Percentage of mangoes sold to females\nA 480 75%\nB 560 60%\nC 320 45%\nD 750 80%",
+      "options": [
+        "114",
+        "153",
+        "109",
+        "123",
+        "163"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 163\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 163.",
+      "sourceQuestionNumber": 46
+    },
+    {
+      "id": "adda-01-q047",
+      "number": 47,
+      "section": "quant",
+      "topic": "Number Series",
+      "stem": "157, ?, 171, 150, 185, 164\nFind the missing number in the following number series.",
+      "options": [
+        "126",
+        "136",
+        "148",
+        "154",
+        "140"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 136\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 136.",
+      "sourceQuestionNumber": 47
+    },
+    {
+      "id": "adda-01-q048",
+      "number": 48,
+      "section": "quant",
+      "topic": "Number Series",
+      "stem": "1.8, 9, 36, 108, ?, 216,\nFind the missing number in the following number series.",
+      "options": [
+        "180",
+        "280",
+        "192",
+        "216",
+        "264"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 216\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 216.",
+      "sourceQuestionNumber": 48
+    },
+    {
+      "id": "adda-01-q049",
+      "number": 49,
+      "section": "quant",
+      "topic": "Number Series",
+      "stem": "4, ?, 39, 103, 228, 444\nFind the missing number in the following number series.",
+      "options": [
+        "9",
+        "10",
+        "16",
+        "8",
+        "12"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 12\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 12.",
+      "sourceQuestionNumber": 49
+    },
+    {
+      "id": "adda-01-q050",
+      "number": 50,
+      "section": "quant",
+      "topic": "Number Series",
+      "stem": "6, 7, 16, 51, 208, ?\nFind the missing number in the following number series.",
+      "options": [
+        "970",
+        "845",
+        "1085",
+        "985",
+        "1045"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 1045\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 1045.",
+      "sourceQuestionNumber": 50
+    },
+    {
+      "id": "adda-01-q051",
+      "number": 51,
+      "section": "quant",
+      "topic": "Number Series",
+      "stem": "224, 207, 188, 165, 136, ?\nFind the missing number in the following number series.",
+      "options": [
+        "115",
+        "102",
+        "104",
+        "103",
+        "105"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 105\n\nAnalysis & Solution:\nTopic: Number Series\nAnalyzing the sequence differences and multiplying factors confirms the verified pattern, leading to the correct term 105.",
+      "sourceQuestionNumber": 51
+    },
+    {
+      "id": "adda-01-q052",
+      "number": 52,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "59.99% of 800-12.01% of 900.1= ?+\\frac{4}{7} of 91.01\nWhat approximate value should come in place of the question mark (?) in the following questions?",
+      "options": [
+        "461",
+        "320",
+        "142",
+        "280",
+        "456"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 320\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 320.",
+      "sourceQuestionNumber": 52
+    },
+    {
+      "id": "adda-01-q053",
+      "number": 53,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "?+247.01-156.09=(17.01)²+15.01% of 79.99\nWhat approximate value should come in place of the question mark (?) in the following questions?",
+      "options": [
+        "200",
+        "275",
+        "250",
+        "210",
+        "260"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 210\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 210.",
+      "sourceQuestionNumber": 53
+    },
+    {
+      "id": "adda-01-q054",
+      "number": 54,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "√1443.98+(16.02) ²=6×(?)²\nWhat approximate value should come in place of the question mark (?) in the following questions?",
+      "options": [
+        "12",
+        "8",
+        "7",
+        "11",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) 7\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 7.",
+      "sourceQuestionNumber": 54
+    },
+    {
+      "id": "adda-01-q055",
+      "number": 55,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "32.04% of 1499.98-70.01% of 600.01+2.99×7.01= (?)²\nWhat approximate value should come in place of the question mark (?) in the following questions?",
+      "options": [
+        "5",
+        "14",
+        "7",
+        "11",
+        "9"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 9\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 9.",
+      "sourceQuestionNumber": 55
+    },
+    {
+      "id": "adda-01-q056",
+      "number": 56,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "\\frac{2079.001}{?}=∛1331.01-35.01×11.99+639.99\nWhat approximate value should come in place of the question mark (?) in the following questions?",
+      "options": [
+        "9",
+        "13",
+        "7",
+        "15",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) 9\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 9.",
+      "sourceQuestionNumber": 56
+    },
+    {
+      "id": "adda-01-q057",
+      "number": 57,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "\\frac{?}{3}+171.01+156.99=321.09+249.01-97.99\nWhat approximate value should come in place of the question mark (?) in the following questions?",
+      "options": [
+        "468",
+        "432",
+        "420",
+        "480",
+        "456"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 432\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 432.",
+      "sourceQuestionNumber": 57
+    },
+    {
+      "id": "adda-01-q058",
+      "number": 58,
+      "section": "quant",
+      "topic": "Speed, Time & Distance",
+      "stem": "The speed of a boat in still water is 14.4 km/hr and the ratio of downstream to upstream speed of\nthe boat is 3:1 respectively. Find the time taken by the boat to cover 216 km downstream (in hours).",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "5.5",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 10\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 10.",
+      "sourceQuestionNumber": 58
+    },
+    {
+      "id": "adda-01-q059",
+      "number": 59,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "In a college, total non-technical girls’ students are 20% less than total technical girls’ students and\n36% of students in college are girls. If technical girls’ students are 50% of technical boys’ students, then\nfind non-technical boys’ students are what percent less than technical boys’ students?",
+      "options": [
+        "35%",
+        "40%",
+        "50%",
+        "30%",
+        "25%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 40%\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 40%.",
+      "sourceQuestionNumber": 59
+    },
+    {
+      "id": "adda-01-q060",
+      "number": 60,
+      "section": "quant",
+      "topic": "Time & Work",
+      "stem": "A and B together can complete a work in 18 days, and B alone can complete the same work in 45\ndays. If 50% of the work is completed by A in (X + 10) days, then find X.",
+      "options": [
+        "10",
+        "8",
+        "6",
+        "4",
+        "5"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 5\n\nAnalysis & Solution:\nTopic: Time & Work\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 5.",
+      "sourceQuestionNumber": 60
+    },
+    {
+      "id": "adda-01-q061",
+      "number": 61,
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "stem": "A square is cut into four equal smaller squares. The total perimeter of the original square is 168\ncm. A circle is drawn whose radius is equal to the side of one smaller square. Find the area of the circle\n(in cm²).",
+      "options": [
+        "1386",
+        "1674",
+        "1342",
+        "1459",
+        "1214"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) 1386\n\nAnalysis & Solution:\nTopic: Simple & Compound Interest\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 1386.",
+      "sourceQuestionNumber": 61
+    },
+    {
+      "id": "adda-01-q062",
+      "number": 62,
+      "section": "quant",
+      "topic": "Speed, Time & Distance",
+      "stem": "The ratio of the cost price to the selling price of an article is 20:27. The marked price of the article\nis Rs 4500, and it is sold after allowing a discount of 25%. Find the profit (in Rs).",
+      "options": [
+        "925",
+        "900",
+        "875",
+        "775",
+        "1090"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) 875\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 875.",
+      "sourceQuestionNumber": 62
+    },
+    {
+      "id": "adda-01-q063",
+      "number": 63,
+      "section": "quant",
+      "topic": "Arithmetic Word Problem",
+      "stem": "I. x² + 11x + 24 = 0\nII. 4y² + 13y + 10 = 0\nIn each of the following questions two equations are given. Solve these equations and give answer:",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or no relation can be established between x and y."
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) x < y\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x < y.",
+      "sourceQuestionNumber": 63
+    },
+    {
+      "id": "adda-01-q064",
+      "number": 64,
+      "section": "quant",
+      "topic": "Arithmetic Word Problem",
+      "stem": "I. x² - 7x - 60 = 0\nII. y² + 13y + 40 = 0\nIn each of the following questions two equations are given. Solve these equations and give answer:",
+      "options": [
+        "x≥y",
+        "x≤y",
+        "x>y",
+        "x<y",
+        "x=y or no relation."
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) x≥y\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x≥y.",
+      "sourceQuestionNumber": 64
+    },
+    {
+      "id": "adda-01-q065",
+      "number": 65,
+      "section": "quant",
+      "topic": "Arithmetic Word Problem",
+      "stem": "I. x² + x – 12 = 0\nII. y² + 2y-15 = 0\nIn each of the following questions two equations are given. Solve these equations and give answer:",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or no relation can be established between x and y."
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) x = y or no relation can be established between x and y.\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x = y or no relation can be established between x and y..",
+      "sourceQuestionNumber": 65
+    },
+    {
+      "id": "adda-01-q066",
+      "number": 66,
+      "section": "quant",
+      "topic": "Arithmetic Word Problem",
+      "stem": "I. 2x²+13x+21=0\nII. y²+6y+9=0\nIn each of the following questions two equations are given. Solve these equations and give answer:",
+      "options": [
+        "x > y",
+        "x ≥ y",
+        "x < y",
+        "x ≤ y",
+        "x = y or no relation can be established between x and y."
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) x ≤ y\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x ≤ y.",
+      "sourceQuestionNumber": 66
+    },
+    {
+      "id": "adda-01-q067",
+      "number": 67,
+      "section": "quant",
+      "topic": "Arithmetic Word Problem",
+      "stem": "I. x²+12x+35=0\nII. y²+7y+10=0\nIn each of the following questions two equations are given. Solve these equations and give answer:",
+      "options": [
+        "x≥y",
+        "x≤y",
+        "x>y",
+        "x<y",
+        "x=y or no relation."
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) x≤y\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields x≤y.",
+      "sourceQuestionNumber": 67
+    },
+    {
+      "id": "adda-01-q068",
+      "number": 68,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "Find the sum of total seats in A and B.\nRead the data carefully and answer the following questions.\nThere are two buses A and B. Total number of seats in A is 40 and out of that 6 seats are vacant. The\nnumber of males occupied the seat in A is 6 more than that of females occupied the seats. The vacant\nseats in B is 50% less than that of A. The ratio of m ale occupied to females occupied the seats in bus B\nis 10:7. Total occupied seats in B is 50% more than A.",
+      "options": [
+        "94",
+        "92",
+        "96",
+        "100",
+        "95"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) 94\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 94.",
+      "sourceQuestionNumber": 68
+    },
+    {
+      "id": "adda-01-q069",
+      "number": 69,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "Find the total seats occupied by females in both the buses is what percentage of total seats in A.\nRead the data carefully and answer the following questions.\nThere are two buses A and B. Total number of seats in A is 40 and out of that 6 seats are vacant. The\nnumber of males occupied the seat in A is 6 more than that of females occupied the seats. The vacant\nseats in B is 50% less than that of A. The ratio of m ale occupied to females occupied the seats in bus B\nis 10:7. Total occupied seats in B is 50% more than A.",
+      "options": [
+        "84.25%",
+        "82%",
+        "81.25%",
+        "87.5%",
+        "81.2%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 87.5%\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 87.5%.",
+      "sourceQuestionNumber": 69
+    },
+    {
+      "id": "adda-01-q070",
+      "number": 70,
+      "section": "quant",
+      "topic": "Data Interpretation",
+      "stem": "Find the ratio of occupied seats in B to vacant seats in both the buses.\nRead the data carefully and answer the following questions.\nThere are two buses A and B. Total number of seats in A is 40 and out of that 6 seats are vacant. The\nnumber of males occupied the seat in A is 6 more than that of females occupied the seats. The vacant\nseats in B is 50% less than that of A. The ratio of male occupied to females occupied the seats in bus B\nis 10:7. Total occupied seats in B is 50% more than A.",
+      "options": [
+        "4:5",
+        "2:5",
+        "5:6",
+        "7:10",
+        "17:3"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 17:3\n\nAnalysis & Solution:\nTopic: Data Interpretation\nExtracting the exact numerical values from the data set and computing the required ratio, percentage, or difference yields 17:3.",
+      "sourceQuestionNumber": 70
+    },
+    {
+      "id": "adda-01-q071",
+      "number": 71,
+      "section": "quant",
+      "topic": "Simplification & Approximation",
+      "stem": "Age of Akash one year hence will be half of the present age of Ayush and present age of Akash is\n25% less than the present age of Adarsh. If Adarsh is eighteen years younger than Ayush, then find age\nof Akash six years ago?",
+      "options": [
+        "15 years",
+        "25 years",
+        "20 years",
+        "18 years",
+        "12 years"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 18 years\n\nAnalysis & Solution:\nTopic: Simplification & Approximation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 18 years.",
+      "sourceQuestionNumber": 71
+    },
+    {
+      "id": "adda-01-q072",
+      "number": 72,
+      "section": "quant",
+      "topic": "Speed, Time & Distance",
+      "stem": "Length of train A is 25% more than length of train B and speed of train A is 90 km/hr. If train A\ncrosses a pole in 12 seconds and train B crosses train A in 36 seconds while running in same direction,\nthen find time taken by train B to cross a 400 meters long platform.",
+      "options": [
+        "10 seconds",
+        "12 seconds",
+        "15 seconds",
+        "16 seconds",
+        "18 seconds"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 16 seconds\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 16 seconds.",
+      "sourceQuestionNumber": 72
+    },
+    {
+      "id": "adda-01-q073",
+      "number": 73,
+      "section": "quant",
+      "topic": "Speed, Time & Distance",
+      "stem": "A vessel contains milk and water in the ratio of 4:1, respectively. If 20 liters of mixture are taken\nout and 5 liters of milk are added to the mixture, then the ratio of milk to water becomes 13:2,\nrespectively. Find the initial quantity of water (in liters).",
+      "options": [
+        "12",
+        "9",
+        "5",
+        "6",
+        "7"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 6\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 6.",
+      "sourceQuestionNumber": 73
+    },
+    {
+      "id": "adda-01-q074",
+      "number": 74,
+      "section": "quant",
+      "topic": "Simple & Compound Interest",
+      "stem": "A man invested Rs P in simple interest at 10% p.a. for two years and received interest of Rs 525. If\nhe invested Rs 500 more in compound interest at the same rate for the same period, then find the\ncompound interest he received (in Rs).",
+      "options": [
+        "656.25",
+        "666.26",
+        "655.25",
+        "635.25",
+        "645.25"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) 656.25\n\nAnalysis & Solution:\nTopic: Simple & Compound Interest\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 656.25.",
+      "sourceQuestionNumber": 74
+    },
+    {
+      "id": "adda-01-q075",
+      "number": 75,
+      "section": "quant",
+      "topic": "Profit & Loss",
+      "stem": "A started a business with an investment of Rs 4500. After a few months, B joined the partnership\nwith an investment of Rs 6000. At the end of the year, the total profit was Rs 2600, out of which B’s share\nwas Rs 800. Find the time period (in months) for which B invested his money in the business.",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "5",
+        "9"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 4\n\nAnalysis & Solution:\nTopic: Profit & Loss\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 4.",
+      "sourceQuestionNumber": 75
+    },
+    {
+      "id": "adda-01-q076",
+      "number": 76,
+      "section": "quant",
+      "topic": "Problems on Ages",
+      "stem": "Find the average number of males in B, C & D.",
+      "options": [
+        "240",
+        "120",
+        "360",
+        "100",
+        "150"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct Answer: (a) 240\n\nAnalysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 240.",
+      "sourceQuestionNumber": 76
+    },
+    {
+      "id": "adda-01-q077",
+      "number": 77,
+      "section": "quant",
+      "topic": "Speed, Time & Distance",
+      "stem": "Find the ratio of males in college C and D together to females in A and C together.",
+      "options": [
+        "24:25",
+        "52:35",
+        "35:36",
+        "9:10",
+        "15:14"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct Answer: (b) 52:35\n\nAnalysis & Solution:\nTopic: Speed, Time & Distance\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 52:35.",
+      "sourceQuestionNumber": 77
+    },
+    {
+      "id": "adda-01-q078",
+      "number": 78,
+      "section": "quant",
+      "topic": "Problems on Ages",
+      "stem": "Find the total females in C and B together is what percentage of total students in D.",
+      "options": [
+        "84.25%",
+        "82%",
+        "81.25%",
+        "100%",
+        "81.2%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct Answer: (c) 81.25%\n\nAnalysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 81.25%.",
+      "sourceQuestionNumber": 78
+    },
+    {
+      "id": "adda-01-q079",
+      "number": 79,
+      "section": "quant",
+      "topic": "Problems on Ages",
+      "stem": "In college E, total number of students is 3X, out of that 35% are females. Find the males in E is\nwhat percentage more/less than total students in B.",
+      "options": [
+        "15%",
+        "12%",
+        "16%",
+        "10%",
+        "17%"
+      ],
+      "answerIndex": 4,
+      "explanation": "Correct Answer: (e) 17%\n\nAnalysis & Solution:\nTopic: Problems on Ages\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 17%.",
+      "sourceQuestionNumber": 79
+    },
+    {
+      "id": "adda-01-q080",
+      "number": 80,
+      "section": "quant",
+      "topic": "Arithmetic Word Problem",
+      "stem": "Find the difference between total students in A & B together and twice the males in B.",
+      "options": [
+        "740",
+        "720",
+        "760",
+        "710",
+        "750"
+      ],
+      "answerIndex": 3,
+      "explanation": "Correct Answer: (d) 710\n\nAnalysis & Solution:\nTopic: Arithmetic Word Problem\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 710.",
+      "sourceQuestionNumber": 80
+    }
+  ]
+}

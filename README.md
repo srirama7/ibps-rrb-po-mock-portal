@@ -27,6 +27,26 @@ Questions are original practice material, not copied exam papers. Topic/structur
 
 Approximation choices also received a correctness fix: three regenerated items had a distractor closer to the exact value than the rounded key. All 100 approximation option sets now use wider spacing, and validation requires the keyed answer to be the uniquely closest choice.
 
+## Adda Mocks (10 Memory-Based Papers)
+
+Integrated 10-paper practice library based on Adda247 IBPS RRB Officer Scale I prelims memory-based question papers:
+
+- **Original Mocks (20)** + **Adda Mocks (10)**: Switch between collections with the library tab selector.
+- **English-Only Interactive CBT**: Every question extracted in pure English, with 5 options, sectional timers (Reasoning 25m, Quant 20m), palette, and automatic sectional lock.
+- **Detailed Solution & Analysis**: After submission, clearly points out which questions are Correct (green +1.00), Incorrect (red -0.25), and Unattempted (0.00), with quick filter toggles and step-by-step mathematical/logical solutions.
+- **Timed PDF Practice Mode**: Practice directly with the companion answer sheet alongside the original PDF.
+- **Direct PDF Links**: View and download the original Adda247 memory-based PDFs in a new tab.
+- **Independent Storage**: Uses `rrbpo_adda_active_v1` and `rrbpo_adda_history_v1` to ensure existing 20-mock attempts and progress remain completely untouched.
+
+### Validate Adda Mocks
+
+```sh
+python tools/validate_adda_mocks.py
+python tools/verify_adda_links.py
+node --check adda.js
+python tools/adda_browser_smoke_test.py
+```
+
 ## Generate and validate
 
 Run from the repository root with Python 3 and Node.js:

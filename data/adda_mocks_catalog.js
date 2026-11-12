@@ -1,0 +1,229 @@
+window.__ADDA_MOCKS_CATALOG__ = {
+  "schemaVersion": 1,
+  "collectionId": "adda-mocks",
+  "displayName": "Adda Mocks",
+  "description": "10 external Adda247 memory-based RRB PO prelims PDFs. Companion practice metadata only; no copyrighted questions reproduced.",
+  "publisherAttribution": "Source PDFs: Adda247. Independent site, no affiliation or endorsement.",
+  "papers": [
+    {
+      "id": "adda-01",
+      "number": 1,
+      "title": "Adda Mock 01",
+      "paperLabel": "22 Nov 2025 · Shift 1",
+      "examDate": "2025-11-22",
+      "shift": "1",
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03135640/RRB-PO-Pre-2025-Memory-Based-Paper-22-Nov-2025-1st-shift.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-02",
+      "number": 2,
+      "title": "Adda Mock 02",
+      "paperLabel": "22 Nov 2025 · Shift 2",
+      "examDate": "2025-11-22",
+      "shift": "2",
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03135652/RRB-PO-Pre-2025-Memory-Based-Paper-22-Nov-2025-2nd-shift.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-03",
+      "number": 3,
+      "title": "Adda Mock 03",
+      "paperLabel": "3 Aug 2024 · Shift unverified",
+      "examDate": "2024-08-03",
+      "shift": null,
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03140437/IBPS-RRB-PO-Pre-2024-Memory-Based-Paper-3-Aug-2024.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-04",
+      "number": 4,
+      "title": "Adda Mock 04",
+      "paperLabel": "3 Aug 2024 · Shift 2",
+      "examDate": "2024-08-03",
+      "shift": "2",
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03140446/IBPS-RRB-PO-Pre-PYP-Held-on-3-Aug-2024-S2.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-05",
+      "number": 5,
+      "title": "Adda Mock 05",
+      "paperLabel": "3 Aug 2024 · Shift 3",
+      "examDate": "2024-08-03",
+      "shift": "3",
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03140456/IBPS-RRB-PO-Pre-PYP-Held-on-3-Aug-2024-S3.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-06",
+      "number": 6,
+      "title": "Adda Mock 06",
+      "paperLabel": "3 Aug 2024 · Shift 4",
+      "examDate": "2024-08-03",
+      "shift": "4",
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03140503/IBPS-RRB-PO-Pre-PYP-Held-on-3-Aug-2024-S4.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-07",
+      "number": 7,
+      "title": "Adda Mock 07",
+      "paperLabel": "4 Aug 2024 · Shift unverified",
+      "examDate": "2024-08-04",
+      "shift": null,
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03140442/IBPS-RRB-PO-Pre-2024-Memory-Based-Paper-4-Aug-2024.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-08",
+      "number": 8,
+      "title": "Adda Mock 08",
+      "paperLabel": "4 Aug 2024 · Shift 2",
+      "examDate": "2024-08-04",
+      "shift": "2",
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/03140517/IBPS-RRB-PO-Pre-PYP-Held-on-4-Aug-2024-S2.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-09",
+      "number": 9,
+      "title": "Adda Mock 09",
+      "paperLabel": "5 Aug 2023 · Publisher Mock 01",
+      "examDate": "2023-08-05",
+      "shift": null,
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/04171745/RRB-PO-Pre-Memory-Based-Paper-Mock-01-05-Aug-2023.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    },
+    {
+      "id": "adda-10",
+      "number": 10,
+      "title": "Adda Mock 10",
+      "paperLabel": "5 Aug 2023 · Publisher Mock 02",
+      "examDate": "2023-08-05",
+      "shift": null,
+      "provider": "Adda247",
+      "exam": "IBPS RRB Officer Scale I Prelims",
+      "paperType": "publisher-memory-based",
+      "pdfUrl": "https://www.adda247.com/jobs/wp-content/uploads/2026/09/04170821/RRB-PO-Pre-2023-5th-August-Shift-Wise-Previous-Year-Paper-Mock-02.pdf",
+      "status": "interactive-verified",
+      "questionOrderVerified": true,
+      "answerKeyStatus": "verified",
+      "publicationPermission": true,
+      "practice": {
+        "reasoning": 40,
+        "quant": 40,
+        "reasoningMinutes": 25,
+        "quantMinutes": 20
+      }
+    }
+  ]
+};

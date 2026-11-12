@@ -65,6 +65,7 @@
 
   function enterHome() {
     page = 'home';
+    window.renderOriginalHome = renderHome;
     renderHome();
   }
 
