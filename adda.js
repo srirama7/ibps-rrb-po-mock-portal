@@ -171,7 +171,8 @@
       addaBanner.className = 'adda-banner';
       addaBanner.style.display = currentTab === 'adda' ? 'block' : 'none';
       addaBanner.innerHTML = `
-        <strong>Adda Mocks — Memory-Based Practice Papers:</strong> 10 authentic IBPS RRB Officer Scale I prelims memory-based question papers linked from Adda247. Every question has been extracted in clean English, verified with 5 options, correct answer keys, and step-by-step solution analysis. Not an official IBPS release.
+        <strong>Adda Mocks — Memory-Based Question Papers in Test Format:</strong><br>
+        All 10 authentic Adda247 IBPS RRB Officer Scale I prelims memory-based PDF papers have been converted into <strong>interactive online mock tests</strong> with exact English questions, 5 options, 45-minute sectional timers, and step-by-step solutions. You can also view or download the original publisher PDF at any time.
       `;
       addaGrid.parentNode.insertBefore(addaBanner, addaGrid);
 
@@ -292,14 +293,14 @@
             </div>
             <div class="adda-btn-row">
               <button class="btn btn-primary" style="flex:1;" data-adda-start="${esc(p.id)}">
-                ${isOngoing ? 'Continue Test →' : 'Start Mock Test ↗'}
+                ${isOngoing ? 'Continue Test →' : 'Take Online Test (80 Qs) ↗'}
               </button>
-              <button class="btn btn-ghost" style="padding: 8px 10px;" title="Timed PDF Companion Sheet" data-adda-companion="${esc(p.id)}">
+              <button class="btn btn-ghost" style="padding: 8px 10px;" title="Timed Answer Sheet Companion" data-adda-companion="${esc(p.id)}">
                 ⏱ Sheet
               </button>
             </div>
             <a href="${esc(p.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="adda-pdf-link">
-              <span>View / Download Original PDF ↗</span>
+              <span>📄 View / Download Original PDF ↗</span>
             </a>
           </div>
         </div>
@@ -447,9 +448,9 @@
               </span>
             </div>
           </div>
-          <div style="display:flex; align-items:center; gap:16px;">
-            <a href="${esc(t.pdfUrl)}" target="_blank" rel="noopener noreferrer" style="font-size:11.5px; color:var(--accent); text-decoration:none; font-weight:600;">
-              📄 View PDF ↗
+          <div style="display:flex; align-items:center; gap:12px;">
+            <a href="${esc(t.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:11.5px; padding:6px 12px; min-height:34px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
+              📄 Open Original PDF ↗
             </a>
             <div class="timer-box normal" style="font-family:monospace; font-size:18px; font-weight:800; padding:6px 14px; border-radius:8px; border:1px solid #cfdbc8; background:#edf3e9; color:var(--primary);">
               ⏱ <span id="addaTimerDisplay">--:--</span>
