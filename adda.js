@@ -132,6 +132,24 @@
       currentTab = 'adda';
     }
 
+    // Add hero button if present
+    const heroActions = $('.hero-actions');
+    if (heroActions && !$('#heroAddaBtn')) {
+      const addaBtn = document.createElement('a');
+      addaBtn.id = 'heroAddaBtn';
+      addaBtn.className = 'btn btn-primary';
+      addaBtn.href = '#adda-mocks';
+      addaBtn.style.background = '#285747';
+      addaBtn.style.borderColor = '#285747';
+      addaBtn.innerHTML = 'Adda Mocks (10) <span style="background:#cfe68c; color:#173c34; font-size:9px; font-weight:800; padding:2px 6px; border-radius:4px; margin-left:6px;">NEW</span> <span>↗</span>';
+      addaBtn.onclick = (e) => {
+        e.preventDefault();
+        switchTab('adda');
+        $('#mockCards')?.scrollIntoView({ behavior: 'smooth' });
+      };
+      heroActions.appendChild(addaBtn);
+    }
+
     const switchHtml = document.createElement('div');
     switchHtml.id = 'librarySwitchContainer';
     switchHtml.className = 'library-switch-container';
@@ -141,7 +159,7 @@
           Original Mocks <span class="tab-badge">20</span>
         </button>
         <button class="library-tab-btn ${currentTab === 'adda' ? 'active' : ''}" id="tabAdda" role="tab" aria-selected="${currentTab === 'adda'}" data-tab="adda">
-          Adda Mocks <span class="tab-badge">10</span>
+          Adda Mocks <span class="tab-badge" style="background:#cfe68c; color:#173c34;">10 NEW</span>
         </button>
       </div>
       <div style="font-size: 12.5px; color: var(--text-muted);">
@@ -908,6 +926,14 @@
         setupTabs();
       }
     }, 150);
+
+    window.addEventListener('hashchange', () => {
+      if (window.location.hash.includes('adda')) {
+        switchTab('adda');
+      } else if (window.location.hash.includes('original')) {
+        switchTab('original');
+      }
+    });
 
     // Expose API for app.js or tests
     window.AddaPortal = {
