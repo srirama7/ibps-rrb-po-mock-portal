@@ -1,7 +1,11 @@
 /**
  * IBPS RRB PO Prelims Mock Portal - Adda247 Mocks Integration Module
- * Full English CBT Simulation, Free Section Switching, Pause & Break Support,
- * Continue / Complete Remaining Quant Questions, and Step-by-Step Analysis.
+ * Official IBPS RRB Sectional Timing:
+ * Section 1: Reasoning Ability (40 Qs, 25:00 Minutes)
+ * Section 2: Quantitative Aptitude (40 Qs, 20:00 Minutes)
+ * Total: 80 Questions, 45:00 Minutes Composite
+ * Full English CBT Simulation, TCS iON "Time Left : MM:SS" Clock,
+ * Pause & Break Support, and "Complete Quant" continuation option.
  */
 
 (() => {
@@ -174,42 +178,98 @@
     return 'not-visited';
   }
 
-  // --- TIMER & PAUSE SUPPORT ---
+  // --- OFFICIAL IBPS RRB SECTIONAL TIMING ENGINE ---
 
   function syncDeadline() {
-    if (!active) return;
-    if (active.isPaused) return;
+    if (!active || active.isPaused) return;
+
     const now = Date.now();
-    if (now >= active.testEndAt) {
-      alert('Time is up for your examination! Your mock test is now submitting.');
-      submitTest(true);
+    const lastTick = active.lastTickAt || now;
+    const elapsed = Math.max(0, Math.floor((now - lastTick) / 1000));
+    if (elapsed <= 0) return;
+
+    active.lastTickAt = now;
+
+    if (active.sectionIndex === 0) {
+      // Ticking down Reasoning Ability (25 Min)
+      active.reasoningSecLeft = Math.max(0, (active.reasoningSecLeft ?? 25 * 60) - elapsed);
+      if (active.reasoningSecLeft <= 0) {
+        if ((active.quantSecLeft ?? 20 * 60) > 0) {
+          active.sectionIndex = 1;
+          active.paletteSectionIndex = 1;
+          active.currentIndex = 40;
+          const q = getCurrentQuestion();
+          if (q && !active.visited.includes(q.id)) active.visited.push(q.id);
+          storeActive();
+          alert('Section 1 (Reasoning Ability) time is up (25:00 Minutes)!\n\nNow beginning Section 2: Quantitative Aptitude (20:00 Minutes).');
+          renderExam();
+          return;
+        } else {
+          alert('Time is up for both examination sections! Your mock test is submitting now.');
+          submitTest(true);
+          return;
+        }
+      }
+    } else {
+      // Ticking down Quantitative Aptitude (20 Min)
+      active.quantSecLeft = Math.max(0, (active.quantSecLeft ?? 20 * 60) - elapsed);
+      if (active.quantSecLeft <= 0) {
+        if ((active.reasoningSecLeft ?? 0) > 0) {
+          active.sectionIndex = 0;
+          active.paletteSectionIndex = 0;
+          active.currentIndex = active.lastReasoningIndex !== undefined ? active.lastReasoningIndex : 0;
+          const q = getCurrentQuestion();
+          if (q && !active.visited.includes(q.id)) active.visited.push(q.id);
+          storeActive();
+          alert('Section 2 (Quantitative Aptitude) time is up (20:00 Minutes)!\n\nReturning to Section 1: Reasoning Ability.');
+          renderExam();
+          return;
+        } else {
+          alert('Time is up for both examination sections! Your mock test is submitting now.');
+          submitTest(true);
+          return;
+        }
+      }
     }
+
+    storeActive();
   }
 
   function tick() {
     if (page !== 'exam' || !active) return;
     if (active.isPaused) return;
+
     syncDeadline();
     if (!active) return;
 
-    const remainingSec = Math.max(0, Math.ceil((active.testEndAt - Date.now()) / 1000));
-    active.timeRemainingSec = remainingSec;
+    const currentSecLeft = active.sectionIndex === 0 ? (active.reasoningSecLeft ?? 0) : (active.quantSecLeft ?? 0);
+    const totalSecLeft = (active.reasoningSecLeft ?? 0) + (active.quantSecLeft ?? 0);
+
     const timerEl = $('#addaTimerDisplay');
     if (timerEl) {
-      timerEl.textContent = timeText(remainingSec);
-      if (remainingSec <= 120) {
+      timerEl.textContent = timeText(currentSecLeft);
+      if (currentSecLeft <= 120) {
         timerEl.classList.add('urgent');
       } else {
         timerEl.classList.remove('urgent');
       }
     }
+
+    const secLabelEl = $('#addaTimerSecLabel');
+    if (secLabelEl) {
+      secLabelEl.textContent = active.sectionIndex === 0 ? 'Reasoning (25:00)' : 'Quantitative (20:00)';
+    }
+
+    const totLabelEl = $('#addaTimerTotalLabel');
+    if (totLabelEl) {
+      totLabelEl.textContent = `Total: ${timeText(totalSecLeft)}`;
+    }
   }
 
   function pauseTest() {
     if (!active || active.isPaused) return;
-    const remainingSec = Math.max(0, Math.ceil((active.testEndAt - Date.now()) / 1000));
+    syncDeadline();
     active.isPaused = true;
-    active.timeRemainingSec = remainingSec;
     storeActive();
     renderExam();
   }
@@ -217,8 +277,7 @@
   function unpauseTest() {
     if (!active || !active.isPaused) return;
     active.isPaused = false;
-    const sec = active.timeRemainingSec || 60;
-    active.testEndAt = Date.now() + sec * 1000;
+    active.lastTickAt = Date.now();
     storeActive();
     renderExam();
   }
@@ -229,7 +288,6 @@
     const sectionTitle = $('#mockCards');
     if (!sectionTitle) return;
 
-    // Check if tabs already exist
     if ($('#librarySwitchContainer')) return;
 
     try {
@@ -241,7 +299,6 @@
       currentTab = 'adda';
     }
 
-    // Add hero button if present
     const heroActions = $('.hero-actions');
     if (heroActions && !$('#heroAddaBtn')) {
       const addaBtn = document.createElement('a');
@@ -273,14 +330,13 @@
       </div>
       <div style="font-size: 12.5px; color: var(--text-muted);">
         ${currentTab === 'original' 
-          ? '80 Questions · 80 Marks · 45 Minutes per mock'
-          : '10 Memory-Based Prelims Papers · English Interactive CBT & Free Section Switching'}
+          ? '80 Questions · 80 Marks · 45 Minutes (Reasoning: 25m, Quant: 20m)'
+          : '10 Memory-Based Prelims Papers · Official Sectional Timers (25m / 20m) & Step-by-Step Analysis'}
       </div>
     `;
 
     sectionTitle.parentNode.insertBefore(switchHtml, sectionTitle);
 
-    // Insert Adda Cards Grid Container after original mock grid
     const origCards = $('#mockCards');
     if (origCards && !$('#addaCardsGrid')) {
       const addaContainer = document.createElement('div');
@@ -289,16 +345,15 @@
       addaContainer.innerHTML = `
         <div id="addaOngoingNotice"></div>
         <div class="adda-banner">
-          <strong>Adda247 Memory-Based Papers:</strong> 10 actual Prelims papers faithfully digitized into 
-          interactive online CBT format. Features pure English questions, full 45-minute composite timer with free 
-          switching between Reasoning and Quantitative Aptitude, step-by-step mathematical solutions, and pause/resume support.
+          <strong>Adda247 Memory-Based Papers:</strong> 10 authentic Prelims papers digitized into 
+          interactive online CBT format. Features pure English questions, official IBPS RRB sectional timing 
+          (Reasoning: 25:00 Min | Quantitative: 20:00 Min), TCS iON "Time Left" clock, step-by-step mathematical solutions, and pause/resume support.
         </div>
         <div id="addaCardsGrid" class="adda-cards-grid"></div>
       `;
       origCards.parentNode.insertBefore(addaContainer, origCards.nextSibling);
     }
 
-    // Bind switch buttons
     $('#tabOriginal').onclick = () => switchTab('original');
     $('#tabAdda').onclick = () => switchTab('adda');
 
@@ -357,7 +412,8 @@
       const t = getAddaTest(active.testId);
       if (!t) return;
       const isP = active.isPaused;
-      const remSec = active.timeRemainingSec || Math.max(0, Math.ceil(((active.testEndAt || Date.now()) - Date.now()) / 1000));
+      const curSec = active.sectionIndex === 0 ? (active.reasoningSecLeft ?? 25 * 60) : (active.quantSecLeft ?? 20 * 60);
+      const secName = active.sectionIndex === 0 ? 'Reasoning (25:00)' : 'Quantitative (20:00)';
 
       container.innerHTML = `
         <div style="background: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #f59e0b; border-radius: 10px; padding: 18px 24px; margin-bottom: 24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;">
@@ -366,7 +422,7 @@
               ${isP ? '☕ Paused Adda Mock in Progress:' : '⏱ Ongoing Adda Mock in Progress:'}
             </strong>
             <p style="color: #78350f; font-size: 13.5px; margin-top: 3px;">
-              ${esc(t.title)} (${esc(t.paperLabel)}) — Time Remaining: <strong>${timeText(remSec)}</strong>.
+              ${esc(t.title)} (${esc(t.paperLabel)}) — Section: <strong>${secName}</strong> · Section Time Left: <strong>${timeText(curSec)}</strong>.
             </p>
           </div>
           <div style="display:flex; gap:10px;">
@@ -436,9 +492,9 @@
             <span class="adda-tag" style="background:#e8f5e9; color:#2e7d32; border-color:#c8e6c9;">English CBT</span>
           </div>
           <div class="adda-spec-list">
-            <div>• 40 Reasoning Ability (Q1–Q40)</div>
-            <div>• 40 Quantitative Aptitude (Q41–Q80)</div>
-            <div>• 45:00 Composite Time · Free Switching</div>
+            <div>• 40 Reasoning Ability (25:00 Min)</div>
+            <div>• 40 Quantitative Aptitude (20:00 Min)</div>
+            <div>• Official IBPS RRB Sectional Timers</div>
             <div>• Step-by-Step Mathematical Solutions</div>
           </div>
           <div class="adda-card-actions">
@@ -514,25 +570,20 @@
         <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">${esc(t.paperLabel)} · Official Paper digitized in pure English</p>
 
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px; margin-bottom: 24px; font-size: 13.5px; line-height: 1.8;">
-          <h3 style="color: var(--primary); font-size: 15px; margin-bottom: 12px;">Exam Pattern & Operating Scheme:</h3>
+          <h3 style="color: var(--primary); font-size: 15px; margin-bottom: 12px;">Official IBPS RRB Exam Pattern & Timer Scheme:</h3>
           <ul style="padding-left: 20px;">
             <li><strong>Total Questions:</strong> 80 Objective Multiple Choice Questions in pure English.</li>
             <li><strong>Marking Scheme:</strong> +1.00 for Correct, −0.25 for Incorrect, 0 for Unattempted.</li>
-            <li><strong>Composite 45:00 Minutes Timing:</strong> 
-              Total composite duration of 45:00 minutes for the entire examination (standard IBPS RRB PO Prelims scheme).
+            <li><strong>Official IBPS RRB Sectional Timers:</strong>
+              <ul style="margin: 6px 0;">
+                <li><strong>Section 1 (Reasoning Ability):</strong> Q1–Q40 (40 Marks), <strong>25:00 Minutes</strong> countdown timer.</li>
+                <li><strong>Section 2 (Quantitative Aptitude):</strong> Q41–Q80 (40 Marks), <strong>20:00 Minutes</strong> countdown timer.</li>
+              </ul>
             </li>
-            <li><strong>Free Section Switching:</strong> 
-              You can switch freely between <strong>Section 1 (Reasoning Ability, Q1–Q40)</strong> and <strong>Section 2 (Quantitative Aptitude, Q41–Q80)</strong> at any point during the mock test.
-            </li>
-            <li><strong>Pause & Take a Break:</strong> 
-              Taking a short break? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar at any time to freeze the timer safely. Your answers and progress remain 100% saved.
-            </li>
-            <li><strong>Continue & Resume Incomplete Tests:</strong> 
-              If you submit early or want to complete Quantitative Aptitude later, you can always click <strong>"▶ Continue Test / Complete Quant"</strong> on your analysis scorecard to finish the remaining questions!
-            </li>
-            <li><strong>Step-by-Step Mathematical Solutions:</strong> 
-              Detailed logical and mathematical explanations are revealed immediately upon submission pointing out correct vs incorrect answers.
-            </li>
+            <li><strong>TCS iON "Time Left" Display:</strong> The timer prominently displays <strong>"Time Left : MM : SS"</strong> in the top header, synchronized to the active section's time bank.</li>
+            <li><strong>Pause & Take a Break:</strong> Taking a break? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar to freeze the countdown clock. Your answers are safely preserved.</li>
+            <li><strong>Continue & Complete Quant Later:</strong> If you step away after completing Reasoning (or skip Quant), you can always click <strong>"▶ Complete Quant"</strong> on your scorecard to finish with its full 20:00 minutes!</li>
+            <li><strong>Step-by-Step Mathematical Solutions:</strong> Detailed explanations and calculations are revealed immediately upon submission.</li>
           </ul>
         </div>
 
@@ -561,18 +612,18 @@
     const now = Date.now();
     const t = getAddaTest(id);
     if (!t) return;
-    const totalDurationSec = 45 * 60; // 45 Minutes composite time
 
     active = {
       testId: id,
       mode: mode,
       startedAt: now,
-      testEndAt: now + totalDurationSec * 1000,
-      timeRemainingSec: totalDurationSec,
-      isPaused: false,
+      lastTickAt: now,
       sectionIndex: 0,
       currentIndex: 0,
       paletteSectionIndex: 0,
+      reasoningSecLeft: 25 * 60, // 25:00 Minutes for Reasoning Ability
+      quantSecLeft: 20 * 60,     // 20:00 Minutes for Quantitative Aptitude
+      isPaused: false,
       answers: {},
       visited: [t.questions[0].id],
       marked: []
@@ -587,24 +638,31 @@
     const t = getAddaTest(attempt.testId);
     if (!t) return;
 
-    // Find first unattempted question
-    let targetIdx = t.questions.findIndex(q => attempt.answers[q.id] === undefined);
-    if (targetIdx === -1) targetIdx = 40; // Default to Quant (Q41) if all answered
+    // Prioritize the first unattempted question in Section 2 (Quantitative Aptitude, index >= 40)
+    let quantUnattempted = t.questions.slice(40).findIndex(q => attempt.answers[q.id] === undefined);
+    let targetIdx;
+    if (quantUnattempted !== -1) {
+      targetIdx = 40 + quantUnattempted;
+    } else {
+      targetIdx = t.questions.findIndex(q => attempt.answers[q.id] === undefined);
+      if (targetIdx === -1) targetIdx = 40;
+    }
 
     const now = Date.now();
-    // Allow at least 25 minutes (1500s) to comfortably complete Quant / remaining questions
-    const timeAllowedSec = Math.max(1500, attempt.timeRemainingSec || 1500);
+    const isTargetQuant = targetIdx >= 40;
 
     active = {
       testId: attempt.testId,
       mode: 'cbt',
       startedAt: attempt.startedAt || now,
-      testEndAt: now + timeAllowedSec * 1000,
-      timeRemainingSec: timeAllowedSec,
-      isPaused: false,
-      sectionIndex: targetIdx < 40 ? 0 : 1,
+      lastTickAt: now,
+      sectionIndex: isTargetQuant ? 1 : 0,
       currentIndex: targetIdx,
-      paletteSectionIndex: targetIdx < 40 ? 0 : 1,
+      paletteSectionIndex: isTargetQuant ? 1 : 0,
+      // Restore remaining sectional times (or grant official 20:00 for Quant)
+      reasoningSecLeft: attempt.reasoningSecLeft !== undefined ? attempt.reasoningSecLeft : (isTargetQuant ? 0 : 25 * 60),
+      quantSecLeft: attempt.quantSecLeft !== undefined && attempt.quantSecLeft > 0 ? attempt.quantSecLeft : 20 * 60,
+      isPaused: false,
       answers: { ...(attempt.answers || {}) },
       visited: t.questions.filter(q => attempt.answers[q.id] !== undefined).map(q => q.id),
       marked: [],
@@ -623,9 +681,9 @@
 
   function resumeTest() {
     if (active) {
-      if (active.isPaused && active.timeRemainingSec) {
+      if (active.isPaused) {
         active.isPaused = false;
-        active.testEndAt = Date.now() + active.timeRemainingSec * 1000;
+        active.lastTickAt = Date.now();
         storeActive();
       }
       page = 'exam';
@@ -659,7 +717,6 @@
     const reasoningAnsCount = reasoningQuestions.filter(sq => active.answers[sq.id] !== undefined).length;
     const quantAnsCount = quantQuestions.filter(sq => active.answers[sq.id] !== undefined).length;
 
-    // Palette section defaults to active section or user toggle
     const palSectionIndex = (active.paletteSectionIndex !== undefined) ? active.paletteSectionIndex : active.sectionIndex;
     const secQuestions = palSectionIndex === 0 ? reasoningQuestions : quantQuestions;
 
@@ -668,13 +725,12 @@
     const notVisitedCount = secQuestions.filter(sq => !active.visited.includes(sq.id)).length;
     const notAnsweredCount = secQuestions.length - answeredCount - notVisitedCount;
 
-    const remainingSec = active.isPaused 
-      ? (active.timeRemainingSec || 0)
-      : Math.max(0, Math.ceil(((active.testEndAt || Date.now()) - Date.now()) / 1000));
+    const curSecLeft = active.sectionIndex === 0 ? (active.reasoningSecLeft ?? 25 * 60) : (active.quantSecLeft ?? 20 * 60);
+    const totSecLeft = (active.reasoningSecLeft ?? 0) + (active.quantSecLeft ?? 0);
 
     $('#app').innerHTML = `
       <div class="exam-wrapper">
-        <!-- Section Bar -->
+        <!-- Section & TCS iON Timer Bar -->
         <div class="section-nav-bar" style="margin-bottom: 16px; background:#ffffff; border:1px solid var(--border); border-radius:12px; padding:12px 18px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
           <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
             <div style="font-weight:750; color:var(--primary); font-size:15px;">
@@ -682,11 +738,11 @@
             </div>
             <div style="display:flex; gap:8px;">
               <button type="button" class="section-nav-tab-btn ${active.sectionIndex === 0 ? 'active' : ''}" id="addaSecReasoning">
-                1. Reasoning (Q1–Q40)
+                1. Reasoning Ability (Q1–Q40)
                 <span class="sec-pill-badge">${reasoningAnsCount}/40</span>
               </button>
               <button type="button" class="section-nav-tab-btn ${active.sectionIndex === 1 ? 'active' : ''}" id="addaSecQuant">
-                2. Quantitative (Q41–Q80)
+                2. Quantitative Aptitude (Q41–Q80)
                 <span class="sec-pill-badge">${quantAnsCount}/40</span>
               </button>
             </div>
@@ -698,8 +754,17 @@
             <a href="${esc(t.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:11.5px; padding:6px 12px; min-height:34px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
               📄 PDF ↗
             </a>
-            <div class="timer-box normal" style="font-family:monospace; font-size:18px; font-weight:800; padding:6px 14px; border-radius:8px; border:1px solid #cfdbc8; background:#edf3e9; color:var(--primary);">
-              ⏱ <span id="addaTimerDisplay">${timeText(remainingSec)}</span>
+            
+            <!-- Official TCS iON Style Timer Widget -->
+            <div class="tcs-timer-widget">
+              <div class="tcs-timer-main">
+                <span class="tcs-timer-label">Time Left :</span>
+                <span id="addaTimerDisplay" class="tcs-timer-digits ${curSecLeft <= 120 ? 'urgent' : ''}">${timeText(curSecLeft)}</span>
+              </div>
+              <div class="tcs-timer-meta">
+                <span id="addaTimerSecLabel" class="tcs-sec-label">${active.sectionIndex === 0 ? 'Reasoning (25:00)' : 'Quantitative (20:00)'}</span>
+                <span id="addaTimerTotalLabel" class="tcs-total-label">Total: ${timeText(totSecLeft)}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -802,21 +867,21 @@
               </p>
               <div class="cbt-pause-stats-grid">
                 <div class="cbt-pause-stat-item">
-                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Time Remaining</div>
-                  <div style="font-size:20px; font-weight:800; color:var(--primary); font-family:monospace; margin-top:4px;">
-                    ${timeText(active.timeRemainingSec || remainingSec)}
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Reasoning Time</div>
+                  <div style="font-size:18px; font-weight:800; color:var(--primary); font-family:monospace; margin-top:4px;">
+                    ${timeText(active.reasoningSecLeft ?? 25 * 60)}
                   </div>
                 </div>
                 <div class="cbt-pause-stat-item">
-                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Reasoning Done</div>
-                  <div style="font-size:20px; font-weight:800; color:#2e7d32; margin-top:4px;">
-                    ${reasoningAnsCount}/40
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Quant Time</div>
+                  <div style="font-size:18px; font-weight:800; color:var(--primary); font-family:monospace; margin-top:4px;">
+                    ${timeText(active.quantSecLeft ?? 20 * 60)}
                   </div>
                 </div>
                 <div class="cbt-pause-stat-item">
-                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Quant Done</div>
-                  <div style="font-size:20px; font-weight:800; color:#2e7d32; margin-top:4px;">
-                    ${quantAnsCount}/40
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Total Remaining</div>
+                  <div style="font-size:18px; font-weight:800; color:#2e7d32; font-family:monospace; margin-top:4px;">
+                    ${timeText((active.reasoningSecLeft ?? 0) + (active.quantSecLeft ?? 0))}
                   </div>
                 </div>
               </div>
@@ -834,7 +899,7 @@
       </div>
     `;
 
-    // Bind option click
+    // Option selection
     $('#app').querySelectorAll('[data-opt]').forEach(btn => {
       btn.onclick = () => {
         const optIdx = Number(btn.dataset.opt);
@@ -967,7 +1032,6 @@
     }
 
     active.currentIndex = idx;
-    // Automatically keep section and palette in sync with question number
     active.sectionIndex = idx < 40 ? 0 : 1;
     active.paletteSectionIndex = active.sectionIndex;
 
@@ -1037,11 +1101,12 @@
       accuracy: accuracy,
       completedAt: Date.now(),
       startedAt: active.startedAt,
+      reasoningSecLeft: active.reasoningSecLeft,
+      quantSecLeft: active.quantSecLeft,
       answers: answers
     };
 
     const hist = history();
-    // If updating resumed attempt, replace it; else unshift new
     const existingIdx = hist.findIndex(h => h.attemptId === attemptRecord.attemptId);
     if (existingIdx !== -1) {
       hist[existingIdx] = attemptRecord;
@@ -1050,11 +1115,9 @@
     }
     storeHistory(hist);
 
-    // Clear active
     active = null;
     storeActive();
 
-    // Show result dashboard
     showResult(attemptRecord);
   }
 
@@ -1250,7 +1313,6 @@
         </div>
       `;
 
-      // Bind filter buttons
       $('#app').querySelectorAll('[data-rf]').forEach(btn => {
         btn.onclick = () => {
           reviewFilter = btn.dataset.rf;
@@ -1307,7 +1369,6 @@
 
     setInterval(tick, 1000);
 
-    // Watch for DOM changes to inject tabs
     const checkTimer = setInterval(() => {
       if ($('#mockCards') && !$('#librarySwitchContainer')) {
         setupTabs();
@@ -1322,7 +1383,6 @@
       }
     });
 
-    // Expose API for app.js or tests
     window.AddaPortal = {
       getCatalog,
       getAddaTests,

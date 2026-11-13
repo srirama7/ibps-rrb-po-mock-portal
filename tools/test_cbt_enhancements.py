@@ -60,6 +60,13 @@ async def run_tests():
         assert "Question 1 of 80" in q_heading
         assert "Reasoning" in q_heading
 
+        # Check TCS iON Timer widget in Reasoning
+        timer_text = await page.locator('#addaTimerDisplay').inner_text()
+        sec_label = await page.locator('#addaTimerSecLabel').inner_text()
+        print(f"   Reasoning Timer: {timer_text} | Label: {sec_label}")
+        assert "2" in timer_text and ":" in timer_text # e.g. 24:59 or 25:00
+        assert "Reasoning" in sec_label
+
         # 3. Test Direct Section Switching to Quant
         print("3. Clicking '2. Quantitative (Q41–Q80)' section tab button...")
         sec_quant_btn = page.locator('#addaSecQuant')
@@ -70,6 +77,13 @@ async def run_tests():
         print(f"   Switched! Current Question: {q_heading_quant}")
         assert "Question 41 of 80" in q_heading_quant
         assert "Quantitative Aptitude" in q_heading_quant
+
+        # Check TCS iON Timer widget switched to Quant
+        timer_quant = await page.locator('#addaTimerDisplay').inner_text()
+        sec_quant_label = await page.locator('#addaTimerSecLabel').inner_text()
+        print(f"   Quant Timer: {timer_quant} | Label: {sec_quant_label}")
+        assert ("19:" in timer_quant or "20:" in timer_quant)
+        assert "Quantitative" in sec_quant_label
 
         # 4. Answer Question 41 (Quant)
         print("4. Answering Question 41...")
@@ -140,11 +154,24 @@ async def run_tests():
 
         q_resumed = await page.locator('.question-header h2').inner_text()
         print(f"   Successfully resumed into exam mode! Question: {q_resumed}")
+        assert "Quantitative Aptitude" in q_resumed
 
-        # Question 41 was answered earlier; check if question 41 still has its selected answer
+        # Check that Quant timer has official 20:00 (or remaining)
+        timer_resumed = await page.locator('#addaTimerDisplay').inner_text()
+        print(f"   Resumed Timer: {timer_resumed}")
+        assert ("19:" in timer_resumed or "20:" in timer_resumed)
+
+        # Question 41 was answered earlier; navigate to Q41 to verify answer preserved
+        await page.locator('#addaPrev').click()
+        await page.wait_for_timeout(500)
+        q_41_heading = await page.locator('.question-header h2').inner_text()
+        print(f"   Navigated back to: {q_41_heading}")
+        assert "Question 41 of 80" in q_41_heading
+
         opt_b_resumed = page.locator('[data-opt="1"]')
         is_selected = "selected" in (await opt_b_resumed.get_attribute("class") or "")
         print(f"   Previous answer preserved on Q41: {is_selected}")
+        assert is_selected == True, "Expected Q41 answer to be preserved"
 
         await browser.close()
         print("\nALL VERIFICATION TESTS PASSED 100% SUCCESSFULLY!")
