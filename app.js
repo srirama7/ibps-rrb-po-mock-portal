@@ -48,7 +48,9 @@
   }
 
   function millisLeft() {
-    return active ? active.sectionEndAt - Date.now() : 0;
+    if (!active) return 0;
+    if (active.isPaused) return (active.timeRemainingSec || 0) * 1000;
+    return active.testEndAt ? active.testEndAt - Date.now() : 0;
   }
 
   function statusFor(id) {
@@ -74,12 +76,16 @@
       if (!confirm('Another mock test is already in progress. Starting this mock will discard your previous unfinished attempt. Do you want to continue?')) return;
     }
     const now = Date.now();
+    const totalDurationSec = 45 * 60; // 45 Minutes composite time (IBPS RRB PO standard)
     active = {
       testId: id,
       startedAt: now,
+      testEndAt: now + totalDurationSec * 1000,
+      timeRemainingSec: totalDurationSec,
+      isPaused: false,
       sectionIndex: 0,
-      sectionEndAt: now + 25 * 60 * 1000, // 25 Minutes for Reasoning
       currentIndex: 0,
+      paletteSectionIndex: 0,
       answers: {},
       visited: [getTest(id).questions[0].id],
       marked: []
@@ -89,8 +95,67 @@
     renderExam();
   }
 
+  function continueTest(att) {
+    if (!att) return;
+    const t = getTest(att.testId);
+    if (!t) return;
+
+    let targetIdx = t.questions.findIndex(q => att.answers[q.id] === undefined);
+    if (targetIdx === -1) targetIdx = 40;
+
+    const now = Date.now();
+    const timeAllowedSec = Math.max(1500, att.timeRemainingSec || 1500);
+
+    active = {
+      testId: att.testId,
+      startedAt: att.startedAt || now,
+      testEndAt: now + timeAllowedSec * 1000,
+      timeRemainingSec: timeAllowedSec,
+      isPaused: false,
+      sectionIndex: targetIdx < 40 ? 0 : 1,
+      currentIndex: targetIdx,
+      paletteSectionIndex: targetIdx < 40 ? 0 : 1,
+      answers: { ...(att.answers || {}) },
+      visited: t.questions.filter(q => att.answers[q.id] !== undefined).map(q => q.id),
+      marked: [],
+      resumedFromAttemptId: att.attemptId
+    };
+
+    const targetQ = t.questions[targetIdx];
+    if (targetQ && !active.visited.includes(targetQ.id)) {
+      active.visited.push(targetQ.id);
+    }
+
+    storeActive();
+    page = 'exam';
+    renderExam();
+  }
+
+  function pauseTest() {
+    if (!active || active.isPaused) return;
+    const remainingSec = Math.max(0, Math.ceil(millisLeft() / 1000));
+    active.isPaused = true;
+    active.timeRemainingSec = remainingSec;
+    storeActive();
+    renderExam();
+  }
+
+  function unpauseTest() {
+    if (!active || !active.isPaused) return;
+    active.isPaused = false;
+    const sec = active.timeRemainingSec || 60;
+    active.testEndAt = Date.now() + sec * 1000;
+    storeActive();
+    renderExam();
+  }
+
   function resumeTest() {
     if (active) {
+      if (active.isPaused && active.timeRemainingSec) {
+        active.isPaused = false;
+        active.testEndAt = Date.now() + active.timeRemainingSec * 1000;
+        storeActive();
+      }
       page = 'exam';
       syncDeadline();
       if (active) renderExam();
@@ -111,14 +176,11 @@
           <ul style="padding-left: 20px;">
             <li><strong>Total Questions:</strong> 80 Objective Multiple Choice Questions (5 options each).</li>
             <li><strong>Total Marks:</strong> 80 Marks (+1.00 for Correct, −0.25 for Incorrect, 0 for Unattempted).</li>
-            <li><strong>Strict Sectional Timing:</strong>
-              <ul style="margin: 6px 0;">
-                <li><strong>Section 1 (Reasoning Ability):</strong> 40 Questions, 40 Marks, <strong>25:00 Minutes</strong>.</li>
-                <li><strong>Section 2 (Quantitative Aptitude):</strong> 40 Questions, 40 Marks, <strong>20:00 Minutes</strong>.</li>
-              </ul>
-            </li>
-            <li><strong>Section Lock:</strong> When the 25-minute timer for Reasoning expires, the section is locked automatically and Quantitative Aptitude starts immediately. You cannot return to Reasoning.</li>
-            <li><strong>Evaluation of Marked Questions:</strong> Questions that are <em>Answered and Marked for Review</em> WILL be considered for evaluation under this mock’s scoring rules.</li>
+            <li><strong>Composite 45:00 Minutes Timing:</strong> 45 minutes total composite duration for both sections (official IBPS RRB PO standard).</li>
+            <li><strong>Free Section Switching:</strong> Switch freely between <strong>Section 1 (Reasoning Ability, Q1–Q40)</strong> and <strong>Section 2 (Quantitative Aptitude, Q41–Q80)</strong> at any time.</li>
+            <li><strong>Pause & Take a Break:</strong> Need a pause? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar to freeze the timer without losing progress.</li>
+            <li><strong>Continue & Complete Later:</strong> You can always resume an incomplete attempt to complete Quantitative Aptitude or remaining questions.</li>
+            <li><strong>Evaluation of Marked Questions:</strong> Questions that are <em>Answered and Marked for Review</em> WILL be evaluated.</li>
             <li><strong>Question-by-Question Solutions:</strong> Full step-by-step mathematical and logical solutions will be revealed immediately upon submission.</li>
           </ul>
         </div>
@@ -240,31 +302,16 @@
 
   function syncDeadline() {
     if (!active) return;
-    if (Date.now() < active.sectionEndAt) return;
-
-    if (active.sectionIndex === 0) {
-      const firstEnd = active.sectionEndAt;
-      active.sectionIndex = 1;
-      active.sectionEndAt = firstEnd + 20 * 60 * 1000;
-      active.currentIndex = 40;
-      const q = getCurrentQuestion();
-      if (!active.visited.includes(q.id)) active.visited.push(q.id);
-      storeActive();
-      if (Date.now() >= active.sectionEndAt) {
-        submitTest(true);
-        return;
-      }
-      if (page === 'exam') {
-        alert('Reasoning time has expired (25 Minutes). Quantitative Aptitude has started. Reasoning questions (1 to 40) are now locked.');
-        renderExam();
-      }
-    } else {
+    if (active.isPaused) return;
+    if (millisLeft() <= 0) {
+      alert('Time is up for your examination! Submitting your test now.');
       submitTest(true);
     }
   }
 
   function tick() {
     if (!active) return;
+    if (active.isPaused) return;
     syncDeadline();
     if (!active) return;
     if (page === 'exam') {
@@ -343,7 +390,8 @@
     const secs = Math.max(0, Math.ceil(millisLeft() / 1000));
 
     // Compute palette summary counts for current section
-    const secQuestions = t.questions.slice(section.start - 1, section.end);
+    const palSectionIndex = (active.paletteSectionIndex !== undefined) ? active.paletteSectionIndex : active.sectionIndex;
+    const secQuestions = palSectionIndex === 0 ? t.questions.slice(0, 40) : t.questions.slice(40, 80);
     let cntAnswered = 0, cntNotAnswered = 0, cntMarked = 0, cntMarkedAnswered = 0, cntNotVisited = 0;
     for (const sq of secQuestions) {
       const st = statusFor(sq.id);
@@ -359,20 +407,23 @@
         <!-- TOP SECTION NAVIGATION & TIMING BAR -->
         <div class="section-nav-bar">
           <div class="section-tabs">
-            <button class="section-tab ${active.sectionIndex === 0 ? 'active' : 'locked'}" id="tabReasoning">
+            <button type="button" class="section-tab ${active.sectionIndex === 0 ? 'active' : ''}" id="tabReasoning" style="cursor:pointer;">
               Section 1: Reasoning Ability
               <span class="badge-count">${t.questions.filter(x => x.section === 'reasoning' && x.id in active.answers).length}/40</span>
             </button>
-            <button class="section-tab ${active.sectionIndex === 1 ? 'active' : 'locked'}" id="tabQuant">
+            <button type="button" class="section-tab ${active.sectionIndex === 1 ? 'active' : ''}" id="tabQuant" style="cursor:pointer;">
               Section 2: Quantitative Aptitude
               <span class="badge-count">${t.questions.filter(x => x.section === 'quant' && x.id in active.answers).length}/40</span>
             </button>
           </div>
-          <div style="display:flex; align-items:center; gap:16px;">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <button type="button" class="btn btn-secondary" id="btnPauseExam" style="padding: 7px 14px; font-size: 12px; display:inline-flex; align-items:center; gap:6px;">
+              ⏸ Pause / Take Break
+            </button>
             <div id="examTimer" class="${secs <= 60 ? 'timer-box' : 'timer-box normal'}">
               ${timeText(secs)}
             </div>
-            <button class="btn btn-submit" id="submitExamBtn" style="padding: 8px 18px;">
+            <button type="button" class="btn btn-submit" id="submitExamBtn" style="padding: 8px 18px;">
               Submit Exam
             </button>
           </div>
@@ -412,7 +463,7 @@
                 </button>
               </div>
               <div class="footer-right">
-                <button id="btnPrev" class="btn btn-secondary" ${active.currentIndex === section.start - 1 ? 'disabled' : ''}>
+                <button id="btnPrev" class="btn btn-secondary" ${active.currentIndex === 0 ? 'disabled' : ''}>
                   Previous
                 </button>
                 <button id="btnSaveNext" class="btn btn-primary" style="padding: 9px 22px;">
@@ -424,8 +475,16 @@
 
           <!-- RIGHT: TCS iON PALETTE SIDEBAR -->
           <div class="palette-sidebar">
-            <div class="palette-header">
-              Question Palette • ${esc(section.name)}
+            <div class="palette-header" style="display:flex; justify-content:space-between; align-items:center;">
+              <span>Palette • ${esc(section.name)}</span>
+              <div style="display:flex; gap:4px;">
+                <button type="button" id="palOrigReason" class="pal-tab-btn ${palSectionIndex === 0 ? 'active' : ''}">
+                  Reasoning (1-40)
+                </button>
+                <button type="button" id="palOrigQuant" class="pal-tab-btn ${palSectionIndex === 1 ? 'active' : ''}">
+                  Quant (41-80)
+                </button>
+              </div>
             </div>
 
             <div class="legend-grid">
@@ -453,12 +512,12 @@
 
             <div class="palette-body">
               <div class="palette-buttons">
-                ${secQuestions.map((sq, i) => {
-                  const num = section.start + i;
+                ${secQuestions.map((sq) => {
+                  const num = sq.number;
                   const st = statusFor(sq.id);
                   const isCurrent = sq.id === q.id;
                   return `
-                    <button class="pal-btn ${st} ${isCurrent ? 'current' : ''}" data-jump="${num}">
+                    <button type="button" class="pal-btn ${st} ${isCurrent ? 'current' : ''}" data-jump="${num}">
                       ${num}
                     </button>
                   `;
@@ -467,6 +526,48 @@
             </div>
           </div>
         </div>
+        ${active.isPaused ? `
+          <div class="cbt-pause-overlay">
+            <div class="cbt-pause-card">
+              <div style="font-size:44px; margin-bottom:12px;">☕</div>
+              <h2 style="font-size:22px; font-weight:800; color:var(--primary); margin:0 0 8px;">
+                Test Paused — Take a Break!
+              </h2>
+              <p style="color:var(--text-muted); font-size:13.5px; margin:0 0 16px; line-height:1.6;">
+                Your exam timer is safely paused and all your responses are saved.<br>
+                Rest your eyes, take a breather, and click below when you're ready to continue.
+              </p>
+              <div class="cbt-pause-stats-grid">
+                <div class="cbt-pause-stat-item">
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Time Remaining</div>
+                  <div style="font-size:20px; font-weight:800; color:var(--primary); font-family:monospace; margin-top:4px;">
+                    ${timeText(active.timeRemainingSec || secs)}
+                  </div>
+                </div>
+                <div class="cbt-pause-stat-item">
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Reasoning Done</div>
+                  <div style="font-size:20px; font-weight:800; color:#2e7d32; margin-top:4px;">
+                    ${t.questions.filter(x => x.section === 'reasoning' && x.id in active.answers).length}/40
+                  </div>
+                </div>
+                <div class="cbt-pause-stat-item">
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Quant Done</div>
+                  <div style="font-size:20px; font-weight:800; color:#2e7d32; margin-top:4px;">
+                    ${t.questions.filter(x => x.section === 'quant' && x.id in active.answers).length}/40
+                  </div>
+                </div>
+              </div>
+              <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+                <button type="button" id="resumeFromPauseBtn" class="btn btn-primary" style="padding:12px 28px; font-size:15px; font-weight:750;">
+                  ▶ Resume Test Now
+                </button>
+                <button type="button" id="exitToHomePauseBtn" class="btn btn-secondary" style="padding:12px 18px; font-size:13.5px;">
+                  Save & Exit (Resume Later)
+                </button>
+              </div>
+            </div>
+          </div>
+        ` : ''}
       </div>
     `;
 
@@ -483,10 +584,50 @@
       btn.onclick = () => goTo(Number(btn.dataset.jump) - 1);
     });
 
-    $('#btnPrev').onclick = () => goTo(active.currentIndex - 1);
+    // Top Section Tabs
+    $('#tabReasoning').onclick = () => {
+      if (active.sectionIndex !== 0) {
+        active.sectionIndex = 0;
+        active.paletteSectionIndex = 0;
+        const target = active.lastReasoningIndex !== undefined ? active.lastReasoningIndex : 0;
+        goTo(target);
+      }
+    };
+
+    $('#tabQuant').onclick = () => {
+      if (active.sectionIndex !== 1) {
+        active.sectionIndex = 1;
+        active.paletteSectionIndex = 1;
+        const target = active.lastQuantIndex !== undefined ? active.lastQuantIndex : 40;
+        goTo(target);
+      }
+    };
+
+    // Palette Toggles
+    const palR = $('#palOrigReason');
+    if (palR) palR.onclick = () => { active.paletteSectionIndex = 0; storeActive(); renderExam(); };
+    const palQ = $('#palOrigQuant');
+    if (palQ) palQ.onclick = () => { active.paletteSectionIndex = 1; storeActive(); renderExam(); };
+
+    // Pause Controls
+    $('#btnPauseExam').onclick = pauseTest;
+    const resPause = $('#resumeFromPauseBtn');
+    if (resPause) resPause.onclick = unpauseTest;
+    const exitPause = $('#exitToHomePauseBtn');
+    if (exitPause) exitPause.onclick = enterHome;
+
+    $('#btnPrev').onclick = () => {
+      if (active.currentIndex > 0) goTo(active.currentIndex - 1);
+    };
 
     $('#btnSaveNext').onclick = () => {
-      goTo(Math.min(section.end - 1, active.currentIndex + 1));
+      if (active.currentIndex === t.questions.length - 1) {
+        if (confirm('You have reached the final question. Would you like to submit your exam now?')) {
+          submitTest(false);
+        }
+      } else {
+        goTo(active.currentIndex + 1);
+      }
     };
 
     $('#btnClear').onclick = () => {
@@ -500,7 +641,13 @@
       if (idx >= 0) active.marked.splice(idx, 1);
       else active.marked.push(q.id);
       storeActive();
-      goTo(Math.min(section.end - 1, active.currentIndex + 1));
+      if (active.currentIndex === t.questions.length - 1) {
+        if (confirm('You have reached the final question. Would you like to submit your exam now?')) {
+          submitTest(false);
+        }
+      } else {
+        goTo(active.currentIndex + 1);
+      }
     };
 
     $('#submitExamBtn').onclick = () => {
@@ -515,9 +662,18 @@
 
   function goTo(nextIdx) {
     if (!active) return;
-    const s = getSection();
-    if (nextIdx < s.start - 1 || nextIdx > s.end - 1) return;
+    const t = getTest(active.testId);
+    if (nextIdx < 0 || nextIdx >= t.questions.length) return;
+
+    if (active.currentIndex < 40) {
+      active.lastReasoningIndex = active.currentIndex;
+    } else {
+      active.lastQuantIndex = active.currentIndex;
+    }
+
     active.currentIndex = nextIdx;
+    active.sectionIndex = nextIdx < 40 ? 0 : 1;
+    active.paletteSectionIndex = active.sectionIndex;
     const nextQId = getCurrentQuestion().id;
     if (!active.visited.includes(nextQId)) {
       active.visited.push(nextQId);
@@ -569,7 +725,14 @@
     };
 
     const allAttempts = history();
-    allAttempts.unshift(attempt);
+    if (active.resumedFromAttemptId) {
+      attempt.attemptId = active.resumedFromAttemptId;
+      const exIdx = allAttempts.findIndex(a => a.attemptId === active.resumedFromAttemptId);
+      if (exIdx !== -1) allAttempts[exIdx] = attempt;
+      else allAttempts.unshift(attempt);
+    } else {
+      allAttempts.unshift(attempt);
+    }
     storeHistory(allAttempts);
 
     const targetId = attempt.attemptId;
@@ -607,7 +770,18 @@
             </p>
           </div>
 
-          <div class="cutoff-box"><h4>Your practice checkpoint</h4><p>Use topic accuracy and missed questions to plan your next session.</p><p style="margin-top:12px;font-size:12px;opacity:.8">Official cutoffs vary by state, category and year. This score does not predict qualification.</p></div>
+          <div class="cutoff-box">
+            <h4>Your practice checkpoint</h4>
+            <p>Use topic accuracy and missed questions to plan your next session.</p>
+            ${overall.blank > 0 ? `
+              <div style="margin-top: 10px; padding: 8px 12px; background: rgba(255,255,255,0.18); border-radius:6px; font-size:12.5px;">
+                Took a break or skipped Quant? You have <strong>${overall.blank} unattempted questions</strong>.
+                <button type="button" id="heroContinueOrigBtn" style="margin-top:6px; width:100%; padding:6px; background:#cfe68c; color:#173c34; border:none; border-radius:4px; font-weight:800; font-size:11.5px; cursor:pointer;">
+                  ▶ Continue / Complete Quant Now →
+                </button>
+              </div>
+            ` : '<p style="margin-top:12px;font-size:12px;opacity:.8">Official cutoffs vary by state, category and year. This score does not predict qualification.</p>'}
+          </div>
         </div>
 
         <!-- SUMMARY STATS -->
@@ -671,7 +845,12 @@
         <div style="margin-top: 10px;">
           <div class="review-header-bar">
             <h2 style="font-size: 20px; font-weight: 800; color: var(--primary);">Detailed Solutions & Step-by-Step Explanations</h2>
-            <div style="display:flex; gap:10px;">
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              ${overall.blank > 0 ? `
+                <button type="button" class="btn btn-primary" id="continueAttemptBtn" style="background:#2e7d32; border-color:#2e7d32; font-weight:750;">
+                  ▶ Complete Quant & Remaining (${overall.blank} Skipped)
+                </button>
+              ` : ''}
               <button class="btn btn-secondary" id="toggleOnlyWrong">Show Only Incorrect / Unanswered</button>
               <button class="btn btn-primary" id="retakeBtn">Retake This Mock</button>
               <button class="btn btn-secondary" id="backToAllMocks">All Mock Papers</button>
@@ -684,6 +863,11 @@
         </div>
       </div>
     `;
+
+    const contBtn = $('#continueAttemptBtn');
+    if (contBtn) contBtn.onclick = () => continueTest(att);
+    const heroContBtn = $('#heroContinueOrigBtn');
+    if (heroContBtn) heroContBtn.onclick = () => continueTest(att);
 
     $('#backToAllMocks').onclick = enterHome;
     $('#retakeBtn').onclick = () => {

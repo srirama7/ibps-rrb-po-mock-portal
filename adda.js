@@ -1,3 +1,9 @@
+/**
+ * IBPS RRB PO Prelims Mock Portal - Adda247 Mocks Integration Module
+ * Full English CBT Simulation, Free Section Switching, Pause & Break Support,
+ * Continue / Complete Remaining Quant Questions, and Step-by-Step Analysis.
+ */
+
 (() => {
   'use strict';
 
@@ -5,22 +11,24 @@
   const HISTORY_KEY = 'rrbpo_adda_history_v1';
   const PREF_KEY = 'rrbpo_adda_tab_preference_v1';
 
+  let page = 'home'; // 'home' | 'instructions' | 'exam' | 'result'
+  let currentTab = 'original'; // 'original' | 'adda'
+  let catalog = null;
+  let testsData = null;
+  let active = null;
+  let reviewFilter = 'all'; // 'all' | 'wrong' | 'correct' | 'skipped'
+
+  // --- HELPERS ---
+
   const $ = (sel) => document.querySelector(sel);
+  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
   const esc = (str) => String(str ?? '').replace(/[&<>"']/g, c => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
   }[c]));
 
-  let catalog = null;
-  let testsData = null;
-  let active = null;
-  let page = 'home'; // 'home' | 'instructions' | 'exam' | 'result'
-  let currentTab = 'original'; // 'original' | 'adda'
-  let reviewFilter = 'all'; // 'all' | 'wrong' | 'correct' | 'skipped'
-  let timerInterval = null;
-
-  // Helpers
-  const getCatalog = () => catalog?.papers || [];
-  const getAddaTests = () => testsData?.tests || [];
+  const getCatalog = () => catalog?.papers || window.__ADDA_MOCKS_CATALOG__?.papers || [];
+  const getAddaTests = () => testsData?.tests || window.__ADDA_TESTS_DATA__?.tests || [];
   const getAddaTest = (id) => getAddaTests().find(t => t.id === id);
 
   const history = () => {
@@ -166,34 +174,26 @@
     return 'not-visited';
   }
 
+  // --- TIMER & PAUSE SUPPORT ---
+
   function syncDeadline() {
     if (!active) return;
+    if (active.isPaused) return;
     const now = Date.now();
-    if (now < active.sectionEndAt) return;
-
-    if (active.sectionIndex === 0) {
-      // Transition from Reasoning (25m) to Quant (20m)
-      const firstEnd = active.sectionEndAt;
-      active.sectionIndex = 1;
-      active.sectionEndAt = firstEnd + 20 * 60 * 1000;
-      active.currentIndex = 40;
-      const q = getCurrentQuestion();
-      if (q && !active.visited.includes(q.id)) active.visited.push(q.id);
-      storeActive();
-      alert('Section 1 (Reasoning Ability) time is up! The section is now locked.\n\nBeginning Section 2: Quantitative Aptitude (20:00 Minutes).');
-    } else {
-      // Both sections over -> Auto submit
-      alert('Time is up for Section 2 (Quantitative Aptitude)! Your test is submitting now.');
+    if (now >= active.testEndAt) {
+      alert('Time is up for your examination! Your mock test is now submitting.');
       submitTest(true);
     }
   }
 
   function tick() {
     if (page !== 'exam' || !active) return;
+    if (active.isPaused) return;
     syncDeadline();
     if (!active) return;
 
-    const remainingSec = Math.max(0, Math.ceil((active.sectionEndAt - Date.now()) / 1000));
+    const remainingSec = Math.max(0, Math.ceil((active.testEndAt - Date.now()) / 1000));
+    active.timeRemainingSec = remainingSec;
     const timerEl = $('#addaTimerDisplay');
     if (timerEl) {
       timerEl.textContent = timeText(remainingSec);
@@ -203,6 +203,24 @@
         timerEl.classList.remove('urgent');
       }
     }
+  }
+
+  function pauseTest() {
+    if (!active || active.isPaused) return;
+    const remainingSec = Math.max(0, Math.ceil((active.testEndAt - Date.now()) / 1000));
+    active.isPaused = true;
+    active.timeRemainingSec = remainingSec;
+    storeActive();
+    renderExam();
+  }
+
+  function unpauseTest() {
+    if (!active || !active.isPaused) return;
+    active.isPaused = false;
+    const sec = active.timeRemainingSec || 60;
+    active.testEndAt = Date.now() + sec * 1000;
+    storeActive();
+    renderExam();
   }
 
   // --- NAVIGATION & TABS ---
@@ -256,43 +274,36 @@
       <div style="font-size: 12.5px; color: var(--text-muted);">
         ${currentTab === 'original' 
           ? '80 Questions · 80 Marks · 45 Minutes per mock'
-          : '10 Memory-Based Prelims Papers · English Interactive CBT & Timed Practice'}
+          : '10 Memory-Based Prelims Papers · English Interactive CBT & Free Section Switching'}
       </div>
     `;
 
     sectionTitle.parentNode.insertBefore(switchHtml, sectionTitle);
 
+    // Insert Adda Cards Grid Container after original mock grid
+    const origCards = $('#mockCards');
+    if (origCards && !$('#addaCardsGrid')) {
+      const addaContainer = document.createElement('div');
+      addaContainer.id = 'addaCardsContainer';
+      addaContainer.style.display = currentTab === 'adda' ? 'block' : 'none';
+      addaContainer.innerHTML = `
+        <div id="addaOngoingNotice"></div>
+        <div class="adda-banner">
+          <strong>Adda247 Memory-Based Papers:</strong> 10 actual Prelims papers faithfully digitized into 
+          interactive online CBT format. Features pure English questions, full 45-minute composite timer with free 
+          switching between Reasoning and Quantitative Aptitude, step-by-step mathematical solutions, and pause/resume support.
+        </div>
+        <div id="addaCardsGrid" class="adda-cards-grid"></div>
+      `;
+      origCards.parentNode.insertBefore(addaContainer, origCards.nextSibling);
+    }
+
+    // Bind switch buttons
     $('#tabOriginal').onclick = () => switchTab('original');
     $('#tabAdda').onclick = () => switchTab('adda');
 
-    // Create container for Adda cards right after existing cards grid
-    const cardsGrid = $('.cards-grid');
-    if (cardsGrid) {
-      const addaGrid = document.createElement('div');
-      addaGrid.id = 'addaCardsGrid';
-      addaGrid.className = 'cards-grid';
-      addaGrid.style.display = currentTab === 'adda' ? 'grid' : 'none';
-      cardsGrid.parentNode.insertBefore(addaGrid, cardsGrid.nextSibling);
-
-      // Add banner before adda grid
-      const addaBanner = document.createElement('div');
-      addaBanner.id = 'addaBanner';
-      addaBanner.className = 'adda-banner';
-      addaBanner.style.display = currentTab === 'adda' ? 'block' : 'none';
-      addaBanner.innerHTML = `
-        <strong>Adda Mocks — Memory-Based Question Papers in Test Format:</strong><br>
-        All 10 authentic Adda247 IBPS RRB Officer Scale I prelims memory-based PDF papers have been converted into <strong>interactive online mock tests</strong> with exact English questions, 5 options, 45-minute sectional timers, and step-by-step solutions. You can also view or download the original publisher PDF at any time.
-      `;
-      addaGrid.parentNode.insertBefore(addaBanner, addaGrid);
-
-      // Add Adda ongoing test notice if any
-      const addaNotice = document.createElement('div');
-      addaNotice.id = 'addaOngoingNotice';
-      addaGrid.parentNode.insertBefore(addaNotice, addaBanner);
-
-      renderAddaCards();
-      applyTabVisibility();
-    }
+    applyTabVisibility();
+    renderAddaCards();
   }
 
   function switchTab(tab) {
@@ -302,32 +313,38 @@
     } catch {}
 
     const tabOrig = $('#tabOriginal');
-    const tabAd = $('#tabAdda');
-    if (tabOrig && tabAd) {
+    const tabAdda = $('#tabAdda');
+    if (tabOrig && tabAdda) {
       if (tab === 'original') {
         tabOrig.classList.add('active');
         tabOrig.setAttribute('aria-selected', 'true');
-        tabAd.classList.remove('active');
-        tabAd.setAttribute('aria-selected', 'false');
+        tabAdda.classList.remove('active');
+        tabAdda.setAttribute('aria-selected', 'false');
       } else {
-        tabAd.classList.add('active');
-        tabAd.setAttribute('aria-selected', 'true');
+        tabAdda.classList.add('active');
+        tabAdda.setAttribute('aria-selected', 'true');
         tabOrig.classList.remove('active');
         tabOrig.setAttribute('aria-selected', 'false');
       }
     }
+
     applyTabVisibility();
+
+    if (tab === 'adda') {
+      window.history.replaceState(null, '', '#adda-mocks');
+      renderAddaCards();
+    } else {
+      window.history.replaceState(null, '', '#original-mocks');
+    }
   }
 
   function applyTabVisibility() {
-    const origCards = $('.cards-grid:not(#addaCardsGrid)');
-    const addaCards = $('#addaCardsGrid');
-    const addaBanner = $('#addaBanner');
+    const origCards = $('#mockCards');
+    const addaContainer = $('#addaCardsContainer');
     const addaNotice = $('#addaOngoingNotice');
 
     if (origCards) origCards.style.display = currentTab === 'original' ? 'grid' : 'none';
-    if (addaCards) addaCards.style.display = currentTab === 'adda' ? 'grid' : 'none';
-    if (addaBanner) addaBanner.style.display = currentTab === 'adda' ? 'block' : 'none';
+    if (addaContainer) addaContainer.style.display = currentTab === 'adda' ? 'block' : 'none';
     if (addaNotice) addaNotice.style.display = currentTab === 'adda' ? 'block' : 'none';
 
     renderAddaOngoingNotice();
@@ -338,17 +355,44 @@
     if (!container) return;
     if (active && currentTab === 'adda') {
       const t = getAddaTest(active.testId);
+      if (!t) return;
+      const isP = active.isPaused;
+      const remSec = active.timeRemainingSec || Math.max(0, Math.ceil(((active.testEndAt || Date.now()) - Date.now()) / 1000));
+
       container.innerHTML = `
-        <div style="background: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #f59e0b; border-radius: 8px; padding: 18px 24px; margin-bottom: 24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+        <div style="background: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #f59e0b; border-radius: 10px; padding: 18px 24px; margin-bottom: 24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;">
           <div>
-            <strong style="color: #92400e; font-size: 15px;">Ongoing Adda Mock in Progress:</strong>
-            <p style="color: #78350f; font-size: 13px; margin-top: 2px;">${esc(t.title)} (${esc(t.paperLabel)}) — Section timer is active.</p>
+            <strong style="color: #92400e; font-size: 15px;">
+              ${isP ? '☕ Paused Adda Mock in Progress:' : '⏱ Ongoing Adda Mock in Progress:'}
+            </strong>
+            <p style="color: #78350f; font-size: 13.5px; margin-top: 3px;">
+              ${esc(t.title)} (${esc(t.paperLabel)}) — Time Remaining: <strong>${timeText(remSec)}</strong>.
+            </p>
           </div>
-          <button id="resumeAddaActiveBtn" class="btn btn-primary">Resume Test Now →</button>
+          <div style="display:flex; gap:10px;">
+            <button id="resumeAddaActiveBtn" class="btn btn-primary" style="padding:10px 20px; font-weight:750;">
+              ${isP ? '▶ Resume Test Now' : 'Continue Test →'}
+            </button>
+            <button id="discardAddaActiveBtn" class="btn btn-ghost" style="color:#b45309; padding:10px 14px;">
+              Discard
+            </button>
+          </div>
         </div>
       `;
       const btn = $('#resumeAddaActiveBtn');
       if (btn) btn.onclick = resumeTest;
+
+      const discardBtn = $('#discardAddaActiveBtn');
+      if (discardBtn) {
+        discardBtn.onclick = () => {
+          if (confirm('Are you sure you want to discard this unfinished mock attempt?')) {
+            active = null;
+            storeActive();
+            renderAddaOngoingNotice();
+            renderAddaCards();
+          }
+        };
+      }
     } else {
       container.innerHTML = '';
     }
@@ -360,17 +404,22 @@
 
     const attempts = history();
     const bestScores = {};
+    const latestAttempts = {};
     for (const a of attempts) {
       if (bestScores[a.testId] === undefined || a.score > bestScores[a.testId]) {
         bestScores[a.testId] = a.score;
+      }
+      if (!latestAttempts[a.testId] || a.completedAt > latestAttempts[a.testId].completedAt) {
+        latestAttempts[a.testId] = a;
       }
     }
 
     const papers = getCatalog();
     grid.innerHTML = papers.map(p => {
       const best = bestScores[p.id];
-      const test = getAddaTest(p.id);
       const isOngoing = active && active.testId === p.id;
+      const lastAtt = latestAttempts[p.id];
+      const hasUnfinished = lastAtt && lastAtt.skippedCount > 0;
 
       return `
         <div class="adda-card">
@@ -387,23 +436,31 @@
             <span class="adda-tag" style="background:#e8f5e9; color:#2e7d32; border-color:#c8e6c9;">English CBT</span>
           </div>
           <div class="adda-spec-list">
-            <div>• 40 Reasoning Ability (25 Min)</div>
-            <div>• 40 Quantitative Aptitude (20 Min)</div>
-            <div>• +1.00 / −0.25 Marking Scheme</div>
-            <div>• Full English Questions & Analysis</div>
+            <div>• 40 Reasoning Ability (Q1–Q40)</div>
+            <div>• 40 Quantitative Aptitude (Q41–Q80)</div>
+            <div>• 45:00 Composite Time · Free Switching</div>
+            <div>• Step-by-Step Mathematical Solutions</div>
           </div>
           <div class="adda-card-actions">
-            <div style="font-size: 12px; margin-bottom: 4px;">
+            <div style="font-size: 12px; margin-bottom: 6px; display:flex; justify-content:space-between; align-items:center;">
               ${best !== undefined ? `
-                <strong style="color: var(--c-answered);">Best Score: ${best.toFixed(2)} / 80</strong>
+                <strong style="color: var(--c-answered);">Best: ${best.toFixed(2)} / 80</strong>
               ` : `
                 <span style="color: var(--text-muted); font-size: 11px;">Not Attempted Yet</span>
               `}
+              ${hasUnfinished && !isOngoing ? `
+                <span style="font-size:11px; color:#d97706; font-weight:700;">${lastAtt.skippedCount} Skipped</span>
+              ` : ''}
             </div>
-            <div class="adda-btn-row">
+            <div class="adda-btn-row" style="display:flex; gap:6px; flex-wrap:wrap;">
               <button class="btn btn-primary" style="flex:1;" data-adda-start="${esc(p.id)}">
-                ${isOngoing ? 'Continue Test →' : 'Take Online Test (80 Qs) ↗'}
+                ${isOngoing ? (active.isPaused ? '▶ Resume Paused Test' : 'Continue Test →') : (best !== undefined ? 'Retake Test ↗' : 'Take Online Test (80 Qs) ↗')}
               </button>
+              ${hasUnfinished && !isOngoing ? `
+                <button class="btn btn-secondary" style="padding:8px 12px; font-size:11.5px; font-weight:750; background:#fef3c7; color:#92400e; border-color:#fde68a;" title="Complete Remaining Unattempted Questions" data-adda-continue-history="${esc(p.id)}">
+                  ▶ Complete Quant
+                </button>
+              ` : ''}
               <button class="btn btn-ghost" style="padding: 8px 10px;" title="Timed Answer Sheet Companion" data-adda-companion="${esc(p.id)}">
                 ⏱ Sheet
               </button>
@@ -424,6 +481,14 @@
       };
     });
 
+    grid.querySelectorAll('[data-adda-continue-history]').forEach(btn => {
+      btn.onclick = () => {
+        const id = btn.dataset.addaContinueHistory;
+        const lastAtt = latestAttempts[id];
+        if (lastAtt) continueAttempt(lastAtt);
+      };
+    });
+
     grid.querySelectorAll('[data-adda-companion]').forEach(btn => {
       btn.onclick = () => {
         const id = btn.dataset.addaCompanion;
@@ -437,7 +502,7 @@
   function showInstructions(id, mode = 'cbt') {
     page = 'instructions';
     const t = getAddaTest(id);
-    const p = getCatalog().find(p => p.id === id);
+    if (!t) return enterHome();
 
     $('#app').innerHTML = `
       <div class="instructions-card" style="max-width: 860px; margin: 30px auto; background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 36px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
@@ -446,22 +511,28 @@
           <span class="adda-source-pill">Memory-based paper</span>
         </div>
         <h1 style="font-size: 26px; font-weight: 800; color: var(--primary); margin: 8px 0 6px;">${esc(t.title)}</h1>
-        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">${esc(t.paperLabel)} · Source PDF hosted by Adda247</p>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">${esc(t.paperLabel)} · Official Paper digitized in pure English</p>
 
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px; margin-bottom: 24px; font-size: 13.5px; line-height: 1.8;">
-          <h3 style="color: var(--primary); font-size: 15px; margin-bottom: 12px;">Exam Pattern & Rules:</h3>
+          <h3 style="color: var(--primary); font-size: 15px; margin-bottom: 12px;">Exam Pattern & Operating Scheme:</h3>
           <ul style="padding-left: 20px;">
             <li><strong>Total Questions:</strong> 80 Objective Multiple Choice Questions in pure English.</li>
             <li><strong>Marking Scheme:</strong> +1.00 for Correct, −0.25 for Incorrect, 0 for Unattempted.</li>
-            <li><strong>Strict Sectional Timers:</strong>
-              <ul style="margin: 6px 0;">
-                <li><strong>Section 1 (Reasoning Ability):</strong> Q1–Q40 (40 Marks), <strong>25:00 Minutes</strong>.</li>
-                <li><strong>Section 2 (Quantitative Aptitude):</strong> Q41–Q80 (40 Marks), <strong>20:00 Minutes</strong>.</li>
-              </ul>
+            <li><strong>Composite 45:00 Minutes Timing:</strong> 
+              Total composite duration of 45:00 minutes for the entire examination (standard IBPS RRB PO Prelims scheme).
             </li>
-            <li><strong>Section Lock:</strong> When the 25-minute timer expires, Reasoning is locked and Quantitative Aptitude starts immediately. You cannot return to Section 1.</li>
-            <li><strong>Question-by-Question Solution Analysis:</strong> Complete step-by-step mathematical and logical solutions will be revealed immediately after submission pointing out which is right and wrong.</li>
-            <li><strong>PDF Companion Link:</strong> You can also access the original publisher PDF at any time.</li>
+            <li><strong>Free Section Switching:</strong> 
+              You can switch freely between <strong>Section 1 (Reasoning Ability, Q1–Q40)</strong> and <strong>Section 2 (Quantitative Aptitude, Q41–Q80)</strong> at any point during the mock test.
+            </li>
+            <li><strong>Pause & Take a Break:</strong> 
+              Taking a short break? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar at any time to freeze the timer safely. Your answers and progress remain 100% saved.
+            </li>
+            <li><strong>Continue & Resume Incomplete Tests:</strong> 
+              If you submit early or want to complete Quantitative Aptitude later, you can always click <strong>"▶ Continue Test / Complete Quant"</strong> on your analysis scorecard to finish the remaining questions!
+            </li>
+            <li><strong>Step-by-Step Mathematical Solutions:</strong> 
+              Detailed logical and mathematical explanations are revealed immediately upon submission pointing out correct vs incorrect answers.
+            </li>
           </ul>
         </div>
 
@@ -489,13 +560,19 @@
     }
     const now = Date.now();
     const t = getAddaTest(id);
+    if (!t) return;
+    const totalDurationSec = 45 * 60; // 45 Minutes composite time
+
     active = {
       testId: id,
       mode: mode,
       startedAt: now,
+      testEndAt: now + totalDurationSec * 1000,
+      timeRemainingSec: totalDurationSec,
+      isPaused: false,
       sectionIndex: 0,
-      sectionEndAt: now + 25 * 60 * 1000, // 25 Min for Reasoning
       currentIndex: 0,
+      paletteSectionIndex: 0,
       answers: {},
       visited: [t.questions[0].id],
       marked: []
@@ -505,8 +582,52 @@
     renderExam();
   }
 
+  function continueAttempt(attempt) {
+    if (!attempt) return;
+    const t = getAddaTest(attempt.testId);
+    if (!t) return;
+
+    // Find first unattempted question
+    let targetIdx = t.questions.findIndex(q => attempt.answers[q.id] === undefined);
+    if (targetIdx === -1) targetIdx = 40; // Default to Quant (Q41) if all answered
+
+    const now = Date.now();
+    // Allow at least 25 minutes (1500s) to comfortably complete Quant / remaining questions
+    const timeAllowedSec = Math.max(1500, attempt.timeRemainingSec || 1500);
+
+    active = {
+      testId: attempt.testId,
+      mode: 'cbt',
+      startedAt: attempt.startedAt || now,
+      testEndAt: now + timeAllowedSec * 1000,
+      timeRemainingSec: timeAllowedSec,
+      isPaused: false,
+      sectionIndex: targetIdx < 40 ? 0 : 1,
+      currentIndex: targetIdx,
+      paletteSectionIndex: targetIdx < 40 ? 0 : 1,
+      answers: { ...(attempt.answers || {}) },
+      visited: t.questions.filter(q => attempt.answers[q.id] !== undefined).map(q => q.id),
+      marked: [],
+      resumedFromAttemptId: attempt.attemptId
+    };
+
+    const targetQ = t.questions[targetIdx];
+    if (targetQ && !active.visited.includes(targetQ.id)) {
+      active.visited.push(targetQ.id);
+    }
+
+    storeActive();
+    page = 'exam';
+    renderExam();
+  }
+
   function resumeTest() {
     if (active) {
+      if (active.isPaused && active.timeRemainingSec) {
+        active.isPaused = false;
+        active.testEndAt = Date.now() + active.timeRemainingSec * 1000;
+        storeActive();
+      }
       page = 'exam';
       syncDeadline();
       if (active) renderExam();
@@ -520,6 +641,7 @@
     if (!active) return enterHome();
 
     const t = getAddaTest(active.testId);
+    if (!t) return enterHome();
     const q = getCurrentQuestion();
     const sec = getSection();
     const isAnswered = active.answers[q.id] !== undefined;
@@ -531,38 +653,53 @@
       storeActive();
     }
 
-    const startIdx = active.sectionIndex === 0 ? 0 : 40;
-    const endIdx = active.sectionIndex === 0 ? 40 : 80;
-    const secQuestions = t.questions.slice(startIdx, endIdx);
+    const reasoningQuestions = t.questions.slice(0, 40);
+    const quantQuestions = t.questions.slice(40, 80);
+
+    const reasoningAnsCount = reasoningQuestions.filter(sq => active.answers[sq.id] !== undefined).length;
+    const quantAnsCount = quantQuestions.filter(sq => active.answers[sq.id] !== undefined).length;
+
+    // Palette section defaults to active section or user toggle
+    const palSectionIndex = (active.paletteSectionIndex !== undefined) ? active.paletteSectionIndex : active.sectionIndex;
+    const secQuestions = palSectionIndex === 0 ? reasoningQuestions : quantQuestions;
 
     const answeredCount = secQuestions.filter(sq => active.answers[sq.id] !== undefined).length;
     const markedCount = secQuestions.filter(sq => active.marked.includes(sq.id)).length;
     const notVisitedCount = secQuestions.filter(sq => !active.visited.includes(sq.id)).length;
     const notAnsweredCount = secQuestions.length - answeredCount - notVisitedCount;
 
+    const remainingSec = active.isPaused 
+      ? (active.timeRemainingSec || 0)
+      : Math.max(0, Math.ceil(((active.testEndAt || Date.now()) - Date.now()) / 1000));
+
     $('#app').innerHTML = `
       <div class="exam-wrapper">
         <!-- Section Bar -->
         <div class="section-nav-bar" style="margin-bottom: 16px; background:#ffffff; border:1px solid var(--border); border-radius:12px; padding:12px 18px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-          <div style="display:flex; align-items:center; gap:10px;">
+          <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
             <div style="font-weight:750; color:var(--primary); font-size:15px;">
               ${esc(t.title)}
             </div>
-            <div style="display:flex; gap:6px;">
-              <span class="section-tab ${active.sectionIndex === 0 ? 'active' : ''}" style="padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700; ${active.sectionIndex === 0 ? 'background:#edf3e9; color:var(--primary); border:1px solid #9bb490;' : 'background:#f1f5f9; color:#94a3b8;'}">
-                1. Reasoning (Q1–Q40) ${active.sectionIndex > 0 ? '🔒' : ''}
-              </span>
-              <span class="section-tab ${active.sectionIndex === 1 ? 'active' : ''}" style="padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700; ${active.sectionIndex === 1 ? 'background:#edf3e9; color:var(--primary); border:1px solid #9bb490;' : 'background:#f1f5f9; color:#94a3b8;'}">
+            <div style="display:flex; gap:8px;">
+              <button type="button" class="section-nav-tab-btn ${active.sectionIndex === 0 ? 'active' : ''}" id="addaSecReasoning">
+                1. Reasoning (Q1–Q40)
+                <span class="sec-pill-badge">${reasoningAnsCount}/40</span>
+              </button>
+              <button type="button" class="section-nav-tab-btn ${active.sectionIndex === 1 ? 'active' : ''}" id="addaSecQuant">
                 2. Quantitative (Q41–Q80)
-              </span>
+                <span class="sec-pill-badge">${quantAnsCount}/40</span>
+              </button>
             </div>
           </div>
-          <div style="display:flex; align-items:center; gap:12px;">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <button type="button" id="addaPauseBtn" class="btn btn-secondary" style="font-size:12px; padding:6px 14px; min-height:34px; display:inline-flex; align-items:center; gap:6px;">
+              ⏸ Pause / Take Break
+            </button>
             <a href="${esc(t.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:11.5px; padding:6px 12px; min-height:34px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
-              📄 Open Original PDF ↗
+              📄 PDF ↗
             </a>
             <div class="timer-box normal" style="font-family:monospace; font-size:18px; font-weight:800; padding:6px 14px; border-radius:8px; border:1px solid #cfdbc8; background:#edf3e9; color:var(--primary);">
-              ⏱ <span id="addaTimerDisplay">--:--</span>
+              ⏱ <span id="addaTimerDisplay">${timeText(remainingSec)}</span>
             </div>
           </div>
         </div>
@@ -577,7 +714,7 @@
                   ${esc(q.topic || sec.name)}
                 </span>
                 <h2 style="font-size:16px; font-weight:750; color:var(--primary); margin-top:2px;">
-                  Question ${q.number} of 80
+                  Question ${q.number} of 80 · Section ${q.number <= 40 ? '1: Reasoning Ability' : '2: Quantitative Aptitude'}
                 </h2>
               </div>
               <div style="font-size:12px; color:var(--text-muted); font-weight:600;">
@@ -590,7 +727,7 @@
 
               <div class="options-list" style="display:flex; flex-direction:column; gap:10px;">
                 ${q.options.map((opt, oIdx) => `
-                  <button class="option-item ${userChoice === oIdx ? 'selected' : ''}" data-opt="${oIdx}" style="text-align:left; padding:12px 16px; border:1px solid ${userChoice === oIdx ? '#67905d' : 'var(--border)'}; background:${userChoice === oIdx ? '#edf3e8' : '#ffffff'}; border-radius:8px; cursor:pointer; font-size:13.5px; display:flex; align-items:center; gap:12px; font-family:inherit;">
+                  <button type="button" class="option-item ${userChoice === oIdx ? 'selected' : ''}" data-opt="${oIdx}" style="text-align:left; padding:12px 16px; border:1px solid ${userChoice === oIdx ? '#67905d' : 'var(--border)'}; background:${userChoice === oIdx ? '#edf3e8' : '#ffffff'}; border-radius:8px; cursor:pointer; font-size:13.5px; display:flex; align-items:center; gap:12px; font-family:inherit;">
                     <span style="font-weight:750; font-size:12px; color:var(--primary); width:20px;">(${'ABCDE'[oIdx]})</span>
                     <span style="flex:1;">${formatMathText(opt)}</span>
                   </button>
@@ -601,21 +738,31 @@
             <!-- Footer Controls -->
             <div class="exam-footer" style="padding:16px 20px; border-top:1px solid var(--border); background:#fcfdfb; border-bottom-left-radius:12px; border-bottom-right-radius:12px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
               <div style="display:flex; gap:8px;">
-                <button id="addaMarkNext" class="btn btn-secondary" style="font-size:12px;">Mark for Review & Next</button>
-                <button id="addaClear" class="btn btn-ghost" style="font-size:12px;">Clear Response</button>
+                <button type="button" id="addaMarkNext" class="btn btn-secondary" style="font-size:12px;">Mark for Review & Next</button>
+                <button type="button" id="addaClear" class="btn btn-ghost" style="font-size:12px;">Clear Response</button>
               </div>
               <div style="display:flex; gap:8px;">
-                <button id="addaPrev" class="btn btn-secondary" style="font-size:12px;" ${active.currentIndex === startIdx ? 'disabled' : ''}>Previous</button>
-                <button id="addaSaveNext" class="btn btn-primary" style="font-size:12px;">Save & Next →</button>
-                <button id="addaSubmitBtn" class="btn btn-primary" style="background:#2e7d32; border-color:#2e7d32; font-size:12px;">Submit Test</button>
+                <button type="button" id="addaPrev" class="btn btn-secondary" style="font-size:12px;" ${active.currentIndex === 0 ? 'disabled' : ''}>Previous</button>
+                <button type="button" id="addaSaveNext" class="btn btn-primary" style="font-size:12px;">Save & Next →</button>
+                <button type="button" id="addaSubmitBtn" class="btn btn-primary" style="background:#2e7d32; border-color:#2e7d32; font-size:12px;">Submit Test</button>
               </div>
             </div>
           </div>
 
           <!-- Right: Question Palette -->
           <div class="palette-sidebar" style="background:#ffffff; border:1px solid var(--border); border-radius:12px; display:flex; flex-direction:column;">
-            <div style="padding:14px; background:#edf2e8; border-bottom:1px solid var(--border); font-size:12px; font-weight:700; color:var(--primary);">
-              Question Palette · ${sec.name}
+            <div style="padding:10px 14px; background:#edf2e8; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; gap:8px;">
+              <div style="font-size:12px; font-weight:750; color:var(--primary);">
+                Palette
+              </div>
+              <div style="display:flex; gap:4px;">
+                <button type="button" id="palToggleReason" class="pal-tab-btn ${palSectionIndex === 0 ? 'active' : ''}">
+                  Reasoning (1–40)
+                </button>
+                <button type="button" id="palToggleQuant" class="pal-tab-btn ${palSectionIndex === 1 ? 'active' : ''}">
+                  Quant (41–80)
+                </button>
+              </div>
             </div>
 
             <div style="padding:12px; display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:10px; border-bottom:1px solid var(--border);">
@@ -631,7 +778,7 @@
                   const st = statusFor(sq.id);
                   const isCurrent = sq.number === q.number;
                   return `
-                    <button class="pal-btn ${st} ${isCurrent ? 'current' : ''}" data-adda-jump="${sq.number - 1}" style="width:100%; height:34px; font-size:11px; border-radius:6px; font-weight:700; cursor:pointer; ${isCurrent ? 'outline:2px solid var(--primary); outline-offset:1px;' : ''}">
+                    <button type="button" class="pal-btn ${st} ${isCurrent ? 'current' : ''}" data-adda-jump="${sq.number - 1}" style="width:100%; height:34px; font-size:11px; border-radius:6px; font-weight:700; cursor:pointer; ${isCurrent ? 'outline:2px solid var(--primary); outline-offset:1px;' : ''}">
                       ${sq.number}
                     </button>
                   `;
@@ -640,6 +787,50 @@
             </div>
           </div>
         </div>
+
+        <!-- Pause Break Modal Overlay -->
+        ${active.isPaused ? `
+          <div class="cbt-pause-overlay">
+            <div class="cbt-pause-card">
+              <div style="font-size:44px; margin-bottom:12px;">☕</div>
+              <h2 style="font-size:22px; font-weight:800; color:var(--primary); margin:0 0 8px;">
+                Test Paused — Take a Break!
+              </h2>
+              <p style="color:var(--text-muted); font-size:13.5px; margin:0 0 16px; line-height:1.6;">
+                Your exam timer is safely paused and all your responses are saved.<br>
+                Rest your eyes, take a breather, and click below when you're ready to jump back in.
+              </p>
+              <div class="cbt-pause-stats-grid">
+                <div class="cbt-pause-stat-item">
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Time Remaining</div>
+                  <div style="font-size:20px; font-weight:800; color:var(--primary); font-family:monospace; margin-top:4px;">
+                    ${timeText(active.timeRemainingSec || remainingSec)}
+                  </div>
+                </div>
+                <div class="cbt-pause-stat-item">
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Reasoning Done</div>
+                  <div style="font-size:20px; font-weight:800; color:#2e7d32; margin-top:4px;">
+                    ${reasoningAnsCount}/40
+                  </div>
+                </div>
+                <div class="cbt-pause-stat-item">
+                  <div style="font-size:10.5px; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Quant Done</div>
+                  <div style="font-size:20px; font-weight:800; color:#2e7d32; margin-top:4px;">
+                    ${quantAnsCount}/40
+                  </div>
+                </div>
+              </div>
+              <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+                <button type="button" id="resumeFromPauseBtn" class="btn btn-primary" style="padding:12px 28px; font-size:15px; font-weight:750;">
+                  ▶ Resume Test Now
+                </button>
+                <button type="button" id="exitToHomePauseBtn" class="btn btn-secondary" style="padding:12px 18px; font-size:13.5px;">
+                  Save & Exit (Resume Later)
+                </button>
+              </div>
+            </div>
+          </div>
+        ` : ''}
       </div>
     `;
 
@@ -653,15 +844,81 @@
       };
     });
 
+    // Top Section Tabs Click
+    const secRBtn = $('#addaSecReasoning');
+    if (secRBtn) {
+      secRBtn.onclick = () => {
+        if (active.sectionIndex !== 0) {
+          active.sectionIndex = 0;
+          active.paletteSectionIndex = 0;
+          const target = active.lastReasoningIndex !== undefined ? active.lastReasoningIndex : 0;
+          goTo(target);
+        }
+      };
+    }
+
+    const secQBtn = $('#addaSecQuant');
+    if (secQBtn) {
+      secQBtn.onclick = () => {
+        if (active.sectionIndex !== 1) {
+          active.sectionIndex = 1;
+          active.paletteSectionIndex = 1;
+          const target = active.lastQuantIndex !== undefined ? active.lastQuantIndex : 40;
+          goTo(target);
+        }
+      };
+    }
+
+    // Palette Section Toggles
+    const palR = $('#palToggleReason');
+    if (palR) {
+      palR.onclick = () => {
+        active.paletteSectionIndex = 0;
+        storeActive();
+        renderExam();
+      };
+    }
+
+    const palQ = $('#palToggleQuant');
+    if (palQ) {
+      palQ.onclick = () => {
+        active.paletteSectionIndex = 1;
+        storeActive();
+        renderExam();
+      };
+    }
+
+    // Pause / Break buttons
+    const pauseBtn = $('#addaPauseBtn');
+    if (pauseBtn) pauseBtn.onclick = pauseTest;
+
+    const resumePauseBtn = $('#resumeFromPauseBtn');
+    if (resumePauseBtn) resumePauseBtn.onclick = unpauseTest;
+
+    const exitPauseBtn = $('#exitToHomePauseBtn');
+    if (exitPauseBtn) exitPauseBtn.onclick = enterHome;
+
     // Save & Next
     $('#addaSaveNext').onclick = () => {
-      goTo(active.currentIndex + 1);
+      if (active.currentIndex === t.questions.length - 1) {
+        if (confirm('You have reached the final question (Q80). Would you like to submit your exam now?')) {
+          submitTest(false);
+        }
+      } else {
+        goTo(active.currentIndex + 1);
+      }
     };
 
     // Mark & Next
     $('#addaMarkNext').onclick = () => {
       if (!active.marked.includes(q.id)) active.marked.push(q.id);
-      goTo(active.currentIndex + 1);
+      if (active.currentIndex === t.questions.length - 1) {
+        if (confirm('You have reached the final question (Q80). Would you like to submit your exam now?')) {
+          submitTest(false);
+        }
+      } else {
+        goTo(active.currentIndex + 1);
+      }
     };
 
     // Clear Response
@@ -675,7 +932,7 @@
 
     // Previous
     $('#addaPrev').onclick = () => {
-      if (active.currentIndex > startIdx) {
+      if (active.currentIndex > 0) {
         goTo(active.currentIndex - 1);
       }
     };
@@ -700,11 +957,20 @@
 
   function goTo(idx) {
     if (!active) return;
-    const startIdx = active.sectionIndex === 0 ? 0 : 40;
-    const endIdx = active.sectionIndex === 0 ? 40 : 80;
+    const t = getAddaTest(active.testId);
+    if (!t || idx < 0 || idx >= t.questions.length) return;
 
-    if (idx < startIdx || idx >= endIdx) return;
+    if (active.currentIndex < 40) {
+      active.lastReasoningIndex = active.currentIndex;
+    } else {
+      active.lastQuantIndex = active.currentIndex;
+    }
+
     active.currentIndex = idx;
+    // Automatically keep section and palette in sync with question number
+    active.sectionIndex = idx < 40 ? 0 : 1;
+    active.paletteSectionIndex = active.sectionIndex;
+
     const q = getCurrentQuestion();
     if (q && !active.visited.includes(q.id)) active.visited.push(q.id);
     storeActive();
@@ -716,6 +982,7 @@
   function submitTest(auto = false) {
     if (!active) return;
     const t = getAddaTest(active.testId);
+    if (!t) return;
     const answers = active.answers;
     let correctCount = 0, wrongCount = 0, skippedCount = 0;
     let reasoningScore = 0, quantScore = 0;
@@ -757,7 +1024,7 @@
     const accuracy = (correctCount + wrongCount) > 0 ? (correctCount / (correctCount + wrongCount) * 100) : 0;
 
     const attemptRecord = {
-      attemptId: 'adda_att_' + Date.now(),
+      attemptId: active.resumedFromAttemptId || ('adda_att_' + Date.now()),
       testId: t.id,
       title: t.title,
       paperLabel: t.paperLabel,
@@ -769,11 +1036,18 @@
       quantScore: Math.max(0, quantScore),
       accuracy: accuracy,
       completedAt: Date.now(),
+      startedAt: active.startedAt,
       answers: answers
     };
 
     const hist = history();
-    hist.unshift(attemptRecord);
+    // If updating resumed attempt, replace it; else unshift new
+    const existingIdx = hist.findIndex(h => h.attemptId === attemptRecord.attemptId);
+    if (existingIdx !== -1) {
+      hist[existingIdx] = attemptRecord;
+    } else {
+      hist.unshift(attemptRecord);
+    }
     storeHistory(hist);
 
     // Clear active
@@ -787,6 +1061,7 @@
   function showResult(attempt) {
     page = 'result';
     const t = getAddaTest(attempt.testId);
+    if (!t) return enterHome();
 
     const questionsWithStatus = t.questions.map(q => {
       const userChoice = attempt.answers[q.id];
@@ -815,7 +1090,17 @@
             <div>
               <span style="font-size: 11px; letter-spacing: 2px; text-transform:uppercase; color: #a6bda4; font-weight:750;">Performance Summary · Officer Scale I</span>
               <h1 style="font-size: 28px; font-weight: 800; margin: 6px 0 10px;">${esc(attempt.title)}</h1>
-              <p style="color: #cbd5e1; font-size: 13.5px;">${esc(attempt.paperLabel)} · Completed on ${esc(new Date(attempt.completedAt).toLocaleString())}</p>
+              <p style="color: #cbd5e1; font-size: 13.5px;">${esc(attempt.paperLabel)} · Evaluated on ${esc(new Date(attempt.completedAt).toLocaleString())}</p>
+              ${attempt.skippedCount > 0 ? `
+                <div style="margin-top: 14px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; padding: 10px 16px; display:inline-flex; align-items:center; gap:12px; flex-wrap:wrap;">
+                  <span style="font-size: 13px; color: #f1f5f9;">
+                    Took a break or skipped Quant? You have <strong>${attempt.skippedCount} unattempted questions</strong>.
+                  </span>
+                  <button type="button" id="heroContinueBtn" class="btn btn-primary" style="background:#cfe68c; color:#173c34; border:none; font-weight:800; font-size:12px; padding:6px 14px; cursor:pointer;">
+                    ▶ Complete Remaining Questions →
+                  </button>
+                </div>
+              ` : ''}
             </div>
             <div style="text-align:right;">
               <div style="font-size: 12px; color: #94a3b8; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">Your Total Score</div>
@@ -866,24 +1151,29 @@
               <h2 style="font-size: 20px; font-weight: 800; color: var(--primary);">Question-by-Question Detailed Solutions</h2>
               <p style="font-size: 13px; color: var(--text-muted);">Step-by-step mathematical and logical analysis pointing out which is right and wrong.</p>
             </div>
-            <div style="display:flex; gap:10px;">
-              <button id="addaRetakeBtn" class="btn btn-secondary">Retake Test</button>
-              <button id="addaReturnHomeBtn" class="btn btn-primary">Mock Library ↗</button>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              ${attempt.skippedCount > 0 ? `
+                <button type="button" id="addaContinueAttemptBtn" class="btn btn-primary" style="background:#2e7d32; border-color:#2e7d32; font-weight:750;">
+                  ▶ Complete Quant & Remaining (${attempt.skippedCount} Unattempted)
+                </button>
+              ` : ''}
+              <button type="button" id="addaRetakeBtn" class="btn btn-secondary">Retake Test</button>
+              <button type="button" id="addaReturnHomeBtn" class="btn btn-primary">Mock Library ↗</button>
             </div>
           </div>
 
           <!-- Filter Buttons -->
           <div class="review-filter-bar">
-            <button class="review-filter-btn ${reviewFilter === 'all' ? 'active' : ''}" data-rf="all">
+            <button type="button" class="review-filter-btn ${reviewFilter === 'all' ? 'active' : ''}" data-rf="all">
               All Questions (80)
             </button>
-            <button class="review-filter-btn ${reviewFilter === 'wrong' ? 'active' : ''}" data-rf="wrong">
+            <button type="button" class="review-filter-btn ${reviewFilter === 'wrong' ? 'active' : ''}" data-rf="wrong">
               Incorrect Only (${attempt.wrongCount})
             </button>
-            <button class="review-filter-btn ${reviewFilter === 'correct' ? 'active' : ''}" data-rf="correct">
+            <button type="button" class="review-filter-btn ${reviewFilter === 'correct' ? 'active' : ''}" data-rf="correct">
               Correct Only (${attempt.correctCount})
             </button>
-            <button class="review-filter-btn ${reviewFilter === 'skipped' ? 'active' : ''}" data-rf="skipped">
+            <button type="button" class="review-filter-btn ${reviewFilter === 'skipped' ? 'active' : ''}" data-rf="skipped">
               Unattempted (${attempt.skippedCount})
             </button>
           </div>
@@ -968,6 +1258,12 @@
         };
       });
 
+      const heroCont = $('#heroContinueBtn');
+      if (heroCont) heroCont.onclick = () => continueAttempt(attempt);
+
+      const actCont = $('#addaContinueAttemptBtn');
+      if (actCont) actCont.onclick = () => continueAttempt(attempt);
+
       $('#addaRetakeBtn').onclick = () => {
         if (confirm('Retake this mock test now?')) {
           startTest(attempt.testId, 'cbt');
@@ -1034,7 +1330,10 @@
       switchTab,
       showInstructions,
       startTest,
+      continueAttempt,
       resumeTest,
+      pauseTest,
+      unpauseTest,
       history
     };
   }
