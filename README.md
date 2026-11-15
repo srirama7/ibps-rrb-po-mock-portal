@@ -33,12 +33,31 @@ Integrated 10-paper practice library based on Adda247 IBPS RRB Officer Scale I p
 
 - **Original Mocks (20)** + **Adda Mocks (10)**: Switch between collections with the library tab selector.
 - **English-Only Interactive CBT**: Every question extracted in pure English, with 5 options, sectional timers (Reasoning 25m, Quant 20m), palette, and automatic sectional lock.
-- **Detailed Solution & Analysis**: After submission, clearly points out which questions are Correct (green +1.00), Incorrect (red -0.25), and Unattempted (0.00), with quick filter toggles and step-by-step mathematical/logical solutions.
+- **Answer Review**: After submission, shows Correct (green +1.00), Incorrect (red -0.25), and Unattempted (0.00) questions with quick filters, source answer keys, and worked solutions where available. Quant questions without a worked solution say so explicitly.
 - **Timed PDF Practice Mode**: Practice directly with the companion answer sheet alongside the original PDF.
 - **Direct PDF Links**: View and download the original Adda247 memory-based PDFs in a new tab.
 - **Independent Storage**: Uses `rrbpo_adda_active_v1` and `rrbpo_adda_history_v1` to ensure existing 20-mock attempts and progress remain completely untouched.
 
 ### Validate Adda Mocks
+
+The November 15 quant repair corrects misplaced equation images in Mocks 03 and 07,
+removes an unrelated formula from Mock 08 Q60, restores lost fractions and shared
+DI notes, repairs Mock 08 Q80's choices, and separates table headers/rows from
+question prose. It also removes duplicate translated charts and corrects affected
+topic labels. Question IDs, option ordering, and source answer indexes remain stable.
+
+If re-importing or enriching the Adda PDFs, run the repair command **after** those
+legacy extraction scripts, then run the regression check before publishing:
+
+```sh
+python tools/repair_adda_quant.py
+python tools/test_quant_repairs.py
+```
+
+The regression check renders all 400 quant questions, checks tables and image
+loading, and exercises answer saving, resume, submission and review for the
+reported Mock 07 Q63. It can also check a deployment with `--url <site-url>`.
+Source answer-letter agreement does not independently verify every publisher answer.
 
 ```sh
 python tools/validate_adda_mocks.py

@@ -79,52 +79,33 @@
     if (!raw) return '';
     let text = esc(raw);
 
-    // Render markdown tables if present
+    // A table starts with a header followed by a separator. Keep surrounding
+    // question text in its original order and preserve empty table cells.
     if (text.includes('|') && text.includes('---')) {
       const lines = text.split('\n');
-      const tableLines = [];
-      const before = [];
-      const after = [];
-      let inTable = false;
-      let finishedTable = false;
-
-      for (const line of lines) {
-        if (!finishedTable && (line.trim().startsWith('|') || (line.includes('|') && (line.includes('---') || inTable)))) {
-          inTable = true;
-          tableLines.push(line.trim());
-        } else if (inTable) {
-          finishedTable = true;
-          inTable = false;
-          after.push(line);
-        } else {
-          before.push(line);
+      const output = [];
+      const isRow = line => /^\s*\|.*\|\s*$/.test(line || '');
+      const cells = line => line.trim().slice(1, -1).split('|').map(cell => cell.trim());
+      const isSeparator = line => isRow(line) && cells(line).every(cell => /^:?-{3,}:?$/.test(cell));
+      for (let i = 0; i < lines.length; i++) {
+        if (!isRow(lines[i]) || !isSeparator(lines[i + 1])) {
+          output.push(lines[i]);
+          continue;
         }
-      }
-
-      if (tableLines.length >= 2) {
-        let headers = [];
-        let rows = [];
-        for (let i = 0; i < tableLines.length; i++) {
-          const parts = tableLines[i].split('|').map(s => s.trim()).filter(Boolean);
-          if (i === 0) headers = parts;
-          else if (tableLines[i].includes('---')) continue;
-          else rows.push(parts);
+        const headers = cells(lines[i]);
+        const rows = [];
+        i += 2;
+        while (i < lines.length && isRow(lines[i])) {
+          rows.push(cells(lines[i]));
+          i++;
         }
-
-        const tableHtml = `
-          <div class="cbt-table-box">
-            <table class="cbt-rendered-table">
-              <thead>
-                <tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>
-              </thead>
-              <tbody>
-                ${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}
-              </tbody>
-            </table>
-          </div>
-        `;
-        text = before.join('\n') + '\n' + tableHtml + '\n' + after.join('\n');
+        i--;
+        output.push(`<div class="cbt-table-box"><table class="cbt-rendered-table">
+          <thead><tr>${headers.map(h => `<th scope="col">${h}</th>`).join('')}</tr></thead>
+          <tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>
+        </table></div>`);
       }
+      text = output.join('\n');
     }
 
     // Format mathematical fractions: (a/b), a/b, 33 1/3, 3/8th
@@ -331,7 +312,7 @@
       <div style="font-size: 12.5px; color: var(--text-muted);">
         ${currentTab === 'original' 
           ? '80 Questions · 80 Marks · 45 Minutes (Reasoning: 25m, Quant: 20m)'
-          : '10 Memory-Based Prelims Papers · Official Sectional Timers (25m / 20m) & Step-by-Step Analysis'}
+          : '10 Memory-Based Prelims Papers · Official Sectional Timers (25m / 20m) & Answer Review'}
       </div>
     `;
 
@@ -347,7 +328,7 @@
         <div class="adda-banner">
           <strong>Adda247 Memory-Based Papers:</strong> 10 authentic Prelims papers digitized into 
           interactive online CBT format. Features pure English questions, official IBPS RRB sectional timing 
-          (Reasoning: 25:00 Min | Quantitative: 20:00 Min), TCS iON "Time Left" clock, step-by-step mathematical solutions, and pause/resume support.
+          (Reasoning: 25:00 Min | Quantitative: 20:00 Min), TCS iON "Time Left" clock, source answer keys, available worked solutions, and pause/resume support.
         </div>
         <div id="addaCardsGrid" class="adda-cards-grid"></div>
       `;
@@ -1211,8 +1192,8 @@
           <!-- Filter & Actions Bar -->
           <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom: 20px;">
             <div>
-              <h2 style="font-size: 20px; font-weight: 800; color: var(--primary);">Question-by-Question Detailed Solutions</h2>
-              <p style="font-size: 13px; color: var(--text-muted);">Step-by-step mathematical and logical analysis pointing out which is right and wrong.</p>
+              <h2 style="font-size: 20px; font-weight: 800; color: var(--primary);">Question-by-Question Answer Review</h2>
+              <p style="font-size: 13px; color: var(--text-muted);">Review your answers against the source key and read worked solutions where available.</p>
             </div>
             <div style="display:flex; gap:10px; flex-wrap:wrap;">
               ${attempt.skippedCount > 0 ? `
