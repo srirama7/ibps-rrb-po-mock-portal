@@ -29,7 +29,7 @@
       "id": "adda-04-q001",
       "number": 1,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who visited on Monday?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
         "A",
@@ -39,15 +39,17 @@
         "C"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) B holds true.",
+      "explanation": "Source answer: (b) B\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Day | Person | Flower |\n| --- | --- | --- |\n| Monday | B | Lavender |\n| Tuesday | A | Peony |\n| Wednesday | E | Hibiscus |\n| Thursday | D | Bluebell |\n| Friday | F | Lotus |\n| Saturday | G | Dahlia |\n| Sunday | C | Daffodil |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 1,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q002",
       "number": 2,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which flower was picked by the person who visited on Wednesday?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
         "Daffodil",
@@ -57,15 +59,17 @@
         "Hibiscus"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Hibiscus\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Day | Person | Flower |\n| --- | --- | --- |\n| Monday | B | Lavender |\n| Tuesday | A | Peony |\n| Wednesday | E | Hibiscus |\n| Thursday | D | Bluebell |\n| Friday | F | Lotus |\n| Saturday | G | Dahlia |\n| Sunday | C | Daffodil |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 2,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q003",
       "number": 3,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "On which day did A visited the garden?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
         "Monday",
@@ -75,15 +79,17 @@
         "Friday"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) Tuesday\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Day | Person | Flower |\n| --- | --- | --- |\n| Monday | B | Lavender |\n| Tuesday | A | Peony |\n| Wednesday | E | Hibiscus |\n| Thursday | D | Bluebell |\n| Friday | F | Lotus |\n| Saturday | G | Dahlia |\n| Sunday | C | Daffodil |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 3,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q004",
       "number": 4,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who picked the Daffodil?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
         "C",
@@ -93,15 +99,17 @@
         "A"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) C holds true.",
+      "explanation": "Source answer: (a) C\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Day | Person | Flower |\n| --- | --- | --- |\n| Monday | B | Lavender |\n| Tuesday | A | Peony |\n| Wednesday | E | Hibiscus |\n| Thursday | D | Bluebell |\n| Friday | F | Lotus |\n| Saturday | G | Dahlia |\n| Sunday | C | Daffodil |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 4,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q005",
       "number": 5,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which of the following combination is/ are definitely true?\nStudy the following information carefully and answer the question given below:\nSeven persons — A, B, C, D, E, F, and G — visited a botanical garden on seven different days of the week\n(Monday to Sunday), and each of them picked a different flower — Daffodil, Peony, Bluebell, Lavender,\nHibiscus, Lotus, and Dahlia, but not necessarily in the same order.\nThe person who visited on Friday picked Lotus. G picked Dahlia and visited on Saturday. One person\nvisited between the one who picked lotus and the one who picked Daffodil. Three persons visited\nbetween the one who picked Hibiscus and the one who picked Da ffodil. E picked Hibiscus and visited\ntwo days after the one who picked Lavender. A visited on the day immediately before the person who\npicked Hibiscus. D picked Bluebell. F visited immediately after D. B visited the garden before the one\nwho picked Hibiscus.",
       "options": [
         "B- Peony",
@@ -111,15 +119,17 @@
         "A- lavender"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) F- Lotus\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Day | Person | Flower |\n| --- | --- | --- |\n| Monday | B | Lavender |\n| Tuesday | A | Peony |\n| Wednesday | E | Hibiscus |\n| Thursday | D | Bluebell |\n| Friday | F | Lotus |\n| Saturday | G | Dahlia |\n| Sunday | C | Daffodil |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 5,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q006",
       "number": 6,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "What is the code for the word pair \"Protect order\"?\nStudy the following information carefully and answer the questions given below:\nIn a certain code language:\n\"Judge prayer through law\" is coded as \"kr by at qt\"\n\"Law money protect rights\" is coded as \"qt xt lw gp\"\n\"Judge protect grow served\" is coded as \"kr gp cy dz\"\n\"Protect law rights order\" is coded as \"lw qt gp se\"",
       "options": [
         "gp se",
@@ -129,15 +139,17 @@
         "lw qt"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) gp se Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) gp se holds true.",
+      "explanation": "Source answer: (a) gp se\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ngrow → cy or dz\njudge → kr\nlaw → qt\nmoney → xt\norder → se\nprayer → at or by\nprotect → gp\nrights → lw\nserved → cy or dz\nthrough → at or by\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 6,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-04-q007",
       "number": 7,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "What is the code for the word \"law\"?\nStudy the following information carefully and answer the questions given below:\nIn a certain code language:\n\"Judge prayer through law\" is coded as \"kr by at qt\"\n\"Law money protect rights\" is coded as \"qt xt lw gp\"\n\"Judge protect grow served\" is coded as \"kr gp cy dz\"\n\"Protect law rights order\" is coded as \"lw qt gp se\"",
       "options": [
         "qt",
@@ -147,15 +159,17 @@
         "Can’t be determined"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) qt Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) qt holds true.",
+      "explanation": "Source answer: (a) qt\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ngrow → cy or dz\njudge → kr\nlaw → qt\nmoney → xt\norder → se\nprayer → at or by\nprotect → gp\nrights → lw\nserved → cy or dz\nthrough → at or by\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 7,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-04-q008",
       "number": 8,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "What is the code for the word pair \"se gp\"?\nStudy the following information carefully and answer the questions given below:\nIn a certain code language:\n\"Judge prayer through law\" is coded as \"kr by at qt\"\n\"Law money protect rights\" is coded as \"qt xt lw gp\"\n\"Judge protect grow served\" is coded as \"kr gp cy dz\"\n\"Protect law rights order\" is coded as \"lw qt gp se\"",
       "options": [
         "Protect law",
@@ -165,33 +179,37 @@
         "None of these"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Order protect Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Order protect holds true.",
+      "explanation": "Source answer: (d) Order protect\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ngrow → cy or dz\njudge → kr\nlaw → qt\nmoney → xt\norder → se\nprayer → at or by\nprotect → gp\nrights → lw\nserved → cy or dz\nthrough → at or by\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 8,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-04-q009",
       "number": 9,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "Which among the following combination is/are definitely correct?\nStudy the following information carefully and answer the questions given below:\nIn a certain code language:\n\"Judge prayer through law\" is coded as \"kr by at qt\"\n\"Law money protect rights\" is coded as \"qt xt lw gp\"\n\"Judge protect grow served\" is coded as \"kr gp cy dz\"\n\"Protect law rights order\" is coded as \"lw qt gp se\"",
       "options": [
         "Law - se",
         "Order - lw",
         "Money - xt",
-        "Both",
-        "Both"
+        "Both (a) and (b)",
+        "Both (b) and (c)"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Money - xt Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Money - xt holds true.",
+      "explanation": "Source answer: (c) Money - xt\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ngrow → cy or dz\njudge → kr\nlaw → qt\nmoney → xt\norder → se\nprayer → at or by\nprotect → gp\nrights → lw\nserved → cy or dz\nthrough → at or by\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 9,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-04-q010",
       "number": 10,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "If the word \"Pattern prayer\" is coded as \"to at\", \" Add served\" is coded as \"cy dl\", then what would\nbe the code for \"Grow add\"?\nStudy the following information carefully and answer the questions given below:\nIn a certain code language:\n\"Judge prayer through law\" is coded as \"kr by at qt\"\n\"Law money protect rights\" is coded as \"qt xt lw gp\"\n\"Judge protect grow served\" is coded as \"kr gp cy dz\"\n\"Protect law rights order\" is coded as \"lw qt gp se\"",
       "options": [
         "dz dl",
@@ -201,9 +219,11 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) dz dl Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) dz dl holds true.",
+      "explanation": "Source answer: (a) dz dl\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nadd → dl\ngrow → dz\njudge → kr\nlaw → qt\nmoney → xt\norder → se\npattern → to\nprayer → at\nprotect → gp\nrights → lw\nserved → cy\nthrough → by\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 10,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-04-q011",
@@ -219,9 +239,11 @@
         "Z"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) X Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields X.",
+      "explanation": "Source answer: (d) X\n\nThe selected letters of ALLEGATION are L, A, I and N. NAIL and LAIN are two meaningful arrangements. More than one word is possible, so select X.",
       "sourceQuestionNumber": 11,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q012",
@@ -237,9 +259,11 @@
         "Five"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) As many boxes are kept between box A and box C\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | E |\n| 2 | H |\n| 3 | F |\n| 4 | A |\n| 5 | B |\n| 6 | C |\n| 7 | I |\n| 8 | J |\n| 9 | D |\n| 10 | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 12,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q013",
@@ -255,9 +279,11 @@
         "Immediately above"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
+      "explanation": "Source answer: (a) Two boxes above\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | E |\n| 2 | H |\n| 3 | F |\n| 4 | A |\n| 5 | B |\n| 6 | C |\n| 7 | I |\n| 8 | J |\n| 9 | D |\n| 10 | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 13,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q014",
@@ -273,9 +299,11 @@
         "None"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) None\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | E |\n| 2 | H |\n| 3 | F |\n| 4 | A |\n| 5 | B |\n| 6 | C |\n| 7 | I |\n| 8 | J |\n| 9 | D |\n| 10 | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 14,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q015",
@@ -291,9 +319,11 @@
         "Box F"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) Box C\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | E |\n| 2 | H |\n| 3 | F |\n| 4 | A |\n| 5 | B |\n| 6 | C |\n| 7 | I |\n| 8 | J |\n| 9 | D |\n| 10 | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 15,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q016",
@@ -309,15 +339,17 @@
         "None"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) One Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) One holds true.",
+      "explanation": "Source answer: (b) Two\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | E |\n| 2 | H |\n| 3 | F |\n| 4 | A |\n| 5 | B |\n| 6 | C |\n| 7 | I |\n| 8 | J |\n| 9 | D |\n| 10 | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 16,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q017",
       "number": 17,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "If in the given number “ 78453962” all the digits which are multiple of 2 are arranged in descending\nfrom left to right order followed by the remaining digits which are arranged in ascending order from\nleft to right. Then, find the sum of the digits at even position?",
       "options": [
         "25",
@@ -327,9 +359,11 @@
         "22"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 22 Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) 22 holds true.",
+      "explanation": "Source answer: (e) 22\n\nEven digits in descending order are 8642; remaining odd digits in ascending order are 3579. The combined sequence is 86423579. Digits in positions 2, 4, 6 and 8 sum to 6 + 2 + 5 + 9 = 22.",
       "sourceQuestionNumber": 17,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q018",
@@ -345,9 +379,11 @@
         "One"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) One\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | J | Inside |\n| 2 | K | Outside |\n| 3 | P | Inside |\n| 4 | L | Inside |\n| 5 | O | Outside |\n| 6 | N | Outside |\n| 7 | M | Outside |\n| 8 | Q | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 18,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q019",
@@ -363,9 +399,11 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) The one who sits immediate left of P\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | J | Inside |\n| 2 | K | Outside |\n| 3 | P | Inside |\n| 4 | L | Inside |\n| 5 | O | Outside |\n| 6 | N | Outside |\n| 7 | M | Outside |\n| 8 | Q | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 19,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q020",
@@ -381,9 +419,11 @@
         "All I, II and III"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) Both I and III\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | J | Inside |\n| 2 | K | Outside |\n| 3 | P | Inside |\n| 4 | L | Inside |\n| 5 | O | Outside |\n| 6 | N | Outside |\n| 7 | M | Outside |\n| 8 | Q | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 20,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q021",
@@ -399,9 +439,11 @@
         "None of these"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) L Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) L holds true.",
+      "explanation": "Source answer: (d) L\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | J | Inside |\n| 2 | K | Outside |\n| 3 | P | Inside |\n| 4 | L | Inside |\n| 5 | O | Outside |\n| 6 | N | Outside |\n| 7 | M | Outside |\n| 8 | Q | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 21,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q022",
@@ -414,12 +456,14 @@
         "Third to the left",
         "Fourth to the left",
         "Second to the right",
-        "Both"
+        "Both (a) and (c)"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Both (a) and (c)\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | J | Inside |\n| 2 | K | Outside |\n| 3 | P | Inside |\n| 4 | L | Inside |\n| 5 | O | Outside |\n| 6 | N | Outside |\n| 7 | M | Outside |\n| 8 | Q | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 22,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q023",
@@ -435,9 +479,11 @@
         "Q"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Q Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Q holds true.",
+      "explanation": "Source answer: (d) Unknown person\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | T |\n| 2 | Unspecified |\n| 3 | Unspecified |\n| 4 | Unspecified |\n| 5 | P |\n| 6 | Unspecified |\n| 7 | W |\n| 8 | R |\n| 9 | Q |\n| 10 | Unspecified |\n| 11 | S |\n| 12 | Unspecified |\n| 13 | Unspecified |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 23,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q024",
@@ -453,9 +499,11 @@
         "4th to the left"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) 4th to the left\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | T |\n| 2 | Unspecified |\n| 3 | Unspecified |\n| 4 | Unspecified |\n| 5 | P |\n| 6 | Unspecified |\n| 7 | W |\n| 8 | R |\n| 9 | Q |\n| 10 | Unspecified |\n| 11 | S |\n| 12 | Unspecified |\n| 13 | Unspecified |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 24,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q025",
@@ -471,9 +519,11 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 13 Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) 13 holds true.",
+      "explanation": "Source answer: (a) 13\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | T |\n| 2 | Unspecified |\n| 3 | Unspecified |\n| 4 | Unspecified |\n| 5 | P |\n| 6 | Unspecified |\n| 7 | W |\n| 8 | R |\n| 9 | Q |\n| 10 | Unspecified |\n| 11 | S |\n| 12 | Unspecified |\n| 13 | Unspecified |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 25,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-04-q026",
@@ -489,16 +539,18 @@
         "One"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) Two\n\nFor AUTHORITY, compare each pair's position gap with the absolute difference between its alphabet positions or digit values. They must be equal.\n\nPositions 2 and 3: U–T; position gap = 1, value gap = 1.\nPositions 6 and 8: R–T; position gap = 2, value gap = 2.\n\nTotal qualifying pairs: 2.",
       "sourceQuestionNumber": 26,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "independently-verified"
     },
     {
       "id": "adda-04-q027",
       "number": 27,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: A ≥ S > K ≤ M < B; F < M≥ Q> V ≥ Z\nConclusions: I. S>F\nII. Z<B\nII. Z<B\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
+      "stem": "Statements: A ≥ S > K ≤ M < B; F < M≥ Q> V ≥ Z\n\nConclusions:\nI. S>F\nII. Z<B\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -507,16 +559,19 @@
         "If neither conclusion I nor II is true"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only conclusion II is true\n\nConclusion I (S > F) does not necessarily follow. For example, A = 0, B = 1/2, F = -1/2, I = 0, K = -1, M = 0, Q = 0, S = -1/2, V = -1/2, Z = -1/2 satisfies all the statements but makes this conclusion false.\n\nConclusion II (Z < B) follows: its opposite contradicts the stated relationships.\n\nTherefore: If only conclusion II is true.",
       "sourceQuestionNumber": 27,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 1
     },
     {
       "id": "adda-04-q028",
       "number": 28,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: C ≤ F> H ≥G = N; W> N≥ J = L<O\nConclusions: I. L≤G\nII. F<L\nII. F<L\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
+      "stem": "Statements: C ≤ F> H ≥G = N; W> N≥ J = L<O\n\nConclusions:\nI. L≤G\nII. F<L\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -525,16 +580,19 @@
         "If neither conclusion I nor II is true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I is true\n\nConclusion I (L ≤ G) follows: its opposite contradicts the stated relationships.\n\nConclusion II (F < L) does not necessarily follow. For example, C = 0, F = 1/2, G = 0, H = 0, I = 0, J = 0, L = 0, N = 0, O = 1/2, W = 1/2 satisfies all the statements but makes this conclusion false.\n\nTherefore: If only conclusion I is true.",
       "sourceQuestionNumber": 28,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-04-q029",
       "number": 29,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: A ≥ B ≥ P = D ≤ Y< W; Q ≤ B< L = Z\nConclusions: I. A ≥ Q\nII. D<Z\nII. D<Z\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
+      "stem": "Statements: A ≥ B ≥ P = D ≤ Y< W; Q ≤ B< L = Z\n\nConclusions:\nI. A ≥ Q\nII. D<Z\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -543,16 +601,19 @@
         "If neither conclusion I nor II is true"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (d) If both conclusions I and II are true\n\nConclusion I (A ≥ Q) follows: its opposite contradicts the stated relationships.\n\nConclusion II (D < Z) follows: its opposite contradicts the stated relationships.\n\nTherefore: If both conclusions I and II are true.",
       "sourceQuestionNumber": 29,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 3
     },
     {
       "id": "adda-04-q030",
       "number": 30,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: D < C ≤ N = M; P ≥ R = T > E ≥ D\nConclusions: I. M<R\nII. N≤P\nII. N≤P\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statements and select the\nappropriate answer:",
+      "stem": "Statements: D < C ≤ N = M; P ≥ R = T > E ≥ D\n\nConclusions:\nI. M<R\nII. N≤P\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -561,9 +622,12 @@
         "If neither conclusion I nor II is true"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) If neither conclusion I nor II is true\n\nConclusion I (M < R) does not necessarily follow. For example, C = 0, D = -1/2, E = 0, I = 0, M = 1/2, N = 1/2, P = 1/2, R = 1/2, T = 1/2 satisfies all the statements but makes this conclusion false.\n\nConclusion II (N ≤ P) does not necessarily follow. For example, C = 0, D = -1/4, E = 0, I = 0, M = 1/2, N = 1/2, P = 1/4, R = 1/4, T = 1/4 satisfies all the statements but makes this conclusion false.\n\nTherefore: If neither conclusion I nor II is true.",
       "sourceQuestionNumber": 30,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 4
     },
     {
       "id": "adda-04-q031",
@@ -579,9 +643,11 @@
         "South"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) North-east\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), J (0,17), K (19,17), P (19,28), E (27,28), M (27,36).\n\nP is east and north of A, so its direction is north-east.",
       "sourceQuestionNumber": 31,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q032",
@@ -597,9 +663,11 @@
         "Can’t be determined"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "explanation": "Source answer: (c) North\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), J (0,17), K (19,17), P (19,28), E (27,28), M (27,36).\n\nC is 8 km west of M, so C = (19,36). K = (19,17); C lies directly north of K.",
       "sourceQuestionNumber": 32,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q033",
@@ -615,9 +683,11 @@
         "36km"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
+      "explanation": "Source answer: (b) 63km\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), J (0,17), K (19,17), P (19,28), E (27,28), M (27,36).\n\nFollow the given route backwards from M via K to A: 8 + 8 + 11 + 19 + 17 = 63 km.",
       "sourceQuestionNumber": 33,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q034",
@@ -633,9 +703,11 @@
         "None of these"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) √185km\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), J (0,17), K (19,17), P (19,28), E (27,28), M (27,36).\n\nK to E has horizontal separation 8 km and vertical separation 11 km. The straight-line distance is √(8² + 11²) = √185 km.",
       "sourceQuestionNumber": 34,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q035",
@@ -651,9 +723,11 @@
         "Floor 3rd, flat A"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) Floor 2nd, flat A\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | R |\n| Floor 4, Flat B | X |\n\nArrangement 2:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | X |\n| Floor 4, Flat B | R |",
       "sourceQuestionNumber": 35,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-04-q036",
@@ -669,9 +743,11 @@
         "All I, II and III"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
+      "explanation": "Source answer: (a) Both I and III\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | R |\n| Floor 4, Flat B | X |\n\nArrangement 2:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | X |\n| Floor 4, Flat B | R |",
       "sourceQuestionNumber": 36,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-04-q037",
@@ -687,9 +763,11 @@
         "S"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) S Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) S holds true.",
+      "explanation": "Source answer: (e) S\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | R |\n| Floor 4, Flat B | X |\n\nArrangement 2:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | X |\n| Floor 4, Flat B | R |",
       "sourceQuestionNumber": 37,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 22,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-04-q038",
@@ -705,9 +783,11 @@
         "Either one or two"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) One\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | R |\n| Floor 4, Flat B | X |\n\nArrangement 2:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | X |\n| Floor 4, Flat B | R |",
       "sourceQuestionNumber": 38,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 23,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-04-q039",
@@ -723,15 +803,17 @@
         "W"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) U Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) U holds true.",
+      "explanation": "Source answer: (a) U\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | R |\n| Floor 4, Flat B | X |\n\nArrangement 2:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat A | V |\n| Floor 1, Flat B | S |\n| Floor 2, Flat A | U |\n| Floor 2, Flat B | Z |\n| Floor 3, Flat A | T |\n| Floor 3, Flat B | W |\n| Floor 4, Flat A | X |\n| Floor 4, Flat B | R |",
       "sourceQuestionNumber": 39,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 24,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-04-q040",
       "number": 40,
       "section": "reasoning",
-      "topic": "Logical Reasoning",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Find the odd one out?",
       "options": [
         "FHI",
@@ -741,9 +823,11 @@
         "UWX"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) JKM Analysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields JKM.",
+      "explanation": "Source answer: (c) JKM\n\nFHI, ACD, PRS and UWX have gaps +2, +1. JKM has gaps +1, +2, so JKM is different.",
       "sourceQuestionNumber": 40,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 25,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-04-q041",

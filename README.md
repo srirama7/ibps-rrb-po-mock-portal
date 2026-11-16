@@ -59,6 +59,37 @@ loading, and exercises answer saving, resume, submission and review for the
 reported Mock 07 Q63. It can also check a deployment with `--url <site-url>`.
 Source answer-letter agreement does not independently verify every publisher answer.
 
+### November 16 reasoning repair
+
+All 400 Adda reasoning records were compared with the linked PDFs. Missing source
+information was restored in 14 questions: Mock 09 Q14–Q16 and Mock 10 Q9,
+Q11–Q14, Q22–Q26, Q30. Truncated choices in Mock 04 Q9/Q22 and Mock 09 Q27
+were restored, translated option fragments in Mock 09 Q40 were removed, and 15
+duplicated conclusion blocks were reduced to one I/II pair. Mock 03 Q6–Q8 now
+display their complete inequalities as English text instead of bilingual images.
+
+The PDFs provide answer letters, **not worked explanations**. Generic reasoning
+placeholders were replaced with question-specific deductions, code mappings,
+coordinate calculations and constraint-checked arrangement tables. Every reasoning
+review card links to its exact source PDF page. All 400 have explanation content;
+items with underdetermined clues or conflicts with the publisher key explicitly
+describe the issue instead of presenting a fabricated proof. Source answer indexes
+and saved question IDs are retained; this update does not silently regrade them.
+
+To reproduce the source repairs and derived explanations:
+
+```sh
+python -m pip install -r tools/requirements-reasoning.txt
+python tools/repair_adda_reasoning.py --pdf-dir tools/pdf_cache
+python tools/reasoning_explanations.py
+python tools/test_reasoning_repairs.py
+python tools/test_quant_repairs.py
+```
+
+Use `--url <site-url>` with the reasoning regression test to check a deployment.
+The source PDF cache must contain `adda-01.pdf` through `adda-10.pdf` from the catalog.
+The solver is a development dependency; the deployed site remains static.
+
 ```sh
 python tools/validate_adda_mocks.py
 python tools/verify_adda_links.py

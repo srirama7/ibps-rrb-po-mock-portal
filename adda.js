@@ -564,7 +564,7 @@
             <li><strong>TCS iON "Time Left" Display:</strong> The timer prominently displays <strong>"Time Left : MM : SS"</strong> in the top header, synchronized to the active section's time bank.</li>
             <li><strong>Pause & Take a Break:</strong> Taking a break? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar to freeze the countdown clock. Your answers are safely preserved.</li>
             <li><strong>Continue & Complete Quant Later:</strong> If you step away after completing Reasoning (or skip Quant), you can always click <strong>"▶ Complete Quant"</strong> on your scorecard to finish with its full 20:00 minutes!</li>
-            <li><strong>Step-by-Step Mathematical Solutions:</strong> Detailed explanations and calculations are revealed immediately upon submission.</li>
+            <li><strong>Answer Review:</strong> Explanations, worked arrangements and source references are shown after submission. Source ambiguities are identified in the explanation.</li>
           </ul>
         </div>
 
@@ -732,7 +732,7 @@
             <button type="button" id="addaPauseBtn" class="btn btn-secondary" style="font-size:12px; padding:6px 14px; min-height:34px; display:inline-flex; align-items:center; gap:6px;">
               ⏸ Pause / Take Break
             </button>
-            <a href="${esc(t.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:11.5px; padding:6px 12px; min-height:34px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
+            <a href="${esc(t.pdfUrl + (q.sourcePdfPage ? '#page=' + q.sourcePdfPage : ''))}" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:11.5px; padding:6px 12px; min-height:34px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
               📄 PDF ↗
             </a>
             
@@ -1283,9 +1283,11 @@
                     }).join('')}
                   </div>
 
-                  <div class="expl-box" style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:16px; font-size:13.5px; line-height:1.8;">
-                    <strong style="color:var(--primary); display:block; margin-bottom:6px;">Step-by-Step Analysis & Solution:</strong>
+                  <div class="expl-box" style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:16px; font-size:13.5px; line-height:1.8; white-space:normal;">
+                    <strong style="color:var(--primary); display:block; margin-bottom:6px;">Explanation:</strong>
+                    ${q.explanationStatus === 'source-key-discrepancy' || q.explanationStatus === 'source-interpretation-review' ? '<p class="source-review-note" style="margin:0 0 10px; color:#8a4b09; font-weight:650;">The source answer or wording needs review; see the explanation below.</p>' : ''}
                     <div style="white-space:pre-wrap; color:#334155;">${formatMathText(q.explanation)}</div>
+                    ${q.sourcePdfPage ? `<a class="question-source-link" href="${esc(t.pdfUrl + '#page=' + q.sourcePdfPage)}" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:12px;">View source PDF · Question ${q.number} · Page ${q.sourcePdfPage} ↗</a>` : ''}
                   </div>
                 </div>
               `;

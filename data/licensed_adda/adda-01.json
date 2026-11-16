@@ -39,9 +39,11 @@
         "Third to the right"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Third to the left Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Third to the left holds true.",
+      "explanation": "Source answer: (d) Third to the left\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | A |\n| 2 | I |\n| 3 | E |\n| 4 | H |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n| 8 | D |\n| 9 | B |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 1,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q002",
@@ -57,9 +59,11 @@
         "Three"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Five Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Five holds true.",
+      "explanation": "Source answer: (c) Five\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | A |\n| 2 | I |\n| 3 | E |\n| 4 | H |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n| 8 | D |\n| 9 | B |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 2,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q003",
@@ -75,9 +79,11 @@
         "To the right of F"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) To the right of F Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) To the right of F holds true.",
+      "explanation": "Source answer: (e) To the right of F\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | A |\n| 2 | I |\n| 3 | E |\n| 4 | H |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n| 8 | D |\n| 9 | B |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 3,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q004",
@@ -93,9 +99,11 @@
         "F"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) E holds true.",
+      "explanation": "Source answer: (a) E\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | A |\n| 2 | I |\n| 3 | E |\n| 4 | H |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n| 8 | D |\n| 9 | B |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 4,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q005",
@@ -111,15 +119,17 @@
         "Only I"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Only I and II Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Only I and II holds true.",
+      "explanation": "Source answer: (c) Only I and II\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person |\n| --- | --- |\n| 1 | A |\n| 2 | I |\n| 3 | E |\n| 4 | H |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n| 8 | D |\n| 9 | B |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 5,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q006",
       "number": 6,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Order & Ranking",
       "stem": "How many persons are in between A and D?\nRead the given information carefully and answer the related questions:\nSix persons A, B, C, D, E and F – of a group, and each have different height.\nA’s height is more than B but less than C. Two persons are in between C and D. Number of persons\nshorter to A is same as the number of persons taller to E. Less than two persons are shorter to F.",
       "options": [
         "None",
@@ -129,15 +139,17 @@
         "Four"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) One Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
+      "explanation": "Source answer: (b) One\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Rank, tallest first | Person |\n| --- | --- |\n| 1 | C |\n| 2 | A |\n| 3 | B |\n| 4 | D |\n| 5 | E |\n| 6 | F |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 6,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q007",
       "number": 7,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Order & Ranking",
       "stem": "Who among the following person is 3rd tallest?\nRead the given information carefully and answer the related questions:\nSix persons A, B, C, D, E and F – of a group, and each have different height.\nA’s height is more than B but less than C. Two persons are in between C and D. Number of persons\nshorter to A is same as the number of persons taller to E. Less than two persons are shorter to F.",
       "options": [
         "A",
@@ -147,15 +159,17 @@
         "D"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields B.",
+      "explanation": "Source answer: (c) B\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Rank, tallest first | Person |\n| --- | --- |\n| 1 | C |\n| 2 | A |\n| 3 | B |\n| 4 | D |\n| 5 | E |\n| 6 | F |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 7,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q008",
       "number": 8,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Order & Ranking",
       "stem": "Who among the following is immediately shorter to E?\nRead the given information carefully and answer the related questions:\nSix persons A, B, C, D, E and F – of a group, and each have different height.\nA’s height is more than B but less than C. Two persons are in between C and D. Number of persons\nshorter to A is same as the number of persons taller to E. Less than two persons are shorter to F.",
       "options": [
         "A",
@@ -165,9 +179,11 @@
         "F"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) F Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields F.",
+      "explanation": "Source answer: (e) F\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Rank, tallest first | Person |\n| --- | --- |\n| 1 | C |\n| 2 | A |\n| 3 | B |\n| 4 | D |\n| 5 | E |\n| 6 | F |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 8,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q009",
@@ -183,16 +199,18 @@
         "More than four"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) More than four Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields More than four.",
+      "explanation": "Source answer: (e) More than four\n\nFor 9391648, compare each pair's position gap with the absolute difference between its alphabet positions or digit values. They must be equal.\n\nPositions 1 and 6: 9–4; position gap = 5, value gap = 5.\nPositions 2 and 4: 3–1; position gap = 2, value gap = 2.\nPositions 2 and 5: 3–6; position gap = 3, value gap = 3.\nPositions 2 and 7: 3–8; position gap = 5, value gap = 5.\nPositions 5 and 7: 6–8; position gap = 2, value gap = 2.\n\nTotal qualifying pairs: 5.",
       "sourceQuestionNumber": 9,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "independently-verified"
     },
     {
       "id": "adda-01-q010",
       "number": 10,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: W > T > K ≥ J; S ≥ M > K < D\nConclusions:\nI. J < S\nII. D > W\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statement and select the\nappropriate answer.",
+      "stem": "Statements: W > T > K ≥ J; S ≥ M > K < D\n\nConclusions:\nI. J < S\nII. D > W\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -201,16 +219,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) If only conclusion I is true Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I is true\n\nConclusion I (J < S) follows: its opposite contradicts the stated relationships.\n\nConclusion II (D > W) does not necessarily follow. For example, D = 1/4, I = 0, J = 0, K = 0, M = 1/4, S = 1/4, T = 1/4, W = 1/2 satisfies all the statements but makes this conclusion false.\n\nTherefore: If only conclusion I is true.",
       "sourceQuestionNumber": 10,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-01-q011",
       "number": 11,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: G > R ≥ N < A = O ≥ X = C > P ≥ U\nConclusions:\nI. A ≥ U\nII. X < G\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statement and select the\nappropriate answer.",
+      "stem": "Statements: G > R ≥ N < A = O ≥ X = C > P ≥ U\n\nConclusions:\nI. A ≥ U\nII. X < G\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -219,16 +240,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) If neither conclusion I nor II is true Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (d) If neither conclusion I nor II is true\n\nConclusion I (A ≥ U) follows: its opposite contradicts the stated relationships.\n\nConclusion II (X < G) does not necessarily follow. For example, A = 0, C = 0, G = 0, I = 0, N = -1/2, O = 0, P = -1/2, R = -1/2, U = -1/2, X = 0 satisfies all the statements but makes this conclusion false.\n\nLogical result: If only conclusion I is true. This differs from the publisher answer key; the source key is retained pending review.",
       "sourceQuestionNumber": 11,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "source-key-discrepancy",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-01-q012",
       "number": 12,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "Statements: X ≥ Z > L; P ≤ F = G; Y ≤ T = L ≤ P\nConclusions:\nI. X > T\nII. Y ≤ G\nIn this question, the relationship between different elements is shown in the statements. The statements\nare followed by conclusions. Study the conclusions based on the given statement and select the\nappropriate answer.",
+      "stem": "Statements: X ≥ Z > L; P ≤ F = G; Y ≤ T = L ≤ P\n\nConclusions:\nI. X > T\nII. Y ≤ G\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -237,9 +261,12 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) If both conclusions I and II are true Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) If both conclusions I and II are true\n\nConclusion I (X > T) follows: its opposite contradicts the stated relationships.\n\nConclusion II (Y ≤ G) follows: its opposite contradicts the stated relationships.\n\nTherefore: If both conclusions I and II are true.",
       "sourceQuestionNumber": 12,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 4
     },
     {
       "id": "adda-01-q013",
@@ -255,9 +282,11 @@
         "Box B"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Box E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Box E holds true.",
+      "explanation": "Source answer: (a) Box E\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | C |\n| 2 | H |\n| 3 | B |\n| 4 | E |\n| 5 | A |\n| 6 | G |\n| 7 | F |\n| 8 | D |\n| 9 | I |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 13,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q014",
@@ -273,9 +302,11 @@
         "Two"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) One Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) One holds true.",
+      "explanation": "Source answer: (b) One\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | C |\n| 2 | H |\n| 3 | B |\n| 4 | E |\n| 5 | A |\n| 6 | G |\n| 7 | F |\n| 8 | D |\n| 9 | I |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 14,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q015",
@@ -291,9 +322,11 @@
         "Box F"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Box C Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Box C holds true.",
+      "explanation": "Source answer: (d) Box C\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | C |\n| 2 | H |\n| 3 | B |\n| 4 | E |\n| 5 | A |\n| 6 | G |\n| 7 | F |\n| 8 | D |\n| 9 | I |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 15,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q016",
@@ -309,9 +342,11 @@
         "Three"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Three Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Three holds true.",
+      "explanation": "Source answer: (e) Three\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | C |\n| 2 | H |\n| 3 | B |\n| 4 | E |\n| 5 | A |\n| 6 | G |\n| 7 | F |\n| 8 | D |\n| 9 | I |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 16,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q017",
@@ -327,15 +362,17 @@
         "Immediate above"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Two boxes above Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Two boxes above holds true.",
+      "explanation": "Source answer: (c) Two boxes above\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | C |\n| 2 | H |\n| 3 | B |\n| 4 | E |\n| 5 | A |\n| 6 | G |\n| 7 | F |\n| 8 | D |\n| 9 | I |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 17,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q018",
       "number": 18,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "What is the designation of L?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
       "options": [
         "Manager",
@@ -345,15 +382,17 @@
         "COO"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Manager Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Manager.",
+      "explanation": "Source answer: (a) Manager\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | O | brush |\n| Manager | L | color |\n| Clerk | P | rubber |\n\nArrangement 2:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | L | brush |\n| Manager | O | rubber |\n| Clerk | P | color |",
       "sourceQuestionNumber": 18,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-01-q019",
       "number": 19,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "The one who is designated as CEO likes which item?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
       "options": [
         "Brush",
@@ -363,15 +402,17 @@
         "Pencil"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Fruit Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Fruit.",
+      "explanation": "Source answer: (d) Fruit\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | O | brush |\n| Manager | L | color |\n| Clerk | P | rubber |\n\nArrangement 2:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | L | brush |\n| Manager | O | rubber |\n| Clerk | P | color |",
       "sourceQuestionNumber": 19,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-01-q020",
       "number": 20,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which of the following combination is correct?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
       "options": [
         "AGM - P",
@@ -381,15 +422,17 @@
         "M - paper"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) M - paper Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields M - paper.",
+      "explanation": "Source answer: (e) M - paper\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | O | brush |\n| Manager | L | color |\n| Clerk | P | rubber |\n\nArrangement 2:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | L | brush |\n| Manager | O | rubber |\n| Clerk | P | color |",
       "sourceQuestionNumber": 20,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-01-q021",
       "number": 21,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who among the following is three persons senior to the one who likes color?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
       "options": [
         "The one who likes cutlery",
@@ -399,15 +442,17 @@
         "The one who likes pencil"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) M Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields M.",
+      "explanation": "Source answer: (c) M\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | O | brush |\n| Manager | L | color |\n| Clerk | P | rubber |\n\nArrangement 2:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | L | brush |\n| Manager | O | rubber |\n| Clerk | P | color |",
       "sourceQuestionNumber": 21,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-01-q022",
       "number": 22,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "How many persons are designated senior to O?\nRead the given information carefully and answer the related questions:\nSeven persons K, L, M, N, O, P and Q work on different designations in a company. The designations are\nCEO, COO, AM, GM, AGM, Manager and Clerk where CEO is seniormost and Clerk is the junior most\ndesignation. The persons also like different items i.e., pencil, fruit, rubber, paper, color, cutlery and brush.\nThe information of persons and items is not necessarily used in the same manner as given.\nP is four designations junior to the one who likes paper. K is senior to GM but not like paper and cutlery.\nTwo persons are designated between K and Q. The number of persons senior to Q is same as the number\nof persons junior to the one who likes pencil. M is immediately junior to the one who likes cutlery but\nM is not clerk. Two persons are designated between N and the one who likes brush. O is immediately\nsenior to the one who likes color. The one who is CEO does not like rubber.",
       "options": [
         "Two",
@@ -417,15 +462,17 @@
         "One"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Four Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Four.",
+      "explanation": "Source answer: (d) Four\n\nThe stated clues allow 2 arrangements. The alternatives below are found by applying every ordering and position constraint. A conclusion is definite only when it holds in every arrangement; a publisher key does not resolve information absent from the clues.\n\nArrangement 1:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | O | brush |\n| Manager | L | color |\n| Clerk | P | rubber |\n\nArrangement 2:\n\n| Designation, senior to junior | Person | Item |\n| --- | --- | --- |\n| CEO | K | fruit |\n| COO | N | cutlery |\n| AM | M | paper |\n| GM | Q | pencil |\n| AGM | L | brush |\n| Manager | O | rubber |\n| Clerk | P | color |",
       "sourceQuestionNumber": 22,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "constraint-verified-alternatives"
     },
     {
       "id": "adda-01-q023",
       "number": 23,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Direction Sense",
       "stem": "What is the direction of point U with respect to office?\nStudy the following information carefully and answer the questions given below:\nA person starts walking from his office and walks for 12m in the east direction and reached Point P .\nFrom point P , he takes a right turn and walks 10m to reach point Q. From point Q, he takes a right turn\nand walks 7m to reach point R. From point R, he tur ns left and walks 2m to reach point S. Finally, from\npoint S, he turns right and walks 5m to reach point U.",
       "options": [
         "South - east",
@@ -435,15 +482,17 @@
         "West"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) South Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields South.",
+      "explanation": "Source answer: (d) South\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nOffice (0,0), P (12,0), Q (12,−10), R (5,−10), S (5,−12), U (0,−12).\n\nU has the same x-coordinate as the office and a smaller y-coordinate, so it is south.",
       "sourceQuestionNumber": 23,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q024",
       "number": 24,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Direction Sense",
       "stem": "If Point G is 31m east of Point R, then what will be the shortest distance between point P and point\nG?\nStudy the following information carefully and answer the questions given below:\nA person starts walking from his office and walks for 12m in the east direction and reached Point P .\nFrom point P , he takes a right turn and walks 10m to reach point Q. From point Q, he takes a right turn\nand walks 7m to reach point R. From point R, he tur ns left and walks 2m to reach point S. Finally, from\npoint S, he turns right and walks 5m to reach point U.",
       "options": [
         "√686m",
@@ -453,15 +502,17 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) 26m Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 26m.",
+      "explanation": "Source answer: (c) 26m\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nOffice (0,0), P (12,0), Q (12,−10), R (5,−10), S (5,−12), U (0,−12).\n\nG is 31 m east of R, so G = (36,−10). From P the displacement is (24,−10). Distance = √(24² + 10²) = 26 m.",
       "sourceQuestionNumber": 24,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q025",
       "number": 25,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Direction Sense",
       "stem": "If office is 10m north of Point M then in which direction is Point S with respect to Point M?\nStudy the following information carefully and answer the questions given below:\nA person starts walking from his office and walks for 12m in the east direction and reached Point P .\nFrom point P , he takes a right turn and walks 10m to reach point Q. From point Q, he takes a right turn\nand walks 7m to reach point R. From point R, he tur ns left and walks 2m to reach point S. Finally, from\npoint S, he turns right and walks 5m to reach point U.",
       "options": [
         "North - east",
@@ -471,9 +522,11 @@
         "South - west"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) South - east Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields South - east.",
+      "explanation": "Source answer: (b) South - east\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nOffice (0,0), P (12,0), Q (12,−10), R (5,−10), S (5,−12), U (0,−12).\n\nThe office is 10 m north of M, so M = (0,−10). From M to S the displacement is (5,−2), which is south-east.",
       "sourceQuestionNumber": 25,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q026",
@@ -489,15 +542,17 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) If both conclusions I and II follow Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) If both conclusions I and II follow\n\n\"Only project are completed\" ordinarily gives completed ⊆ project. It does not by itself imply that any completed object is outside difficult. II is possible, but I needs an extra exclusion or existence premise. The PDF keys both conclusions without explaining that premise.",
       "sourceQuestionNumber": 26,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "source-interpretation-review"
     },
     {
       "id": "adda-01-q027",
       "number": 27,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Syllogism",
       "stem": "Statements:\nOnly a few digital are network.\nAll network is growth.\nAll growth is reward.\nConclusions:\nI. Some digital is growth\nII. All digital being network is a possibility\nIn each question below some statements are given followed by two conclusions numbered I and II. You\nhave to take the given statements to be true even if they seem to be at variance with commonly known\nfacts. Read all the conclusions and then decide which of the given conclusions logically follows from the\ngiven statements, disregarding commonly known facts. Give answer -",
       "options": [
         "If only conclusion I follows",
@@ -507,9 +562,11 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) If only conclusion I follows Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) If only conclusion I follows holds true.",
+      "explanation": "Source answer: (a) If only conclusion I follows\n\nSome digital are network, and every network is growth, so some digital are growth (I). \"Only a few\" also requires some digital outside network, excluding the possibility that all digital are network (II). Only I follows.",
       "sourceQuestionNumber": 27,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q028",
@@ -525,9 +582,11 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) If only conclusion II follows Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only conclusion II follows\n\nSome houses are bricks, and no brick is cement; therefore some houses are not cement (II). No statement separates every hut from cement, so I is not established.",
       "sourceQuestionNumber": 28,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q029",
@@ -543,9 +602,11 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) If either conclusion I or II follows Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (c) If either conclusion I or II follows\n\nThe statements do not fix the glue–sharpener overlap. \"No glue is sharpener\" and \"Some glue is sharpener\" are exact complementary alternatives. Exactly one must hold, but neither is individually forced. Select either I or II.",
       "sourceQuestionNumber": 29,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q030",
@@ -561,9 +622,11 @@
         "Daughter - in - law"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Daughter - in - law Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Daughter - in - law.",
+      "explanation": "Source answer: (e) Daughter - in - law\n\nS and W are sisters because S has no brother. W and P are the grandparents; their children are K (female) and R (male). R and J are the parents of U and Q. J is therefore P's daughter-in-law. If K marries M, R is M's brother-in-law. For Q32, equal male/female counts force Q to be male: S, W, K and J are the four females, while P, R, U and Q are the four males. Q is K's nephew.",
       "sourceQuestionNumber": 30,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q031",
@@ -579,9 +642,11 @@
         "Can’t be determined"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Brother - in - law Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Brother - in - law.",
+      "explanation": "Source answer: (b) Brother - in - law\n\nS and W are sisters because S has no brother. W and P are the grandparents; their children are K (female) and R (male). R and J are the parents of U and Q. J is therefore P's daughter-in-law. If K marries M, R is M's brother-in-law. For Q32, equal male/female counts force Q to be male: S, W, K and J are the four females, while P, R, U and Q are the four males. Q is K's nephew.",
       "sourceQuestionNumber": 31,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q032",
@@ -597,15 +662,17 @@
         "Can’t be determined"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Nephew Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Nephew.",
+      "explanation": "Source answer: (c) Nephew\n\nS and W are sisters because S has no brother. W and P are the grandparents; their children are K (female) and R (male). R and J are the parents of U and Q. J is therefore P's daughter-in-law. If K marries M, R is M's brother-in-law. For Q32, equal male/female counts force Q to be male: S, W, K and J are the four females, while P, R, U and Q are the four males. Q is K's nephew.",
       "sourceQuestionNumber": 32,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q033",
       "number": 33,
       "section": "reasoning",
-      "topic": "Logical Reasoning",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Find the odd - one out.",
       "options": [
         "DFI",
@@ -615,15 +682,17 @@
         "EGJ"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) HJL Analysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields HJL.",
+      "explanation": "Source answer: (d) HJL\n\nDFI, MOR, SUX and EGJ have successive alphabet gaps +2, +3. HJL has gaps +2, +2, so HJL is different.",
       "sourceQuestionNumber": 33,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q034",
       "number": 34,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "In the number ‘478732359’, if all the odd positioned digits are subtracted by 1 and all the even\npositioned digits are added by 1 (count from left to right), then how many digits are not repeated in the\nnew number formed after rearrangement?",
       "options": [
         "8",
@@ -633,9 +702,11 @@
         "6 and 7"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) 6 and 7 Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) 6 and 7 holds true.",
+      "explanation": "Source answer: (e) 6 and 7\n\nApply the changes by position: 478732359 → 387823268. Digits 3 and 2 occur twice, 8 occurs three times, and 6 and 7 occur once. The non-repeated digits are 6 and 7.",
       "sourceQuestionNumber": 34,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q035",
@@ -651,9 +722,11 @@
         "3rd to the left"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) 3rd to the right Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) 3rd to the right holds true.",
+      "explanation": "Source answer: (b) 3rd to the right\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | A | Outside |\n| 2 | B | Inside |\n| 3 | E | Inside |\n| 4 | C | Outside |\n| 5 | F | Inside |\n| 6 | H | Inside |\n| 7 | G | Inside |\n| 8 | D | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 35,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q036",
@@ -669,9 +742,11 @@
         "B"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) C Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) C holds true.",
+      "explanation": "Source answer: (a) C\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | A | Outside |\n| 2 | B | Inside |\n| 3 | E | Inside |\n| 4 | C | Outside |\n| 5 | F | Inside |\n| 6 | H | Inside |\n| 7 | G | Inside |\n| 8 | D | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 36,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q037",
@@ -687,9 +762,11 @@
         "Five"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Two Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Two holds true.",
+      "explanation": "Source answer: (d) Two\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | A | Outside |\n| 2 | B | Inside |\n| 3 | E | Inside |\n| 4 | C | Outside |\n| 5 | F | Inside |\n| 6 | H | Inside |\n| 7 | G | Inside |\n| 8 | D | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 37,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q038",
@@ -705,9 +782,11 @@
         "G"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) G Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) G holds true.",
+      "explanation": "Source answer: (e) G\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | A | Outside |\n| 2 | B | Inside |\n| 3 | E | Inside |\n| 4 | C | Outside |\n| 5 | F | Inside |\n| 6 | H | Inside |\n| 7 | G | Inside |\n| 8 | D | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 38,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q039",
@@ -723,9 +802,11 @@
         "E sits immediate right of C"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) D face inside Analysis & Solution:\nTopic: Seating Arrangement (Circular)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) D face inside holds true.",
+      "explanation": "Source answer: (b) D face inside\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | A | Outside |\n| 2 | B | Inside |\n| 3 | E | Inside |\n| 4 | C | Outside |\n| 5 | F | Inside |\n| 6 | H | Inside |\n| 7 | G | Inside |\n| 8 | D | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 39,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-01-q040",
@@ -741,9 +822,11 @@
         "E"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Z Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Z.",
+      "explanation": "Source answer: (a) Z\n\nThe 3rd, 4th, 5th and 8th letters of HIERARCHY are E, R, A and H. HEAR and HARE are two valid words, so more than one word is possible. Select Z.",
       "sourceQuestionNumber": 40,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-01-q041",

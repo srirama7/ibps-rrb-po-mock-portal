@@ -29,7 +29,7 @@
       "id": "adda-10-q001",
       "number": 1,
       "section": "reasoning",
-      "topic": "Logical Reasoning",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Find odd one out.",
       "options": [
         "MOQS",
@@ -39,9 +39,11 @@
         "PRTV"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) HJLM Analysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields HJLM.",
+      "explanation": "Source answer: (d) HJLM\n\nMOQS, EGIK, TVXZ and PRTV advance by +2 at each step. HJLM advances +2, +2, +1, so HJLM is different.",
       "sourceQuestionNumber": 1,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q002",
@@ -57,9 +59,11 @@
         "If both I and II follow"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only I follows\n\nThe cats–animal overlap can avoid the dog subset of living, so no cats being dogs is possible (I). Nothing states that all animals avoid dogs; II is not a necessary conclusion.",
       "sourceQuestionNumber": 2,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q003",
@@ -75,9 +79,11 @@
         "If both I and II follow"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) If both I and II follow\n\nSome covers are white and no cover is a page, so some white objects are not pages (I). Books are pages, and no page is a cover; hence no book is a cover (II). Both follow.",
       "sourceQuestionNumber": 3,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q004",
@@ -93,9 +99,11 @@
         "If both I and II follow"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (d) If neither I nor II follows\n\nSome games are enjoy and all enjoy are dice, so games and dice do overlap: I is false. This overlap need not contain objects outside toys, and the statements do not otherwise guarantee such dice. II is not established.",
       "sourceQuestionNumber": 4,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q005",
@@ -111,9 +119,11 @@
         "If both I and II follow"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only II follows\n\nAccess is a subset of tech and disjoint from request, but other tech objects may be request. Therefore I does not follow. All plan objects may lie in request while the access subset stays outside request; II is possible.",
       "sourceQuestionNumber": 5,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q006",
@@ -129,9 +139,11 @@
         "F"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) F Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) F holds true.",
+      "explanation": "Source answer: (e) F\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Facing |\n| --- | --- | --- |\n| 1 | N | North |\n| 2 | F | South |\n| 3 | B | North |\n| 4 | G | South |\n| 5 | H | North |\n| 6 | K | North |\n| 7 | M | South |\n| 8 | L | North |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 6,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q007",
@@ -147,9 +159,11 @@
         "Fourth to the right"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) Second to the right\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Facing |\n| --- | --- | --- |\n| 1 | N | North |\n| 2 | F | South |\n| 3 | B | North |\n| 4 | G | South |\n| 5 | H | North |\n| 6 | K | North |\n| 7 | M | South |\n| 8 | L | North |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 7,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q008",
@@ -165,16 +179,18 @@
         "Five"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
+      "explanation": "Source answer: (b) Two\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Facing |\n| --- | --- | --- |\n| 1 | N | North |\n| 2 | F | South |\n| 3 | B | North |\n| 4 | G | South |\n| 5 | H | North |\n| 6 | K | North |\n| 7 | M | South |\n| 8 | L | North |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 8,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q009",
       "number": 9,
       "section": "reasoning",
       "topic": "Seating Arrangement (Linear / Parallel)",
-      "stem": "8 persons sit in a row (equidistant from each other) in such a way that 5 persons face north and 3 persons face\nsouth. The persons are B, F, G, H, K, L, M and N but not necessarily sit in same order as given.\nM sits second from an end of the row. G sits third to the right of M. G and H sits immediate left to each other. Three\npersons sit between H and N who faces north. B sits second to the right of N. Both the immediate neighbors of F\nface same direction. K sits fourth to the left of F.",
+      "stem": "Which of the following is correct?\nI. H sits just right of B\nII. N and F face in the same direction\nIII. K faces north\n\n8 persons sit in a row (equidistant from each other) in such a way that 5 persons face north and 3 persons face\nsouth. The persons are B, F, G, H, K, L, M and N but not necessarily sit in same order as given.\nM sits second from an end of the row. G sits third to the right of M. G and H sits immediate left to each other. Three\npersons sit between H and N who faces north. B sits second to the right of N. Both the immediate neighbors of F\nface same direction. K sits fourth to the left of F.",
       "options": [
         "Only I is true",
         "Only II is true",
@@ -183,9 +199,11 @@
         "Only I and II are true"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) Only III is true\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Facing |\n| --- | --- | --- |\n| 1 | N | North |\n| 2 | F | South |\n| 3 | B | North |\n| 4 | G | South |\n| 5 | H | North |\n| 6 | K | North |\n| 7 | M | South |\n| 8 | L | North |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 9,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q010",
@@ -201,16 +219,18 @@
         "Sixth"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) Fourth\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Facing |\n| --- | --- | --- |\n| 1 | N | North |\n| 2 | F | South |\n| 3 | B | North |\n| 4 | G | South |\n| 5 | H | North |\n| 6 | K | North |\n| 7 | M | South |\n| 8 | L | North |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 10,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q011",
       "number": 11,
       "section": "reasoning",
       "topic": "Coding-Decoding",
-      "stem": "What is the code for “rain” in the given code language?",
+      "stem": "What is the code for “rain” in the given code language?\n\nStudy the following information carefully and answer the question.\nIn a certain code language:\n“Rain plain sky cloud” is coded as “sf gi yt cn”\n“Cloud cricket ball Pencil” is coded as “te ku fa cn”\n“Lawn cricket plain home” is coded as “fa je gi ho”\n“Sky lawn park” is coded as “yt ho dw”",
       "options": [
         "sf",
         "gi",
@@ -219,16 +239,18 @@
         "Either gi or cn"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) sf Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields sf.",
+      "explanation": "Source answer: (a) sf\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nball → ku or te\ncloud → cn\ncricket → fa\nhome → je\nlawn → ho\npark → dw\npencil → ku or te\nplain → gi\nrain → sf\nsky → yt\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 11,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-10-q012",
       "number": 12,
       "section": "reasoning",
       "topic": "Coding-Decoding",
-      "stem": "The code “te” stands for which of the following?",
+      "stem": "The code “te” stands for which of the following?\n\nStudy the following information carefully and answer the question.\nIn a certain code language:\n“Rain plain sky cloud” is coded as “sf gi yt cn”\n“Cloud cricket ball Pencil” is coded as “te ku fa cn”\n“Lawn cricket plain home” is coded as “fa je gi ho”\n“Sky lawn park” is coded as “yt ho dw”",
       "options": [
         "Cricket",
         "Ball",
@@ -237,16 +259,18 @@
         "Cloud"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Cloud Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Cloud.",
+      "explanation": "Source answer: (d) Either ball or pencil\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nball → ku or te\ncloud → cn\ncricket → fa\nhome → je\nlawn → ho\npark → dw\npencil → ku or te\nplain → gi\nrain → sf\nsky → yt\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 12,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-10-q013",
       "number": 13,
       "section": "reasoning",
       "topic": "Coding-Decoding",
-      "stem": "If the code for ‘black pencil’ is ‘nb te’, then what will be the code for ‘black ball’?",
+      "stem": "If the code for ‘black pencil’ is ‘nb te’, then what will be the code for ‘black ball’?\n\nStudy the following information carefully and answer the question.\nIn a certain code language:\n“Rain plain sky cloud” is coded as “sf gi yt cn”\n“Cloud cricket ball Pencil” is coded as “te ku fa cn”\n“Lawn cricket plain home” is coded as “fa je gi ho”\n“Sky lawn park” is coded as “yt ho dw”",
       "options": [
         "yt nb",
         "nb ku",
@@ -255,16 +279,18 @@
         "fa te"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) nb ku Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields nb ku.",
+      "explanation": "Source answer: (b) nb ku\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nball → ku or te\ncloud → cn\ncricket → fa\nhome → je\nlawn → ho\npark → dw\npencil → ku or te\nplain → gi\nrain → sf\nsky → yt\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 13,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-10-q014",
       "number": 14,
       "section": "reasoning",
       "topic": "Coding-Decoding",
-      "stem": "The code “ho” stands for which of the following word?",
+      "stem": "The code “ho” stands for which of the following word?\n\nStudy the following information carefully and answer the question.\nIn a certain code language:\n“Rain plain sky cloud” is coded as “sf gi yt cn”\n“Cloud cricket ball Pencil” is coded as “te ku fa cn”\n“Lawn cricket plain home” is coded as “fa je gi ho”\n“Sky lawn park” is coded as “yt ho dw”",
       "options": [
         "Home",
         "Cricket",
@@ -273,9 +299,11 @@
         "Sky"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Lawn Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Lawn.",
+      "explanation": "Source answer: (d) Lawn\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nball → ku or te\ncloud → cn\ncricket → fa\nhome → je\nlawn → ho\npark → dw\npencil → ku or te\nplain → gi\nrain → sf\nsky → yt\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 14,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-10-q015",
@@ -291,15 +319,17 @@
         "More than four"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "explanation": "Source answer: (c) Three\n\nFor 58471269, compare each pair's position gap with the absolute difference between its alphabet positions or digit values. They must be equal.\n\nPositions 1 and 5: 5–1; position gap = 4, value gap = 4.\nPositions 3 and 8: 4–9; position gap = 5, value gap = 5.\nPositions 5 and 6: 1–2; position gap = 1, value gap = 1.\n\nTotal qualifying pairs: 3.",
       "sourceQuestionNumber": 15,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "independently-verified"
     },
     {
       "id": "adda-10-q016",
       "number": 16,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "E teaches in which month?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
         "January",
@@ -309,15 +339,17 @@
         "April"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
+      "explanation": "Source answer: (a) January\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Teaching month | Person | Subject |\n| --- | --- | --- |\n| January | E | humanities |\n| February | F | pharmacy |\n| March | C | commerce |\n| April | B | philosophy |\n| May | A | science |\n| June | G | journalism |\n| July | D | medicine |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 16,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q017",
       "number": 17,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which subject is taught by G?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
         "Commerce",
@@ -327,15 +359,17 @@
         "Journalism"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Journalism\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Teaching month | Person | Subject |\n| --- | --- | --- |\n| January | E | humanities |\n| February | F | pharmacy |\n| March | C | commerce |\n| April | B | philosophy |\n| May | A | science |\n| June | G | journalism |\n| July | D | medicine |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 17,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q018",
       "number": 18,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who among the following teaches in March?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
         "D",
@@ -345,15 +379,17 @@
         "E"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) C holds true.",
+      "explanation": "Source answer: (c) C\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Teaching month | Person | Subject |\n| --- | --- | --- |\n| January | E | humanities |\n| February | F | pharmacy |\n| March | C | commerce |\n| April | B | philosophy |\n| May | A | science |\n| June | G | journalism |\n| July | D | medicine |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 18,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q019",
       "number": 19,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which combination is correct?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
         "G - Science",
@@ -363,15 +399,17 @@
         "June - Medicine"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) January - Humanities\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Teaching month | Person | Subject |\n| --- | --- | --- |\n| January | E | humanities |\n| February | F | pharmacy |\n| March | C | commerce |\n| April | B | philosophy |\n| May | A | science |\n| June | G | journalism |\n| July | D | medicine |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 19,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q020",
       "number": 20,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "How many persons teach after G?\nRead the given information carefully and answer the questions based on it:\nSeven persons teaches different subjects in a university. They teach in different months of a year. The months are\nfrom January to July. The subjects are philosophy, humanities, science, medicine, commerce, journalism and\npharmacy. The persons are A, B, C, D, E, F and G. The information of persons and subjects is not used in the same\nmanner as given.\nTwo persons teach after the one who teaches science. B teaches in the month having even number of days before\nthe one who teaches science. F teaches four months before the one who teaches journalism. Two months gap\nbetween F and A who does not teach in Jun e. D teaches medicine just after G. The one who teaches pharmacy,\nteaches before C but after the one who teaches humanities. Commerce is taught in the month of 31 days.",
       "options": [
         "Three",
@@ -381,15 +419,17 @@
         "None"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) One\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Teaching month | Person | Subject |\n| --- | --- | --- |\n| January | E | humanities |\n| February | F | pharmacy |\n| March | C | commerce |\n| April | B | philosophy |\n| May | A | science |\n| June | G | journalism |\n| July | D | medicine |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 20,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q021",
       "number": 21,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "In the word ‘TURNOVER’ , if vowels are changed with their just next letter and consonants are changed with\ntheir just previous letter, now, these letters are arranged in alphabetical order from left. After that, find which\nletter will be 4th from right end in the arrangement?",
       "options": [
         "P",
@@ -399,16 +439,18 @@
         "U"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Q Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Q.",
+      "explanation": "Source answer: (b) Q\n\nTURNOVER becomes SVQMPUFQ after the replacements. Alphabetical order is FMPQQSUV. Counting from the right, the fourth letter is Q.",
       "sourceQuestionNumber": 21,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q022",
       "number": 22,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
+      "stem": "Statements: G ≤ H = I; I > J = K < L\n\nConclusions:\nI. G ≤ L\nII. H > K\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only I is true",
         "If only II is true",
@@ -417,16 +459,19 @@
         "if both I and II are true"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only II is true\n\nConclusion I (G ≤ L) does not necessarily follow. For example, G = 1/4, H = 1/4, I = 1/4, J = -1/4, K = -1/4, L = 0 satisfies all the statements but makes this conclusion false.\n\nConclusion II (H > K) follows: its opposite contradicts the stated relationships.\n\nTherefore: If only II is true.",
       "sourceQuestionNumber": 22,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 1
     },
     {
       "id": "adda-10-q023",
       "number": 23,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
+      "stem": "Statements: U < S = T; U < V = W ≤ X\n\nConclusions:\nI. S > V\nII. T > W\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only I is true",
         "If only II is true",
@@ -435,16 +480,19 @@
         "if both I and II are true"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (d) If neither I nor II is true\n\nConclusion I (S > V) does not necessarily follow. For example, I = 0, S = 0, T = 0, U = -1/2, V = 0, W = 0, X = 0 satisfies all the statements but makes this conclusion false.\n\nConclusion II (T > W) does not necessarily follow. For example, I = 0, S = 0, T = 0, U = -1/2, V = 0, W = 0, X = 0 satisfies all the statements but makes this conclusion false.\n\nTherefore: If neither I nor II is true.",
       "sourceQuestionNumber": 23,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 3
     },
     {
       "id": "adda-10-q024",
       "number": 24,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
+      "stem": "Statements: M < N = P; S ≤ Q = R > P\n\nConclusions:\nI. Q > M\nII. S ≤ N\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only I is true",
         "If only II is true",
@@ -453,16 +501,19 @@
         "if both I and II are true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only I is true\n\nConclusion I (Q > M) follows: its opposite contradicts the stated relationships.\n\nConclusion II (S ≤ N) does not necessarily follow. For example, I = 0, M = -1, N = -1/2, P = -1/2, Q = 0, R = 0, S = 0 satisfies all the statements but makes this conclusion false.\n\nTherefore: If only I is true.",
       "sourceQuestionNumber": 24,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-10-q025",
       "number": 25,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
+      "stem": "Statements: A > B ≥ C; C > D = E > F\n\nConclusions:\nI. A > F\nII. B > E\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only I is true",
         "If only II is true",
@@ -471,16 +522,19 @@
         "if both I and II are true"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) if both I and II are true\n\nConclusion I (A > F) follows: its opposite contradicts the stated relationships.\n\nConclusion II (B > E) follows: its opposite contradicts the stated relationships.\n\nTherefore: if both I and II are true.",
       "sourceQuestionNumber": 25,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 4
     },
     {
       "id": "adda-10-q026",
       "number": 26,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions relationship between different elements is shown in the statements followed by two\nconclusions numbered I and II. Consider the given statements to be true and find which of the two conclusions\nis/are true as per the statement. Give answer.",
+      "stem": "Statements: E = F > G ≤ H < I; G ≥ U = R\n\nConclusions:\nI. I > R\nII. H ≥ U\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only I is true",
         "If only II is true",
@@ -489,9 +543,12 @@
         "if both I and II are true"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) if both I and II are true\n\nConclusion I (I > R) follows: its opposite contradicts the stated relationships.\n\nConclusion II (H ≥ U) follows: its opposite contradicts the stated relationships.\n\nTherefore: if both I and II are true.",
       "sourceQuestionNumber": 26,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 4
     },
     {
       "id": "adda-10-q027",
@@ -507,9 +564,11 @@
         "5th floor"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) 6th floor\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Floor, bottom to top | Person |\n| --- | --- |\n| 1 | O |\n| 2 | A |\n| 3 | B |\n| 4 | S |\n| 5 | M |\n| 6 | U |\n| 7 | E |\n| 8 | W |\n| 9 | P |\n| 10 | Q |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 27,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q028",
@@ -525,9 +584,11 @@
         "P"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) W Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) W holds true.",
+      "explanation": "Source answer: (c) W\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Floor, bottom to top | Person |\n| --- | --- |\n| 1 | O |\n| 2 | A |\n| 3 | B |\n| 4 | S |\n| 5 | M |\n| 6 | U |\n| 7 | E |\n| 8 | W |\n| 9 | P |\n| 10 | Q |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 28,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q029",
@@ -543,16 +604,18 @@
         "Q"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) O Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) O holds true.",
+      "explanation": "Source answer: (a) O\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Floor, bottom to top | Person |\n| --- | --- |\n| 1 | O |\n| 2 | A |\n| 3 | B |\n| 4 | S |\n| 5 | M |\n| 6 | U |\n| 7 | E |\n| 8 | W |\n| 9 | P |\n| 10 | Q |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 29,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q030",
       "number": 30,
       "section": "reasoning",
       "topic": "Puzzle (Floor / Flat)",
-      "stem": "Ten persons live on different floors of a ten - floor building where floors are numbered as 1 to 10 from bottom to\ntop respectively.\nLess than three persons live above P . Five persons live between P and B. S lives just above B. Number of floors\nabove E and below S are same. M lives three floors above A. Two floors gap between M and W. U lives above O but\nbelow Q.",
+      "stem": "Which of the following is not true?\nI. A lives just above O\nII. One floor gap between W and Q\nIII. M lives above E\n\nTen persons live on different floors of a ten - floor building where floors are numbered as 1 to 10 from bottom to\ntop respectively.\nLess than three persons live above P . Five persons live between P and B. S lives just above B. Number of floors\nabove E and below S are same. M lives three floors above A. Two floors gap between M and W. U lives above O but\nbelow Q.",
       "options": [
         "Only II and III",
         "All I, II, III",
@@ -561,9 +624,11 @@
         "Only III"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Only III\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Floor, bottom to top | Person |\n| --- | --- |\n| 1 | O |\n| 2 | A |\n| 3 | B |\n| 4 | S |\n| 5 | M |\n| 6 | U |\n| 7 | E |\n| 8 | W |\n| 9 | P |\n| 10 | Q |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 30,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q031",
@@ -579,9 +644,11 @@
         "U"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) S Analysis & Solution:\nTopic: Puzzle (Floor / Flat)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) S holds true.",
+      "explanation": "Source answer: (c) S\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Floor, bottom to top | Person |\n| --- | --- |\n| 1 | O |\n| 2 | A |\n| 3 | B |\n| 4 | S |\n| 5 | M |\n| 6 | U |\n| 7 | E |\n| 8 | W |\n| 9 | P |\n| 10 | Q |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 31,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q032",
@@ -597,9 +664,11 @@
         "Y"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) P Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields P.",
+      "explanation": "Source answer: (d) P\n\nThe first, third, fourth and sixth letters of FARMHOUSE are F, R, M and O. FORM and FROM are both meaningful words. Select P because more than one word can be made.",
       "sourceQuestionNumber": 32,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q033",
@@ -615,9 +684,11 @@
         "North-west"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
+      "explanation": "Source answer: (a) North-east\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), B (0,10), C (15,10), D (15,−10), E (20,−10), F (20,15).\n\nF is 20 m east and 5 m north of B, so it is north-east of B.",
       "sourceQuestionNumber": 33,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q034",
@@ -633,9 +704,11 @@
         "None of the above"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) 25 meters\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), B (0,10), C (15,10), D (15,−10), E (20,−10), F (20,15).\n\nB to D has horizontal separation 15 m and vertical separation 20 m. BD = √(15² + 20²) = 25 m.",
       "sourceQuestionNumber": 34,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q035",
@@ -651,15 +724,17 @@
         "North-east"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Direction Sense\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
+      "explanation": "Source answer: (b) West\n\nTake east as positive x and north as positive y. Apply each turn or positional clue to obtain:\n\nA (0,0), B (0,10), C (15,10), D (15,−10), E (20,−10), F (20,15).\n\nG is 5 m south of F, so G = (20,10). C = (15,10), directly west of G.",
       "sourceQuestionNumber": 35,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-10-q036",
       "number": 36,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "In which year, N was born?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
         "2006",
@@ -669,15 +744,17 @@
         "2008"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) 1990 Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) 1990 holds true.",
+      "explanation": "Source answer: (d) 1990\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth year, oldest first | Person |\n| --- | --- |\n| 1990 | N |\n| 1996 | P |\n| 1998 | Q |\n| 2002 | T |\n| 2006 | R |\n| 2008 | M |\n| 2014 | O |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 36,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q037",
       "number": 37,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "What is the sum of the ages of P and R?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
         "42 years",
@@ -687,15 +764,17 @@
         "40 years"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) 44 years\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth year, oldest first | Person |\n| --- | --- |\n| 1990 | N |\n| 1996 | P |\n| 1998 | Q |\n| 2002 | T |\n| 2006 | R |\n| 2008 | M |\n| 2014 | O |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 37,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q038",
       "number": 38,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "What is the age difference between M and T?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
         "12 years",
@@ -705,15 +784,17 @@
         "2 years"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) 6 years\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth year, oldest first | Person |\n| --- | --- |\n| 1990 | N |\n| 1996 | P |\n| 1998 | Q |\n| 2002 | T |\n| 2006 | R |\n| 2008 | M |\n| 2014 | O |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 38,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q039",
       "number": 39,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which of the following is correct?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
         "Two persons are older to T",
@@ -723,15 +804,17 @@
         "P’s age is a square number"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) Q is 25 years old\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth year, oldest first | Person |\n| --- | --- |\n| 1990 | N |\n| 1996 | P |\n| 1998 | Q |\n| 2002 | T |\n| 2006 | R |\n| 2008 | M |\n| 2014 | O |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 39,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q040",
       "number": 40,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who among the following is 4th oldest person?\nRead the given information carefully and answer the questions based on it:\nSeven persons were born in different years but on same date and in same month. Their ages (in years) are\ncalculated as per base year 2023. The persons are M, N, O, P , Q, R and T but not born in the same sequence as\ngiven. The years are 1990, 1996, 1998, 2002, 2006, 2008 and 2014.\nT is 4 years older to R. Q is 2 years younger to P . Two persons were born between Q and M. N’s age is not a square\nnumber.",
       "options": [
         "P",
@@ -741,9 +824,11 @@
         "R"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) T Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) T holds true.",
+      "explanation": "Source answer: (c) T\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth year, oldest first | Person |\n| --- | --- |\n| 1990 | N |\n| 1996 | P |\n| 1998 | Q |\n| 2002 | T |\n| 2006 | R |\n| 2008 | M |\n| 2014 | O |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 40,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-10-q041",

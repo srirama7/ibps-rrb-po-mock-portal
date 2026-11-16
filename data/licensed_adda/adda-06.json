@@ -29,7 +29,7 @@
       "id": "adda-06-q001",
       "number": 1,
       "section": "reasoning",
-      "topic": "Alphanumeric & Word Formation",
+      "topic": "Coding-Decoding",
       "stem": "What is the code for the word pair \"Supply pure\" in the given code language?\nStudy the following information carefully and answer the question given below:\nIn a certain code language:\n\"Market demand supply pure\" is written as \"mo da su pr\"\n\"Pure demand market tag\" is written as \"pr da mo pi\"\n\"Profit pure supply market\" is written as \"sd pr su mo\"\n\"Supply demand series pure\" is written as \"su da nt mo\"",
       "options": [
         "su mo",
@@ -39,9 +39,11 @@
         "su sd"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) su mo Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields su mo.",
+      "explanation": "Source answer: (a) su mo\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ndemand → da\nmarket → pr\nprofit → sd\npure → mo\nseries → nt\nsupply → su\ntag → pi\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 1,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-06-q002",
@@ -57,9 +59,11 @@
         "pr"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) pi Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields pi.",
+      "explanation": "Source answer: (c) pi\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ndemand → da\nmarket → pr\nprofit → sd\npure → mo\nseries → nt\nsupply → su\ntag → pi\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 2,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-06-q003",
@@ -75,15 +79,17 @@
         "Both [a] and [b]"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option E.",
+      "explanation": "Source answer: (e) Both [a] and [b]\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ndemand → da\nmarket → pr\nprofit → sd\npure → mo\nseries → nt\nsupply → su\ntag → pi\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 3,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-06-q004",
       "number": 4,
       "section": "reasoning",
-      "topic": "Alphanumeric & Word Formation",
+      "topic": "Coding-Decoding",
       "stem": "Which among the following word pair is coded as \"da pr\"?\nStudy the following information carefully and answer the question given below:\nIn a certain code language:\n\"Market demand supply pure\" is written as \"mo da su pr\"\n\"Pure demand market tag\" is written as \"pr da mo pi\"\n\"Profit pure supply market\" is written as \"sd pr su mo\"\n\"Supply demand series pure\" is written as \"su da nt mo\"",
       "options": [
         "Demand supply",
@@ -93,9 +99,11 @@
         "Market supply"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Demand market Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Demand market.",
+      "explanation": "Source answer: (b) Demand market\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ndemand → da\nmarket → pr\nprofit → sd\npure → mo\nseries → nt\nsupply → su\ntag → pi\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 4,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-06-q005",
@@ -111,9 +119,11 @@
         "None of these"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) nt Analysis & Solution:\nTopic: Coding - Decoding\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields nt.",
+      "explanation": "Source answer: (d) nt\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\ndemand → da\nmarket → pr\nprofit → sd\npure → mo\nseries → nt\nsupply → su\ntag → pi\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 5,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-06-q006",
@@ -129,9 +139,11 @@
         "Both conclusions I and II follow"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (e) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (e) Both conclusions I and II follow\n\nSome light objects are time and all time are right, giving some light objects that are right (II). No exclusion prevents all late objects from being time, so I is also possible.",
       "sourceQuestionNumber": 6,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q007",
@@ -147,9 +159,11 @@
         "Both conclusions I and II follow"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) Only conclusion I follows\n\nAll early objects may be ugly: the statements contain no exclusion preventing that placement. Some travel objects are outside district, but those objects could still be ugly, so II is not forced.",
       "sourceQuestionNumber": 7,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q008",
@@ -165,9 +179,11 @@
         "Both conclusions I and II follow"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (c) Either conclusion I or II follows\n\nThe marks–code relation is not fixed by the statements. \"Some marks are code\" and \"No marks are code\" are complementary. Either one must be true, although neither is forced separately.",
       "sourceQuestionNumber": 8,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q009",
@@ -183,15 +199,17 @@
         "Both conclusions I and II follow"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) Only conclusion I follows\n\nAll good objects can be discount objects; this does not conflict with the partial good–search overlap. No mock–discount overlap is guaranteed. Only possibility I follows.",
       "sourceQuestionNumber": 9,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q010",
       "number": 10,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Seating Arrangement (Circular)",
       "stem": "What is the position of O with respect to Q?\nStudy the following information carefully and answer the question given below:\nEight persons - J, K, L, M, N, O, P and Q are sitting at the square table but not necessarily in the same\norder. Four persons are sitting at the corner and four of them are sitting in the middle of the side. Four\npersons are facing inside the center and four persons are facing outside to the center.\nJ sits opposite of P and both of them facing inside the center. Two persons sit between P and Q. L sits\nthird to the right of Q. O is not an immediate neighbor of Q and L. K sits immediately left of J. The number\nof persons sit between L and M when counts from the right of M is same as the number of persons sit\nbetween K and O when counts from the right of K. M doesn’t sit at the corner of the table. N sits third to\nthe right of M. N faces inside the center.",
       "options": [
         "Third to the right",
@@ -201,15 +219,17 @@
         "Fourth to the right"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) Second to the left\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | Q | Outside |\n| 2 | J | Inside |\n| 3 | K | Outside |\n| 4 | L | Outside |\n| 5 | N | Inside |\n| 6 | P | Inside |\n| 7 | O | Outside |\n| 8 | M | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 10,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q011",
       "number": 11,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Seating Arrangement (Circular)",
       "stem": "Four of the following five are alike in a certain way and thus form a group. Who among the\nfollowing doesn’t belong to the group?\nStudy the following information carefully and answer the question given below:\nEight persons - J, K, L, M, N, O, P and Q are sitting at the square table but not necessarily in the same\norder. Four persons are sitting at the corner and four of them are sitting in the middle of the side. Four\npersons are facing inside the center and four persons are facing outside to the center.\nJ sits opposite of P and both of them facing inside the center. Two persons sit between P and Q. L sits\nthird to the right of Q. O is not an immediate neighbor of Q and L. K sits immediately left of J. The number\nof persons sit between L and M when counts from the right of M is same as the number of persons sit\nbetween K and O when counts from the right of K. M doesn’t sit at the corner of the table. N sits third to\nthe right of M. N faces inside the center.",
       "options": [
         "K",
@@ -219,15 +239,17 @@
         "M"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) M Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) M holds true.",
+      "explanation": "Source answer: (e) M\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | Q | Outside |\n| 2 | J | Inside |\n| 3 | K | Outside |\n| 4 | L | Outside |\n| 5 | N | Inside |\n| 6 | P | Inside |\n| 7 | O | Outside |\n| 8 | M | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 11,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q012",
       "number": 12,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Seating Arrangement (Circular)",
       "stem": "Who among the following person sits third to the left of J?\nStudy the following information carefully and answer the question given below:\nEight persons - J, K, L, M, N, O, P and Q are sitting at the square table but not necessarily in the same\norder. Four persons are sitting at the corner and four of them are sitting in the middle of the side. Four\npersons are facing inside the center and four persons are facing outside to the center.\nJ sits opposite of P and both of them facing inside the center. Two persons sit between P and Q. L sits\nthird to the right of Q. O is not an immediate neighbor of Q and L. K sits immediately left of J. The number\nof persons sit between L and M when counts from the right of M is same as the number of persons sit\nbetween K and O when counts from the right of K. M doesn’t sit at the corner of the table. N sits third to\nthe right of M. N faces inside the center.",
       "options": [
         "The one who sits second to the left of P",
@@ -237,15 +259,17 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) N\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | Q | Outside |\n| 2 | J | Inside |\n| 3 | K | Outside |\n| 4 | L | Outside |\n| 5 | N | Inside |\n| 6 | P | Inside |\n| 7 | O | Outside |\n| 8 | M | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 12,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q013",
       "number": 13,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Seating Arrangement (Circular)",
       "stem": "How many persons sit between P and Q when counted from left of Q?\nStudy the following information carefully and answer the question given below:\nEight persons - J, K, L, M, N, O, P and Q are sitting at the square table but not necessarily in the same\norder. Four persons are sitting at the corner and four of them are sitting in the middle of the side. Four\npersons are facing inside the center and four persons are facing outside to the center.\nJ sits opposite of P and both of them facing inside the center. Two persons sit between P and Q. L sits\nthird to the right of Q. O is not an immediate neighbor of Q and L. K sits immediately left of J. The number\nof persons sit between L and M when counts from the right of M is same as the number of persons sit\nbetween K and O when counts from the right of K. M doesn’t sit at the corner of the table. N sits third to\nthe right of M. N faces inside the center.",
       "options": [
         "One",
@@ -255,15 +279,17 @@
         "Four"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
+      "explanation": "Source answer: (b) Two\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | Q | Outside |\n| 2 | J | Inside |\n| 3 | K | Outside |\n| 4 | L | Outside |\n| 5 | N | Inside |\n| 6 | P | Inside |\n| 7 | O | Outside |\n| 8 | M | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 13,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q014",
       "number": 14,
       "section": "reasoning",
-      "topic": "Puzzles & Seating Arrangement",
+      "topic": "Seating Arrangement (Circular)",
       "stem": "Which among the following pair of persons sit at the corner of the table?\nStudy the following information carefully and answer the question given below:\nEight persons - J, K, L, M, N, O, P and Q are sitting at the square table but not necessarily in the same\norder. Four persons are sitting at the corner and four of them are sitting in the middle of the side. Four\npersons are facing inside the center and four persons are facing outside to the center.\nJ sits opposite of P and both of them facing inside the center. Two persons sit between P and Q. L sits\nthird to the right of Q. O is not an immediate neighbor of Q and L. K sits immediately left of J. The number\nof persons sit between L and M when counts from the right of M is same as the number of persons sit\nbetween K and O when counts from the right of K. M doesn’t sit at the corner of the table. N sits third to\nthe right of M. N faces inside the center.",
       "options": [
         "N, O",
@@ -273,9 +299,11 @@
         "J, N"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) N, O Analysis & Solution:\nTopic: Puzzles & Seating Arrangement\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) N, O holds true.",
+      "explanation": "Source answer: (a) N, O\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Clockwise seat (starting seat arbitrary) | Person | Facing |\n| --- | --- | --- |\n| 1 | Q | Outside |\n| 2 | J | Inside |\n| 3 | K | Outside |\n| 4 | L | Outside |\n| 5 | N | Inside |\n| 6 | P | Inside |\n| 7 | O | Outside |\n| 8 | M | Inside |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 14,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q015",
@@ -291,16 +319,18 @@
         "X"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Z Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Z.",
+      "explanation": "Source answer: (d) Z\n\nThe first, third, fifth and seventh letters of TECHNOLOGY are T, C, N and L. These cannot form a standard meaningful four-letter word under the source convention. Select Z.",
       "sourceQuestionNumber": 15,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q016",
       "number": 16,
       "section": "reasoning",
-      "topic": "Syllogism",
-      "stem": "Statements: S ≤ K > I > G = M; J ≤ S = N > W < O\nConclusions:\nI. W < K\nII. O > G\nI. W < K\nII. O > G\nThe question, relationships between some elements are shown in the statements. These statements are\nfollowed by conclusions numbered I and II. Read the statements and give the answer.",
+      "topic": "Inequalities",
+      "stem": "Statements: S ≤ K > I > G = M; J ≤ S = N > W < O\n\nConclusions:\nI. W < K\nII. O > G\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -309,16 +339,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I is true\n\nConclusion I (W < K) follows: its opposite contradicts the stated relationships.\n\nConclusion II (O > G) does not necessarily follow. For example, G = 0, I = 1/4, J = 0, K = 1/2, M = 0, N = 0, O = 0, S = 0, W = -1/4 satisfies all the statements but makes this conclusion false.\n\nTherefore: If only conclusion I is true.",
       "sourceQuestionNumber": 16,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-06-q017",
       "number": 17,
       "section": "reasoning",
-      "topic": "Syllogism",
-      "stem": "Statements: A < P ≤ E > V = Q; B > W ≥ X > N = P\nConclusions:\nI. B < Q\nII. B ≥ Q\nI. B < Q\nII. B ≥ Q\nThe question, relationships between some elements are shown in the statements. These statements are\nfollowed by conclusions numbered I and II. Read the statements and give the answer.",
+      "topic": "Inequalities",
+      "stem": "Statements: A < P ≤ E > V = Q; B > W ≥ X > N = P\n\nConclusions:\nI. B < Q\nII. B ≥ Q\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -327,16 +360,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (c) If either conclusion I or II is true\n\nConclusion I (B < Q) does not necessarily follow. For example, A = -1/4, B = 1/2, E = 0, I = 0, N = 0, P = 0, Q = -1/4, V = -1/4, W = 1/4, X = 1/4 satisfies all the statements but makes this conclusion false.\n\nConclusion II (B ≥ Q) does not necessarily follow. For example, A = -1/8, B = 1/4, E = 1/2, I = 0, N = 0, P = 0, Q = 3/8, V = 3/8, W = 1/8, X = 1/8 satisfies all the statements but makes this conclusion false.\n\nTherefore: If either conclusion I or II is true.",
       "sourceQuestionNumber": 17,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 2
     },
     {
       "id": "adda-06-q018",
       "number": 18,
       "section": "reasoning",
-      "topic": "Syllogism",
-      "stem": "Statements: D > W ≤ N > T; R = B ≥ G > D > E\nConclusions:\nI. B > N\nII. R > W\nI. B > N\nII. R > W\nThe question, relationships between some elements are shown in the statements. These statements are\nfollowed by conclusions numbered I and II. Read the statements and give the answer.",
+      "topic": "Inequalities",
+      "stem": "Statements: D > W ≤ N > T; R = B ≥ G > D > E\n\nConclusions:\nI. B > N\nII. R > W\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -345,16 +381,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only conclusion II is true\n\nConclusion I (B > N) does not necessarily follow. For example, B = 1/2, D = 0, E = -1/2, G = 1/2, I = 0, N = 1/2, R = 1/2, T = 0, W = -1/2 satisfies all the statements but makes this conclusion false.\n\nConclusion II (R > W) follows: its opposite contradicts the stated relationships.\n\nTherefore: If only conclusion II is true.",
       "sourceQuestionNumber": 18,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 1
     },
     {
       "id": "adda-06-q019",
       "number": 19,
       "section": "reasoning",
-      "topic": "Syllogism",
-      "stem": "Statements: F > O ≥ N > P < W; L > A ≥ U > W = K\nConclusions:\nI. P < L\nII. F ≥ A\nI. P < L\nII. F ≥ A\nThe question, relationships between some elements are shown in the statements. These statements are\nfollowed by conclusions numbered I and II. Read the statements and give the answer.",
+      "topic": "Inequalities",
+      "stem": "Statements: F > O ≥ N > P < W; L > A ≥ U > W = K\n\nConclusions:\nI. P < L\nII. F ≥ A\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -363,9 +402,12 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I is true\n\nConclusion I (P < L) follows: its opposite contradicts the stated relationships.\n\nConclusion II (F ≥ A) does not necessarily follow. For example, A = 1/4, F = 0, I = 0, K = -1/4, L = 1/2, N = -1/4, O = -1/4, P = -1/2, U = 0, W = -1/4 satisfies all the statements but makes this conclusion false.\n\nTherefore: If only conclusion I is true.",
       "sourceQuestionNumber": 19,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-06-q020",
@@ -381,9 +423,11 @@
         "Box W"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
+      "explanation": "Source answer: (a) Box Q\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | W |\n| 2 | X |\n| 3 | S |\n| 4 | Q |\n| 5 | V |\n| 6 | P |\n| 7 | Y |\n| 8 | U |\n| 9 | T |\n| 10 | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 20,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q021",
@@ -399,9 +443,11 @@
         "None of these"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) V Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) V holds true.",
+      "explanation": "Source answer: (b) V\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | W |\n| 2 | X |\n| 3 | S |\n| 4 | Q |\n| 5 | V |\n| 6 | P |\n| 7 | Y |\n| 8 | U |\n| 9 | T |\n| 10 | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 21,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q022",
@@ -417,9 +463,11 @@
         "Immediately above"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) Four boxes above\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | W |\n| 2 | X |\n| 3 | S |\n| 4 | Q |\n| 5 | V |\n| 6 | P |\n| 7 | Y |\n| 8 | U |\n| 9 | T |\n| 10 | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 22,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q023",
@@ -435,9 +483,11 @@
         "Four"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) One\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | W |\n| 2 | X |\n| 3 | S |\n| 4 | Q |\n| 5 | V |\n| 6 | P |\n| 7 | Y |\n| 8 | U |\n| 9 | T |\n| 10 | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 23,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q024",
@@ -453,9 +503,11 @@
         "More than three"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Box / Stack)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) More than three\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Box position, bottom to top | Box |\n| --- | --- |\n| 1 | W |\n| 2 | X |\n| 3 | S |\n| 4 | Q |\n| 5 | V |\n| 6 | P |\n| 7 | Y |\n| 8 | U |\n| 9 | T |\n| 10 | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 24,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q025",
@@ -471,9 +523,11 @@
         "More than four"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
+      "explanation": "Source answer: (a) One\n\nFor MORTGAGE, compare each pair's position gap with the absolute difference between its alphabet positions or digit values. They must be equal.\n\nPositions 1 and 7: M–G; position gap = 6, value gap = 6.\n\nTotal qualifying pairs: 1.",
       "sourceQuestionNumber": 25,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "independently-verified"
     },
     {
       "id": "adda-06-q026",
@@ -489,9 +543,11 @@
         "Two"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
+      "explanation": "Source answer: (b) Four\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Flower |\n| --- | --- | --- |\n| 1 | P | Rose |\n| 2 | S | Orchid |\n| 3 | R | Lily |\n| 4 | T | Jasmine |\n| 5 | Q | Poppy |\n| 6 | V | Daisy |\n| 7 | U | Tulip |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 26,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q027",
@@ -507,9 +563,11 @@
         "Both II and III"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) Only II\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Flower |\n| --- | --- | --- |\n| 1 | P | Rose |\n| 2 | S | Orchid |\n| 3 | R | Lily |\n| 4 | T | Jasmine |\n| 5 | Q | Poppy |\n| 6 | V | Daisy |\n| 7 | U | Tulip |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 27,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q028",
@@ -525,9 +583,11 @@
         "Both [a] and [d]"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Both [a] and [d]\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Flower |\n| --- | --- | --- |\n| 1 | P | Rose |\n| 2 | S | Orchid |\n| 3 | R | Lily |\n| 4 | T | Jasmine |\n| 5 | Q | Poppy |\n| 6 | V | Daisy |\n| 7 | U | Tulip |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 28,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q029",
@@ -543,9 +603,11 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
+      "explanation": "Source answer: (a) Fourth to the right\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Flower |\n| --- | --- | --- |\n| 1 | P | Rose |\n| 2 | S | Orchid |\n| 3 | R | Lily |\n| 4 | T | Jasmine |\n| 5 | Q | Poppy |\n| 6 | V | Daisy |\n| 7 | U | Tulip |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 29,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q030",
@@ -561,9 +623,11 @@
         "None is correct"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) None is correct\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Flower |\n| --- | --- | --- |\n| 1 | P | Rose |\n| 2 | S | Orchid |\n| 3 | R | Lily |\n| 4 | T | Jasmine |\n| 5 | Q | Poppy |\n| 6 | V | Daisy |\n| 7 | U | Tulip |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 30,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q031",
@@ -579,9 +643,11 @@
         "Two"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) Three\n\nP is Q's father. Q is married to V, whose mother is U; hence U is Q's mother-in-law. Q and V are W's parents, and W is married to R. T is U's son and S's father, so U is S's grandmother. The females are U, V and W; the males are P, Q, R, S and T. P is V's father-in-law. In Q33, statements I and II hold; R is not established as S's brother.",
       "sourceQuestionNumber": 31,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q032",
@@ -597,15 +663,17 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option A.",
+      "explanation": "Source answer: (a) Father-in-law\n\nP is Q's father. Q is married to V, whose mother is U; hence U is Q's mother-in-law. Q and V are W's parents, and W is married to R. T is U's son and S's father, so U is S's grandmother. The females are U, V and W; the males are P, Q, R, S and T. P is V's father-in-law. In Q33, statements I and II hold; R is not established as S's brother.",
       "sourceQuestionNumber": 32,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q033",
       "number": 33,
       "section": "reasoning",
-      "topic": "Inequalities",
+      "topic": "Blood Relations",
       "stem": "Which of the following statement(s) is/are true?\nI. Number of female member is less than male members\nII. U is grandmother of S\nIII. R is brother of S\nStudy the following information carefully and answer the question given below:\nA family of three generation has eight members: P , Q, R, S, T, U, V, and W.\nP is the father of Q. Q is the father - in - law of R. S is the son of T and the grandson of U. W is the daughter\nof V and wife of R. U is the mother - in - law of Q. T is the father of S.",
       "options": [
         "Only I",
@@ -615,9 +683,11 @@
         "Both II and III"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (c) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (c) Both I and II\n\nP is Q's father. Q is married to V, whose mother is U; hence U is Q's mother-in-law. Q and V are W's parents, and W is married to R. T is U's son and S's father, so U is S's grandmother. The females are U, V and W; the males are P, Q, R, S and T. P is V's father-in-law. In Q33, statements I and II hold; R is not established as S's brother.",
       "sourceQuestionNumber": 33,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q034",
@@ -633,15 +703,17 @@
         "7"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) 4 Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields 4.",
+      "explanation": "Source answer: (a) 4\n\nChange odd digits up by one and even digits down by one: 7854362 → 8763451. Ascending order is 1345678. The third digit is 4.",
       "sourceQuestionNumber": 34,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q035",
       "number": 35,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "How many persons were born between R and U?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T , U, V, and W – were born on two different dates: 12th and 13th of four different\nmonths – May, June, July, and August of the same year. Only one person was born on each date of each\nmonth but not necessarily in the same order.\nR was born in the month having 31 days on an even - numbered date. R was not born in august. Two\npersons were born between R and Q. Q was not born in August. The number of people born before V is\nequal to the number of people born after R. T was born immedia tely after P . T and P was born in same\nmonth. Three persons were born between U and S. U was born before S.",
       "options": [
         "One",
@@ -651,15 +723,17 @@
         "Two"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) One holds true.",
+      "explanation": "Source answer: (a) One\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth date | Person |\n| --- | --- |\n| May 12 | R |\n| May 13 | W |\n| June 12 | U |\n| June 13 | Q |\n| July 12 | P |\n| July 13 | T |\n| August 12 | S |\n| August 13 | V |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 35,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q036",
       "number": 36,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "The number of persons born before T is same as the number of persons born after _______.\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T , U, V, and W – were born on two different dates: 12th and 13th of four different\nmonths – May, June, July, and August of the same year. Only one person was born on each date of each\nmonth but not necessarily in the same order.\nR was born in the month having 31 days on an even - numbered date. R was not born in august. Two\npersons were born between R and Q. Q was not born in August. The number of people born before V is\nequal to the number of people born after R. T was born immedia tely after P . T and P was born in same\nmonth. Three persons were born between U and S. U was born before S.",
       "options": [
         "R",
@@ -669,15 +743,17 @@
         "P"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) U Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) U holds true.",
+      "explanation": "Source answer: (c) U\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth date | Person |\n| --- | --- |\n| May 12 | R |\n| May 13 | W |\n| June 12 | U |\n| June 13 | Q |\n| July 12 | P |\n| July 13 | T |\n| August 12 | S |\n| August 13 | V |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 36,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q037",
       "number": 37,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which among the following is a true statement?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T , U, V, and W – were born on two different dates: 12th and 13th of four different\nmonths – May, June, July, and August of the same year. Only one person was born on each date of each\nmonth but not necessarily in the same order.\nR was born in the month having 31 days on an even - numbered date. R was not born in august. Two\npersons were born between R and Q. Q was not born in August. The number of people born before V is\nequal to the number of people born after R. T was born immedia tely after P . T and P was born in same\nmonth. Three persons were born between U and S. U was born before S.",
       "options": [
         "R was born on 12th May",
@@ -687,15 +763,17 @@
         "None is true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Option A holds true.",
+      "explanation": "Source answer: (a) R was born on 12th May\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth date | Person |\n| --- | --- |\n| May 12 | R |\n| May 13 | W |\n| June 12 | U |\n| June 13 | Q |\n| July 12 | P |\n| July 13 | T |\n| August 12 | S |\n| August 13 | V |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 37,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 22,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q038",
       "number": 38,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which of the following pair of persons were born on the same date?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T , U, V, and W – were born on two different dates: 12th and 13th of four different\nmonths – May, June, July, and August of the same year. Only one person was born on each date of each\nmonth but not necessarily in the same order.\nR was born in the month having 31 days on an even - numbered date. R was not born in august. Two\npersons were born between R and Q. Q was not born in August. The number of people born before V is\nequal to the number of people born after R. T was born immedia tely after P . T and P was born in same\nmonth. Three persons were born between U and S. U was born before S.",
       "options": [
         "W and U",
@@ -705,15 +783,17 @@
         "None of these"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) W and Q /W Q Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) W and Q /W Q holds true.",
+      "explanation": "Source answer: (b) W and Q\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth date | Person |\n| --- | --- |\n| May 12 | R |\n| May 13 | W |\n| June 12 | U |\n| June 13 | Q |\n| July 12 | P |\n| July 13 | T |\n| August 12 | S |\n| August 13 | V |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 38,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 23,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q039",
       "number": 39,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who among the following was born on 13th June?\nStudy the following information carefully and answer the question given below:\nEight persons – P , Q, R, S, T , U, V, and W – were born on two different dates: 12th and 13th of four different\nmonths – May, June, July, and August of the same year. Only one person was born on each date of each\nmonth but not necessarily in the same order.\nR was born in the month having 31 days on an even - numbered date. R was not born in august. Two\npersons were born between R and Q. Q was not born in August. The number of people born before V is\nequal to the number of people born after R. T was born immedia tely after P . T and P was born in same\nmonth. Three persons were born between U and S. U was born before S.",
       "options": [
         "P",
@@ -723,15 +803,17 @@
         "V"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Q Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Q holds true.",
+      "explanation": "Source answer: (d) Q\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth date | Person |\n| --- | --- |\n| May 12 | R |\n| May 13 | W |\n| June 12 | U |\n| June 13 | Q |\n| July 12 | P |\n| July 13 | T |\n| August 12 | S |\n| August 13 | V |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 39,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 23,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-06-q040",
       "number": 40,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Word “ RESOURCES” , if the vowels are changed to their preceding letter and the consonants are\nchanged to their succeeding letter, then how many letters are repeating in the new word?",
       "options": [
         "One",
@@ -741,9 +823,11 @@
         "Four"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "explanation": "Source answer: (c) Three\n\nReplacing vowels by preceding letters and consonants by succeeding letters changes RESOURCES to SDTN TSDDT (without spaces: SDTNTSDDT). S, D and T repeat, giving three repeated letter types.",
       "sourceQuestionNumber": 40,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 24,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-06-q041",

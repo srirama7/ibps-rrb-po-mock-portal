@@ -39,9 +39,11 @@
         "U"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Q Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Q holds true.",
+      "explanation": "Source answer: (b) Q\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Column, observer left to right | North-facing row | South-facing row |\n| --- | --- | --- |\n| 1 | C | S |\n| 2 | E | V |\n| 3 | A | Q |\n| 4 | G | T |\n| 5 | B | U |\n| 6 | D | P |\n| 7 | F | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 1,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q002",
@@ -57,9 +59,11 @@
         "F"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) F Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) F holds true.",
+      "explanation": "Source answer: (e) F\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Column, observer left to right | North-facing row | South-facing row |\n| --- | --- | --- |\n| 1 | C | S |\n| 2 | E | V |\n| 3 | A | Q |\n| 4 | G | T |\n| 5 | B | U |\n| 6 | D | P |\n| 7 | F | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 2,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 1,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q003",
@@ -75,9 +79,11 @@
         "V"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) G Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) G holds true.",
+      "explanation": "Source answer: (a) G\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Column, observer left to right | North-facing row | South-facing row |\n| --- | --- | --- |\n| 1 | C | S |\n| 2 | E | V |\n| 3 | A | Q |\n| 4 | G | T |\n| 5 | B | U |\n| 6 | D | P |\n| 7 | F | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 3,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q004",
@@ -93,9 +99,11 @@
         "C"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) B holds true.",
+      "explanation": "Source answer: (c) B\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Column, observer left to right | North-facing row | South-facing row |\n| --- | --- | --- |\n| 1 | C | S |\n| 2 | E | V |\n| 3 | A | Q |\n| 4 | G | T |\n| 5 | B | U |\n| 6 | D | P |\n| 7 | F | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 4,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 4,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q005",
@@ -111,17 +119,19 @@
         "None is true"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) Option D holds true.",
+      "explanation": "Source answer: (d) F sits at one of the extreme ends\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Column, observer left to right | North-facing row | South-facing row |\n| --- | --- | --- |\n| 1 | C | S |\n| 2 | E | V |\n| 3 | A | Q |\n| 4 | G | T |\n| 5 | B | U |\n| 6 | D | P |\n| 7 | F | R |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 5,
       "diagrams": [],
-      "diagramCaption": "Seating / Arrangement Reference Diagram"
+      "diagramCaption": "Seating / Arrangement Reference Diagram",
+      "sourcePdfPage": 5,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q006",
       "number": 6,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions, relationships between different elements are shown in the statements. The\nstatements are followed by conclusions. Study the conclusions based on the given statements and select\nthe appropriate answer:",
+      "stem": "Statements: P > Q = R ≥ S < T; U ≤ S > W\n\nConclusions:\nI. P > T\nII. W < P\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -130,19 +140,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only conclusion II is true\n\nConclusion I (P > T) does not necessarily follow. For example, I = 0, P = 1/2, Q = 0, R = 0, S = 0, T = 1/2, U = 0, W = -1/2 satisfies all the statements but makes this conclusion false.\n\nConclusion II (W < P) follows: its opposite contradicts the stated relationships.\n\nTherefore: If only conclusion II is true.",
       "sourceQuestionNumber": 6,
-      "diagrams": [
-        "data/diagrams/adda-03_page5_Image44.png"
-      ],
-      "diagramCaption": "Inequality Statements & Conclusions Formula"
+      "diagrams": [],
+      "sourcePdfPage": 5,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 1
     },
     {
       "id": "adda-03-q007",
       "number": 7,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions, relationships between different elements are shown in the statements. The\nstatements are followed by conclusions. Study the conclusions based on the given statements and select\nthe appropriate answer:",
+      "stem": "Statements: M = N ≤ O > G < Q ≤ R; S < R = T\n\nConclusions:\nI. G < T\nII. G ≥ R\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -151,19 +161,19 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I is true\n\nConclusion I (G < T) follows: its opposite contradicts the stated relationships.\n\nConclusion II (G ≥ R) does not necessarily follow. For example, G = -1/2, I = 0, M = 0, N = 0, O = 0, Q = -1/4, R = -1/4, S = -1/2, T = -1/4 satisfies all the statements but makes this conclusion false.\n\nTherefore: If only conclusion I is true.",
       "sourceQuestionNumber": 7,
-      "diagrams": [
-        "data/diagrams/adda-03_page6_Image49.png"
-      ],
-      "diagramCaption": "Inequality Statements & Conclusions Formula"
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 0
     },
     {
       "id": "adda-03-q008",
       "number": 8,
       "section": "reasoning",
       "topic": "Inequalities",
-      "stem": "In these questions, relationships between different elements are shown in the statements. The\nstatements are followed by conclusions. Study the conclusions based on the given statements and select\nthe appropriate answer:",
+      "stem": "Statements: B ≥ C ≥ D = E > F ≤ G < Y ≤ H\n\nConclusions:\nI. C < E\nII. G ≤ D\n\nStudy the statements and decide which conclusions necessarily follow. Use only the stated relationships.",
       "options": [
         "If only conclusion I is true",
         "If only conclusion II is true",
@@ -172,12 +182,12 @@
         "If both conclusions I and II are true"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Inequalities\nEvaluating the given conditions step - by - step reveals that condition (d) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (d) If neither conclusion I nor II is true\n\nConclusion I (C < E) does not necessarily follow. For example, B = 0, C = 0, D = 0, E = 0, F = -1/2, G = -1/2, H = 0, I = 0, Y = 0 satisfies all the statements but makes this conclusion false.\n\nConclusion II (G ≤ D) does not necessarily follow. For example, B = -1, C = -1, D = -1, E = -1, F = -3/2, G = -1/2, H = 0, I = 0, Y = 0 satisfies all the statements but makes this conclusion false.\n\nTherefore: If neither conclusion I nor II is true.",
       "sourceQuestionNumber": 8,
-      "diagrams": [
-        "data/diagrams/adda-03_page6_Image50.png"
-      ],
-      "diagramCaption": "Inequality Statements & Conclusions Formula"
+      "diagrams": [],
+      "sourcePdfPage": 6,
+      "explanationStatus": "independently-verified",
+      "derivedAnswerIndex": 3
     },
     {
       "id": "adda-03-q009",
@@ -193,15 +203,17 @@
         "More than four"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) Three\n\nFor 748523971, compare each pair's position gap with the absolute difference between its alphabet positions or digit values. They must be equal.\n\nPositions 2 and 7: 4–9; position gap = 5, value gap = 5.\nPositions 4 and 6: 5–3; position gap = 2, value gap = 2.\nPositions 5 and 6: 2–3; position gap = 1, value gap = 1.\n\nTotal qualifying pairs: 3.",
       "sourceQuestionNumber": 9,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "independently-verified"
     },
     {
       "id": "adda-03-q010",
       "number": 10,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "How is Q related to Y?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
         "Mother",
@@ -211,15 +223,17 @@
         "None of these"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option B.",
+      "explanation": "Source answer: (b) Aunt\n\nS and R are the parents of sons V and W and daughter Q. V and U are the parents of Y and T; Y is male and T is not a daughter of V, so T is male. X is Y's wife, which makes her T's sister-in-law. P is R's sister (S has no siblings), so W is P's nephew. Q is Y's aunt. Among Y, T, P, W and S, P is the female member and the others are male.",
       "sourceQuestionNumber": 10,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q011",
       "number": 11,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Which of the following is true?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
         "V is the daughter of S",
@@ -229,15 +243,17 @@
         "All are true"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option C.",
+      "explanation": "Source answer: (c) W is the P’s nephew\n\nS and R are the parents of sons V and W and daughter Q. V and U are the parents of Y and T; Y is male and T is not a daughter of V, so T is male. X is Y's wife, which makes her T's sister-in-law. P is R's sister (S has no siblings), so W is P's nephew. Q is Y's aunt. Among Y, T, P, W and S, P is the female member and the others are male.",
       "sourceQuestionNumber": 11,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 7,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q012",
       "number": 12,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully and answer the questions given below:\nQ is the only daughter of R who is the mother - in - law of U. S is the paternal grandfather of Q’s nephew. S\nhas two sons, one daughter and no siblings. X is the sister - in - law of T . U is the mother of Y who is married\nmale. W is the uncle of T who is not a daughter of V. P is the aunt of V who is sibling of Q and W.",
       "options": [
         "Y",
@@ -247,15 +263,17 @@
         "S"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) P Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields P.",
+      "explanation": "Source answer: (c) P\n\nS and R are the parents of sons V and W and daughter Q. V and U are the parents of Y and T; Y is male and T is not a daughter of V, so T is male. X is Y's wife, which makes her T's sister-in-law. P is R's sister (S has no siblings), so W is P's nephew. Q is Y's aunt. Among Y, T, P, W and S, P is the female member and the others are male.",
       "sourceQuestionNumber": 12,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q013",
       "number": 13,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Puzzle (Floor / Flat)",
       "stem": "Who among the following lives in Flat - X of 2nd floor?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "P",
@@ -265,15 +283,17 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) V Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) V holds true.",
+      "explanation": "Source answer: (c) V\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat X | R |\n| Floor 1, Flat Y | O |\n| Floor 2, Flat X | V |\n| Floor 2, Flat Y | T |\n| Floor 3, Flat X | N |\n| Floor 3, Flat Y | W |\n| Floor 4, Flat X | S |\n| Floor 4, Flat Y | U |\n| Floor 5, Flat X | Q |\n| Floor 5, Flat Y | P |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 13,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 8,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q014",
       "number": 14,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Puzzle (Floor / Flat)",
       "stem": "Which of the following groups live on an even numbered floor?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "S, T",
@@ -283,15 +303,17 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) S, T Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) S, T holds true.",
+      "explanation": "Source answer: (a) S, T\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat X | R |\n| Floor 1, Flat Y | O |\n| Floor 2, Flat X | V |\n| Floor 2, Flat Y | T |\n| Floor 3, Flat X | N |\n| Floor 3, Flat Y | W |\n| Floor 4, Flat X | S |\n| Floor 4, Flat Y | U |\n| Floor 5, Flat X | Q |\n| Floor 5, Flat Y | P |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 14,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 9,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q015",
       "number": 15,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Puzzle (Floor / Flat)",
       "stem": "In which of the following flat - floor does R lives?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "Flat-Y , Floor 3",
@@ -301,15 +323,17 @@
         "Flat-Y , Floor 1"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) Flat-X, Floor 1\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat X | R |\n| Floor 1, Flat Y | O |\n| Floor 2, Flat X | V |\n| Floor 2, Flat Y | T |\n| Floor 3, Flat X | N |\n| Floor 3, Flat Y | W |\n| Floor 4, Flat X | S |\n| Floor 4, Flat Y | U |\n| Floor 5, Flat X | Q |\n| Floor 5, Flat Y | P |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 15,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 10,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q016",
       "number": 16,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Puzzle (Floor / Flat)",
       "stem": "How many floors are between Q and the one who lives just below T’s flat?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "One",
@@ -319,15 +343,17 @@
         "None of these"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Two Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Two holds true.",
+      "explanation": "Source answer: (b) Three\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat X | R |\n| Floor 1, Flat Y | O |\n| Floor 2, Flat X | V |\n| Floor 2, Flat Y | T |\n| Floor 3, Flat X | N |\n| Floor 3, Flat Y | W |\n| Floor 4, Flat X | S |\n| Floor 4, Flat Y | U |\n| Floor 5, Flat X | Q |\n| Floor 5, Flat Y | P |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 16,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q017",
       "number": 17,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Puzzle (Floor / Flat)",
       "stem": "Four of the following five are alike in a certain way and hence form a group. Which of the following\ndoes not belong to that group?\nStudy the following information carefully to answer the given questions:\nTen persons N, O, P , Q, R, S, T , U, V, and W, are living in a five - story building such as ground floor is\nnumbered as 1, above it is floor 2 then top floor is numbered as 5. Each of the floors has 2 flats in it viz.\nflat - X and flat - Y . Flat - X of floor - 2 is immediately above flat - X of floor - 1 and immediately below flat - X of\nfloor - 3 and so on. In the same way flat - Y of floor - 2 is immediately above flat - Y of floor - 1 and immediately\nbelow flat - Y of floor - 3 and so on. Flat - X is in west of flat - Y.\nTwo floors gap between S and O but both live in different named flat. S lives just below P but not in the\nsame named flat. O neither lives 4th floor nor 5th floor. V lives in west of T who lives just south - east of N.\nU lives just above W’s flat. Q lives north of R.",
       "options": [
         "U",
@@ -337,9 +363,11 @@
         "O"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) S Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) S holds true.",
+      "explanation": "Source answer: (c) S\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Flat, bottom to top | Person |\n| --- | --- |\n| Floor 1, Flat X | R |\n| Floor 1, Flat Y | O |\n| Floor 2, Flat X | V |\n| Floor 2, Flat Y | T |\n| Floor 3, Flat X | N |\n| Floor 3, Flat Y | W |\n| Floor 4, Flat X | S |\n| Floor 4, Flat Y | U |\n| Floor 5, Flat X | Q |\n| Floor 5, Flat Y | P |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 17,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 11,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q018",
@@ -355,15 +383,17 @@
         "Z"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Z Analysis & Solution:\nTopic: Alphanumeric & Word Formation\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Z.",
+      "explanation": "Source answer: (e) Z\n\nThe first, second, third and sixth letters of FELICITOUS are F, E, L and I. FILE and LIFE are distinct meaningful words. Since more than one is possible, select Z.",
       "sourceQuestionNumber": 18,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q019",
       "number": 19,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "What will be the code for “smile” as per the given code language?\nAnswer these questions based on the following information.\nIn a certain code:\n“happy not bad good towards” is coded as - “xa pb ut nq tf”\n“good smile sorrow towards” is coded as - “ut tf rd lk”\n“smile happy not sad” is coded as - “pb rd xa zh”\n“bad sorrow towards” is coded as - “nq lk ut”",
       "options": [
         "xa",
@@ -373,15 +403,17 @@
         "None of these"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) rd Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) rd holds true.",
+      "explanation": "Source answer: (b) rd\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nbad → nq\ngood → tf\nhappy → pb or xa\nnot → pb or xa\nsad → zh\nsmile → rd\nsorrow → lk\ntowards → ut\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 19,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 12,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-03-q020",
       "number": 20,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "What will be the code for “not” as per the given code language?\nAnswer these questions based on the following information.\nIn a certain code:\n“happy not bad good towards” is coded as - “xa pb ut nq tf”\n“good smile sorrow towards” is coded as - “ut tf rd lk”\n“smile happy not sad” is coded as - “pb rd xa zh”\n“bad sorrow towards” is coded as - “nq lk ut”",
       "options": [
         "tf",
@@ -391,15 +423,17 @@
         "Either xa or pb"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Either xa or pb\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nbad → nq\ngood → tf\nhappy → pb or xa\nnot → pb or xa\nsad → zh\nsmile → rd\nsorrow → lk\ntowards → ut\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 20,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 13,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-03-q021",
       "number": 21,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "Which among the following word is coded as “nq” as per the given code language?\nAnswer these questions based on the following information.\nIn a certain code:\n“happy not bad good towards” is coded as - “xa pb ut nq tf”\n“good smile sorrow towards” is coded as - “ut tf rd lk”\n“smile happy not sad” is coded as - “pb rd xa zh”\n“bad sorrow towards” is coded as - “nq lk ut”",
       "options": [
         "good",
@@ -409,15 +443,17 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) bad Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) bad holds true.",
+      "explanation": "Source answer: (c) bad\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nbad → nq\ngood → tf\nhappy → pb or xa\nnot → pb or xa\nsad → zh\nsmile → rd\nsorrow → lk\ntowards → ut\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 21,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-03-q022",
       "number": 22,
       "section": "reasoning",
-      "topic": "Seating Arrangement (Linear / Parallel)",
+      "topic": "Coding-Decoding",
       "stem": "What will be the possible code for “happy good” as per the given code language?\nAnswer these questions based on the following information.\nIn a certain code:\n“happy not bad good towards” is coded as - “xa pb ut nq tf”\n“good smile sorrow towards” is coded as - “ut tf rd lk”\n“smile happy not sad” is coded as - “pb rd xa zh”\n“bad sorrow towards” is coded as - “nq lk ut”",
       "options": [
         "xa tf",
@@ -427,9 +463,11 @@
         "lk zh"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) xa tf Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) xa tf holds true.",
+      "explanation": "Source answer: (a) xa tf\n\nCompare the repeated words across the given sentences. A word and its code occur in the same sentences. This gives:\n\nbad → nq\ngood → tf\nhappy → pb or xa\nnot → pb or xa\nsad → zh\nsmile → rd\nsorrow → lk\ntowards → ut\n\nWhere two words share the same possible codes, their individual codes cannot be distinguished without an additional clue. Apply any extra code given in this question before selecting the answer.",
       "sourceQuestionNumber": 22,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 14,
+      "explanationStatus": "derived-code-mapping"
     },
     {
       "id": "adda-03-q023",
@@ -445,9 +483,11 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only conclusion II follows\n\nThe orange–grapes overlap need not include an object outside apple, so I is not established. Apples may all be bananas if their orange overlap avoids grapes; no statement rules that arrangement out. Only possibility II follows.",
       "sourceQuestionNumber": 23,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q024",
@@ -463,9 +503,11 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I follows\n\nCats can all be placed in the dog–lion overlap without contradicting the existence of other dogs outside lion, so I is possible. \"Only a few tigers are lion\" explicitly requires some tigers outside lion, making II impossible.",
       "sourceQuestionNumber": 24,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 15,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q025",
@@ -481,9 +523,11 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Option A Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (a) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (a) If only conclusion I follows\n\n\"Only pencil are eraser\" gives eraser ⊆ pencil. The pen–pencil overlap does not guarantee an eraser–pen overlap, so neither conclusion I nor II is individually established. They are complementary alternatives. The PDF keys only I, which needs an additional intended exclusivity premise.",
       "sourceQuestionNumber": 25,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 16,
+      "explanationStatus": "source-interpretation-review"
     },
     {
       "id": "adda-03-q026",
@@ -499,15 +543,17 @@
         "If both conclusions I and II follow"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Syllogism\nEvaluating the given conditions step - by - step reveals that condition (b) follows logically from the premises while alternative choices violate the given relations.",
+      "explanation": "Source answer: (b) If only conclusion II follows\n\nSome magazines are newspapers does not mean every newspaper is a magazine, so I does not follow. Nothing prohibits newspapers from also being books; the non-magazine books can remain elsewhere. II is possible.",
       "sourceQuestionNumber": 26,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q027",
       "number": 27,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who among the following was born in August?\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
         "D",
@@ -517,15 +563,17 @@
         "None of these"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) None of these\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth month | Person |\n| --- | --- |\n| January | A |\n| March | F |\n| April | C |\n| May | E |\n| July | D |\n| August | I |\n| September | B |\n| October | H |\n| December | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 27,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 17,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q028",
       "number": 28,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "How many persons were born between F and I?\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
         "Three",
@@ -535,15 +583,17 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) Two Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) Two holds true.",
+      "explanation": "Source answer: (a) Three\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth month | Person |\n| --- | --- |\n| January | A |\n| March | F |\n| April | C |\n| May | E |\n| July | D |\n| August | I |\n| September | B |\n| October | H |\n| December | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 28,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q029",
       "number": 29,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Which of the following statements is true?\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
         "F was born in September",
@@ -553,15 +603,17 @@
         "None is true"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) H was born in October\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth month | Person |\n| --- | --- |\n| January | A |\n| March | F |\n| April | C |\n| May | E |\n| July | D |\n| August | I |\n| September | B |\n| October | H |\n| December | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 29,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 18,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q030",
       "number": 30,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "The numbers of persons born between E and G is same as the numbers of persons born between\n_____ and ______.\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
         "A, D",
@@ -571,15 +623,17 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) C, H Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) C, H holds true.",
+      "explanation": "Source answer: (c) C, H\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth month | Person |\n| --- | --- |\n| January | A |\n| March | F |\n| April | C |\n| May | E |\n| July | D |\n| August | I |\n| September | B |\n| October | H |\n| December | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 30,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 19,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q031",
       "number": 31,
       "section": "reasoning",
-      "topic": "Puzzle (Scheduling / Month-Date)",
+      "topic": "Puzzles & Seating Arrangement",
       "stem": "Who was born two months after E?\nStudy the following information carefully and answer the questions given below:\nNine persons A, B, C, D, E, F, G, H, and I were born in different months: January, March, April, May, July,\nAugust, September, October, and December of the same year, but not necessarily in the same order.\nC was born in a month with 30 days. There are two persons born between C and I. I was born\nimmediately after a month having 31 days. B was born in a month having 30 days. B was born\nimmediately before H. D was born three persons after F who is not the oldest. A was born four months\nbefore E.",
       "options": [
         "I",
@@ -589,15 +643,17 @@
         "None of these"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) D Analysis & Solution:\nTopic: Puzzle (Scheduling / Month - Date)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (d) D holds true.",
+      "explanation": "Source answer: (d) D\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Birth month | Person |\n| --- | --- |\n| January | A |\n| March | F |\n| April | C |\n| May | E |\n| July | D |\n| August | I |\n| September | B |\n| October | H |\n| December | G |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 31,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q032",
       "number": 32,
       "section": "reasoning",
-      "topic": "Logical Reasoning",
+      "topic": "Alphanumeric & Word Formation",
       "stem": "Find the odd one out?",
       "options": [
         "LRUK",
@@ -607,15 +663,17 @@
         "BPSA"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) UDFT Analysis & Solution:\nTopic: Logical Reasoning\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields UDFT.",
+      "explanation": "Source answer: (c) UDFT\n\nIn LRUK, TGJS, OKNN and BPSA the middle two letters differ by +3. In UDFT, D to F differs by +2. Thus UDFT is different.",
       "sourceQuestionNumber": 32,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "worked-deduction"
     },
     {
       "id": "adda-03-q033",
       "number": 33,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Order & Ranking",
       "stem": "Who among the following is the fourth shortest person?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
         "F",
@@ -625,15 +683,17 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) B Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields B.",
+      "explanation": "Source answer: (c) B\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Rank, shortest first | Person |\n| --- | --- |\n| 1 | A |\n| 2 | D |\n| 3 | E |\n| 4 | B |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 33,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 20,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q034",
       "number": 34,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Order & Ranking",
       "stem": "If the F’s height is 50cm more than G and the difference of height between E and F is 100cm then\nwhat is the possible height of B?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
         "174cm",
@@ -643,15 +703,17 @@
         "119cm"
       ],
       "answerIndex": 3,
-      "explanation": "Correct Answer: (d) Option D Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields Option D.",
+      "explanation": "Source answer: (d) 135cm\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Rank, shortest first | Person |\n| --- | --- |\n| 1 | A |\n| 2 | D |\n| 3 | E |\n| 4 | B |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 34,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q035",
       "number": 35,
       "section": "reasoning",
-      "topic": "Blood Relations",
+      "topic": "Order & Ranking",
       "stem": "How many persons shorter than the one who is just taller than E?\nStudy the given information carefully to answer the given questions.\nThere are seven persons i.e. A, B, C, D, E, F, and G of different heights. B is taller than D but shorter than\nC. F is taller than B, but not the tallest. Only four persons are shorter than G. G is shorter than C. E is\nshorter than B, but not the shortest. D is neither the shortest nor 3 rd shortest. Third highest person\nheight is 170 cm.",
       "options": [
         "Three",
@@ -661,9 +723,11 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) One Analysis & Solution:\nTopic: Blood Relations\nFormulating the problem equation based on the given ratios and quantities and solving for the required value yields One.",
+      "explanation": "Source answer: (a) Three\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Rank, shortest first | Person |\n| --- | --- |\n| 1 | A |\n| 2 | D |\n| 3 | E |\n| 4 | B |\n| 5 | G |\n| 6 | F |\n| 7 | C |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 35,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 21,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q036",
@@ -679,9 +743,11 @@
         "None of these"
       ],
       "answerIndex": 2,
-      "explanation": "Correct Answer: (c) Option C Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (c) Option C holds true.",
+      "explanation": "Source answer: (c) Apple\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Fruit |\n| --- | --- | --- |\n| 1 | S | Watermelon |\n| 2 | O | Mango |\n| 3 | M | Grapes |\n| 4 | N | Orange |\n| 5 | R | Pineapple |\n| 6 | P | Apple |\n| 7 | Q | Banana |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 36,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 22,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q037",
@@ -697,9 +763,11 @@
         "None of these"
       ],
       "answerIndex": 0,
-      "explanation": "Correct Answer: (a) S Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (a) S holds true.",
+      "explanation": "Source answer: (a) S\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Fruit |\n| --- | --- | --- |\n| 1 | S | Watermelon |\n| 2 | O | Mango |\n| 3 | M | Grapes |\n| 4 | N | Orange |\n| 5 | R | Pineapple |\n| 6 | P | Apple |\n| 7 | Q | Banana |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 37,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 23,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q038",
@@ -715,9 +783,11 @@
         "None of these"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) None of these\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Fruit |\n| --- | --- | --- |\n| 1 | S | Watermelon |\n| 2 | O | Mango |\n| 3 | M | Grapes |\n| 4 | N | Orange |\n| 5 | R | Pineapple |\n| 6 | P | Apple |\n| 7 | Q | Banana |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 38,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 23,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q039",
@@ -733,9 +803,11 @@
         "Only II"
       ],
       "answerIndex": 1,
-      "explanation": "Correct Answer: (b) Option B Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (b) Option B holds true.",
+      "explanation": "Source answer: (b) Both II and III\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Fruit |\n| --- | --- | --- |\n| 1 | S | Watermelon |\n| 2 | O | Mango |\n| 3 | M | Grapes |\n| 4 | N | Orange |\n| 5 | R | Pineapple |\n| 6 | P | Apple |\n| 7 | Q | Banana |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 39,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 24,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q040",
@@ -751,9 +823,11 @@
         "Immediate left"
       ],
       "answerIndex": 4,
-      "explanation": "Correct Answer: (e) Option E Analysis & Solution:\nTopic: Seating Arrangement (Linear / Parallel)\nFollowing the positive constraints and cross - referencing row/position bounds leads directly to the unique consistent configuration, where (e) Option E holds true.",
+      "explanation": "Source answer: (e) Immediate left\n\nPlace each person/item once and apply all the positional and ordering clues together. Checking all assignments leaves the following unique arrangement:\n\n| Left-to-right position | Person | Fruit |\n| --- | --- | --- |\n| 1 | S | Watermelon |\n| 2 | O | Mango |\n| 3 | M | Grapes |\n| 4 | N | Orange |\n| 5 | R | Pineapple |\n| 6 | P | Apple |\n| 7 | Q | Banana |\n\nRead the required position, gap, matching item, or true statement from this arrangement. A gap count excludes the two endpoints. This arrangement is derived from the displayed clues, not supplied as a worked solution in the publisher PDF.",
       "sourceQuestionNumber": 40,
-      "diagrams": []
+      "diagrams": [],
+      "sourcePdfPage": 25,
+      "explanationStatus": "constraint-verified-arrangement"
     },
     {
       "id": "adda-03-q041",
