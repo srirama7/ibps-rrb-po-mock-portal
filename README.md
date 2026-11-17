@@ -123,7 +123,39 @@ This covers desktop/mobile overflow, keyboard selection, clearing, review markin
 
 Older generator scripts and the original specification are retained as project history. `build_exam_bank.py` is the current bank generator; use the commands above for the published version.
 
-## Run and deploy
+## Karnataka Bank Exam
+
+`karnataka.html` adds the 10 user-supplied Karnataka Bank CSA campus-style mocks
+as interactive tests (750 questions), with source PDF downloads, one 60-minute
+deadline, autosaved answers, section navigation, review flags, auto-submission,
+attempt history and per-section results. Answer review includes the supplied
+brief explanations and exact question page links. Existing RRB storage is separate.
+
+The bank's 2026 campus recruitment notice was checked on November 17, 2026:
+https://karnatakabank.lntedutech.com/e/CNJDMT8X/login
+It specifies 75 questions, six named sections and 60 minutes. It does not specify
+sectional timings, question allocation, or negative marking. The supplied mocks'
+12/15/15/11/11/11 split is illustrative; practice scoring is +1 correct, zero
+otherwise. This differs from the 2024 general CSA 200-question/135-minute format.
+Leaving the test does not pause its clock. Answers and history stay in this browser.
+
+The ZIP's 10 previous-paper links are IBPS Clerk supplementary practice links,
+not verified Karnataka Bank past papers. They remain links to the publishers.
+Question text, options, passages, keys and short explanations are imported from
+the supplied original PDFs, with no claim of independent answer-key verification.
+
+To reproduce the import and run its browser checks:
+
+```sh
+python tools/build_karnataka_bank.py /path/to/Karnataka_Bank_CSA_10_Mocks_10_Past_Paper_Links.zip
+node --check karnataka.js
+python tools/test_karnataka_bank.py
+```
+
+The importer requires PyMuPDF; browser checks require Playwright and Chromium.
+Use `--url https://srirama7.github.io/ibps-rrb-po-mock-portal/` to check deployment.
+
+## Run and deploy the portal
 
 ```sh
 python -m http.server 8000
