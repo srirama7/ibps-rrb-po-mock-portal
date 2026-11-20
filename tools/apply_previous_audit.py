@@ -28,12 +28,18 @@ def apply():
             corrected=new is not None and old is not None and old!=new
             if corrected:changes.append({'paper':paper['id'],'question':int(n),'publisher':'ABCDE'[old],'reviewed':'ABCDE'[new]})
             row['correctedPublisherKey']=corrected
-            export.append([paper['title'],n,'' if new is None else 'ABCDE'[new],row['status'],'' if old is None else 'ABCDE'[old],row['explanation']])
     bank['auditVersion']=audit['version'];bank['auditSummary']=audit['summary'];bank['auditSummary']['correctedKeys']=changes
+    from apply_question_repairs import apply_repairs
+    apply_repairs(bank)
+    for paper in bank['papers']:
+        for n,row in paper['answerDetails'].items():
+            repair=paper.get('questionRepairs',{}).get(n,{})
+            old=paper['sourceAnswers'].get(n);new=row['answerIndex']
+            export.append([paper['title'],n,'' if new is None else 'ABCDE'[new],row['status'],'' if old is None else 'ABCDE'[old],row['explanation'],bank.get('questionVersion',bank['auditVersion']),repair.get('change',''),repair.get('context',''),repair.get('stem',''),' | '.join(f'{"ABCDE"[i]}: {v}' for i,v in enumerate(repair.get('options',[])))])
     (DATA/'catalog.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2),encoding='utf-8')
     (DATA/'catalog.js').write_text('window.PREVIOUS_PAPERS = '+json.dumps(bank,ensure_ascii=False)+';\n',encoding='utf-8')
     with (DATA/'reviewed_answers.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['Paper','Question','Reviewed answer','Status','Publisher answer','Explanation']);writer.writerows(export)
+        writer=csv.writer(f);writer.writerow(['Paper','Question','Reviewed answer','Status','Publisher answer','Explanation','Question version','Editorial repair','Shared clues','Amended question','Amended options']);writer.writerows(export)
     print(json.dumps(bank['auditSummary'],indent=2))
 
 if __name__=='__main__':apply()

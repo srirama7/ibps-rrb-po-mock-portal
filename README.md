@@ -12,12 +12,22 @@ answer sheet, a 45-minute practice timer, review flags, browser-local resume,
 automatic submission, attempt history and question-to-source-page navigation.
 These source papers use mixed question orders, so the practice timer is composite.
 
-The November 20 answer audit reviews all 960 question slots: **928 have usable
-answers and explanations; 32 are excluded** for missing, contradictory or
-insufficient source information. The 2021 paper now has derived answers and can
-be scored. Each paper displays its adjusted maximum. Syllogisms use the usual
-exam convention that named sets exist; underdetermined puzzles are checked
-against all arrangements allowed by the literal source clues.
+The November 20 update restores all 32 previously excluded questions. **Every
+new paper now has 80 scored questions: 960 across the 12 papers.** Repairs clarify
+gender in relationship questions, add missing puzzle clues, reconstruct the
+missing prompt, correct the chart's options, and specify the approximation rule.
+These are explicit editorial practice amendments, not recovered original text.
+
+There are 37 amended question views because shared puzzle clues are repeated
+on every affected question. During an attempt, the repaired question and its
+five choices appear first; the old PDF page is collapsed beneath it for comparison.
+The key includes the repair, solution and source link. A downloadable
+`data/previous/repaired_questions.pdf` contains the revised questions without
+answers. `reviewed_answers.csv` includes answers, amended wording and options.
+
+Earlier histories and ongoing attempts retain their original question version
+and scoring limits. Starting a new attempt activates the repaired version.
+Saved choices are not silently interpreted as answers to changed options.
 
 Two publisher keys are corrected:
 
@@ -26,25 +36,29 @@ Two publisher keys are corrected:
 
 Use **Right answers & explanations** without starting a test, or submit an attempt
 for question-by-question evaluation. Download all reviewed answers as CSV.
-Saved attempts are re-evaluated with the reviewed key while retaining answers,
-marked flags, completion times and the previous score. Excluded questions have
-no score effect. Source keys remain separately available for comparison.
+Older saved attempts still receive the original key corrections while retaining
+their earlier source wording and exclusions. New attempts use all 80 questions.
+Source keys remain separately available for comparison.
 
 The checked record is `data/previous/answer_audit.json`; `catalog.json` retains
-both publisher `sourceAnswers` and reviewed `answers`. The derived 2021 key is
+publisher `sourceAnswers`, current `answers`, and an immutable `preRepair` snapshot. The derived 2021 key is
 identified as a practice solution, not a publisher key. Original `Correct Option`
 labels in older PDFs remain hidden in the practice documents. These are
 memory-based preparation-provider papers, not official IBPS releases.
 
 To apply the checked audit after an import, run `python tools/apply_previous_audit.py`.
 The PDF importer applies it automatically when the audit record is present.
-For source-audit reproduction, `tools/rebuild_previous_audit.py` uses cached
+The canonical editorial changes are in `data/previous/question_repairs.json`;
+`tools/apply_question_repairs.py` applies them and creates the companion PDF.
+Run `python tools/test_question_repairs.py` to check coverage, unique puzzle
+solutions, repaired options and the downloads. For source-audit reproduction, `tools/rebuild_previous_audit.py` uses cached
 Tesseract OCR (with explicit source-image corrections), direct calculations,
 and the constraint models in `tools/audit_previous_models.py`. OCR is only an
 audit aid; the displayed questions remain the original PDF images.
 
 Run `python tools/test_previous_papers.py` for grading, history migration,
-corrections, source exclusions, answer-key views, resume, timer and mobile checks.
+corrections, repaired questions, legacy version isolation, answer-key views,
+resume, timer and mobile checks.
 Add `--url <site-url>` to verify the deployment. PDF import needs PyMuPDF,
 NumPy and OpenCV; browser checks use Playwright and Pillow. Audit models use Z3.
 The ignored `tools/prepp_cache/` contains source downloads and intermediate OCR.

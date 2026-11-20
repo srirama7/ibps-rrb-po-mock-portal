@@ -12,8 +12,10 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 bank = json.loads((ROOT/'data/previous/catalog.json').read_text(encoding='utf-8'))
 assert len(bank['papers']) == 12
-assert bank['auditSummary']['verifiedAnswers'] == 928
-assert bank['auditSummary']['excludedQuestions'] == 32
+assert bank['auditSummary']['verifiedAnswers'] == 960
+assert bank['auditSummary']['excludedQuestions'] == 0
+assert sum(len(p['preRepair']['excludedQuestions']) for p in bank['papers']) == 32
+assert sum(len(p['questionRepairs']) for p in bank['papers']) == 37
 assert sum(len(p['answers']) == 80 for p in bank['papers']) == 12
 for paper in bank['papers']:
     assert len(paper['answers']) in (0, 80)
@@ -66,8 +68,8 @@ def run(url):
         page.select_option('#pyKeyFilter','corrected')
         assert 'Q22' in page.locator('tbody tr').inner_text()
         assert 'Corrected from publisher A' in page.locator('tbody tr').inner_text()
-        page.select_option('#pyKeyFilter','excluded')
-        assert page.locator('tbody tr').count()==4
+        page.select_option('#pyKeyFilter','repaired')
+        assert page.locator('tbody tr').count()==6
         assert '6:5' in page.locator('tbody tr').last.inner_text()
         page.click('#pyKeyBack')
         for keyed in (t for t in bank['papers'] if t['answers']):
@@ -98,6 +100,11 @@ def run(url):
         assert page.locator('#pyPage').input_value() == '2'
         page.click('[data-question="1"]')
         assert page.locator('[data-choice].selected').get_attribute('data-choice') == str(correct)
+        page.click('[data-question="43"]')
+        assert page.locator('[data-choice]:disabled').count()==0
+        assert page.locator('[data-repair-choice]').count()==5
+        assert 'A man' in page.locator('.py-repair h3').inner_text()
+        assert 'therefore his son' not in page.locator('.py-repair').inner_text()
         page.click('#pySubmit');page.click('#pyCancel')
         assert page.locator('#pyTimer').count() == 1
         page.click('#pySubmit');page.click('#pyConfirm')
@@ -110,14 +117,33 @@ def run(url):
         assert len(ungraded['answers']) == 80
         page.locator(f'[data-start="{ungraded["id"]}"]').click();page.click('#pyBegin')
         page.click('[data-choice="3"]');page.click('#pySubmit');page.click('#pyConfirm')
-        assert page.locator('#pyScore').inner_text() == '1/79'
+        assert page.locator('#pyScore').inner_text() == '1/80'
         assert page.locator('td.py-wrong').count() == 0
         page.click('#pyResultHome')
         page.locator('[data-start="prepp-2022-08-20-shift-1"]').click();page.click('#pyBegin')
         page.click('[data-question="9"]')
-        assert page.locator('[data-choice]:disabled').count() == 5
-        assert 'omits' in page.locator('.py-sheet').inner_text()
+        assert page.locator('[data-choice]:disabled').count() == 0
+        assert 'FALSE' in page.locator('.py-repair h3').inner_text()
+        assert page.locator('[data-repair-choice]').count() == 5
+        assert not page.locator('.py-original-source').evaluate('(el)=>el.open')
+        page.click('[data-repair-choice="3"]')
         assert page.locator('#pyPage').input_value() == '3'
+        page.click('#pySubmit');page.click('#pyConfirm')
+        assert page.locator('#pyScore').inner_text() == '1/80'
+        assert 'Correct (+1)' in page.locator('tbody tr').nth(8).inner_text()
+        page.click('#pyResultHome')
+        page.locator('[data-start="prepp-2023-08-05-shift-2"]').click();page.click('#pyBegin')
+        page.click('[data-question="26"]')
+        assert 'M is older than P' in page.locator('.py-repair-context').inner_text()
+        assert page.locator('[data-repair-choice="3"]').inner_text().endswith('L')
+        page.click('[data-repair-choice="3"]');page.click('#pySubmit');page.click('#pyConfirm')
+        assert page.locator('#pyScore').inner_text() == '1/80'
+        page.click('#pyResultHome')
+        page.evaluate("localStorage.setItem('rrbpo_previous_active_v1',JSON.stringify({paperId:'prepp-2022-08-20-shift-1',endAt:Date.now()+600000,startedAt:Date.now(),number:9,pageIndex:2,answers:{},marked:[],visited:[9]}))")
+        page.reload(wait_until='networkidle');page.click('#pyResume')
+        assert page.locator('[data-choice]:disabled').count() == 5
+        assert page.locator('.py-repair').count() == 0
+        assert 'earlier source wording' in page.locator('#app').inner_text()
         page.click('#pySubmit');page.click('#pyConfirm')
         assert page.locator('#pyScore').inner_text() == '0/70'
         assert 'Not scored' in page.locator('tbody tr').nth(8).inner_text()
@@ -136,6 +162,10 @@ def run(url):
         page.wait_for_function("document.querySelector('#pyPageImage').complete && document.querySelector('#pyPageImage').naturalWidth > 0")
         (ROOT/'artifacts').mkdir(exist_ok=True)
         page.screenshot(path=str(ROOT/'artifacts/previous-mobile.png'),full_page=True)
+        page.click('[data-question="43"]')
+        assert page.locator('[data-repair-choice]').count()==5
+        assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth+1')
+        page.screenshot(path=str(ROOT/'artifacts/previous-repaired-mobile.png'),full_page=True)
         page.set_viewport_size({'width':1440,'height':1000})
         page.screenshot(path=str(ROOT/'artifacts/previous-exam.png'),full_page=True)
         page.goto(url,wait_until='networkidle')
@@ -148,7 +178,7 @@ def run(url):
         assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth+1')
         assert not errors,errors
         browser.close()
-    print('PASS: 12 reviewed keys, 960 audit records, corrections, history regrading, key views, scoring, resume, exclusions, auto-submit, mobile and direct links.')
+    print('PASS: 12 reviewed keys, 960 audit records, corrections, history regrading, key views, scoring, resume, 32 repairs, legacy attempt isolation, auto-submit, mobile and direct links.')
 
 
 if __name__=='__main__':
