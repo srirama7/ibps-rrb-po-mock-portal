@@ -68,8 +68,10 @@ def scanned_key(path):
 def render_page(task):
     pdf, number, target = task
     # PyMuPDF documents remain confined to their own process.
+    temporary = str(Path(target).with_suffix('.temporary.jpg'))
     with pymupdf.open(pdf) as doc:
-        doc[number].get_pixmap(matrix=pymupdf.Matrix(1.8, 1.8), alpha=False).save(target, jpg_quality=88)
+        doc[number].get_pixmap(matrix=pymupdf.Matrix(1.8, 1.8), alpha=False).save(temporary, jpg_quality=88)
+    Path(temporary).replace(target)
     return target
 
 
@@ -150,6 +152,9 @@ def main(reuse_images=False):
     bank = dict(papers=papers, sourceNote='Memory-based papers from the supplied Prepp download pack. Independent practice; not official IBPS paper releases.')
     (OUT/'catalog.json').write_text(json.dumps(bank, ensure_ascii=False, indent=2), encoding='utf-8')
     (OUT/'catalog.js').write_text('window.PREVIOUS_PAPERS = '+json.dumps(bank, ensure_ascii=False)+';\n', encoding='utf-8')
+    if (OUT/'answer_audit.json').is_file():
+        from apply_previous_audit import apply
+        apply()
 
 
 if __name__ == '__main__':

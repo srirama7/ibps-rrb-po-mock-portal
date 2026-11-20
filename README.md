@@ -6,33 +6,48 @@ Live: https://srirama7.github.io/ibps-rrb-po-mock-portal/
 
 ## Previous Year Papers (12 supplied papers)
 
-Open **Previous Year Papers** from the homepage to practise the supplied Prepp
-memory-based PDFs from 2021–2025. The workspace preserves source pages, shared
-passages, equations and diagrams, with an 80-question A–E answer sheet, review
-flags, saved progress, attempt history and automatic submission. Scanned papers
-use independent PDF page controls; searchable papers also jump to the selected
-question's page. This is PDF-based practice, rather than retyped question content.
+The **Previous Year Papers** library preserves the supplied Prepp memory-based
+PDF pages, shared passages, equations and diagrams. It provides an 80-slot A-E
+answer sheet, a 45-minute practice timer, review flags, browser-local resume,
+automatic submission, attempt history and question-to-source-page navigation.
+These source papers use mixed question orders, so the practice timer is composite.
 
-Question ordering differs across these sources, so this library uses one
-45-minute practice timer, not sectional locks. The timer keeps running while
-away or after refresh. Eleven papers have complete publisher keys and use
-+1 / −0.25 scoring, including marked answers. The 2021 paper has no supplied
-key and records an ungraded attempt. No worked solutions are claimed.
-The 2022 paper omits Q9's heading and prompt; its options and key appear on page
-3. Q9 is explicitly flagged and excluded from scoring, giving that paper a
-79-mark maximum. The missing question is not reconstructed.
+The November 20 answer audit reviews all 960 question slots: **928 have usable
+answers and explanations; 32 are excluded** for missing, contradictory or
+insufficient source information. The 2021 paper now has derived answers and can
+be scored. Each paper displays its adjusted maximum. Syllogisms use the usual
+exam convention that named sets exist; underdetermined puzzles are checked
+against all arrangements allowed by the literal source clues.
 
-Printed `Correct Option` labels in the three searchable older papers are redacted from
-both the displayed pages and the downloadable practice PDFs. Review retains
-source keys and links to the publisher originals. These memory-based papers
-are not official IBPS paper releases.
+Two publisher keys are corrected:
 
-The import reads `tools/prepp_cache/links.csv` and its downloaded PDFs from the
-user's download pack; that cache is ignored by Git. Rebuild with
-`python tools/build_previous_papers.py` (PyMuPDF, NumPy, opencv-python). Scanned
-key tables use checked source glyph templates with ambiguity checks; questions
-are never OCR-rewritten. Browser checks: `python tools/test_previous_papers.py`.
-Published assets and the complete catalog are under `data/previous/`.
+- 2023 August 5 Shift 1 Q6: **E**, both conclusions follow (publisher: B).
+- 2023 August 5 Shift 2 Q22: **E**, neither conclusion follows (publisher: A).
+
+Use **Right answers & explanations** without starting a test, or submit an attempt
+for question-by-question evaluation. Download all reviewed answers as CSV.
+Saved attempts are re-evaluated with the reviewed key while retaining answers,
+marked flags, completion times and the previous score. Excluded questions have
+no score effect. Source keys remain separately available for comparison.
+
+The checked record is `data/previous/answer_audit.json`; `catalog.json` retains
+both publisher `sourceAnswers` and reviewed `answers`. The derived 2021 key is
+identified as a practice solution, not a publisher key. Original `Correct Option`
+labels in older PDFs remain hidden in the practice documents. These are
+memory-based preparation-provider papers, not official IBPS releases.
+
+To apply the checked audit after an import, run `python tools/apply_previous_audit.py`.
+The PDF importer applies it automatically when the audit record is present.
+For source-audit reproduction, `tools/rebuild_previous_audit.py` uses cached
+Tesseract OCR (with explicit source-image corrections), direct calculations,
+and the constraint models in `tools/audit_previous_models.py`. OCR is only an
+audit aid; the displayed questions remain the original PDF images.
+
+Run `python tools/test_previous_papers.py` for grading, history migration,
+corrections, source exclusions, answer-key views, resume, timer and mobile checks.
+Add `--url <site-url>` to verify the deployment. PDF import needs PyMuPDF,
+NumPy and OpenCV; browser checks use Playwright and Pillow. Audit models use Z3.
+The ignored `tools/prepp_cache/` contains source downloads and intermediate OCR.
 
 ## Practice format
 

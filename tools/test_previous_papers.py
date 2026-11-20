@@ -6,17 +6,24 @@ import json
 from pathlib import Path
 import threading
 import pymupdf
+from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 bank = json.loads((ROOT/'data/previous/catalog.json').read_text(encoding='utf-8'))
 assert len(bank['papers']) == 12
-assert sum(len(p['answers']) == 80 for p in bank['papers']) == 11
+assert bank['auditSummary']['verifiedAnswers'] == 928
+assert bank['auditSummary']['excludedQuestions'] == 32
+assert sum(len(p['answers']) == 80 for p in bank['papers']) == 12
 for paper in bank['papers']:
     assert len(paper['answers']) in (0, 80)
-    assert all(isinstance(a,int) and 0 <= a <= 4 for a in paper['answers'].values())
+    assert all(a is None or isinstance(a,int) and 0 <= a <= 4 for a in paper['answers'].values())
+    assert len(paper['answerDetails']) == 80
+    assert all(r['explanation'] for r in paper['answerDetails'].values())
     assert len(paper['pages']) > 0 and all((ROOT / f).is_file() for f in paper['pages'])
     assert (ROOT/paper['pdf']).is_file()
+    for file in paper['pages']:
+        with Image.open(ROOT/file) as im: im.load()
     with pymupdf.open(ROOT/paper['pdf']) as doc:
         assert 'Correct Option' not in ''.join(page.get_text() for page in doc)
     assert all(0 <= page < len(paper['pages']) for page in paper['questionPages'].values())
@@ -31,6 +38,38 @@ def run(url):
         page.on('pageerror',lambda e: errors.append(str(e)))
         page.goto(url+'previous.html',wait_until='networkidle')
         assert page.locator('.py-card').count() == 12
+        assert page.locator('[data-key]').count() == 12
+        # Source-key corrections must re-evaluate saved attempts, preserving choices.
+        page.evaluate('''() => {
+          const rows=[
+            {paperId:'prepp-2023-08-05-shift-1',answers:{6:1},marked:[6],visited:[6],score:1,completedAt:new Date().toISOString()},
+            {paperId:'prepp-2023-08-05-shift-1',answers:{6:4},marked:[],visited:[6],score:-.25,completedAt:new Date().toISOString()},
+            {paperId:'prepp-2021-08-01',answers:{1:3},marked:[],visited:[1],score:null,completedAt:new Date().toISOString()}
+          ]; localStorage.setItem('rrbpo_previous_history_v1',JSON.stringify(rows));
+        }''')
+        page.reload(wait_until='networkidle')
+        migrated=page.evaluate('PreviousPortal.history()')
+        assert [r['score'] for r in migrated] == [-.25,1,1]
+        assert migrated[0]['answers'] == {'6':1} and migrated[0]['marked'] == [6]
+        assert all(r['reviewVersion']==bank['auditVersion'] for r in migrated)
+        page.locator('[data-key="prepp-2023-08-05-shift-1"]').click()
+        page.select_option('#pyKeyFilter','corrected')
+        assert page.locator('tbody tr').count()==1
+        assert page.locator('tbody tr').inner_text().startswith('Q6')
+        assert 'Corrected from publisher B' in page.locator('tbody tr').inner_text()
+        assert 'Both conclusions follow: E' in page.locator('tbody tr').inner_text()
+        assert page.evaluate("localStorage.getItem('rrbpo_previous_active_v1')") is None
+        (ROOT/'artifacts').mkdir(exist_ok=True)
+        page.screenshot(path=str(ROOT/'artifacts/previous-corrected-key.png'),full_page=True)
+        page.click('#pyKeyBack')
+        page.locator('[data-key="prepp-2023-08-05-shift-2"]').click()
+        page.select_option('#pyKeyFilter','corrected')
+        assert 'Q22' in page.locator('tbody tr').inner_text()
+        assert 'Corrected from publisher A' in page.locator('tbody tr').inner_text()
+        page.select_option('#pyKeyFilter','excluded')
+        assert page.locator('tbody tr').count()==4
+        assert '6:5' in page.locator('tbody tr').last.inner_text()
+        page.click('#pyKeyBack')
         for keyed in (t for t in bank['papers'] if t['answers']):
             scores = page.evaluate('''t => {
                 const wrong=Object.fromEntries(Object.entries(t.answers).map(([n,a])=>[n,(a+1)%5]));
@@ -62,31 +101,31 @@ def run(url):
         page.click('#pySubmit');page.click('#pyCancel')
         assert page.locator('#pyTimer').count() == 1
         page.click('#pySubmit');page.click('#pyConfirm')
-        assert page.locator('#pyScore').inner_text() == '0.75/80'
+        assert page.locator('#pyScore').inner_text() == f'0.75/{80-len(paper["excludedQuestions"])}'
         page.select_option('#pyReviewFilter','wrong')
         assert page.locator('tbody tr').count() == 1
         assert page.locator('tbody tr').first.inner_text().startswith('Q2')
         page.click('#pyResultHome')
         ungraded=bank['papers'][-1]
-        assert ungraded['answers'] == {}
+        assert len(ungraded['answers']) == 80
         page.locator(f'[data-start="{ungraded["id"]}"]').click();page.click('#pyBegin')
-        page.click('[data-choice="0"]');page.click('#pySubmit');page.click('#pyConfirm')
-        assert page.locator('#pyScore').inner_text() == 'Ungraded answer record'
+        page.click('[data-choice="3"]');page.click('#pySubmit');page.click('#pyConfirm')
+        assert page.locator('#pyScore').inner_text() == '1/79'
         assert page.locator('td.py-wrong').count() == 0
         page.click('#pyResultHome')
         page.locator('[data-start="prepp-2022-08-20-shift-1"]').click();page.click('#pyBegin')
         page.click('[data-question="9"]')
         assert page.locator('[data-choice]:disabled').count() == 5
-        assert 'excluded from scoring' in page.locator('.py-sheet').inner_text()
+        assert 'omits' in page.locator('.py-sheet').inner_text()
         assert page.locator('#pyPage').input_value() == '3'
         page.click('#pySubmit');page.click('#pyConfirm')
-        assert page.locator('#pyScore').inner_text() == '0/79'
-        assert 'Excluded: source prompt missing' in page.locator('tbody tr').nth(8).inner_text()
+        assert page.locator('#pyScore').inner_text() == '0/70'
+        assert 'Not scored' in page.locator('tbody tr').nth(8).inner_text()
         page.click('#pyResultHome')
         page.locator(f'[data-start="{paper["id"]}"]').click();page.click('#pyBegin')
         page.evaluate("const a=JSON.parse(localStorage.getItem('rrbpo_previous_active_v1')); a.endAt=Date.now()-1000; localStorage.setItem('rrbpo_previous_active_v1',JSON.stringify(a));")
         page.reload(wait_until='networkidle')
-        assert page.locator('#pyScore').inner_text() == '0/80'
+        assert page.locator('#pyScore').inner_text() == f'0/{80-len(paper["excludedQuestions"])}'
         assert 'AUTOMATICALLY SUBMITTED' in page.locator('.py-label').first.inner_text()
         assert page.evaluate("localStorage.getItem('rrbpo_previous_active_v1')") is None
         page.click('#pyResultHome')
@@ -103,9 +142,13 @@ def run(url):
         page.wait_for_selector('#tabPrevious')
         assert page.locator('#tabPrevious').get_attribute('href')=='previous.html'
         assert page.locator('.mock-card').count()==20
+        page.goto(url+'previous.html#answers=prepp-2023-08-05-shift-1',wait_until='networkidle')
+        assert page.locator('#pyKeyFilter').count()==1
+        page.set_viewport_size({'width':390,'height':844})
+        assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth+1')
         assert not errors,errors
         browser.close()
-    print('PASS: 12 papers, 11 keys, filtering, answer save/resume, review marking, source pages, scoring, ungraded mode, auto-submit, mobile and home integration.')
+    print('PASS: 12 reviewed keys, 960 audit records, corrections, history regrading, key views, scoring, resume, exclusions, auto-submit, mobile and direct links.')
 
 
 if __name__=='__main__':
