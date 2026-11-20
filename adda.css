@@ -10,6 +10,7 @@
 
 .library-switch {
   display: inline-flex;
+  flex-wrap: wrap;
   background: #e5ece0;
   padding: 5px;
   border-radius: 12px;

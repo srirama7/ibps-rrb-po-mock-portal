@@ -308,6 +308,7 @@
         <button class="library-tab-btn ${currentTab === 'adda' ? 'active' : ''}" id="tabAdda" role="tab" aria-selected="${currentTab === 'adda'}" data-tab="adda">
           Adda Mocks <span class="tab-badge" style="background:#cfe68c; color:#173c34;">10 NEW</span>
         </button>
+        <a class="library-tab-btn" href="previous.html" id="tabPrevious">Previous Year Papers <span class="tab-badge">12</span></a>
         <a class="library-tab-btn" href="karnataka.html" id="tabKarnataka">Karnataka Bank Exam <span class="tab-badge">10</span></a>
       </div>
       <div style="font-size: 12.5px; color: var(--text-muted);">

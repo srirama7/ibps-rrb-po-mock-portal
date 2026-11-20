@@ -4,6 +4,36 @@
 
 Live: https://srirama7.github.io/ibps-rrb-po-mock-portal/
 
+## Previous Year Papers (12 supplied papers)
+
+Open **Previous Year Papers** from the homepage to practise the supplied Prepp
+memory-based PDFs from 2021–2025. The workspace preserves source pages, shared
+passages, equations and diagrams, with an 80-question A–E answer sheet, review
+flags, saved progress, attempt history and automatic submission. Scanned papers
+use independent PDF page controls; searchable papers also jump to the selected
+question's page. This is PDF-based practice, rather than retyped question content.
+
+Question ordering differs across these sources, so this library uses one
+45-minute practice timer, not sectional locks. The timer keeps running while
+away or after refresh. Eleven papers have complete publisher keys and use
++1 / −0.25 scoring, including marked answers. The 2021 paper has no supplied
+key and records an ungraded attempt. No worked solutions are claimed.
+The 2022 paper omits Q9's heading and prompt; its options and key appear on page
+3. Q9 is explicitly flagged and excluded from scoring, giving that paper a
+79-mark maximum. The missing question is not reconstructed.
+
+Printed `Correct Option` labels in the three searchable older papers are redacted from
+both the displayed pages and the downloadable practice PDFs. Review retains
+source keys and links to the publisher originals. These memory-based papers
+are not official IBPS paper releases.
+
+The import reads `tools/prepp_cache/links.csv` and its downloaded PDFs from the
+user's download pack; that cache is ignored by Git. Rebuild with
+`python tools/build_previous_papers.py` (PyMuPDF, NumPy, opencv-python). Scanned
+key tables use checked source glyph templates with ambiguity checks; questions
+are never OCR-rewritten. Browser checks: `python tools/test_previous_papers.py`.
+Published assets and the complete catalog are under `data/previous/`.
+
 ## Practice format
 
 - Reasoning: 40 questions in 25 minutes; Quantitative Aptitude: 40 questions in 20 minutes.
