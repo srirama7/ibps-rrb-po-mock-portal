@@ -745,7 +745,7 @@
       "30": {
         "answerIndex": 2,
         "answer": "3",
-        "explanation": "In D@L*JA@SHZLYE, count adjacent pairs in which a letter is followed immediately by a symbol: 3.",
+        "explanation": "In D@L*JA@SHZL9E, count adjacent pairs in which a letter is followed immediately by a symbol: 3.",
         "status": "verified",
         "sourcePage": 5
       },
@@ -952,7 +952,7 @@
       "60": {
         "answerIndex": 0,
         "answer": "0",
-        "explanation": "In #2G436VE5YYSW, count letter-digit-symbol triples: 0.",
+        "explanation": "In #2G436V$5YY5W, count letter-digit-symbol triples: 0.",
         "status": "verified",
         "sourcePage": 9
       },
@@ -1018,7 +1018,7 @@
       "70": {
         "answerIndex": 4,
         "answer": "2",
-        "explanation": "In REW1LOZ*SMVE&U, count adjacent pairs in which a letter is followed immediately by a symbol: 2.",
+        "explanation": "In REW1L9Z*SMV&U, count adjacent pairs in which a letter is followed immediately by a symbol: 2.",
         "status": "verified",
         "sourcePage": 11
       },
@@ -1101,7 +1101,7 @@
       "2": {
         "answerIndex": 4,
         "answer": "3",
-        "explanation": "In S8L4R54VB$7V47, count digit-letter-digit triples: 3.",
+        "explanation": "In 8L4R54VB$7V47, count digit-letter-digit triples: 3.",
         "status": "verified",
         "sourcePage": 1
       },
@@ -1156,7 +1156,7 @@
       "10": {
         "answerIndex": 0,
         "answer": "1",
-        "explanation": "In Z26S59AGNU$6$0, count adjacent pairs in which a letter is followed immediately by a symbol: 1.",
+        "explanation": "In 26S59AGNU$6$0, count adjacent pairs in which a letter is followed immediately by a symbol: 1.",
         "status": "verified",
         "sourcePage": 2
       },
@@ -1682,7 +1682,7 @@
       "8": {
         "answerIndex": 3,
         "answer": "0",
-        "explanation": "In CS$#E7X&KZ2672H, count letter-digit-symbol triples: 0.",
+        "explanation": "In 0$#87X&K2672H, count letter-digit-symbol triples: 0.",
         "status": "verified",
         "sourcePage": 2
       },
@@ -1942,7 +1942,7 @@
       "46": {
         "answerIndex": 3,
         "answer": "0",
-        "explanation": "In $@ZOR%NXL#H9OBL#, count digit-letter-digit triples: 0.",
+        "explanation": "In $@36R%XL#98L#, count digit-letter-digit triples: 0.",
         "status": "verified",
         "sourcePage": 7
       },
@@ -2127,7 +2127,7 @@
       "74": {
         "answerIndex": 1,
         "answer": "0",
-        "explanation": "In Q%MSH&OEC%NGSV#, count digit-letter-digit triples: 0.",
+        "explanation": "In Q%M5H&06%G5V#, count digit-letter-digit triples: 0.",
         "status": "verified",
         "sourcePage": 12
       },
@@ -2263,7 +2263,7 @@
       "14": {
         "answerIndex": 3,
         "answer": "0",
-        "explanation": "In 99GBG2*#$AS4X, count digit-letter-digit triples: 0.",
+        "explanation": "In 99GBG2*#$A54X, count digit-letter-digit triples: 0.",
         "status": "verified",
         "sourcePage": 2
       },
@@ -2723,7 +2723,7 @@
       "2": {
         "answerIndex": 0,
         "answer": "1",
-        "explanation": "In Z3U0BR8#UH&1$6, count adjacent pairs in which a letter is followed immediately by a symbol: 1.",
+        "explanation": "In 3U0BR8#UH&1$6, count adjacent pairs in which a letter is followed immediately by a symbol: 1.",
         "status": "verified",
         "sourcePage": 1
       },
@@ -2987,7 +2987,7 @@
       "41": {
         "answerIndex": 4,
         "answer": "2",
-        "explanation": "In QJ@SLOY@sR2ER, count adjacent pairs in which a letter is followed immediately by a symbol: 2.",
+        "explanation": "In QJ@8L0Y@$R28R, count adjacent pairs in which a letter is followed immediately by a symbol: 2.",
         "status": "verified",
         "sourcePage": 7
       },
@@ -3121,13 +3121,13 @@
       "61": {
         "answerIndex": 2,
         "answer": "0",
-        "explanation": "In $ACBIF¥UZ2GUWT%, count digit-letter-digit triples: 0.",
+        "explanation": "In $ACB1#U2GUWT%, count digit-letter-digit triples: 0.",
         "status": "verified",
         "sourcePage": 10
       },
       "62": {
         "answerIndex": 0,
-        "explanation": "The x roots are [6.0, 11.0]; the y roots are [-3.0, 7.0]. Comparing every x/y combination gives no single ordering.",
+        "explanation": "The x roots are [5.0, 12.0]; the y roots are [-3.0, 7.0]. Comparing every x/y combination gives no single ordering.",
         "status": "verified",
         "sourcePage": 10
       },
@@ -3312,7 +3312,7 @@
       "9": {
         "answerIndex": 1,
         "answer": "0",
-        "explanation": "In Z3HBWF4%9X429P, count adjacent pairs in which a letter is followed immediately by a symbol: 0.",
+        "explanation": "In 3HBWF4%9X429P, count adjacent pairs in which a letter is followed immediately by a symbol: 0.",
         "status": "verified",
         "sourcePage": 2
       },
@@ -3413,14 +3413,14 @@
       },
       "24": {
         "answerIndex": 2,
-        "explanation": "The x roots are [-7.0, 0.0]; the y roots are [0.21663903126004413, 110.78336096873996]. Comparing every x/y combination gives x < y.",
+        "explanation": "The x roots are [-7.0, 0.0]; the y roots are [3.0, 8.0]. Comparing every x/y combination gives x < y.",
         "status": "verified",
         "sourcePage": 4
       },
       "25": {
         "answerIndex": 3,
         "status": "verified",
-        "explanation": "Apply the chain  C>D<E>G . Conclusion I does not necessarily follow; conclusion II does not necessarily follow. Result: neither.",
+        "explanation": "Apply the chain  C > D < E > G . Conclusion I does not necessarily follow; conclusion II does not necessarily follow. Result: neither.",
         "sourcePage": 4
       },
       "26": {
@@ -3844,7 +3844,7 @@
       "8": {
         "answerIndex": 3,
         "answer": "0",
-        "explanation": "In B&E&NOHHOFOA%*®, count letter-digit-symbol triples: 0.",
+        "explanation": "In 8&&N9HH070A%*, count letter-digit-symbol triples: 0.",
         "status": "verified",
         "sourcePage": 2
       },
@@ -4033,7 +4033,7 @@
       "36": {
         "answerIndex": 2,
         "answer": "0",
-        "explanation": "In 6GR&4179T@%2WN, count digit-letter-digit triples: 0.",
+        "explanation": "In 6R&4179T@%2WN, count digit-letter-digit triples: 0.",
         "status": "verified",
         "sourcePage": 6
       },
@@ -4617,7 +4617,7 @@
       "42": {
         "answerIndex": 4,
         "answer": "1",
-        "explanation": "In G8U82GPSX*8Z2, count adjacent pairs in which a letter is followed immediately by a symbol: 1.",
+        "explanation": "In G8U82GP5X*8Z2, count adjacent pairs in which a letter is followed immediately by a symbol: 1.",
         "status": "verified",
         "sourcePage": 7
       },

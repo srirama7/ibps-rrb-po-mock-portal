@@ -1,43 +1,367 @@
 {
-  "prepp-2021-08-01:41": {"options": ["x > y", "x = y or relationship cannot be established", "x >= y", "x <= y", "x < y"]},
-  "prepp-2021-08-01:64": {"stem": "Study the following sequence carefully and answer the question given below: A & Q $ 5 Z A B P 4 P Y E How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"},
-  "prepp-2021-08-01:80": {"stem": "Study the following sequence carefully and answer the question given below: J $ * U 6 1 8 @ 7 7 C 3 9 How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"},
-  "prepp-2021-08-01:77": {"stem": "sqrt(4) x 27 - (11 x 2) + 27 = ?"},
-  "prepp-2024-08-03-shift-1:47": {"optionFixes": {"3": "-9.38"}},
-  "prepp-2024-08-03-shift-1:50": {"stem": "Statement: D < B < C = H Conclusions: I. D = C II. B = H"},
-  "prepp-2024-08-03-shift-1:51": {"stem": "sqrt(100) x 34 - (7 x 2) + 25 = ?"},
-  "prepp-2024-08-03-shift-2:18": {"stem": "(4^3) - (8^2) + 11 / 4 = ?"},
-  "prepp-2024-08-03-shift-2:49": {"stem": "Statement: A < E = G > C Conclusions: I. A = G II. E > C"},
-  "prepp-2024-08-03-shift-2:56": {"stem": "I. x2 - 17x + 70 = 0 II. y2 + 5y - 50 = 0. On solving both equations, find the relation between x and y.", "options": ["x > y", "x <= y", "x = y or relationship cannot be established", "x >= y", "x < y"]},
-  "prepp-2024-08-03-shift-2:71": {"stem": "(9^2) - (8^3) + 32 / 5 = ?"},
-  "prepp-2024-08-03-shift-2:74": {"stem": "(10^3) - (7^3) + 40 / 5 = ?"},
-  "prepp-2024-08-03-shift-2:78": {"stem": "42 x (2/3) + (7/8) x 6 = ?"},
-  "prepp-2024-08-04-shift-1:10": {"stem": "[(18 x 11) / 4 - 5] x 8 / 9 + (11 - 4) = ?"},
-  "prepp-2024-08-04-shift-1:30": {"options": ["x > y", "x >= y", "x <= y", "x = y or relationship cannot be established", "x < y"]},
-  "prepp-2024-08-04-shift-1:45": {"stem": "(4^4) - (6^3) + 32 / 2 = ?"},
-  "prepp-2024-08-04-shift-1:51": {"stem": "Statement: D < E > A < B Conclusions: I. D > A II. E > B"},
-  "prepp-2024-08-04-shift-2:6": {"stem": "(9^2) - (3^2) + 35 / 4 = ?"},
-  "prepp-2024-08-04-shift-2:9": {"stem": "I. x2 + 11x - 12 = 0 II. y2 - 9y + 20 = 0. On solving both equations, find the relation between x and y.", "options": ["x >= y", "x <= y", "x < y", "x = y or relationship cannot be established", "x > y"]},
-  "prepp-2024-08-04-shift-2:21": {"stem": "sqrt(49) x 23 - (10 x 6) + 20 = ?"},
-  "prepp-2025-11-22-shift-1:44": {"stem": "Statement: H < A < C = D Conclusions: I. H > C II. A = D"},
-  "prepp-2025-11-22-shift-1:66": {"stemReplace": {"i5th": "15th"}},
-  "prepp-2025-11-22-shift-2:29": {"options": ["x < y", "x <= y", "x = y or relationship cannot be established", "x >= y", "x > y"]},
-  "prepp-2025-11-22-shift-2:31": {"stem": "Study the following sequence carefully and answer the question given below: 4 & 3 # Q X 4 G Z N A 8 & How many times does a symbol immediately follows a letter in the above sequence?"},
-  "prepp-2025-11-22-shift-2:49": {"stem": "Statement: D = C > H = G Conclusions: I. D > H II. C < G"},
-  "prepp-2025-11-23-shift-1:1": {"stem": "[(19 x 4) / 9 - 7] x 7 / 7 + (4 - 9) = ?"},
-  "prepp-2025-11-23-shift-1:3": {"optionFixes": {"0": "x < y"}},
-  "prepp-2025-11-23-shift-1:6": {"stem": "Statement: H = C > D = B Conclusions: I. H < D II. C < B"},
-  "prepp-2025-11-23-shift-1:14": {"stem": "Study the following sequence carefully and answer the question given below: A * 4 V @ X 1 F 6 7 % 9 H How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"},
-  "prepp-2025-11-23-shift-1:25": {"stem": "[(35 x 11) / 5 - 7] x 2 / 22 + (11 - 5) = ?"},
-  "prepp-2025-11-23-shift-1:23": {"optionFixes": {"3": "Only I and II follow"}},
-  "prepp-2025-11-23-shift-1:37": {"stem": "I. x2 + 11x - 12 = 0 II. y2 - 11y + 10 = 0. On solving both equations, find the relation between x and y."},
-  "prepp-2025-11-23-shift-1:50": {"stem": "(3^4) - (5^3) + 14 / 4 = ?"},
-  "prepp-2025-11-23-shift-1:67": {"stem": "Statement: D < B > C = H Conclusions: I. D > C II. B > H"},
-  "prepp-2025-11-23-shift-2:3": {"optionFixes": {"2": "x >= y"}},
-  "prepp-2025-11-23-shift-2:33": {"stem": "(12^4) - (7^3) + 20 / 4 = ?"},
-  "prepp-2025-11-23-shift-2:34": {"stem": "(5^2) - (8^3) + 30 / 5 = ?"},
-  "prepp-2025-11-23-shift-2:44": {"stem": "Study the following sequence carefully and answer the question given below: 2 5 D 5 0 Z & H 8 $ 9 Z 9 How many times does a symbol immediately follows a letter in the above sequence?"},
-  "prepp-2025-11-23-shift-2:51": {"stem": "Statement: D < F = G > C Conclusions: I. D > G II. F < C"},
-  "prepp-2025-11-23-shift-2:70": {"stem": "(10^2) - (3^2) + 35 / 5 = ?"},
-  "prepp-2025-11-23-shift-2:72": {"stem": "Study the following sequence carefully and answer the question given below: 9 M 0 @ 1 @ 6 E 1 2 T Q B How many times does a digit is immediately preceded by a letter and immediately followed by a symbol in the above sequence?"}
+  "prepp-2021-08-01:41": {
+    "options": [
+      "x > y",
+      "x = y or relationship cannot be established",
+      "x >= y",
+      "x <= y",
+      "x < y"
+    ],
+    "stem": "I. x2 -12x +11 = 0 II. y2 +1y -2 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2021-08-01:64": {
+    "stem": "Study the following sequence carefully and answer the question given below: A&Q$5ZABP4PYE How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2021-08-01:80": {
+    "stem": "Study the following sequence carefully and answer the question given below: J$*U618@77C39 How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2021-08-01:77": {
+    "stem": "sqrt(4) x 27 - (11 x 2) + 27 = ?"
+  },
+  "prepp-2024-08-03-shift-1:47": {
+    "optionFixes": {
+      "3": "-9.38"
+    }
+  },
+  "prepp-2024-08-03-shift-1:50": {
+    "stem": "Statement: D < B < C = H Conclusions: I. D = C II. B = H"
+  },
+  "prepp-2024-08-03-shift-1:51": {
+    "stem": "sqrt(100) x 34 - (7 x 2) + 25 = ?"
+  },
+  "prepp-2024-08-03-shift-2:18": {
+    "stem": "(4^3) - (8^2) + 11 / 4 = ?"
+  },
+  "prepp-2024-08-03-shift-2:49": {
+    "stem": "Statement: A < E = G > C Conclusions: I. A = G II. E > C"
+  },
+  "prepp-2024-08-03-shift-2:56": {
+    "stem": "I. x2 -17x +70 = 0 II. y2 +5y -50 = 0. On solving both equations, find the relation between x and y.",
+    "options": [
+      "x > y",
+      "x <= y",
+      "x = y or relationship cannot be established",
+      "x >= y",
+      "x < y"
+    ]
+  },
+  "prepp-2024-08-03-shift-2:71": {
+    "stem": "(9^2) - (8^3) + 32 / 5 = ?"
+  },
+  "prepp-2024-08-03-shift-2:74": {
+    "stem": "(10^3) - (7^3) + 40 / 5 = ?"
+  },
+  "prepp-2024-08-03-shift-2:78": {
+    "stem": "42 x (2/3) + (7/8) x 6 = ?"
+  },
+  "prepp-2024-08-04-shift-1:10": {
+    "stem": "[(18 x 11) / 4 - 5] x 8 / 9 + (11 - 4) = ?"
+  },
+  "prepp-2024-08-04-shift-1:30": {
+    "options": [
+      "x > y",
+      "x >= y",
+      "x <= y",
+      "x = y or relationship cannot be established",
+      "x < y"
+    ],
+    "stem": "I. x2 -2x -99 = 0 II. y2 +21y +108 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-1:45": {
+    "stem": "(4^4) - (6^3) + 32 / 2 = ?"
+  },
+  "prepp-2024-08-04-shift-1:51": {
+    "stem": "Statement: D < E > A < B Conclusions: I. D > A II. E > B"
+  },
+  "prepp-2024-08-04-shift-2:6": {
+    "stem": "(9^2) - (3^2) + 35 / 4 = ?"
+  },
+  "prepp-2024-08-04-shift-2:9": {
+    "stem": "I. x2 +11x -12 = 0 II. y2 -9y +20 = 0. On solving both equations, find the relation between x and y.",
+    "options": [
+      "x >= y",
+      "x <= y",
+      "x < y",
+      "x = y or relationship cannot be established",
+      "x > y"
+    ]
+  },
+  "prepp-2024-08-04-shift-2:21": {
+    "stem": "sqrt(49) x 23 - (10 x 6) + 20 = ?"
+  },
+  "prepp-2025-11-22-shift-1:44": {
+    "stem": "Statement: H < A < C = D Conclusions: I. H > C II. A = D"
+  },
+  "prepp-2025-11-22-shift-1:66": {
+    "stemReplace": {
+      "i5th": "15th"
+    }
+  },
+  "prepp-2025-11-22-shift-2:29": {
+    "options": [
+      "x < y",
+      "x <= y",
+      "x = y or relationship cannot be established",
+      "x >= y",
+      "x > y"
+    ],
+    "stem": "I. x2 -2x +0 = 0 II. y2 -22y +120 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-2:31": {
+    "stem": "Study the following sequence carefully and answer the question given below: 4&3#QX4GZNA8& How many times does a symbol immediately follows a letter in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-2:49": {
+    "stem": "Statement: D = C > H = G Conclusions: I. D > H II. C < G"
+  },
+  "prepp-2025-11-23-shift-1:1": {
+    "stem": "[(19 x 4) / 9 - 7] x 7 / 7 + (4 - 9) = ?"
+  },
+  "prepp-2025-11-23-shift-1:3": {
+    "optionFixes": {
+      "0": "x < y"
+    },
+    "stem": "I. x2 +5x -50 = 0 II. y2 -16y +63 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-1:6": {
+    "stem": "Statement: H = C > D = B Conclusions: I. H < D II. C < B"
+  },
+  "prepp-2025-11-23-shift-1:14": {
+    "stem": "Study the following sequence carefully and answer the question given below: A*4V@X1F67%9H How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2025-11-23-shift-1:25": {
+    "stem": "[(35 x 11) / 5 - 7] x 2 / 22 + (11 - 5) = ?"
+  },
+  "prepp-2025-11-23-shift-1:23": {
+    "optionFixes": {
+      "3": "Only I and II follow"
+    }
+  },
+  "prepp-2025-11-23-shift-1:37": {
+    "stem": "I. x2 +11x -12 = 0 II. y2 -11y +10 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-1:50": {
+    "stem": "(3^4) - (5^3) + 14 / 4 = ?"
+  },
+  "prepp-2025-11-23-shift-1:67": {
+    "stem": "Statement: D < B > C = H Conclusions: I. D > C II. B > H"
+  },
+  "prepp-2025-11-23-shift-2:3": {
+    "optionFixes": {
+      "2": "x >= y"
+    },
+    "stem": "I. x2 +0x -64 = 0 II. y2 +18y +80 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-2:33": {
+    "stem": "(12^4) - (7^3) + 20 / 4 = ?"
+  },
+  "prepp-2025-11-23-shift-2:34": {
+    "stem": "(5^2) - (8^3) + 30 / 5 = ?"
+  },
+  "prepp-2025-11-23-shift-2:44": {
+    "stem": "Study the following sequence carefully and answer the question given below: 25D50Z&H8$9Z9 How many times does a symbol immediately follows a letter in the above sequence?"
+  },
+  "prepp-2025-11-23-shift-2:51": {
+    "stem": "Statement: D < F = G > C Conclusions: I. D > G II. F < C"
+  },
+  "prepp-2025-11-23-shift-2:70": {
+    "stem": "(10^2) - (3^2) + 35 / 5 = ?"
+  },
+  "prepp-2025-11-23-shift-2:72": {
+    "stem": "Study the following sequence carefully and answer the question given below: 9M0@1@6E12TQB How many times does a digit is immediately preceded by a letter and immediately followed by a symbol in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-1:47": {
+    "optionFixes": {
+      "4": "x <= y"
+    },
+    "stem": "I. x2 +14x +48 = 0 II. y2 +9y +14 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-1:62": {
+    "optionFixes": {
+      "3": "x <= y"
+    },
+    "stem": "I. x2 -17x +60 = 0 II. y2 -4y -21 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-1:67": {
+    "optionFixes": {
+      "2": "x <= y"
+    },
+    "stem": "I. x2 -7x -18 = 0 II. y2 -10y +9 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-2:20": {
+    "optionFixes": {
+      "1": "x <= y"
+    },
+    "stem": "I. x2 -12x +0 = 0 II. y2 +0y -1 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-2:27": {
+    "optionFixes": {
+      "2": "x <= y"
+    },
+    "stem": "I. x2 -10x -24 = 0 II. y2 -10y -24 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2021-08-01:65": {
+    "optionFixes": {
+      "1": "x <= y"
+    },
+    "stem": "I. x2 +14x +48 = 0 II. y2 +14y +48 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2021-08-01:24": {
+    "stem": "Study the following sequence carefully and answer the question given below: ZB40HL&636664 How many times does a digit is immediately preceded by a letter and immediately followed by a symbo! in the above sequence?"
+  },
+  "prepp-2024-08-03-shift-1:30": {
+    "stem": "Study the following sequence carefully and answer the question given below: D@L*JA@SHZL9E How many times does a symbol immediately follows a ietter in the above sequence?"
+  },
+  "prepp-2024-08-03-shift-1:60": {
+    "stem": "Study the following sequence carefully and answer the question given below: #2G436V$5YY5W How many times does a digit is immediately preceded by a letter and immediately followed by a symboi in the above sequence?"
+  },
+  "prepp-2024-08-03-shift-1:70": {
+    "stem": "Study the following sequence carefully and answer the question given below: REW1L9Z*SMV&U How many times does a symbol immediately follows a letter in the above sequence?"
+  },
+  "prepp-2024-08-03-shift-2:2": {
+    "stem": "Study the following sequence carefully and answer the question given below: 8L4R54VB$7V47 How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2024-08-03-shift-2:20": {
+    "stem": "Study the following sequence carefully and answer the question given below: 70Q41672YP45H How many times does a symbol immediately follows a jetter in the above sequence?"
+  },
+  "prepp-2024-08-04-shift-1:8": {
+    "stem": "Study the following sequence carefully and answer the question given below: 0$#87X&K2672H How many times does a digit is immediately preceded by a letter and immediately followed by a symbo! in the above sequence?"
+  },
+  "prepp-2024-08-04-shift-1:46": {
+    "stem": "Study the following sequence carefully and answer the question given below: $@36R%XL#98L# How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2024-08-04-shift-1:74": {
+    "stem": ", Study the following sequence carefully and answer the question given below: Q%M5H&06%G5V# How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2024-08-04-shift-2:14": {
+    "stem": "Study the following sequence carefully and answer the question given below: 99GBG2*#$A54X How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2024-08-04-shift-2:45": {
+    "stem": "Study the following sequence carefully and answer the question given below: L415AR%3MJR2$ How many times does a digit is immediately preceded by a letter and immediately followed by a symboi in the above sequence?"
+  },
+  "prepp-2024-08-04-shift-2:73": {
+    "stem": "Study the following sequence carefully and answer the question given below: 558N2GJ2QYTVK How many times does a digit is immediately preceded by a letter and immediately followed by a symbo! in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-1:2": {
+    "stem": "Study the following sequence carefully and answer the question given below: 3U0BR8#UH&1$6 How many times does a symbol immediately follows a jetter in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-1:41": {
+    "stem": "Study the following sequence carefully and answer the question given below: QJ@8L0Y@$R28R How many times does a symbol immediately follows a letter in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-1:61": {
+    "stem": "Study the following sequence carefully and answer the question given below: $ACB1#U2GUWT% How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-2:9": {
+    "stem": "Study the following sequence carefully and answer the question given below: 3HBWF4%9X429P How many times does a symbol immediately follows a jetter in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-2:64": {
+    "stem": "Study the following sequence carefully and answer the question given below: X0479G63KM*6K How many times does a symbol immediately follows a jJetter in the above sequence?"
+  },
+  "prepp-2025-11-23-shift-1:8": {
+    "stem": "Study the following sequence carefully and answer the question given below: 8&&N9HH070A%* How many times does a digit is immediately preceded by a letter and immediately followed by a symbol in the above sequence?"
+  },
+  "prepp-2025-11-23-shift-1:36": {
+    "stem": "Study the following sequence carefully and answer the question given below: 6R&4179T@%2WN How many times does a letter is immediately preceded by a digit and immediately followed by a digit in the above sequence?"
+  },
+  "prepp-2025-11-23-shift-2:42": {
+    "stem": "Study the following sequence carefully and answer the question given below: G8U82GP5X*8Z2 How many times does a symbol immediately follows a jetter in the above sequence?"
+  },
+  "prepp-2024-08-03-shift-2:10": {
+    "stem": "Study the following sequence carefully and answer the question given below: 26S59AGNU$6$0 How many times does a symbol immediately follows a letter in the above sequence?"
+  },
+  "prepp-2025-11-22-shift-2:25": {
+    "stem": "Statement: C > D < E > G Conclusions: I. C = E II. D < G"
+  },
+  "prepp-2021-08-01:38": {
+    "stem": "I. x2 -6x -27 = 0 II. y2 +3y -18 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2021-08-01:50": {
+    "stem": "I. x2 +5x -50 = 0 II. y2 +5y -50 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2021-08-01:61": {
+    "stem": "I. x2 +2x -120 = 0 II. y2 +13y +22 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-1:9": {
+    "stem": "I. x2 -12x +32 = 0 II. y2 -2y -99 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-1:11": {
+    "stem": "I. x2 +11x +24 = 0 II. y2 -14y +48 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-1:52": {
+    "stem": "I. x2 -14x +33 = 0 II. y2 -2y -48 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-1:54": {
+    "stem": "I. x2 +0x -4 = 0 II. y2 +18y +80 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-1:76": {
+    "stem": "I. x2 +13x +22 = 0 II. y2 +20y +96 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-2:35": {
+    "stem": "I. x2 -7x +12 = 0 II. y2 -5y +0 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-2:69": {
+    "stem": "I. x2 +15x +44 = 0 II. y2 -9y +0 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-03-shift-2:77": {
+    "stem": "I. x2 -8x +15 = 0 II. y2 +4y -5 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-1:11": {
+    "stem": "I. x2 -8x -33 = 0 II. y2 -15y +56 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-1:31": {
+    "stem": "I. x2 -9x -36 = 0 II. y2 +6y -7 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-1:58": {
+    "stem": "I. x2 -7x -60 = 0 II. y2 -7y -60 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-1:64": {
+    "stem": "I. x2 +9x +18 = 0 II. y2 -5y -24 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-2:23": {
+    "stem": "I. x2 -10x -24 = 0 II. y2 +10y -24 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-2:58": {
+    "stem": "I. x2 +13x +42 = 0 II. y2 -9y -10 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-2:78": {
+    "stem": "I. x2 +20x +96 = 0 II. y2 +18y +77 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2024-08-04-shift-2:79": {
+    "stem": "I. x2 -17x +70 = 0 II. y2 +4y -60 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-1:5": {
+    "stem": "I. x2 -20x +96 = 0 II. y2 +9y +0 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-1:38": {
+    "stem": "I. x2 +0x -16 = 0 II. y2 +9y -36 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-2:24": {
+    "stem": "I. x2 +7x +0 = 0 II. y2 -11y +24 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-2:63": {
+    "stem": "I. x2 -7x -30 = 0 II. y2 -8y -48 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-22-shift-2:78": {
+    "stem": "I. x2 +21x +108 = 0 II. y2 -3y -10 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-1:4": {
+    "stem": "I. x2 +6x +5 = 0 II. y2 -1y -132 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-1:66": {
+    "stem": "I. x2 +1x -6 = 0 II. y2 +16y +63 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-1:79": {
+    "stem": "I. x2 +17x +70 = 0 II. y2 +17y +70 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-2:13": {
+    "stem": "I. x2 +11x +24 = 0 II. y2 -2y -24 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-2:43": {
+    "stem": "I. x2 +9x -36 = 0 II. y2 +2y -80 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-2:48": {
+    "stem": "I. x2 +17x +72 = 0 II. y2 +2y -63 = 0. On solving both equations, find the relation between x and y."
+  },
+  "prepp-2025-11-23-shift-2:73": {
+    "stem": "I. x2 -4x -45 = 0 II. y2 -4y -45 = 0. On solving both equations, find the relation between x and y."
+  }
 }

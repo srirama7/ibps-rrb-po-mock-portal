@@ -6,62 +6,44 @@ Live: https://srirama7.github.io/ibps-rrb-po-mock-portal/
 
 ## Previous Year Papers (12 supplied papers)
 
-The **Previous Year Papers** library preserves the supplied Prepp memory-based
-PDF pages, shared passages, equations and diagrams. It provides an 80-slot A-E
-answer sheet, a 45-minute practice timer, review flags, browser-local resume,
-automatic submission, attempt history and question-to-source-page navigation.
-These source papers use mixed question orders, so the practice timer is composite.
+The **Previous Year Papers** library is a full computer-based exam at `previous.html`:
+individual typed questions, five clickable choices, shared passages, DI charts and
+tables, question palette, Save & Next, Clear Response, and Mark for Review & Next.
+Every paper contains 40 Reasoning questions (25 minutes), followed by 40 Quantitative
+Aptitude questions (20 minutes). Completing a section locks it. Section deadlines
+continue while away; expired tests submit automatically. Scoring is +1 / -0.25,
+with correct choices and worked explanations available after submission.
 
-The November 20 update restores all 32 previously excluded questions. **Every
-new paper now has 80 scored questions: 960 across the 12 papers.** Repairs clarify
-gender in relationship questions, add missing puzzle clues, reconstruct the
-missing prompt, correct the chart's options, and specify the approximation rule.
-These are explicit editorial practice amendments, not recovered original text.
+All 960 questions are included. There are 32 repaired source questions and 37
+amended views because shared clue repairs repeat across their related questions.
+Amendments are labelled; source PDFs are available as reference links after the
+exam. The exam never embeds PDF pages. These are memory-based preparation papers,
+not official IBPS releases.
 
-There are 37 amended question views because shared puzzle clues are repeated
-on every affected question. During an attempt, the repaired question and its
-five choices appear first; the old PDF page is collapsed beneath it for comparison.
-The key includes the repair, solution and source link. A downloadable
-`data/previous/repaired_questions.pdf` contains the revised questions without
-answers. `reviewed_answers.csv` includes answers, amended wording and options.
+The typed bank is `data/previous/cbt_bank.json` and its browser script. Rebuild it
+with `python tools/build_previous_cbt.py` after applying reviewed audit/repair data.
+Scanned source transcriptions use cached OCR with explicit image-checked corrections
+in `tools/previous_ocr_fixes.json`; source equation coefficients are recorded in
+`tools/previous_equations.json`. Original question numbers remain in each record;
+questions from mixed-order source papers are regrouped into the two exam sections.
 
-Earlier histories and ongoing attempts retain their original question version
-and scoring limits. Starting a new attempt activates the repaired version.
-Saved choices are not silently interpreted as answers to changed options.
+CBT progress and results use separate `rrbpo_previous_cbt_*` browser storage keys.
+Earlier PDF-mode attempts are left untouched and are not interpreted against the
+new section order. Existing original and Adda mock libraries are unchanged.
 
-Two publisher keys are corrected:
+The canonical audit is `data/previous/answer_audit.json`; editorial clarifications
+are in `data/previous/question_repairs.json`. `catalog.json` retains source answers,
+reviewed answers and the pre-repair snapshot. Two confirmed publisher corrections
+remain: 2023 August 5 Shift 1 Q6 is E, and Shift 2 Q22 is E. The 2021 answers are
+derived practice solutions. `reviewed_answers.csv` contains the reviewed answers.
 
-- 2023 August 5 Shift 1 Q6: **E**, both conclusions follow (publisher: B).
-- 2023 August 5 Shift 2 Q22: **E**, neither conclusion follows (publisher: A).
-
-Use **Right answers & explanations** without starting a test, or submit an attempt
-for question-by-question evaluation. Download all reviewed answers as CSV.
-Older saved attempts still receive the original key corrections while retaining
-their earlier source wording and exclusions. New attempts use all 80 questions.
-Source keys remain separately available for comparison.
-
-The checked record is `data/previous/answer_audit.json`; `catalog.json` retains
-publisher `sourceAnswers`, current `answers`, and an immutable `preRepair` snapshot. The derived 2021 key is
-identified as a practice solution, not a publisher key. Original `Correct Option`
-labels in older PDFs remain hidden in the practice documents. These are
-memory-based preparation-provider papers, not official IBPS releases.
-
-To apply the checked audit after an import, run `python tools/apply_previous_audit.py`.
-The PDF importer applies it automatically when the audit record is present.
-The canonical editorial changes are in `data/previous/question_repairs.json`;
-`tools/apply_question_repairs.py` applies them and creates the companion PDF.
-Run `python tools/test_question_repairs.py` to check coverage, unique puzzle
-solutions, repaired options and the downloads. For source-audit reproduction, `tools/rebuild_previous_audit.py` uses cached
-Tesseract OCR (with explicit source-image corrections), direct calculations,
-and the constraint models in `tools/audit_previous_models.py`. OCR is only an
-audit aid; the displayed questions remain the original PDF images.
-
-Run `python tools/test_previous_papers.py` for grading, history migration,
-corrections, repaired questions, legacy version isolation, answer-key views,
-resume, timer and mobile checks.
-Add `--url <site-url>` to verify the deployment. PDF import needs PyMuPDF,
-NumPy and OpenCV; browser checks use Playwright and Pillow. Audit models use Z3.
-The ignored `tools/prepp_cache/` contains source downloads and intermediate OCR.
+Run `python tools/apply_previous_audit.py` to reapply audit and editorial changes,
+then rebuild the typed bank. `python tools/test_question_repairs.py` verifies the
+repair constraints. `python tools/test_previous_papers.py` checks all 960 rendered
+questions, scoring, choices, flags, clear, resume, sectional locks, time-away expiry,
+answer review and mobile layout. Add `--url <site-url>` to verify a deployment.
+Python dependencies include PyMuPDF, Z3 and Playwright. Source downloads and OCR
+intermediates remain ignored under `tools/prepp_cache/`.
 
 ## Practice format
 
