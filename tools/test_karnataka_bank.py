@@ -59,20 +59,25 @@ def exercise(base):
         page.locator('[data-section="sales"]').click()
         assert page.locator('.kb-stem').inner_text() == bank['tests'][0]['questions'][64]['stem']
 
-        # Test Pause Breaker in exam header and modal
-        assert page.locator('#kbPauseBtn').count() == 1
-        page.locator('#kbPauseBtn').click()
+        # Test Interactive Pause Clock in exam header
+        assert page.locator('#kbPauseClockWidget').count() == 1
+        assert 'PAUSE CLOCK' in page.locator('#kbPauseClockWidget').inner_text()
+        page.locator('#kbPauseClockWidget').click()
         assert page.locator('#kbPauseOverlay').count() == 1
         assert 'Test Paused' in page.locator('#kbPauseTitle').inner_text()
         page.locator('#kbResumeModalBtn').click()
         assert page.locator('#kbPauseOverlay').count() == 0
 
-        # Test Pause from sidebar & Save & Exit to Home
-        page.locator('#kbPauseSidebarBtn').click()
+        # Test Pause Button & Save & Exit to Home
+        page.locator('#kbPauseBtn').click()
         assert page.locator('#kbPauseOverlay').count() == 1
         page.locator('#kbExitModalBtn').click()
         assert 'is paused' in page.locator('#app').inner_text()
-        page.locator('#kbResume').click()
+        # Verify active card on home page has pause clock
+        assert page.locator('#cardPauseClock').count() == 1
+        assert 'Paused Clock' in page.locator('#cardPauseClock').inner_text()
+        # Resume from card
+        page.locator('[data-start="KBL-01"]').click()
         assert page.locator('#kbClock').count() == 1
 
         page.locator('#kbSaveExit').click()
@@ -121,7 +126,7 @@ def exercise(base):
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'RRB home'
         assert not errors, errors
         browser.close()
-    print('PASS: 10 mocks, -0.25 scoring penalty, pause breaker, review filters, saved answers, replacement guard, keyboard, timers, mobile layout and main-library integration.')
+    print('PASS: 10 mocks, -0.25 scoring penalty, pause clock on every mock, review filters, saved answers, replacement guard, keyboard, timers, mobile layout and main-library integration.')
 
 
 if __name__ == '__main__':

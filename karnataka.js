@@ -74,7 +74,7 @@
         <span>60 minutes</span>
         <span>6 sections</span>
         <span>−0.25 negative marking</span>
-        <span>⏸ Pause breaker</span>
+        <span>⏸ Pause clock on every mock</span>
       </div>
       <a class="btn btn-primary" href="#kbMocks">Choose your mock ↓</a>
     </section>
@@ -83,7 +83,7 @@
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
           <div>
             <strong>${isP ? '☕ ' + esc(testFor(active.testId).title) + ' is paused.' : '⏱ ' + esc(testFor(active.testId).title) + ' is in progress.'}</strong><br>
-            <span>${isP ? `Timer safely paused at <strong>${clock()}</strong> remaining. All ${Object.keys(active.answers).length} responses preserved.` : `The 60-minute countdown continues while you are away. Time remaining: <strong>${clock()}</strong>.`}</span>
+            <span>${isP ? `Pause clock is frozen at <strong>${clock()}</strong>. All ${Object.keys(active.answers).length} responses preserved.` : `The 60-minute countdown continues while away. Time left: <strong>${clock()}</strong>.`}</span>
           </div>
           <button class="btn btn-primary" id="kbResume">${!isP && Date.now() >= active.endAt ? 'View timed-out result' : isP ? '▶ Resume paused test' : 'Resume test'}</button>
         </div>
@@ -92,7 +92,7 @@
     <div class="kb-note">
       <strong>Timing & Marking Scheme · ${bank.patternChecked}</strong><br>
       75 questions across six sections with one 60-minute timer. Illustrative 12 / 15 / 15 / 11 / 11 / 11 split. <strong>Marking scheme: +1.00 for correct answers, −0.25 penalty for wrong answers, 0 for unattempted questions.</strong> ${source()}<br>
-      <strong>⏸ Pause Breaker:</strong> Need a breather? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar anytime to safely freeze the countdown clock while keeping your progress intact.<br>
+      <strong>⏸ Interactive Pause Clock:</strong> Every Karnataka Bank mock includes a <strong>Pause Clock</strong>. Click directly on the clock or the pause button during any test to freeze time safely without losing answers.<br>
       The 200-question, 135-minute general CSA recruitment is a different exam pattern.
     </div>
     <div class="kb-heading" id="kbMocks">
@@ -101,14 +101,34 @@
     </div>
     <div class="kb-grid">${bank.tests.map((t, i) => {
       const rows = attempts.filter(a => a.testId === t.id);
-      return `<article class="kb-card">
+      const isOngoing = Boolean(active && active.testId === t.id);
+      const cardIsP = Boolean(isOngoing && active.isPaused);
+      return `<article class="kb-card ${isOngoing ? 'active-test-card ' + (cardIsP ? 'paused' : '') : ''}">
         <span class="kb-label">PAPER ${String(i + 1).padStart(2, '0')} / 10</span>
         <h3>${esc(t.title)}</h3>
         <p>75 questions · 60 minutes<br>Verbal, Quant, Reasoning, GK, Computer & Sales</p>
         <p>${rows.length ? `${rows.length} attempt(s) · Best: ${fmtScore(Math.max(...rows.map(r => r.score)))}/75` : 'Ready for your first attempt'}</p>
-        <button class="btn btn-primary" data-start="${t.id}">Start mock</button>
-        <a href="${t.pdf}" target="_blank" rel="noopener">Source PDF ↗</a>
-        ${rows.length ? `<button class="btn btn-ghost" data-result="${t.id}">Latest result</button>` : ''}
+        
+        ${isOngoing ? `
+          <div class="kb-card-pause-clock" id="cardPauseClock" title="Active test · Click toggle to ${cardIsP ? 'Resume' : 'Pause'}">
+            <span class="kb-card-clock-icon" style="font-size:20px;">${cardIsP ? '☕' : '⏱'}</span>
+            <div class="kb-card-clock-details">
+              <strong>${cardIsP ? 'Paused Clock:' : 'Exam Clock:'} <span class="kb-card-clock-digits">${clock()}</span></strong>
+              <small>${cardIsP ? 'Timer is frozen safely' : 'Countdown active'}</small>
+            </div>
+            <button type="button" class="btn ${cardIsP ? 'btn-primary' : 'btn-secondary'} btn-sm" id="btnCardPauseToggle">
+              ${cardIsP ? '▶ Resume' : '⏸ Pause Clock'}
+            </button>
+          </div>
+        ` : ''}
+
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
+          <button class="btn btn-primary" data-start="${t.id}">
+            ${isOngoing ? (cardIsP ? '▶ Resume Paused Test' : 'Continue Test →') : (rows.length ? 'Retake mock' : 'Start mock')}
+          </button>
+          <a class="btn btn-ghost" href="${t.pdf}" target="_blank" rel="noopener">Source PDF ↗</a>
+          ${rows.length ? `<button class="btn btn-ghost" data-result="${t.id}">Latest result</button>` : ''}
+        </div>
       </article>`;
     }).join('')}</div>
     <div class="kb-heading">
@@ -150,7 +170,31 @@
         else exam();
       }
     });
-    document.querySelectorAll('[data-start]').forEach(b => b.onclick = () => instructions(b.dataset.start));
+
+    const cardToggle = $('#btnCardPauseToggle');
+    if (cardToggle) {
+      cardToggle.onclick = (e) => {
+        e.stopPropagation();
+        if (active.isPaused) {
+          unpauseTest();
+        } else {
+          pauseTest();
+        }
+        home();
+      };
+    }
+
+    document.querySelectorAll('[data-start]').forEach(b => b.onclick = () => {
+      const id = b.dataset.start;
+      if (active && active.testId === id) {
+        if (!expire()) {
+          if (active.isPaused) unpauseTest();
+          else exam();
+        }
+      } else {
+        instructions(id);
+      }
+    });
     document.querySelectorAll('[data-result]').forEach(b => b.onclick = () => result(attempts.find(a => a.testId === b.dataset.result)));
     document.querySelectorAll('[data-history]').forEach(b => b.onclick = () => result(attempts[Number(b.dataset.history)]));
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -178,7 +222,7 @@
         <strong>Exam Guidelines & Marking Scheme:</strong><br>
         • Move freely between sections. Select an option to save it immediately.<br>
         • <strong>Scoring:</strong> +1.00 for each correct answer, −0.25 penalty for each wrong answer, 0 for unanswered.<br>
-        • <strong>⏸ Pause Breaker:</strong> Need a break? Click <strong>"⏸ Pause / Take Break"</strong> in the exam toolbar anytime to freeze the countdown clock without losing progress.<br>
+        • <strong>⏸ Pause Clock:</strong> You can pause the countdown clock anytime by clicking directly on the <strong>Pause Clock</strong> widget or <strong>"⏸ Pause Clock / Take Break"</strong> in the exam toolbar.<br>
         • Answers marked for review will be scored.<br>
         ${source()}
       </div>
@@ -244,11 +288,15 @@
         </div>
         <div class="kb-exam-header-right">
           <button type="button" class="kb-pause-btn" id="kbPauseBtn" title="Pause exam clock">
-            ⏸ Pause / Take Break
+            ⏸ Pause Clock / Take Break
           </button>
-          <div role="timer" aria-label="Time remaining" style="text-align:right;">
-            <small style="display:block; font-size:11px; text-transform:uppercase; color:#53715a; font-weight:700;">Time left</small>
-            <div class="kb-clock ${isPaused ? 'paused' : ''}" id="kbClock">${clock()}${isPaused ? ' <small style="font-size:11px;">(PAUSED)</small>' : ''}</div>
+          <div class="kb-pause-clock-widget ${isPaused ? 'paused' : ''}" id="kbPauseClockWidget" role="button" tabindex="0" aria-label="Pause Clock: ${clock()}" title="Click clock to ${isPaused ? 'resume' : 'pause'} exam">
+            <div class="kb-pause-clock-top">
+              <span class="kb-pause-clock-icon">${isPaused ? '☕' : '⏸'}</span>
+              <span class="kb-pause-clock-label">${isPaused ? 'CLOCK PAUSED' : 'PAUSE CLOCK'}</span>
+            </div>
+            <div class="kb-clock ${isPaused ? 'paused' : ''}" id="kbClock">${clock()}</div>
+            <span class="kb-pause-clock-sub">${isPaused ? '▶ Click to resume' : '⏸ Click to pause'}</span>
           </div>
         </div>
       </div>
@@ -296,10 +344,10 @@
           <p><small>Answers marked for review are included in scoring with −0.25 penalty if wrong.</small></p>
           <div class="kb-actions">
             <button class="btn btn-primary" id="kbSubmit">Submit test</button>
-            <button class="btn btn-ghost" id="kbPauseSidebarBtn" style="border:1px solid #b8cbb8;">⏸ Pause break</button>
+            <button class="btn btn-ghost" id="kbPauseSidebarBtn" style="border:1px solid #b8cbb8;">⏸ Pause Clock</button>
             <button class="btn btn-ghost" id="kbSaveExit">Save & exit</button>
           </div>
-          <p><small>${isPaused ? 'Timer is currently paused.' : 'Exiting keeps the timer running unless paused.'}</small></p>
+          <p><small>${isPaused ? 'Exam clock is paused.' : 'Exiting keeps the timer running unless paused.'}</small></p>
         </aside>
       </div>
 
@@ -310,12 +358,12 @@
             <div style="font-size:44px; margin-bottom:8px;">☕</div>
             <h2 id="kbPauseTitle">Test Paused — Take a Break!</h2>
             <p>
-              Your exam timer is safely paused and all responses are preserved.<br>
+              Your exam clock is safely paused and all responses are preserved.<br>
               Take a breather, rest your eyes, and resume whenever you're ready.
             </p>
             <div class="cbt-pause-stats-grid">
               <div class="cbt-pause-stat-item">
-                <div class="cbt-pause-stat-label">Time Remaining</div>
+                <div class="cbt-pause-stat-label">Pause Clock Left</div>
                 <div class="cbt-pause-stat-val" style="color:#173c34;">${clock()}</div>
               </div>
               <div class="cbt-pause-stat-item">
@@ -377,7 +425,18 @@
       confirmAction('Submit your test?', `${Object.keys(active.answers).length} answered · ${75 - Object.keys(active.answers).length} unanswered. Answers marked for review will count with −0.25 penalty if incorrect.`, () => finish(false));
     };
 
-    // Pause handlers
+    // Pause Clock Event Handlers
+    const togglePause = () => {
+      if (active.isPaused) unpauseTest();
+      else pauseTest();
+    };
+    $('#kbPauseClockWidget')?.addEventListener('click', togglePause);
+    $('#kbPauseClockWidget')?.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        togglePause();
+      }
+    });
     $('#kbPauseBtn')?.addEventListener('click', pauseTest);
     $('#kbPauseSidebarBtn')?.addEventListener('click', pauseTest);
     $('#kbResumeModalBtn')?.addEventListener('click', unpauseTest);
@@ -542,15 +601,26 @@
 
   setInterval(() => {
     if (!active) return;
-    if (active.isPaused) return;
+    if (active.isPaused) {
+      if (view === 'home') {
+        const c = $('.kb-card-clock-digits');
+        if (c) c.textContent = clock();
+      }
+      return;
+    }
     if (Date.now() >= active.endAt) {
       finish(true);
       return;
     }
     syncRemaining();
-    if (view === 'exam' && $('#kbClock')) {
-      $('#kbClock').textContent = clock();
-      $('#kbClock').classList.toggle('low', active.endAt - Date.now() < 300000);
+    if (view === 'exam') {
+      if ($('#kbClock')) {
+        $('#kbClock').textContent = clock();
+        $('#kbClock').classList.toggle('low', active.endAt - Date.now() < 300000);
+      }
+    } else if (view === 'home') {
+      const c = $('.kb-card-clock-digits');
+      if (c) c.textContent = clock();
     }
   }, 250);
 
