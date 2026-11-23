@@ -1,4 +1,4 @@
-"""Exercise PDF import integrity, CBT behavior, timers, grading, and mobile layout."""
+"""Exercise PDF import integrity, CBT behavior, timers, grading, pause breaker, and mobile layout."""
 import argparse
 from functools import partial
 import http.server
@@ -58,13 +58,30 @@ def exercise(base):
         assert page.locator('input:checked').count() == 1
         page.locator('[data-section="sales"]').click()
         assert page.locator('.kb-stem').inner_text() == bank['tests'][0]['questions'][64]['stem']
+
+        # Test Pause Breaker in exam header and modal
+        assert page.locator('#kbPauseBtn').count() == 1
+        page.locator('#kbPauseBtn').click()
+        assert page.locator('#kbPauseOverlay').count() == 1
+        assert 'Test Paused' in page.locator('#kbPauseTitle').inner_text()
+        page.locator('#kbResumeModalBtn').click()
+        assert page.locator('#kbPauseOverlay').count() == 0
+
+        # Test Pause from sidebar & Save & Exit to Home
+        page.locator('#kbPauseSidebarBtn').click()
+        assert page.locator('#kbPauseOverlay').count() == 1
+        page.locator('#kbExitModalBtn').click()
+        assert 'is paused' in page.locator('#app').inner_text()
+        page.locator('#kbResume').click()
+        assert page.locator('#kbClock').count() == 1
+
         page.locator('#kbSaveExit').click()
         page.locator('[data-start="KBL-02"]').click()
         page.locator('#kbBegin').click()
         page.locator('#kbCancel').click()
         assert page.evaluate("JSON.parse(localStorage.getItem('karnataka_csa_active_v1')).testId") == 'KBL-01'
         page.locator('#kbHome').click()
-        # Independently grade every imported mock, including wrong/unanswered distinctions.
+        # Independently grade every imported mock, including wrong (-0.25) / unanswered (0) distinctions.
         for t in bank['tests']:
             answers={q['id']:q['answerIndex'] for q in t['questions']}
             answers[t['questions'][1]['id']] = (t['questions'][1]['answerIndex']+1)%5
@@ -73,7 +90,7 @@ def exercise(base):
             page.evaluate("s=>{s.startedAt=Date.now();s.endAt=Date.now()+3600000;localStorage.setItem('karnataka_csa_active_v1',JSON.stringify(s));}", state)
             page.reload(wait_until='networkidle');page.locator('#kbResume').click()
             page.locator('#kbSubmit').click();page.locator('#kbConfirm').click()
-            assert page.locator('.kb-score').inner_text().split() == ['73', '/', '75'], repr(page.locator('.kb-score').inner_text())
+            assert page.locator('.kb-score').inner_text().split() == ['72.75', '/', '75'], repr(page.locator('.kb-score').inner_text())
             assert page.locator('.kb-review').count() == 75
             page.locator('#kbFilter').select_option('wrong')
             assert page.locator('.kb-review').count() == 1
@@ -104,7 +121,7 @@ def exercise(base):
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'RRB home'
         assert not errors, errors
         browser.close()
-    print('PASS: 10 mocks, scoring, review filters, saved answers, replacement guard, keyboard, timers, mobile layout and main-library integration.')
+    print('PASS: 10 mocks, -0.25 scoring penalty, pause breaker, review filters, saved answers, replacement guard, keyboard, timers, mobile layout and main-library integration.')
 
 
 if __name__ == '__main__':

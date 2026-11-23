@@ -174,11 +174,12 @@ brief explanations and exact question page links. Existing RRB storage is separa
 
 The bank's 2026 campus recruitment notice was checked on November 17, 2026:
 https://karnatakabank.lntedutech.com/e/CNJDMT8X/login
-It specifies 75 questions, six named sections and 60 minutes. It does not specify
-sectional timings, question allocation, or negative marking. The supplied mocks'
-12/15/15/11/11/11 split is illustrative; practice scoring is +1 correct, zero
-otherwise. This differs from the 2024 general CSA 200-question/135-minute format.
-Leaving the test does not pause its clock. Answers and history stay in this browser.
+It specifies 75 questions, six named sections and 60 minutes. The supplied mocks'
+12/15/15/11/11/11 split is illustrative; scoring follows standard banking format with
++1.00 for correct answers, −0.25 penalty for wrong answers, and 0 for unattempted.
+A "Pause / Take Break" feature freezes the countdown clock while safely preserving answers.
+This differs from the 2024 general CSA 200-question/135-minute format.
+Answers and history stay in this browser.
 
 The ZIP's 10 previous-paper links are IBPS Clerk supplementary practice links,
 not verified Karnataka Bank past papers. They remain links to the publishers.
