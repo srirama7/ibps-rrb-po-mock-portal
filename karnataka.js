@@ -67,7 +67,7 @@
     $('#app').innerHTML = `${warning()}<section class="kb-hero">
       <span class="kb-label" style="color:#cfe68c">YOUR KARNATAKA BANK PRACTICE SPACE</span>
       <h1>Karnataka Bank Exam<span style="color:#cfe68c">.</span></h1>
-      <p>Customer Service Associates · 2026 campus recruitment. Practise the papers you supplied, work against the clock, pause and resume anytime, and learn from every answer.</p>
+      <p>Customer Service Associates · 2026 campus recruitment. Practise the papers you supplied with <strong>unlimited retakes</strong> — work against the clock, pause and resume anytime, and learn from every answer without being capped at 3 attempts.</p>
       <div class="kb-pills">
         <span>10 full mocks</span>
         <span>75 questions each</span>
@@ -75,6 +75,7 @@
         <span>6 sections</span>
         <span>−0.25 negative marking</span>
         <span>⏸ Pause clock on every mock</span>
+        <span style="border-color:#cfe68c; color:#cfe68c; font-weight:750; background:rgba(207,230,140,0.18);">♾️ Unlimited retakes (no 3-attempt limit)</span>
       </div>
       <a class="btn btn-primary" href="#kbMocks">Choose your mock ↓</a>
     </section>
@@ -93,21 +94,23 @@
       <strong>Timing & Marking Scheme · ${bank.patternChecked}</strong><br>
       75 questions across six sections with one 60-minute timer. Illustrative 12 / 15 / 15 / 11 / 11 / 11 split. <strong>Marking scheme: +1.00 for correct answers, −0.25 penalty for wrong answers, 0 for unattempted questions.</strong> ${source()}<br>
       <strong>⏸ Interactive Pause Clock:</strong> Every Karnataka Bank mock includes a <strong>Pause Clock</strong>. Click directly on the clock or the pause button during any test to freeze time safely without losing answers.<br>
+      <strong>♾️ Unlimited Retakes (Zero Limits):</strong> Unlike official recruitment platforms (such as L&T EduTech) that restrict candidates to only 3 test attempts, this portal offers <strong>100% UNLIMITED retakes</strong> on every mock paper. You can practice as many times as you need (Attempt #4, #5, #10+) with full attempt history tracking.<br>
       The 200-question, 135-minute general CSA recruitment is a different exam pattern.
     </div>
     <div class="kb-heading" id="kbMocks">
       <h2>Full-length practice mocks</h2>
-      <span>750 questions · keys & brief explanations</span>
+      <span>750 questions · keys & brief explanations · unlimited retakes</span>
     </div>
     <div class="kb-grid">${bank.tests.map((t, i) => {
       const rows = attempts.filter(a => a.testId === t.id);
       const isOngoing = Boolean(active && active.testId === t.id);
       const cardIsP = Boolean(isOngoing && active.isPaused);
+      const nextAttempt = rows.length + 1;
       return `<article class="kb-card ${isOngoing ? 'active-test-card ' + (cardIsP ? 'paused' : '') : ''}">
-        <span class="kb-label">PAPER ${String(i + 1).padStart(2, '0')} / 10</span>
+        <span class="kb-label">PAPER ${String(i + 1).padStart(2, '0')} / 10 · UNLIMITED RETAKES</span>
         <h3>${esc(t.title)}</h3>
         <p>75 questions · 60 minutes<br>Verbal, Quant, Reasoning, GK, Computer & Sales</p>
-        <p>${rows.length ? `${rows.length} attempt(s) · Best: ${fmtScore(Math.max(...rows.map(r => r.score)))}/75` : 'Ready for your first attempt'}</p>
+        <p>${rows.length ? `<strong>${rows.length} attempt(s) completed</strong> · Best: <strong>${fmtScore(Math.max(...rows.map(r => r.score)))}/75</strong><br><span style="color:#245943; font-weight:700;">♾️ Unlimited retakes (Next: Attempt #${nextAttempt})</span>` : '<span style="color:#245943; font-weight:700;">Ready for Attempt #1 · ♾️ Unlimited retakes</span>'}</p>
         
         ${isOngoing ? `
           <div class="kb-card-pause-clock" id="cardPauseClock" title="Active test · Click toggle to ${cardIsP ? 'Resume' : 'Pause'}">
@@ -124,10 +127,11 @@
 
         <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
           <button class="btn btn-primary" data-start="${t.id}">
-            ${isOngoing ? (cardIsP ? '▶ Resume Paused Test' : 'Continue Test →') : (rows.length ? 'Retake mock' : 'Start mock')}
+            ${isOngoing ? (cardIsP ? '▶ Resume Paused Test' : 'Continue Test →') : (rows.length ? `🔄 Retake mock (Attempt #${nextAttempt})` : 'Start mock →')}
           </button>
           <a class="btn btn-ghost" href="${t.pdf}" target="_blank" rel="noopener">Source PDF ↗</a>
           ${rows.length ? `<button class="btn btn-ghost" data-result="${t.id}">Latest result</button>` : ''}
+          ${rows.length ? `<button class="btn btn-ghost" data-reset="${t.id}" title="Reset attempts for this mock" style="color:#8b3a30; border-color:#f0c4be;">Reset</button>` : ''}
         </div>
       </article>`;
     }).join('')}</div>
@@ -144,21 +148,30 @@
       </article>
     `).join('')}</div>
     ${attempts.length ? `
-      <div class="kb-heading"><h2>Your recent attempts</h2></div>
+      <div class="kb-heading">
+        <h2>Your attempt history (${attempts.length} attempt${attempts.length > 1 ? 's' : ''} · Unlimited Retakes)</h2>
+        <div>
+          <button class="btn btn-ghost btn-sm" id="kbClearHistory" style="border:1px solid #e2a499; color:#9c2a1b;">🗑 Clear all history</button>
+        </div>
+      </div>
       <div class="kb-table-wrap">
         <table class="kb-table">
           <thead>
-            <tr><th>Mock</th><th>Completed</th><th>Score</th><th>Result</th></tr>
+            <tr><th>Paper</th><th>Attempt</th><th>Completed</th><th>Score</th><th>Review</th></tr>
           </thead>
           <tbody>
-            ${attempts.slice(0, 20).map((r, i) => `
-              <tr>
-                <td>${esc(testFor(r.testId)?.title)}</td>
+            ${attempts.slice(0, 50).map((r, i) => {
+              const testAttempts = attempts.filter(a => a.testId === r.testId);
+              const testAttemptIndex = testAttempts.findIndex(a => a === r);
+              const attemptNum = testAttemptIndex !== -1 ? (testAttempts.length - testAttemptIndex) : 1;
+              return `<tr>
+                <td><strong>${esc(testFor(r.testId)?.title)}</strong></td>
+                <td><span style="font-size:11.5px; font-weight:750; padding:3px 8px; background:#eef5e9; border:1px solid #b8cbb8; border-radius:4px; color:#173c34;">Attempt #${attemptNum}</span></td>
                 <td>${esc(new Date(r.completedAt).toLocaleString())}</td>
                 <td><strong>${fmtScore(r.score)}</strong>/75</td>
                 <td><button class="btn btn-ghost" data-history="${i}">Review</button></td>
-              </tr>
-            `).join('')}
+              </tr>`;
+            }).join('')}
           </tbody>
         </table>
       </div>
@@ -197,14 +210,42 @@
     });
     document.querySelectorAll('[data-result]').forEach(b => b.onclick = () => result(attempts.find(a => a.testId === b.dataset.result)));
     document.querySelectorAll('[data-history]').forEach(b => b.onclick = () => result(attempts[Number(b.dataset.history)]));
+    document.querySelectorAll('[data-reset]').forEach(b => b.onclick = (e) => {
+      e.stopPropagation();
+      const id = b.dataset.reset;
+      const t = testFor(id);
+      const count = attempts.filter(a => a.testId === id).length;
+      confirmAction(
+        `Reset attempts for ${t.title}?`,
+        `This will remove past attempts for this mock only (${count} attempt${count > 1 ? 's' : ''}). You can retake it afresh anytime with unlimited attempts.`,
+        () => {
+          const remaining = attempts.filter(a => a.testId !== id);
+          write(HISTORY, remaining);
+          home();
+        }
+      );
+    });
+
+    $('#kbClearHistory')?.addEventListener('click', () => {
+      confirmAction(
+        'Clear all attempt history?',
+        'This will erase all recorded attempt scores and review records from your browser. This action cannot be undone.',
+        () => {
+          write(HISTORY, []);
+          home();
+        }
+      );
+    });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   function instructions(id) {
     view = 'instructions';
     const t = testFor(id);
+    const mockAttempts = history().filter(a => a.testId === id);
+    const nextAttempt = mockAttempts.length + 1;
     $('#app').innerHTML = `<div class="kb-result">
-      <span class="kb-label">BEFORE YOU BEGIN</span>
+      <span class="kb-label">BEFORE YOU BEGIN · ATTEMPT #${nextAttempt}</span>
       <h1>${esc(t.title)}</h1>
       <p>Answer 75 questions in 60 minutes. Your test submits automatically when time runs out.</p>
       <div class="kb-table-wrap">
@@ -218,9 +259,10 @@
           </tbody>
         </table>
       </div>
-      <div class="kb-note">
-        <strong>Exam Guidelines & Marking Scheme:</strong><br>
-        • Move freely between sections. Select an option to save it immediately.<br>
+      <div class="kb-note" style="border-left:4px solid #245943; background:#edf5ea;">
+        <strong>♾️ Unlimited Retakes Supported (Attempt #${nextAttempt}):</strong><br>
+        • Unlike official recruitment portals (such as L&T EduTech) that restrict candidates to only 3 attempts, you can retake all mocks on this portal an <strong>unlimited number of times</strong>.<br>
+        • ${mockAttempts.length ? `You have already completed <strong>${mockAttempts.length} attempt(s)</strong> for this paper (Best: <strong>${fmtScore(Math.max(...mockAttempts.map(a => a.score)))}/75</strong>).` : 'This is your first attempt on this paper.'} All previous attempt scores and review solutions remain saved in your browser history.<br>
         • <strong>Scoring:</strong> +1.00 for each correct answer, −0.25 penalty for each wrong answer, 0 for unanswered.<br>
         • <strong>⏸ Pause Clock:</strong> You can pause the countdown clock anytime by clicking directly on the <strong>Pause Clock</strong> widget or <strong>"⏸ Pause Clock / Take Break"</strong> in the exam toolbar.<br>
         • Answers marked for review will be scored.<br>
@@ -229,7 +271,7 @@
       ${active ? '<p class="kb-storage">Starting a new mock will replace your current unfinished Karnataka Bank attempt.</p>' : ''}
       <p>This is independently authored practice material, not an official question paper. Keys and brief explanations follow your supplied PDF.</p>
       <div class="kb-actions">
-        <button class="btn btn-primary" id="kbBegin">Begin 60-minute test</button>
+        <button class="btn btn-primary" id="kbBegin">${mockAttempts.length ? `Begin Attempt #${nextAttempt} (60 min)` : 'Begin 60-minute test'}</button>
         <button class="btn btn-ghost" id="kbBack">Back to library</button>
       </div>
     </div>`;
@@ -490,7 +532,7 @@
       score
     };
 
-    write(HISTORY, [r, ...history()].slice(0, 100));
+    write(HISTORY, [r, ...history()].slice(0, 500));
     active = null;
     save();
     document.querySelector('.kb-dialog')?.remove();
@@ -509,8 +551,16 @@
     const score = r.score !== undefined ? r.score : Math.round((correct - penalty) * 100) / 100;
     const accuracy = answered ? (100 * correct / answered).toFixed(1) : '0.0';
 
+    const testAttempts = history().filter(a => a.testId === t.id);
+    const testAttemptIndex = testAttempts.findIndex(a => a === r || (a.startedAt === r.startedAt && a.completedAt === r.completedAt));
+    const currentAttemptNum = testAttemptIndex !== -1 ? (testAttempts.length - testAttemptIndex) : (testAttempts.length || 1);
+    const nextAttemptNum = testAttempts.length + 1;
+
     $('#app').innerHTML = `${warning()}<section class="kb-result">
-      <span class="kb-label">${r.timedOut ? 'TIME COMPLETE · AUTO-SUBMITTED' : 'TEST COMPLETE'}</span>
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+        <span class="kb-label">${r.timedOut ? 'TIME COMPLETE · AUTO-SUBMITTED' : 'TEST COMPLETE'} · ATTEMPT #${currentAttemptNum}</span>
+        <span style="font-size:12px; font-weight:750; color:#245943; background:#eef5e9; padding:4px 10px; border-radius:20px; border:1px solid #b8cbb8;">♾️ Unlimited Retakes</span>
+      </div>
       <h1>${esc(t.title)}</h1>
       <div class="kb-score">${fmtScore(score)}<small> / 75</small></div>
       <p>
@@ -523,6 +573,17 @@
         Time used: ${Math.min(60, Math.max(0, (r.completedAt - r.startedAt) / 60000)).toFixed(1)} minutes. 
         Marking: +1.00 for correct, −0.25 penalty for wrong answers, 0 for unanswered.
       </p>
+
+      <div class="kb-note" style="border-left:4px solid #245943; background:#eef5e9; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin:18px 0;">
+        <div>
+          <strong style="color:#173c34; font-size:14.5px;">Attempt #${currentAttemptNum} Recorded · ♾️ Unlimited Retakes Available</strong><br>
+          <span style="font-size:13px; color:#526354;">Unlike official exam portals limited to 3 attempts, you can retake this mock as many times as you like.</span>
+        </div>
+        <button class="btn btn-primary" id="kbRetakeTop" style="padding:10px 18px; font-weight:750;">
+          🔄 Retake Mock (Attempt #${nextAttemptNum}) →
+        </button>
+      </div>
+
       <div class="kb-table-wrap">
         <table class="kb-table">
           <thead>
@@ -554,7 +615,7 @@
       </div>
       <div class="kb-actions">
         <button class="btn btn-primary" id="kbResultHome">Back to library</button>
-        <button class="btn btn-ghost" id="kbRetake">Retake mock</button>
+        <button class="btn btn-ghost" id="kbRetake">🔄 Retake mock (Attempt #${nextAttemptNum})</button>
         <a class="btn btn-ghost" href="${t.pdf}" target="_blank" rel="noopener">Source PDF ↗</a>
       </div>
     </section>
@@ -573,7 +634,9 @@
     <div id="kbReview"></div>`;
 
     $('#kbResultHome').onclick = home;
-    $('#kbRetake').onclick = () => instructions(t.id);
+    const triggerRetake = () => instructions(t.id);
+    $('#kbRetakeTop')?.addEventListener('click', triggerRetake);
+    $('#kbRetake')?.addEventListener('click', triggerRetake);
     $('#kbFilter').onchange = e => { filter = e.target.value; reviews(); };
     reviews();
     window.scrollTo({ top: 0, behavior: 'instant' });
